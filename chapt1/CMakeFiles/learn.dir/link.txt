@@ -1,0 +1,1 @@
+/usr/bin/c++ CMakeFiles/learn.dir/hello.cpp.o -o learn 

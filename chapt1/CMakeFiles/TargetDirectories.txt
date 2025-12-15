@@ -1,0 +1,3 @@
+/home/yzh/桌面/project-ros/ros-study/chapt1/CMakeFiles/learn.dir
+/home/yzh/桌面/project-ros/ros-study/chapt1/CMakeFiles/edit_cache.dir
+/home/yzh/桌面/project-ros/ros-study/chapt1/CMakeFiles/rebuild_cache.dir
