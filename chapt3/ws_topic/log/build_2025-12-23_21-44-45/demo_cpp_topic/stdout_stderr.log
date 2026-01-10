@@ -1,0 +1,11 @@
+[35m[1mConsolidate compiler generated dependencies of target turtle_description[0m
+[ 33%] Built target turtle_circle
+[ 66%] Built target learn_timer
+[ 83%] [32mBuilding CXX object CMakeFiles/turtle_description.dir/src/turtle_description.cpp.o[0m
+[01m[K/home/yzh/桌面/project-ros/ros-study/chapt3/ws_topic/src/demo_cpp_topic/src/turtle_description.cpp:4:10:[m[K [01;31m[Kfatal error: [m[Kturtlesim/msg/pose.hpp: 没有那个文件或目录
+    4 | #include [01;31m[K"turtlesim/msg/pose.hpp"[m[K
+      |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~[m[K
+compilation terminated.
+gmake[2]: *** [CMakeFiles/turtle_description.dir/build.make:76：CMakeFiles/turtle_description.dir/src/turtle_description.cpp.o] 错误 1
+gmake[1]: *** [CMakeFiles/Makefile2:193：CMakeFiles/turtle_description.dir/all] 错误 2
+gmake: *** [Makefile:146：all] 错误 2

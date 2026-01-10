@@ -1,0 +1,3 @@
+[console_scripts]
+python_node = pkg02_helloworld_py.demo_python_py:main
+

@@ -1,0 +1,6 @@
+Invoking command in '/home/yzh/chapt4/build/turtle_param': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/yzh/chapt4/src/turtle_param -DCMAKE_INSTALL_PREFIX=/home/yzh/chapt4/install/turtle_param
+Invoked command in '/home/yzh/chapt4/build/turtle_param' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/yzh/chapt4/src/turtle_param -DCMAKE_INSTALL_PREFIX=/home/yzh/chapt4/install/turtle_param
+Invoking command in '/home/yzh/chapt4/build/turtle_param': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/yzh/chapt4/build/turtle_param -- -j16 -l16
+Invoked command in '/home/yzh/chapt4/build/turtle_param' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/yzh/chapt4/build/turtle_param -- -j16 -l16
+Invoking command in '/home/yzh/chapt4/build/turtle_param': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/yzh/chapt4/build/turtle_param
+Invoked command in '/home/yzh/chapt4/build/turtle_param' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/yzh/chapt4/build/turtle_param

@@ -1,0 +1,17 @@
+[0.053s] Invoking command in '/home/yzh/桌面/project-ros/ros-study/chapt2/build/Hello': /usr/bin/cmake /home/yzh/桌面/project-ros/ros-study/chapt2 -DCMAKE_INSTALL_PREFIX=/home/yzh/桌面/project-ros/ros-study/chapt2/install/Hello
+[0.193s] -- Configuring done
+[0.193s] [31mCMake Error at CMakeLists.txt:5 (add_executable):
+[0.193s]   Cannot find source file:
+[0.193s] 
+[0.194s]     ./hello.cpp
+[0.194s] 
+[0.194s]   Tried extensions .c .C .c++ .cc .cpp .cxx .cu .mpp .m .M .mm .ixx .cppm .h
+[0.194s]   .hh .h++ .hm .hpp .hxx .in .txx .f .F .for .f77 .f90 .f95 .f03 .hip .ispc
+[0.194s] 
+[0.194s] [0m
+[0.197s] [31mCMake Error at CMakeLists.txt:5 (add_executable):
+[0.197s]   No SOURCES given to target: learn
+[0.197s] 
+[0.197s] [0m
+[0.198s] [0mCMake Generate step failed.  Build files cannot be regenerated correctly.[0m
+[0.199s] Invoked command in '/home/yzh/桌面/project-ros/ros-study/chapt2/build/Hello' returned '1': /usr/bin/cmake /home/yzh/桌面/project-ros/ros-study/chapt2 -DCMAKE_INSTALL_PREFIX=/home/yzh/桌面/project-ros/ros-study/chapt2/install/Hello

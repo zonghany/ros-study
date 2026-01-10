@@ -1,0 +1,12 @@
+[0.073s] Invoking command in '/home/yzh/chapt4/build/demo_cpp_service': CMAKE_PREFIX_PATH=/home/yzh/chapt4/install/chapt4_interfaces:/home/yzh/chapt4/install/demo_cpp_service:/opt/ros/humble /usr/bin/cmake --build /home/yzh/chapt4/build/demo_cpp_service -- -j16 -l16
+[0.297s] [35m[1mConsolidate compiler generated dependencies of target partol_client[0m
+[0.365s] [ 50%] Built target turtle_control
+[0.372s] [ 75%] [32mBuilding CXX object CMakeFiles/partol_client.dir/src/Patrol_Client.cpp.o[0m
+[10.723s] [01m[K/home/yzh/chapt4/src/demo_cpp_service/src/Patrol_Client.cpp:[m[K In lambda function:
+[10.724s] [01m[K/home/yzh/chapt4/src/demo_cpp_service/src/Patrol_Client.cpp:44:66:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ before ‘[01m[K{[m[K’ token
+[10.724s]    44 |                 }else(response->result == Patrol::Response::FAIL)[01;31m[K{[m[K
+[10.724s]       |                                                                  [01;31m[K^[m[K
+[13.603s] gmake[2]: *** [CMakeFiles/partol_client.dir/build.make:76：CMakeFiles/partol_client.dir/src/Patrol_Client.cpp.o] 错误 1
+[13.604s] gmake[1]: *** [CMakeFiles/Makefile2:165：CMakeFiles/partol_client.dir/all] 错误 2
+[13.604s] gmake: *** [Makefile:146：all] 错误 2
+[13.615s] Invoked command in '/home/yzh/chapt4/build/demo_cpp_service' returned '2': CMAKE_PREFIX_PATH=/home/yzh/chapt4/install/chapt4_interfaces:/home/yzh/chapt4/install/demo_cpp_service:/opt/ros/humble /usr/bin/cmake --build /home/yzh/chapt4/build/demo_cpp_service -- -j16 -l16

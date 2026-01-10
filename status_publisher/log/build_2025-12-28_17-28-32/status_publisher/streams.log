@@ -1,0 +1,38 @@
+[2.844s] Invoking command in '/home/yzh/桌面/project-ros/ros-study/status_publisher': PYTHONPATH=/home/yzh/桌面/project-ros/ros-study/status_publisher/build/status_publisher/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/yzh/桌面/project-ros/ros-study/status_publisher/install/status_publisher/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base build/status_publisher build --build-base /home/yzh/桌面/project-ros/ros-study/status_publisher/build/status_publisher/build install --record /home/yzh/桌面/project-ros/ros-study/status_publisher/build/status_publisher/install.log --single-version-externally-managed install_data
+[4.185s] running egg_info
+[4.188s] creating build/status_publisher/status_publisher.egg-info
+[4.189s] writing build/status_publisher/status_publisher.egg-info/PKG-INFO
+[4.190s] writing dependency_links to build/status_publisher/status_publisher.egg-info/dependency_links.txt
+[4.191s] writing entry points to build/status_publisher/status_publisher.egg-info/entry_points.txt
+[4.191s] writing requirements to build/status_publisher/status_publisher.egg-info/requires.txt
+[4.191s] writing top-level names to build/status_publisher/status_publisher.egg-info/top_level.txt
+[4.192s] writing manifest file 'build/status_publisher/status_publisher.egg-info/SOURCES.txt'
+[4.201s] reading manifest file 'build/status_publisher/status_publisher.egg-info/SOURCES.txt'
+[4.202s] adding license file 'LICENSE'
+[4.204s] writing manifest file 'build/status_publisher/status_publisher.egg-info/SOURCES.txt'
+[4.205s] running build
+[4.206s] running build_py
+[4.208s] creating /home/yzh/桌面/project-ros/ros-study/status_publisher/build/status_publisher/build
+[4.209s] creating /home/yzh/桌面/project-ros/ros-study/status_publisher/build/status_publisher/build/lib
+[4.210s] creating /home/yzh/桌面/project-ros/ros-study/status_publisher/build/status_publisher/build/lib/status_publisher
+[4.211s] copying status_publisher/__init__.py -> /home/yzh/桌面/project-ros/ros-study/status_publisher/build/status_publisher/build/lib/status_publisher
+[4.211s] copying status_publisher/sys_status_pub.py -> /home/yzh/桌面/project-ros/ros-study/status_publisher/build/status_publisher/build/lib/status_publisher
+[4.212s] running install
+[4.214s] running install_lib
+[4.218s] creating /home/yzh/桌面/project-ros/ros-study/status_publisher/install/status_publisher/lib/python3.10/site-packages/status_publisher
+[4.219s] copying /home/yzh/桌面/project-ros/ros-study/status_publisher/build/status_publisher/build/lib/status_publisher/__init__.py -> /home/yzh/桌面/project-ros/ros-study/status_publisher/install/status_publisher/lib/python3.10/site-packages/status_publisher
+[4.220s] copying /home/yzh/桌面/project-ros/ros-study/status_publisher/build/status_publisher/build/lib/status_publisher/sys_status_pub.py -> /home/yzh/桌面/project-ros/ros-study/status_publisher/install/status_publisher/lib/python3.10/site-packages/status_publisher
+[4.223s] byte-compiling /home/yzh/桌面/project-ros/ros-study/status_publisher/install/status_publisher/lib/python3.10/site-packages/status_publisher/__init__.py to __init__.cpython-310.pyc
+[4.225s] byte-compiling /home/yzh/桌面/project-ros/ros-study/status_publisher/install/status_publisher/lib/python3.10/site-packages/status_publisher/sys_status_pub.py to sys_status_pub.cpython-310.pyc
+[4.227s] running install_data
+[4.228s] creating /home/yzh/桌面/project-ros/ros-study/status_publisher/install/status_publisher/share/ament_index
+[4.228s] creating /home/yzh/桌面/project-ros/ros-study/status_publisher/install/status_publisher/share/ament_index/resource_index
+[4.229s] creating /home/yzh/桌面/project-ros/ros-study/status_publisher/install/status_publisher/share/ament_index/resource_index/packages
+[4.229s] copying resource/status_publisher -> /home/yzh/桌面/project-ros/ros-study/status_publisher/install/status_publisher/share/ament_index/resource_index/packages
+[4.230s] copying package.xml -> /home/yzh/桌面/project-ros/ros-study/status_publisher/install/status_publisher/share/status_publisher
+[4.231s] running install_egg_info
+[4.240s] Copying build/status_publisher/status_publisher.egg-info to /home/yzh/桌面/project-ros/ros-study/status_publisher/install/status_publisher/lib/python3.10/site-packages/status_publisher-0.0.0-py3.10.egg-info
+[4.244s] running install_scripts
+[4.347s] Installing sys_status_pub script to /home/yzh/桌面/project-ros/ros-study/status_publisher/install/status_publisher/lib/status_publisher
+[4.348s] writing list of installed files to '/home/yzh/桌面/project-ros/ros-study/status_publisher/build/status_publisher/install.log'
+[4.437s] Invoked command in '/home/yzh/桌面/project-ros/ros-study/status_publisher' returned '0': PYTHONPATH=/home/yzh/桌面/project-ros/ros-study/status_publisher/build/status_publisher/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/yzh/桌面/project-ros/ros-study/status_publisher/install/status_publisher/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base build/status_publisher build --build-base /home/yzh/桌面/project-ros/ros-study/status_publisher/build/status_publisher/build install --record /home/yzh/桌面/project-ros/ros-study/status_publisher/build/status_publisher/install.log --single-version-externally-managed install_data

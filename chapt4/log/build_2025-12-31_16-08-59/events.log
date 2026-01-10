@@ -1,0 +1,209 @@
+[0.000000] (-) TimerEvent: {}
+[0.000989] (-) JobUnselected: {'identifier': 'chapt4_interfaces'}
+[0.002641] (demo_cpp_service) JobQueued: {'identifier': 'demo_cpp_service', 'dependencies': OrderedDict([('chapt4_interfaces', '/home/yzh/chapt4/install/chapt4_interfaces')])}
+[0.002925] (demo_cpp_service) JobStarted: {'identifier': 'demo_cpp_service'}
+[0.045902] (demo_cpp_service) JobProgress: {'identifier': 'demo_cpp_service', 'progress': 'cmake'}
+[0.047897] (demo_cpp_service) JobProgress: {'identifier': 'demo_cpp_service', 'progress': 'build'}
+[0.056331] (demo_cpp_service) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/yzh/chapt4/build/demo_cpp_service', '--', '-j16', '-l16'], 'cwd': '/home/yzh/chapt4/build/demo_cpp_service', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'zh_CN:en_AU:en_CA:en_GB:en_US:en'), ('USER', 'yzh'), ('SSH_CLIENT', '192.168.44.1 62941 22'), ('LC_TIME', 'zh_CN.UTF-8'), ('XDG_SESSION_TYPE', 'tty'), ('GIT_ASKPASS', '/home/yzh/.vscode-server/cli/servers/Stable-994fd12f8d3a5aa16f17d42c041e5809167e845a/server/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/yzh/chapt4/install/chapt4_interfaces/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('BROWSER', '/home/yzh/.vscode-server/cli/servers/Stable-994fd12f8d3a5aa16f17d42c041e5809167e845a/server/bin/helpers/browser.sh'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/yzh'), ('OLDPWD', '/home/yzh/chapt4'), ('TERM_PROGRAM_VERSION', '1.107.1'), ('VSCODE_IPC_HOOK_CLI', '/run/user/1000/vscode-ipc-6393460b-30a4-49ad-ab38-3538b3873e07.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/home/yzh/.vscode-server/cli/servers/Stable-994fd12f8d3a5aa16f17d42c041e5809167e845a/server/extensions/git/dist/askpass-main.js'), ('LC_MONETARY', 'zh_CN.UTF-8'), ('VSCODE_GIT_ASKPASS_NODE', '/home/yzh/.vscode-server/cli/servers/Stable-994fd12f8d3a5aa16f17d42c041e5809167e845a/server/node'), ('SSL_CERT_FILE', '/usr/lib/ssl/certs/ca-certificates.crt'), ('VSCODE_PYTHON_AUTOACTIVATE_GUARD', '1'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('COLCON_PREFIX_PATH', '/home/yzh/chapt4/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'yzh'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '3'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/yzh/.vscode-server/data/User/globalStorage/github.copilot-chat/debugCommand:/home/yzh/.vscode-server/data/User/globalStorage/github.copilot-chat/copilotCli:/home/yzh/.vscode-server/cli/servers/Stable-994fd12f8d3a5aa16f17d42c041e5809167e845a/server/bin/remote-cli:/home/yzh/.local/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('PAPERSIZE', 'a4'), ('LC_ADDRESS', 'zh_CN.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('SSL_CERT_DIR', '/usr/lib/ssl/certs'), ('LANG', 'zh_CN.UTF-8'), ('LC_TELEPHONE', 'zh_CN.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-f620a5ccc8.sock'), ('TERM_PROGRAM', 'vscode'), ('AMENT_PREFIX_PATH', '/home/yzh/chapt4/install/demo_cpp_service:/home/yzh/chapt4/install/chapt4_interfaces:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'zh_CN.UTF-8'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'zh_CN.UTF-8'), ('LC_IDENTIFICATION', 'zh_CN.UTF-8'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/home/yzh/chapt4/build/demo_cpp_service'), ('SSH_CONNECTION', '192.168.44.1 62941 192.168.44.128 22'), ('XDG_DATA_DIRS', '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/yzh/chapt4/install/chapt4_interfaces/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'zh_CN.UTF-8'), ('LC_PAPER', 'zh_CN.UTF-8'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/yzh/chapt4/install/chapt4_interfaces:/home/yzh/chapt4/install/demo_cpp_service:/opt/ros/humble')]), 'shell': False}
+[0.094798] (-) TimerEvent: {}
+[0.196234] (-) TimerEvent: {}
+[0.219968] (demo_cpp_service) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target partol_client\x1b[0m\n'}
+[0.276520] (demo_cpp_service) StdoutLine: {'line': b'[ 50%] Built target turtle_control\n'}
+[0.285561] (demo_cpp_service) StdoutLine: {'line': b'[ 75%] \x1b[32mBuilding CXX object CMakeFiles/partol_client.dir/src/Partol_Client.cpp.o\x1b[0m\n'}
+[0.296758] (-) TimerEvent: {}
+[0.404187] (-) TimerEvent: {}
+[0.505304] (-) TimerEvent: {}
+[0.606334] (-) TimerEvent: {}
+[0.707510] (-) TimerEvent: {}
+[0.809351] (-) TimerEvent: {}
+[0.913087] (-) TimerEvent: {}
+[1.014279] (-) TimerEvent: {}
+[1.116093] (-) TimerEvent: {}
+[1.220323] (-) TimerEvent: {}
+[1.321325] (-) TimerEvent: {}
+[1.422264] (-) TimerEvent: {}
+[1.524112] (-) TimerEvent: {}
+[1.629415] (-) TimerEvent: {}
+[1.732585] (-) TimerEvent: {}
+[1.835811] (-) TimerEvent: {}
+[1.939901] (-) TimerEvent: {}
+[2.040902] (-) TimerEvent: {}
+[2.141730] (-) TimerEvent: {}
+[2.245131] (-) TimerEvent: {}
+[2.346277] (-) TimerEvent: {}
+[2.447123] (-) TimerEvent: {}
+[2.549099] (-) TimerEvent: {}
+[2.653094] (-) TimerEvent: {}
+[2.755795] (-) TimerEvent: {}
+[2.857568] (-) TimerEvent: {}
+[2.958937] (-) TimerEvent: {}
+[3.061750] (-) TimerEvent: {}
+[3.163136] (-) TimerEvent: {}
+[3.265439] (-) TimerEvent: {}
+[3.366756] (-) TimerEvent: {}
+[3.472379] (-) TimerEvent: {}
+[3.574693] (-) TimerEvent: {}
+[3.676130] (-) TimerEvent: {}
+[3.778268] (-) TimerEvent: {}
+[3.880340] (-) TimerEvent: {}
+[3.981441] (-) TimerEvent: {}
+[4.086142] (-) TimerEvent: {}
+[4.187235] (-) TimerEvent: {}
+[4.288315] (-) TimerEvent: {}
+[4.388889] (-) TimerEvent: {}
+[4.489939] (-) TimerEvent: {}
+[4.591202] (-) TimerEvent: {}
+[4.692511] (-) TimerEvent: {}
+[4.794381] (-) TimerEvent: {}
+[4.895314] (-) TimerEvent: {}
+[4.996159] (-) TimerEvent: {}
+[5.099927] (-) TimerEvent: {}
+[5.201150] (-) TimerEvent: {}
+[5.302194] (-) TimerEvent: {}
+[5.403205] (-) TimerEvent: {}
+[5.504875] (-) TimerEvent: {}
+[5.605822] (-) TimerEvent: {}
+[5.707078] (-) TimerEvent: {}
+[5.815759] (-) TimerEvent: {}
+[5.918146] (-) TimerEvent: {}
+[6.019562] (-) TimerEvent: {}
+[6.120595] (-) TimerEvent: {}
+[6.221118] (-) TimerEvent: {}
+[6.322115] (-) TimerEvent: {}
+[6.427141] (-) TimerEvent: {}
+[6.529290] (-) TimerEvent: {}
+[6.630157] (-) TimerEvent: {}
+[6.733354] (-) TimerEvent: {}
+[6.834797] (-) TimerEvent: {}
+[6.944115] (-) TimerEvent: {}
+[7.052559] (-) TimerEvent: {}
+[7.153582] (-) TimerEvent: {}
+[7.254730] (-) TimerEvent: {}
+[7.355833] (-) TimerEvent: {}
+[7.456849] (-) TimerEvent: {}
+[7.559291] (-) TimerEvent: {}
+[7.663648] (-) TimerEvent: {}
+[7.764629] (-) TimerEvent: {}
+[7.865400] (-) TimerEvent: {}
+[7.969796] (-) TimerEvent: {}
+[8.073616] (-) TimerEvent: {}
+[8.174813] (-) TimerEvent: {}
+[8.278921] (-) TimerEvent: {}
+[8.381620] (-) TimerEvent: {}
+[8.485358] (-) TimerEvent: {}
+[8.586935] (-) TimerEvent: {}
+[8.688115] (-) TimerEvent: {}
+[8.789822] (-) TimerEvent: {}
+[8.890971] (-) TimerEvent: {}
+[8.991618] (-) TimerEvent: {}
+[9.095070] (-) TimerEvent: {}
+[9.196104] (-) TimerEvent: {}
+[9.301150] (-) TimerEvent: {}
+[9.402495] (-) TimerEvent: {}
+[9.503768] (-) TimerEvent: {}
+[9.608650] (-) TimerEvent: {}
+[9.710379] (-) TimerEvent: {}
+[9.812821] (-) TimerEvent: {}
+[9.913943] (-) TimerEvent: {}
+[10.016276] (-) TimerEvent: {}
+[10.117369] (-) TimerEvent: {}
+[10.219288] (-) TimerEvent: {}
+[10.320469] (-) TimerEvent: {}
+[10.421198] (-) TimerEvent: {}
+[10.522226] (-) TimerEvent: {}
+[10.623355] (-) TimerEvent: {}
+[10.725811] (-) TimerEvent: {}
+[10.829613] (-) TimerEvent: {}
+[10.930803] (-) TimerEvent: {}
+[11.034177] (-) TimerEvent: {}
+[11.135268] (-) TimerEvent: {}
+[11.236595] (-) TimerEvent: {}
+[11.338144] (-) TimerEvent: {}
+[11.439168] (-) TimerEvent: {}
+[11.541205] (-) TimerEvent: {}
+[11.643939] (-) TimerEvent: {}
+[11.745594] (-) TimerEvent: {}
+[11.846921] (-) TimerEvent: {}
+[11.948706] (-) TimerEvent: {}
+[12.050109] (-) TimerEvent: {}
+[12.151190] (-) TimerEvent: {}
+[12.252592] (-) TimerEvent: {}
+[12.354228] (-) TimerEvent: {}
+[12.455483] (-) TimerEvent: {}
+[12.557254] (-) TimerEvent: {}
+[12.659382] (-) TimerEvent: {}
+[12.761227] (-) TimerEvent: {}
+[12.865656] (-) TimerEvent: {}
+[12.967468] (-) TimerEvent: {}
+[13.068821] (-) TimerEvent: {}
+[13.169857] (-) TimerEvent: {}
+[13.272554] (-) TimerEvent: {}
+[13.373570] (-) TimerEvent: {}
+[13.386733] (demo_cpp_service) StderrLine: {'line': b'\x1b[01m\x1b[K/home/yzh/chapt4/src/demo_cpp_service/src/Partol_Client.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid PartolClient::timer_callback()\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[13.387303] (demo_cpp_service) StderrLine: {'line': b'\x1b[01m\x1b[K/home/yzh/chapt4/src/demo_cpp_service/src/Partol_Client.cpp:28:25:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kthe address of \xe2\x80\x98\x1b[01m\x1b[Kbool rclcpp::ok(rclcpp::Context::SharedPtr)\x1b[m\x1b[K\xe2\x80\x99 will never be NULL [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Waddress\x07-Waddress\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[13.387415] (demo_cpp_service) StderrLine: {'line': b'   28 |             if(!\x1b[01;35m\x1b[Krclcpp::ok\x1b[m\x1b[K){\n'}
+[13.387601] (demo_cpp_service) StderrLine: {'line': b'      |                 \x1b[01;35m\x1b[K~~~~~~~~^~\x1b[m\x1b[K\n'}
+[13.474271] (-) TimerEvent: {}
+[13.575189] (-) TimerEvent: {}
+[13.677288] (-) TimerEvent: {}
+[13.778286] (-) TimerEvent: {}
+[13.880120] (-) TimerEvent: {}
+[13.981189] (-) TimerEvent: {}
+[14.082489] (-) TimerEvent: {}
+[14.185194] (-) TimerEvent: {}
+[14.287776] (-) TimerEvent: {}
+[14.389064] (-) TimerEvent: {}
+[14.491181] (-) TimerEvent: {}
+[14.592156] (-) TimerEvent: {}
+[14.694790] (-) TimerEvent: {}
+[14.797688] (-) TimerEvent: {}
+[14.899384] (-) TimerEvent: {}
+[15.000504] (-) TimerEvent: {}
+[15.101627] (-) TimerEvent: {}
+[15.207452] (-) TimerEvent: {}
+[15.309220] (-) TimerEvent: {}
+[15.410504] (-) TimerEvent: {}
+[15.511187] (-) TimerEvent: {}
+[15.614188] (-) TimerEvent: {}
+[15.715259] (-) TimerEvent: {}
+[15.816611] (-) TimerEvent: {}
+[15.917899] (-) TimerEvent: {}
+[16.019639] (-) TimerEvent: {}
+[16.120312] (-) TimerEvent: {}
+[16.221093] (-) TimerEvent: {}
+[16.322454] (-) TimerEvent: {}
+[16.423609] (-) TimerEvent: {}
+[16.527263] (-) TimerEvent: {}
+[16.547054] (demo_cpp_service) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable partol_client\x1b[0m\n'}
+[16.627701] (-) TimerEvent: {}
+[16.728431] (-) TimerEvent: {}
+[16.829585] (-) TimerEvent: {}
+[16.930494] (-) TimerEvent: {}
+[16.951904] (demo_cpp_service) StdoutLine: {'line': b'[100%] Built target partol_client\n'}
+[16.983505] (demo_cpp_service) CommandEnded: {'returncode': 0}
+[16.986447] (demo_cpp_service) JobProgress: {'identifier': 'demo_cpp_service', 'progress': 'install'}
+[17.017330] (demo_cpp_service) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/yzh/chapt4/build/demo_cpp_service'], 'cwd': '/home/yzh/chapt4/build/demo_cpp_service', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'zh_CN:en_AU:en_CA:en_GB:en_US:en'), ('USER', 'yzh'), ('SSH_CLIENT', '192.168.44.1 62941 22'), ('LC_TIME', 'zh_CN.UTF-8'), ('XDG_SESSION_TYPE', 'tty'), ('GIT_ASKPASS', '/home/yzh/.vscode-server/cli/servers/Stable-994fd12f8d3a5aa16f17d42c041e5809167e845a/server/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/yzh/chapt4/install/chapt4_interfaces/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('BROWSER', '/home/yzh/.vscode-server/cli/servers/Stable-994fd12f8d3a5aa16f17d42c041e5809167e845a/server/bin/helpers/browser.sh'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/yzh'), ('OLDPWD', '/home/yzh/chapt4'), ('TERM_PROGRAM_VERSION', '1.107.1'), ('VSCODE_IPC_HOOK_CLI', '/run/user/1000/vscode-ipc-6393460b-30a4-49ad-ab38-3538b3873e07.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/home/yzh/.vscode-server/cli/servers/Stable-994fd12f8d3a5aa16f17d42c041e5809167e845a/server/extensions/git/dist/askpass-main.js'), ('LC_MONETARY', 'zh_CN.UTF-8'), ('VSCODE_GIT_ASKPASS_NODE', '/home/yzh/.vscode-server/cli/servers/Stable-994fd12f8d3a5aa16f17d42c041e5809167e845a/server/node'), ('SSL_CERT_FILE', '/usr/lib/ssl/certs/ca-certificates.crt'), ('VSCODE_PYTHON_AUTOACTIVATE_GUARD', '1'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('COLCON_PREFIX_PATH', '/home/yzh/chapt4/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'yzh'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '3'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/yzh/.vscode-server/data/User/globalStorage/github.copilot-chat/debugCommand:/home/yzh/.vscode-server/data/User/globalStorage/github.copilot-chat/copilotCli:/home/yzh/.vscode-server/cli/servers/Stable-994fd12f8d3a5aa16f17d42c041e5809167e845a/server/bin/remote-cli:/home/yzh/.local/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('PAPERSIZE', 'a4'), ('LC_ADDRESS', 'zh_CN.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('SSL_CERT_DIR', '/usr/lib/ssl/certs'), ('LANG', 'zh_CN.UTF-8'), ('LC_TELEPHONE', 'zh_CN.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-f620a5ccc8.sock'), ('TERM_PROGRAM', 'vscode'), ('AMENT_PREFIX_PATH', '/home/yzh/chapt4/install/demo_cpp_service:/home/yzh/chapt4/install/chapt4_interfaces:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'zh_CN.UTF-8'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'zh_CN.UTF-8'), ('LC_IDENTIFICATION', 'zh_CN.UTF-8'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/home/yzh/chapt4/build/demo_cpp_service'), ('SSH_CONNECTION', '192.168.44.1 62941 192.168.44.128 22'), ('XDG_DATA_DIRS', '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/yzh/chapt4/install/chapt4_interfaces/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'zh_CN.UTF-8'), ('LC_PAPER', 'zh_CN.UTF-8'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/yzh/chapt4/install/chapt4_interfaces:/home/yzh/chapt4/install/demo_cpp_service:/opt/ros/humble')]), 'shell': False}
+[17.030725] (-) TimerEvent: {}
+[17.040007] (demo_cpp_service) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[17.040806] (demo_cpp_service) StdoutLine: {'line': b'-- Up-to-date: /home/yzh/chapt4/install/demo_cpp_service/lib/demo_cpp_service/turtle_control\n'}
+[17.041416] (demo_cpp_service) StdoutLine: {'line': b'-- Installing: /home/yzh/chapt4/install/demo_cpp_service/lib/demo_cpp_service/partol_client\n'}
+[17.042966] (demo_cpp_service) StdoutLine: {'line': b'-- Set runtime path of "/home/yzh/chapt4/install/demo_cpp_service/lib/demo_cpp_service/partol_client" to ""\n'}
+[17.043949] (demo_cpp_service) StdoutLine: {'line': b'-- Up-to-date: /home/yzh/chapt4/install/demo_cpp_service/share/ament_index/resource_index/package_run_dependencies/demo_cpp_service\n'}
+[17.044516] (demo_cpp_service) StdoutLine: {'line': b'-- Up-to-date: /home/yzh/chapt4/install/demo_cpp_service/share/ament_index/resource_index/parent_prefix_path/demo_cpp_service\n'}
+[17.045262] (demo_cpp_service) StdoutLine: {'line': b'-- Up-to-date: /home/yzh/chapt4/install/demo_cpp_service/share/demo_cpp_service/environment/ament_prefix_path.sh\n'}
+[17.047554] (demo_cpp_service) StdoutLine: {'line': b'-- Up-to-date: /home/yzh/chapt4/install/demo_cpp_service/share/demo_cpp_service/environment/ament_prefix_path.dsv\n'}
+[17.047958] (demo_cpp_service) StdoutLine: {'line': b'-- Up-to-date: /home/yzh/chapt4/install/demo_cpp_service/share/demo_cpp_service/environment/path.sh\n'}
+[17.048246] (demo_cpp_service) StdoutLine: {'line': b'-- Up-to-date: /home/yzh/chapt4/install/demo_cpp_service/share/demo_cpp_service/environment/path.dsv\n'}
+[17.048504] (demo_cpp_service) StdoutLine: {'line': b'-- Up-to-date: /home/yzh/chapt4/install/demo_cpp_service/share/demo_cpp_service/local_setup.bash\n'}
+[17.048718] (demo_cpp_service) StdoutLine: {'line': b'-- Up-to-date: /home/yzh/chapt4/install/demo_cpp_service/share/demo_cpp_service/local_setup.sh\n'}
+[17.049566] (demo_cpp_service) StdoutLine: {'line': b'-- Up-to-date: /home/yzh/chapt4/install/demo_cpp_service/share/demo_cpp_service/local_setup.zsh\n'}
+[17.049915] (demo_cpp_service) StdoutLine: {'line': b'-- Up-to-date: /home/yzh/chapt4/install/demo_cpp_service/share/demo_cpp_service/local_setup.dsv\n'}
+[17.050242] (demo_cpp_service) StdoutLine: {'line': b'-- Installing: /home/yzh/chapt4/install/demo_cpp_service/share/demo_cpp_service/package.dsv\n'}
+[17.051307] (demo_cpp_service) StdoutLine: {'line': b'-- Up-to-date: /home/yzh/chapt4/install/demo_cpp_service/share/ament_index/resource_index/packages/demo_cpp_service\n'}
+[17.051680] (demo_cpp_service) StdoutLine: {'line': b'-- Up-to-date: /home/yzh/chapt4/install/demo_cpp_service/share/demo_cpp_service/cmake/demo_cpp_serviceConfig.cmake\n'}
+[17.051913] (demo_cpp_service) StdoutLine: {'line': b'-- Up-to-date: /home/yzh/chapt4/install/demo_cpp_service/share/demo_cpp_service/cmake/demo_cpp_serviceConfig-version.cmake\n'}
+[17.052794] (demo_cpp_service) StdoutLine: {'line': b'-- Up-to-date: /home/yzh/chapt4/install/demo_cpp_service/share/demo_cpp_service/package.xml\n'}
+[17.058449] (demo_cpp_service) CommandEnded: {'returncode': 0}
+[17.131401] (-) TimerEvent: {}
+[17.133917] (demo_cpp_service) JobEnded: {'identifier': 'demo_cpp_service', 'rc': 0}
+[17.135484] (-) EventReactorShutdown: {}

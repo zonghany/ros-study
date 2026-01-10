@@ -1,0 +1,84 @@
+[0.000000] (-) TimerEvent: {}
+[0.001689] (status_interfaces) JobQueued: {'identifier': 'status_interfaces', 'dependencies': OrderedDict()}
+[0.001812] (status_interfaces) JobStarted: {'identifier': 'status_interfaces'}
+[0.050445] (status_interfaces) JobProgress: {'identifier': 'status_interfaces', 'progress': 'cmake'}
+[0.053440] (status_interfaces) Command: {'cmd': ['/usr/bin/cmake', '/home/yzh/桌面/project-ros/ros-study/topic_practice_ws/src/status_interfaces', '-DCMAKE_INSTALL_PREFIX=/home/yzh/桌面/project-ros/ros-study/topic_practice_ws/install/status_interfaces'], 'cwd': '/home/yzh/桌面/project-ros/ros-study/topic_practice_ws/build/status_interfaces', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'zh_CN:en_AU:en_CA:en_GB:en_US:en'), ('USER', 'yzh'), ('SSH_CLIENT', '192.168.44.1 55005 22'), ('LC_TIME', 'zh_CN.UTF-8'), ('XDG_SESSION_TYPE', 'tty'), ('GIT_ASKPASS', '/home/yzh/.vscode-server/cli/servers/Stable-994fd12f8d3a5aa16f17d42c041e5809167e845a/server/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('BROWSER', '/home/yzh/.vscode-server/cli/servers/Stable-994fd12f8d3a5aa16f17d42c041e5809167e845a/server/bin/helpers/browser.sh'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/yzh'), ('TERM_PROGRAM_VERSION', '1.107.1'), ('VSCODE_IPC_HOOK_CLI', '/run/user/1000/vscode-ipc-10b14211-6397-432d-b955-0f9599d4acae.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/home/yzh/.vscode-server/cli/servers/Stable-994fd12f8d3a5aa16f17d42c041e5809167e845a/server/extensions/git/dist/askpass-main.js'), ('LC_MONETARY', 'zh_CN.UTF-8'), ('VSCODE_GIT_ASKPASS_NODE', '/home/yzh/.vscode-server/cli/servers/Stable-994fd12f8d3a5aa16f17d42c041e5809167e845a/server/node'), ('SSL_CERT_FILE', '/usr/lib/ssl/certs/ca-certificates.crt'), ('VSCODE_PYTHON_AUTOACTIVATE_GUARD', '1'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'yzh'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '3'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/yzh/.vscode-server/data/User/globalStorage/github.copilot-chat/debugCommand:/home/yzh/.vscode-server/data/User/globalStorage/github.copilot-chat/copilotCli:/home/yzh/.vscode-server/cli/servers/Stable-994fd12f8d3a5aa16f17d42c041e5809167e845a/server/bin/remote-cli:/home/yzh/.local/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('PAPERSIZE', 'a4'), ('LC_ADDRESS', 'zh_CN.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('SSL_CERT_DIR', '/usr/lib/ssl/certs'), ('LANG', 'zh_CN.UTF-8'), ('LC_TELEPHONE', 'zh_CN.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-98126a6ea2.sock'), ('TERM_PROGRAM', 'vscode'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'zh_CN.UTF-8'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'zh_CN.UTF-8'), ('LC_IDENTIFICATION', 'zh_CN.UTF-8'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/home/yzh/桌面/project-ros/ros-study/topic_practice_ws/build/status_interfaces'), ('SSH_CONNECTION', '192.168.44.1 55005 192.168.44.128 22'), ('XDG_DATA_DIRS', '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'zh_CN.UTF-8'), ('LC_PAPER', 'zh_CN.UTF-8'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.093500] (-) TimerEvent: {}
+[0.194870] (-) TimerEvent: {}
+[0.296358] (-) TimerEvent: {}
+[0.347184] (status_interfaces) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.396840] (-) TimerEvent: {}
+[0.497921] (-) TimerEvent: {}
+[0.598857] (-) TimerEvent: {}
+[0.676907] (status_interfaces) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[0.699856] (-) TimerEvent: {}
+[0.714770] (status_interfaces) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.800176] (-) TimerEvent: {}
+[0.901156] (-) TimerEvent: {}
+[1.002289] (-) TimerEvent: {}
+[1.093923] (status_interfaces) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[1.103267] (-) TimerEvent: {}
+[1.125499] (status_interfaces) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[1.126547] (status_interfaces) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[1.128761] (status_interfaces) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[1.143249] (status_interfaces) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[1.204568] (-) TimerEvent: {}
+[1.305859] (-) TimerEvent: {}
+[1.408357] (-) TimerEvent: {}
+[1.510083] (-) TimerEvent: {}
+[1.592670] (status_interfaces) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[1.610975] (-) TimerEvent: {}
+[1.624264] (status_interfaces) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[1.625460] (status_interfaces) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[1.629036] (status_interfaces) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[1.636371] (status_interfaces) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[1.711380] (-) TimerEvent: {}
+[1.813013] (-) TimerEvent: {}
+[1.913933] (-) TimerEvent: {}
+[2.015287] (-) TimerEvent: {}
+[2.116180] (-) TimerEvent: {}
+[2.217261] (-) TimerEvent: {}
+[2.316337] (status_interfaces) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[2.317876] (-) TimerEvent: {}
+[2.418941] (-) TimerEvent: {}
+[2.519984] (-) TimerEvent: {}
+[2.620882] (-) TimerEvent: {}
+[2.677382] (status_interfaces) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)\n'}
+[2.686245] (status_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[2.706936] (status_interfaces) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.7 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[2.721266] (-) TimerEvent: {}
+[2.822145] (-) TimerEvent: {}
+[2.851644] (status_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[2.923034] (-) TimerEvent: {}
+[2.976176] (status_interfaces) StdoutLine: {'line': b'-- Found builtin_interfaces: 1.2.2 (/opt/ros/humble/share/builtin_interfaces/cmake)\n'}
+[3.023716] (-) TimerEvent: {}
+[3.124847] (-) TimerEvent: {}
+[3.225918] (-) TimerEvent: {}
+[3.327221] (-) TimerEvent: {}
+[3.427915] (-) TimerEvent: {}
+[3.529040] (-) TimerEvent: {}
+[3.630409] (-) TimerEvent: {}
+[3.731904] (-) TimerEvent: {}
+[3.832930] (-) TimerEvent: {}
+[3.834094] (status_interfaces) StderrLine: {'line': b'\x1b[31mCMake Error at /opt/ros/humble/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:240 (list):\n'}
+[3.834998] (status_interfaces) StderrLine: {'line': b'  list index: 1 out of range (-1, 0)\n'}
+[3.835306] (status_interfaces) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[3.835520] (status_interfaces) StderrLine: {'line': b'  CMakeLists.txt:14 (rosidl_generate_interfaces)\n'}
+[3.835918] (status_interfaces) StderrLine: {'line': b'\n'}
+[3.836251] (status_interfaces) StderrLine: {'line': b'\x1b[0m\n'}
+[3.845217] (status_interfaces) StderrLine: {'line': b'\x1b[31mCMake Error at /opt/ros/humble/share/rosidl_generator_c/cmake/rosidl_generator_c_generate_interfaces.cmake:69 (message):\n'}
+[3.845743] (status_interfaces) StderrLine: {'line': b'  Target dependency\n'}
+[3.846027] (status_interfaces) StderrLine: {'line': b"  '/project-ros/ros-study/topic_practice_ws/build/status_interfaces/rosidl_adapter/status_interfaces/msg/SystemStatus.idl'\n"}
+[3.846250] (status_interfaces) StderrLine: {'line': b'  does not exist\n'}
+[3.846465] (status_interfaces) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[3.847158] (status_interfaces) StderrLine: {'line': b'  /opt/ros/humble/share/ament_cmake_core/cmake/core/ament_execute_extensions.cmake:48 (include)\n'}
+[3.847713] (status_interfaces) StderrLine: {'line': b'  /opt/ros/humble/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:286 (ament_execute_extensions)\n'}
+[3.848084] (status_interfaces) StderrLine: {'line': b'  CMakeLists.txt:14 (rosidl_generate_interfaces)\n'}
+[3.848438] (status_interfaces) StderrLine: {'line': b'\n'}
+[3.849217] (status_interfaces) StderrLine: {'line': b'\x1b[0m\n'}
+[3.849452] (status_interfaces) StdoutLine: {'line': b'-- Configuring incomplete, errors occurred!\n'}
+[3.849733] (status_interfaces) StdoutLine: {'line': b'See also "/home/yzh/\xe6\xa1\x8c\xe9\x9d\xa2/project-ros/ros-study/topic_practice_ws/build/status_interfaces/CMakeFiles/CMakeOutput.log".\n'}
+[3.880302] (status_interfaces) CommandEnded: {'returncode': 1}
+[3.934197] (-) TimerEvent: {}
+[3.990230] (status_interfaces) JobEnded: {'identifier': 'status_interfaces', 'rc': 1}
+[4.002726] (-) EventReactorShutdown: {}

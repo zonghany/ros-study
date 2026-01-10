@@ -1,0 +1,34 @@
+[0.050s] Invoking command in '/home/yzh/桌面/project-ros/ros-study/chapt5/chapt5_ws/build/demo_cpp_tf': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/yzh/桌面/project-ros/ros-study/chapt5/chapt5_ws/build/demo_cpp_tf -- -j16 -l16
+[0.205s] -- Found rclcpp: 16.0.16 (/opt/ros/humble/share/rclcpp/cmake)
+[0.871s] -- Found rosidl_generator_c: 3.1.7 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.885s] -- Found rosidl_adapter: 3.1.7 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.900s] -- Found rosidl_generator_cpp: 3.1.7 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.967s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.018s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.111s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[1.119s] -- Found rmw_fastrtps_cpp: 6.2.9 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[1.480s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.673s] -- Found tf2: 0.25.17 (/opt/ros/humble/share/tf2/cmake)
+[1.701s] -- Found tf2_ros: 0.25.17 (/opt/ros/humble/share/tf2_ros/cmake)
+[2.075s] -- Found tf2_geometry_msgs: 0.25.17 (/opt/ros/humble/share/tf2_geometry_msgs/cmake)
+[2.089s] -- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)
+[2.095s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[2.282s] -- Configuring done
+[2.398s] -- Generating done
+[2.449s] -- Build files have been written to: /home/yzh/桌面/project-ros/ros-study/chapt5/chapt5_ws/build/demo_cpp_tf
+[2.628s] [35m[1mConsolidate compiler generated dependencies of target static_tf_broadcaster[0m
+[2.703s] [ 16%] [32mBuilding CXX object CMakeFiles/tf_listener.dir/src/tf_listener.cpp.o[0m
+[2.706s] [ 33%] [32mBuilding CXX object CMakeFiles/dynamic_tf_broadcaster.dir/src/dynamic_tf_broadcaster.cpp.o[0m
+[2.760s] [ 50%] [32mBuilding CXX object CMakeFiles/static_tf_broadcaster.dir/src/static_tf_broadcaster.cpp.o[0m
+[22.384s] [ 66%] [32m[1mLinking CXX executable static_tf_broadcaster[0m
+[23.503s] [ 66%] Built target static_tf_broadcaster
+[23.726s] [ 83%] [32m[1mLinking CXX executable dynamic_tf_broadcaster[0m
+[24.949s] [ 83%] Built target dynamic_tf_broadcaster
+[43.412s] [100%] [32m[1mLinking CXX executable tf_listener[0m
+[45.023s] /usr/bin/ld: CMakeFiles/tf_listener.dir/src/tf_listener.cpp.o: in function `tf2::impl::toQuaternion(geometry_msgs::msg::Quaternion_<std::allocator<void> > const&)':
+[45.024s] tf_listener.cpp:(.text._ZN3tf24impl12toQuaternionERKN13geometry_msgs3msg11Quaternion_ISaIvEEE[_ZN3tf24impl12toQuaternionERKN13geometry_msgs3msg11Quaternion_ISaIvEEE]+0x2f): undefined reference to `tf2::fromMsg(geometry_msgs::msg::Quaternion_<std::allocator<void> > const&, tf2::Quaternion&)'
+[45.184s] collect2: error: ld returned 1 exit status
+[45.191s] gmake[2]: *** [CMakeFiles/tf_listener.dir/build.make:198：tf_listener] 错误 1
+[45.192s] gmake[1]: *** [CMakeFiles/Makefile2:193：CMakeFiles/tf_listener.dir/all] 错误 2
+[45.193s] gmake: *** [Makefile:146：all] 错误 2
+[45.206s] Invoked command in '/home/yzh/桌面/project-ros/ros-study/chapt5/chapt5_ws/build/demo_cpp_tf' returned '2': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/yzh/桌面/project-ros/ros-study/chapt5/chapt5_ws/build/demo_cpp_tf -- -j16 -l16

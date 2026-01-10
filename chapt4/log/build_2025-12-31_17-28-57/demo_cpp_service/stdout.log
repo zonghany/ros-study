@@ -1,0 +1,3 @@
+[35m[1mConsolidate compiler generated dependencies of target partol_client[0m
+[ 50%] Built target turtle_control
+[ 75%] [32mBuilding CXX object CMakeFiles/partol_client.dir/src/Patrol_Client.cpp.o[0m

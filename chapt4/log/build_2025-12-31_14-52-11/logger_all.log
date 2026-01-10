@@ -1,0 +1,221 @@
+[0.481s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[0.483s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=16, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x724ef1e37ac0>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x724ef1f81030>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x724ef1f81030>>)
+[1.198s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[1.198s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[1.199s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[1.199s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[1.199s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[1.199s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[1.199s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/yzh/chapt4'
+[1.199s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[1.200s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[1.200s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[1.200s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[1.201s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[1.201s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[1.201s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[1.201s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[1.201s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[1.253s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[1.254s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[1.254s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[1.254s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[1.255s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[1.255s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[1.256s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[1.256s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[1.256s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[1.257s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[1.257s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[1.257s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[1.258s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[1.258s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[1.258s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[1.259s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[1.259s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[1.259s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[1.259s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[1.260s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[1.260s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[1.260s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[1.260s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[1.260s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[1.260s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[1.261s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[1.261s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[1.261s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[1.261s] Level 1:colcon.colcon_core.package_identification:_identify(src/chapt4_interfaces) by extensions ['ignore', 'ignore_ament_install']
+[1.262s] Level 1:colcon.colcon_core.package_identification:_identify(src/chapt4_interfaces) by extension 'ignore'
+[1.262s] Level 1:colcon.colcon_core.package_identification:_identify(src/chapt4_interfaces) by extension 'ignore_ament_install'
+[1.262s] Level 1:colcon.colcon_core.package_identification:_identify(src/chapt4_interfaces) by extensions ['colcon_pkg']
+[1.262s] Level 1:colcon.colcon_core.package_identification:_identify(src/chapt4_interfaces) by extension 'colcon_pkg'
+[1.263s] Level 1:colcon.colcon_core.package_identification:_identify(src/chapt4_interfaces) by extensions ['colcon_meta']
+[1.263s] Level 1:colcon.colcon_core.package_identification:_identify(src/chapt4_interfaces) by extension 'colcon_meta'
+[1.263s] Level 1:colcon.colcon_core.package_identification:_identify(src/chapt4_interfaces) by extensions ['ros']
+[1.263s] Level 1:colcon.colcon_core.package_identification:_identify(src/chapt4_interfaces) by extension 'ros'
+[1.275s] DEBUG:colcon.colcon_core.package_identification:Package 'src/chapt4_interfaces' with type 'ros.ament_cmake' and name 'chapt4_interfaces'
+[1.275s] Level 1:colcon.colcon_core.package_identification:_identify(src/demo_cpp_service) by extensions ['ignore', 'ignore_ament_install']
+[1.276s] Level 1:colcon.colcon_core.package_identification:_identify(src/demo_cpp_service) by extension 'ignore'
+[1.276s] Level 1:colcon.colcon_core.package_identification:_identify(src/demo_cpp_service) by extension 'ignore_ament_install'
+[1.276s] Level 1:colcon.colcon_core.package_identification:_identify(src/demo_cpp_service) by extensions ['colcon_pkg']
+[1.276s] Level 1:colcon.colcon_core.package_identification:_identify(src/demo_cpp_service) by extension 'colcon_pkg'
+[1.276s] Level 1:colcon.colcon_core.package_identification:_identify(src/demo_cpp_service) by extensions ['colcon_meta']
+[1.276s] Level 1:colcon.colcon_core.package_identification:_identify(src/demo_cpp_service) by extension 'colcon_meta'
+[1.277s] Level 1:colcon.colcon_core.package_identification:_identify(src/demo_cpp_service) by extensions ['ros']
+[1.277s] Level 1:colcon.colcon_core.package_identification:_identify(src/demo_cpp_service) by extension 'ros'
+[1.281s] DEBUG:colcon.colcon_core.package_identification:Package 'src/demo_cpp_service' with type 'ros.ament_cmake' and name 'demo_cpp_service'
+[1.281s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[1.282s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[1.282s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[1.282s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[1.282s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[1.350s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[1.350s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[1.351s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/home/yzh/chapt4/install/demo_cpp_service' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[1.351s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/home/yzh/chapt4/install/chapt4_interfaces' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[1.352s] WARNING:colcon.colcon_ros.prefix_path.catkin:The path '/home/yzh/chapt4/install/demo_cpp_service' in the environment variable CMAKE_PREFIX_PATH doesn't exist
+[1.352s] WARNING:colcon.colcon_ros.prefix_path.catkin:The path '/home/yzh/chapt4/install/chapt4_interfaces' in the environment variable CMAKE_PREFIX_PATH doesn't exist
+[1.354s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 0 installed packages in /home/yzh/chapt4/install
+[1.357s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 271 installed packages in /opt/ros/humble
+[1.384s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[1.569s] Level 5:colcon.colcon_core.verb:set package 'chapt4_interfaces' build argument 'cmake_args' from command line to 'None'
+[1.569s] Level 5:colcon.colcon_core.verb:set package 'chapt4_interfaces' build argument 'cmake_target' from command line to 'None'
+[1.569s] Level 5:colcon.colcon_core.verb:set package 'chapt4_interfaces' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.570s] Level 5:colcon.colcon_core.verb:set package 'chapt4_interfaces' build argument 'cmake_clean_cache' from command line to 'False'
+[1.570s] Level 5:colcon.colcon_core.verb:set package 'chapt4_interfaces' build argument 'cmake_clean_first' from command line to 'False'
+[1.570s] Level 5:colcon.colcon_core.verb:set package 'chapt4_interfaces' build argument 'cmake_force_configure' from command line to 'False'
+[1.570s] Level 5:colcon.colcon_core.verb:set package 'chapt4_interfaces' build argument 'ament_cmake_args' from command line to 'None'
+[1.570s] Level 5:colcon.colcon_core.verb:set package 'chapt4_interfaces' build argument 'catkin_cmake_args' from command line to 'None'
+[1.570s] Level 5:colcon.colcon_core.verb:set package 'chapt4_interfaces' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.570s] DEBUG:colcon.colcon_core.verb:Building package 'chapt4_interfaces' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/yzh/chapt4/build/chapt4_interfaces', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/yzh/chapt4/install/chapt4_interfaces', 'merge_install': False, 'path': '/home/yzh/chapt4/src/chapt4_interfaces', 'symlink_install': False, 'test_result_base': None}
+[1.572s] Level 5:colcon.colcon_core.verb:set package 'demo_cpp_service' build argument 'cmake_args' from command line to 'None'
+[1.572s] Level 5:colcon.colcon_core.verb:set package 'demo_cpp_service' build argument 'cmake_target' from command line to 'None'
+[1.572s] Level 5:colcon.colcon_core.verb:set package 'demo_cpp_service' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.572s] Level 5:colcon.colcon_core.verb:set package 'demo_cpp_service' build argument 'cmake_clean_cache' from command line to 'False'
+[1.572s] Level 5:colcon.colcon_core.verb:set package 'demo_cpp_service' build argument 'cmake_clean_first' from command line to 'False'
+[1.572s] Level 5:colcon.colcon_core.verb:set package 'demo_cpp_service' build argument 'cmake_force_configure' from command line to 'False'
+[1.572s] Level 5:colcon.colcon_core.verb:set package 'demo_cpp_service' build argument 'ament_cmake_args' from command line to 'None'
+[1.573s] Level 5:colcon.colcon_core.verb:set package 'demo_cpp_service' build argument 'catkin_cmake_args' from command line to 'None'
+[1.573s] Level 5:colcon.colcon_core.verb:set package 'demo_cpp_service' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.573s] DEBUG:colcon.colcon_core.verb:Building package 'demo_cpp_service' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/yzh/chapt4/build/demo_cpp_service', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/yzh/chapt4/install/demo_cpp_service', 'merge_install': False, 'path': '/home/yzh/chapt4/src/demo_cpp_service', 'symlink_install': False, 'test_result_base': None}
+[1.573s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[1.578s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[1.578s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/yzh/chapt4/src/chapt4_interfaces' with build type 'ament_cmake'
+[1.578s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/yzh/chapt4/src/chapt4_interfaces'
+[1.585s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[1.586s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.586s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.617s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/yzh/chapt4/build/chapt4_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/yzh/chapt4/src/chapt4_interfaces -DCMAKE_INSTALL_PREFIX=/home/yzh/chapt4/install/chapt4_interfaces
+[11.860s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/yzh/chapt4/build/chapt4_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/yzh/chapt4/src/chapt4_interfaces -DCMAKE_INSTALL_PREFIX=/home/yzh/chapt4/install/chapt4_interfaces
+[11.867s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/yzh/chapt4/build/chapt4_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/yzh/chapt4/build/chapt4_interfaces -- -j16 -l16
+[22.476s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/yzh/chapt4/build/chapt4_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/yzh/chapt4/build/chapt4_interfaces -- -j16 -l16
+[22.509s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/yzh/chapt4/build/chapt4_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/yzh/chapt4/build/chapt4_interfaces
+[22.835s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(chapt4_interfaces)
+[22.837s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/yzh/chapt4/build/chapt4_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/yzh/chapt4/build/chapt4_interfaces
+[22.843s] Level 1:colcon.colcon_core.environment:checking '/home/yzh/chapt4/install/chapt4_interfaces' for CMake module files
+[22.844s] Level 1:colcon.colcon_core.environment:checking '/home/yzh/chapt4/install/chapt4_interfaces' for CMake config files
+[22.844s] Level 1:colcon.colcon_core.shell:create_environment_hook('chapt4_interfaces', 'cmake_prefix_path')
+[22.844s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/yzh/chapt4/install/chapt4_interfaces/share/chapt4_interfaces/hook/cmake_prefix_path.ps1'
+[22.845s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/yzh/chapt4/install/chapt4_interfaces/share/chapt4_interfaces/hook/cmake_prefix_path.dsv'
+[22.845s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/yzh/chapt4/install/chapt4_interfaces/share/chapt4_interfaces/hook/cmake_prefix_path.sh'
+[22.846s] Level 1:colcon.colcon_core.environment:checking '/home/yzh/chapt4/install/chapt4_interfaces/lib'
+[22.846s] Level 1:colcon.colcon_core.shell:create_environment_hook('chapt4_interfaces', 'ld_library_path_lib')
+[22.847s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/yzh/chapt4/install/chapt4_interfaces/share/chapt4_interfaces/hook/ld_library_path_lib.ps1'
+[22.847s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/yzh/chapt4/install/chapt4_interfaces/share/chapt4_interfaces/hook/ld_library_path_lib.dsv'
+[22.848s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/yzh/chapt4/install/chapt4_interfaces/share/chapt4_interfaces/hook/ld_library_path_lib.sh'
+[22.849s] Level 1:colcon.colcon_core.environment:checking '/home/yzh/chapt4/install/chapt4_interfaces/bin'
+[22.849s] Level 1:colcon.colcon_core.environment:checking '/home/yzh/chapt4/install/chapt4_interfaces/lib/pkgconfig/chapt4_interfaces.pc'
+[22.849s] Level 1:colcon.colcon_core.environment:checking '/home/yzh/chapt4/install/chapt4_interfaces/lib/python3.10/site-packages'
+[22.850s] Level 1:colcon.colcon_core.environment:checking '/home/yzh/chapt4/install/chapt4_interfaces/bin'
+[22.851s] INFO:colcon.colcon_core.shell:Creating package script '/home/yzh/chapt4/install/chapt4_interfaces/share/chapt4_interfaces/package.ps1'
+[22.852s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/yzh/chapt4/install/chapt4_interfaces/share/chapt4_interfaces/package.dsv'
+[22.854s] INFO:colcon.colcon_core.shell:Creating package script '/home/yzh/chapt4/install/chapt4_interfaces/share/chapt4_interfaces/package.sh'
+[22.855s] INFO:colcon.colcon_core.shell:Creating package script '/home/yzh/chapt4/install/chapt4_interfaces/share/chapt4_interfaces/package.bash'
+[22.856s] INFO:colcon.colcon_core.shell:Creating package script '/home/yzh/chapt4/install/chapt4_interfaces/share/chapt4_interfaces/package.zsh'
+[22.857s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/yzh/chapt4/install/chapt4_interfaces/share/colcon-core/packages/chapt4_interfaces)
+[22.858s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(chapt4_interfaces)
+[22.859s] Level 1:colcon.colcon_core.environment:checking '/home/yzh/chapt4/install/chapt4_interfaces' for CMake module files
+[22.860s] Level 1:colcon.colcon_core.environment:checking '/home/yzh/chapt4/install/chapt4_interfaces' for CMake config files
+[22.861s] Level 1:colcon.colcon_core.shell:create_environment_hook('chapt4_interfaces', 'cmake_prefix_path')
+[22.862s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/yzh/chapt4/install/chapt4_interfaces/share/chapt4_interfaces/hook/cmake_prefix_path.ps1'
+[22.863s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/yzh/chapt4/install/chapt4_interfaces/share/chapt4_interfaces/hook/cmake_prefix_path.dsv'
+[22.864s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/yzh/chapt4/install/chapt4_interfaces/share/chapt4_interfaces/hook/cmake_prefix_path.sh'
+[22.865s] Level 1:colcon.colcon_core.environment:checking '/home/yzh/chapt4/install/chapt4_interfaces/lib'
+[22.866s] Level 1:colcon.colcon_core.shell:create_environment_hook('chapt4_interfaces', 'ld_library_path_lib')
+[22.866s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/yzh/chapt4/install/chapt4_interfaces/share/chapt4_interfaces/hook/ld_library_path_lib.ps1'
+[22.867s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/yzh/chapt4/install/chapt4_interfaces/share/chapt4_interfaces/hook/ld_library_path_lib.dsv'
+[22.868s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/yzh/chapt4/install/chapt4_interfaces/share/chapt4_interfaces/hook/ld_library_path_lib.sh'
+[22.870s] Level 1:colcon.colcon_core.environment:checking '/home/yzh/chapt4/install/chapt4_interfaces/bin'
+[22.870s] Level 1:colcon.colcon_core.environment:checking '/home/yzh/chapt4/install/chapt4_interfaces/lib/pkgconfig/chapt4_interfaces.pc'
+[22.871s] Level 1:colcon.colcon_core.environment:checking '/home/yzh/chapt4/install/chapt4_interfaces/lib/python3.10/site-packages'
+[22.872s] Level 1:colcon.colcon_core.environment:checking '/home/yzh/chapt4/install/chapt4_interfaces/bin'
+[22.872s] INFO:colcon.colcon_core.shell:Creating package script '/home/yzh/chapt4/install/chapt4_interfaces/share/chapt4_interfaces/package.ps1'
+[22.874s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/yzh/chapt4/install/chapt4_interfaces/share/chapt4_interfaces/package.dsv'
+[22.875s] INFO:colcon.colcon_core.shell:Creating package script '/home/yzh/chapt4/install/chapt4_interfaces/share/chapt4_interfaces/package.sh'
+[22.876s] INFO:colcon.colcon_core.shell:Creating package script '/home/yzh/chapt4/install/chapt4_interfaces/share/chapt4_interfaces/package.bash'
+[22.876s] INFO:colcon.colcon_core.shell:Creating package script '/home/yzh/chapt4/install/chapt4_interfaces/share/chapt4_interfaces/package.zsh'
+[22.877s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/yzh/chapt4/install/chapt4_interfaces/share/colcon-core/packages/chapt4_interfaces)
+[22.878s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/yzh/chapt4/src/demo_cpp_service' with build type 'ament_cmake'
+[22.878s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/yzh/chapt4/src/demo_cpp_service'
+[22.879s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[22.879s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[22.932s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/yzh/chapt4/build/demo_cpp_service': CMAKE_PREFIX_PATH=/home/yzh/chapt4/install/chapt4_interfaces:/home/yzh/chapt4/install/demo_cpp_service:/opt/ros/humble /usr/bin/cmake /home/yzh/chapt4/src/demo_cpp_service -DCMAKE_INSTALL_PREFIX=/home/yzh/chapt4/install/demo_cpp_service
+[28.952s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/yzh/chapt4/build/demo_cpp_service' returned '0': CMAKE_PREFIX_PATH=/home/yzh/chapt4/install/chapt4_interfaces:/home/yzh/chapt4/install/demo_cpp_service:/opt/ros/humble /usr/bin/cmake /home/yzh/chapt4/src/demo_cpp_service -DCMAKE_INSTALL_PREFIX=/home/yzh/chapt4/install/demo_cpp_service
+[28.954s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/yzh/chapt4/build/demo_cpp_service': CMAKE_PREFIX_PATH=/home/yzh/chapt4/install/chapt4_interfaces:/home/yzh/chapt4/install/demo_cpp_service:/opt/ros/humble /usr/bin/cmake --build /home/yzh/chapt4/build/demo_cpp_service -- -j16 -l16
+[70.491s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/yzh/chapt4/build/demo_cpp_service' returned '0': CMAKE_PREFIX_PATH=/home/yzh/chapt4/install/chapt4_interfaces:/home/yzh/chapt4/install/demo_cpp_service:/opt/ros/humble /usr/bin/cmake --build /home/yzh/chapt4/build/demo_cpp_service -- -j16 -l16
+[70.505s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/yzh/chapt4/build/demo_cpp_service': CMAKE_PREFIX_PATH=/home/yzh/chapt4/install/chapt4_interfaces:/home/yzh/chapt4/install/demo_cpp_service:/opt/ros/humble /usr/bin/cmake --install /home/yzh/chapt4/build/demo_cpp_service
+[70.554s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(demo_cpp_service)
+[70.555s] Level 1:colcon.colcon_core.environment:checking '/home/yzh/chapt4/install/demo_cpp_service' for CMake module files
+[70.556s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/yzh/chapt4/build/demo_cpp_service' returned '0': CMAKE_PREFIX_PATH=/home/yzh/chapt4/install/chapt4_interfaces:/home/yzh/chapt4/install/demo_cpp_service:/opt/ros/humble /usr/bin/cmake --install /home/yzh/chapt4/build/demo_cpp_service
+[70.560s] Level 1:colcon.colcon_core.environment:checking '/home/yzh/chapt4/install/demo_cpp_service' for CMake config files
+[70.561s] Level 1:colcon.colcon_core.shell:create_environment_hook('demo_cpp_service', 'cmake_prefix_path')
+[70.562s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/yzh/chapt4/install/demo_cpp_service/share/demo_cpp_service/hook/cmake_prefix_path.ps1'
+[70.563s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/yzh/chapt4/install/demo_cpp_service/share/demo_cpp_service/hook/cmake_prefix_path.dsv'
+[70.564s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/yzh/chapt4/install/demo_cpp_service/share/demo_cpp_service/hook/cmake_prefix_path.sh'
+[70.565s] Level 1:colcon.colcon_core.environment:checking '/home/yzh/chapt4/install/demo_cpp_service/lib'
+[70.565s] Level 1:colcon.colcon_core.environment:checking '/home/yzh/chapt4/install/demo_cpp_service/bin'
+[70.565s] Level 1:colcon.colcon_core.environment:checking '/home/yzh/chapt4/install/demo_cpp_service/lib/pkgconfig/demo_cpp_service.pc'
+[70.565s] Level 1:colcon.colcon_core.environment:checking '/home/yzh/chapt4/install/demo_cpp_service/lib/python3.10/site-packages'
+[70.567s] Level 1:colcon.colcon_core.environment:checking '/home/yzh/chapt4/install/demo_cpp_service/bin'
+[70.568s] INFO:colcon.colcon_core.shell:Creating package script '/home/yzh/chapt4/install/demo_cpp_service/share/demo_cpp_service/package.ps1'
+[70.570s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/yzh/chapt4/install/demo_cpp_service/share/demo_cpp_service/package.dsv'
+[70.572s] INFO:colcon.colcon_core.shell:Creating package script '/home/yzh/chapt4/install/demo_cpp_service/share/demo_cpp_service/package.sh'
+[70.574s] INFO:colcon.colcon_core.shell:Creating package script '/home/yzh/chapt4/install/demo_cpp_service/share/demo_cpp_service/package.bash'
+[70.575s] INFO:colcon.colcon_core.shell:Creating package script '/home/yzh/chapt4/install/demo_cpp_service/share/demo_cpp_service/package.zsh'
+[70.576s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/yzh/chapt4/install/demo_cpp_service/share/colcon-core/packages/demo_cpp_service)
+[70.578s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(demo_cpp_service)
+[70.579s] Level 1:colcon.colcon_core.environment:checking '/home/yzh/chapt4/install/demo_cpp_service' for CMake module files
+[70.582s] Level 1:colcon.colcon_core.environment:checking '/home/yzh/chapt4/install/demo_cpp_service' for CMake config files
+[70.582s] Level 1:colcon.colcon_core.shell:create_environment_hook('demo_cpp_service', 'cmake_prefix_path')
+[70.583s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/yzh/chapt4/install/demo_cpp_service/share/demo_cpp_service/hook/cmake_prefix_path.ps1'
+[70.585s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/yzh/chapt4/install/demo_cpp_service/share/demo_cpp_service/hook/cmake_prefix_path.dsv'
+[70.588s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/yzh/chapt4/install/demo_cpp_service/share/demo_cpp_service/hook/cmake_prefix_path.sh'
+[70.590s] Level 1:colcon.colcon_core.environment:checking '/home/yzh/chapt4/install/demo_cpp_service/lib'
+[70.590s] Level 1:colcon.colcon_core.environment:checking '/home/yzh/chapt4/install/demo_cpp_service/bin'
+[70.590s] Level 1:colcon.colcon_core.environment:checking '/home/yzh/chapt4/install/demo_cpp_service/lib/pkgconfig/demo_cpp_service.pc'
+[70.591s] Level 1:colcon.colcon_core.environment:checking '/home/yzh/chapt4/install/demo_cpp_service/lib/python3.10/site-packages'
+[70.592s] Level 1:colcon.colcon_core.environment:checking '/home/yzh/chapt4/install/demo_cpp_service/bin'
+[70.594s] INFO:colcon.colcon_core.shell:Creating package script '/home/yzh/chapt4/install/demo_cpp_service/share/demo_cpp_service/package.ps1'
+[70.596s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/yzh/chapt4/install/demo_cpp_service/share/demo_cpp_service/package.dsv'
+[70.602s] INFO:colcon.colcon_core.shell:Creating package script '/home/yzh/chapt4/install/demo_cpp_service/share/demo_cpp_service/package.sh'
+[70.604s] INFO:colcon.colcon_core.shell:Creating package script '/home/yzh/chapt4/install/demo_cpp_service/share/demo_cpp_service/package.bash'
+[70.606s] INFO:colcon.colcon_core.shell:Creating package script '/home/yzh/chapt4/install/demo_cpp_service/share/demo_cpp_service/package.zsh'
+[70.608s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/yzh/chapt4/install/demo_cpp_service/share/colcon-core/packages/demo_cpp_service)
+[70.610s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[70.612s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[70.612s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[70.613s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[70.634s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[70.634s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[70.635s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[70.699s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[70.700s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/yzh/chapt4/install/local_setup.ps1'
+[70.704s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/yzh/chapt4/install/_local_setup_util_ps1.py'
+[70.708s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/yzh/chapt4/install/setup.ps1'
+[70.713s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/yzh/chapt4/install/local_setup.sh'
+[70.715s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/yzh/chapt4/install/_local_setup_util_sh.py'
+[70.716s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/yzh/chapt4/install/setup.sh'
+[70.719s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/yzh/chapt4/install/local_setup.bash'
+[70.721s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/yzh/chapt4/install/setup.bash'
+[70.724s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/yzh/chapt4/install/local_setup.zsh'
+[70.727s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/yzh/chapt4/install/setup.zsh'

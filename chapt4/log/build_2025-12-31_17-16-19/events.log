@@ -1,0 +1,240 @@
+[0.000000] (-) TimerEvent: {}
+[0.005129] (-) JobUnselected: {'identifier': 'chapt4_interfaces'}
+[0.005632] (demo_cpp_service) JobQueued: {'identifier': 'demo_cpp_service', 'dependencies': OrderedDict([('chapt4_interfaces', '/home/yzh/chapt4/install/chapt4_interfaces')])}
+[0.005847] (demo_cpp_service) JobStarted: {'identifier': 'demo_cpp_service'}
+[0.052695] (demo_cpp_service) JobProgress: {'identifier': 'demo_cpp_service', 'progress': 'cmake'}
+[0.054477] (demo_cpp_service) JobProgress: {'identifier': 'demo_cpp_service', 'progress': 'build'}
+[0.056148] (demo_cpp_service) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/yzh/chapt4/build/demo_cpp_service', '--', '-j16', '-l16'], 'cwd': '/home/yzh/chapt4/build/demo_cpp_service', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'zh_CN:en_AU:en_CA:en_GB:en_US:en'), ('USER', 'yzh'), ('SSH_CLIENT', '192.168.44.1 62941 22'), ('LC_TIME', 'zh_CN.UTF-8'), ('XDG_SESSION_TYPE', 'tty'), ('GIT_ASKPASS', '/home/yzh/.vscode-server/cli/servers/Stable-994fd12f8d3a5aa16f17d42c041e5809167e845a/server/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/yzh/chapt4/install/chapt4_interfaces/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('BROWSER', '/home/yzh/.vscode-server/cli/servers/Stable-994fd12f8d3a5aa16f17d42c041e5809167e845a/server/bin/helpers/browser.sh'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/yzh'), ('OLDPWD', '/home/yzh/chapt4'), ('TERM_PROGRAM_VERSION', '1.107.1'), ('VSCODE_IPC_HOOK_CLI', '/run/user/1000/vscode-ipc-6393460b-30a4-49ad-ab38-3538b3873e07.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/home/yzh/.vscode-server/cli/servers/Stable-994fd12f8d3a5aa16f17d42c041e5809167e845a/server/extensions/git/dist/askpass-main.js'), ('LC_MONETARY', 'zh_CN.UTF-8'), ('VSCODE_GIT_ASKPASS_NODE', '/home/yzh/.vscode-server/cli/servers/Stable-994fd12f8d3a5aa16f17d42c041e5809167e845a/server/node'), ('SSL_CERT_FILE', '/usr/lib/ssl/certs/ca-certificates.crt'), ('VSCODE_PYTHON_AUTOACTIVATE_GUARD', '1'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('COLCON_PREFIX_PATH', '/home/yzh/chapt4/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'yzh'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '3'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/yzh/.vscode-server/data/User/globalStorage/github.copilot-chat/debugCommand:/home/yzh/.vscode-server/data/User/globalStorage/github.copilot-chat/copilotCli:/home/yzh/.vscode-server/cli/servers/Stable-994fd12f8d3a5aa16f17d42c041e5809167e845a/server/bin/remote-cli:/home/yzh/.local/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('PAPERSIZE', 'a4'), ('LC_ADDRESS', 'zh_CN.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('SSL_CERT_DIR', '/usr/lib/ssl/certs'), ('LANG', 'zh_CN.UTF-8'), ('LC_TELEPHONE', 'zh_CN.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-f620a5ccc8.sock'), ('TERM_PROGRAM', 'vscode'), ('AMENT_PREFIX_PATH', '/home/yzh/chapt4/install/demo_cpp_service:/home/yzh/chapt4/install/chapt4_interfaces:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'zh_CN.UTF-8'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'zh_CN.UTF-8'), ('LC_IDENTIFICATION', 'zh_CN.UTF-8'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/home/yzh/chapt4/build/demo_cpp_service'), ('SSH_CONNECTION', '192.168.44.1 62941 192.168.44.128 22'), ('XDG_DATA_DIRS', '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/yzh/chapt4/install/chapt4_interfaces/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'zh_CN.UTF-8'), ('LC_PAPER', 'zh_CN.UTF-8'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/yzh/chapt4/install/chapt4_interfaces:/home/yzh/chapt4/install/demo_cpp_service:/opt/ros/humble')]), 'shell': False}
+[0.098708] (-) TimerEvent: {}
+[0.199821] (-) TimerEvent: {}
+[0.279629] (demo_cpp_service) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target partol_client\x1b[0m\n'}
+[0.300327] (-) TimerEvent: {}
+[0.345823] (demo_cpp_service) StdoutLine: {'line': b'[ 50%] Built target turtle_control\n'}
+[0.361915] (demo_cpp_service) StdoutLine: {'line': b'[ 75%] \x1b[32mBuilding CXX object CMakeFiles/partol_client.dir/src/Partol_Client.cpp.o\x1b[0m\n'}
+[0.403098] (-) TimerEvent: {}
+[0.510082] (-) TimerEvent: {}
+[0.613794] (-) TimerEvent: {}
+[0.715177] (-) TimerEvent: {}
+[0.816683] (-) TimerEvent: {}
+[0.918112] (-) TimerEvent: {}
+[1.023711] (-) TimerEvent: {}
+[1.127011] (-) TimerEvent: {}
+[1.228133] (-) TimerEvent: {}
+[1.329583] (-) TimerEvent: {}
+[1.431919] (-) TimerEvent: {}
+[1.533981] (-) TimerEvent: {}
+[1.635023] (-) TimerEvent: {}
+[1.737179] (-) TimerEvent: {}
+[1.839426] (-) TimerEvent: {}
+[1.941882] (-) TimerEvent: {}
+[2.043456] (-) TimerEvent: {}
+[2.144942] (-) TimerEvent: {}
+[2.247405] (-) TimerEvent: {}
+[2.350723] (-) TimerEvent: {}
+[2.451759] (-) TimerEvent: {}
+[2.556683] (-) TimerEvent: {}
+[2.660809] (-) TimerEvent: {}
+[2.764266] (-) TimerEvent: {}
+[2.867221] (-) TimerEvent: {}
+[2.969750] (-) TimerEvent: {}
+[3.074803] (-) TimerEvent: {}
+[3.176779] (-) TimerEvent: {}
+[3.277820] (-) TimerEvent: {}
+[3.378735] (-) TimerEvent: {}
+[3.480476] (-) TimerEvent: {}
+[3.582071] (-) TimerEvent: {}
+[3.685430] (-) TimerEvent: {}
+[3.790193] (-) TimerEvent: {}
+[3.891850] (-) TimerEvent: {}
+[3.992900] (-) TimerEvent: {}
+[4.094025] (-) TimerEvent: {}
+[4.195753] (-) TimerEvent: {}
+[4.297117] (-) TimerEvent: {}
+[4.399809] (-) TimerEvent: {}
+[4.501966] (-) TimerEvent: {}
+[4.603260] (-) TimerEvent: {}
+[4.704015] (-) TimerEvent: {}
+[4.805281] (-) TimerEvent: {}
+[4.907958] (-) TimerEvent: {}
+[5.010268] (-) TimerEvent: {}
+[5.113304] (-) TimerEvent: {}
+[5.217910] (-) TimerEvent: {}
+[5.319142] (-) TimerEvent: {}
+[5.422256] (-) TimerEvent: {}
+[5.525886] (-) TimerEvent: {}
+[5.628356] (-) TimerEvent: {}
+[5.734888] (-) TimerEvent: {}
+[5.836388] (-) TimerEvent: {}
+[5.938279] (-) TimerEvent: {}
+[6.044670] (-) TimerEvent: {}
+[6.147171] (-) TimerEvent: {}
+[6.248462] (-) TimerEvent: {}
+[6.350223] (-) TimerEvent: {}
+[6.451960] (-) TimerEvent: {}
+[6.554485] (-) TimerEvent: {}
+[6.655733] (-) TimerEvent: {}
+[6.762018] (-) TimerEvent: {}
+[6.868928] (-) TimerEvent: {}
+[6.973646] (-) TimerEvent: {}
+[7.078444] (-) TimerEvent: {}
+[7.182488] (-) TimerEvent: {}
+[7.285333] (-) TimerEvent: {}
+[7.389695] (-) TimerEvent: {}
+[7.492765] (-) TimerEvent: {}
+[7.596205] (-) TimerEvent: {}
+[7.697862] (-) TimerEvent: {}
+[7.800245] (-) TimerEvent: {}
+[7.903399] (-) TimerEvent: {}
+[8.005748] (-) TimerEvent: {}
+[8.109760] (-) TimerEvent: {}
+[8.213976] (-) TimerEvent: {}
+[8.318806] (-) TimerEvent: {}
+[8.420739] (-) TimerEvent: {}
+[8.521878] (-) TimerEvent: {}
+[8.624228] (-) TimerEvent: {}
+[8.727388] (-) TimerEvent: {}
+[8.831820] (-) TimerEvent: {}
+[8.935149] (-) TimerEvent: {}
+[9.036650] (-) TimerEvent: {}
+[9.137695] (-) TimerEvent: {}
+[9.238811] (-) TimerEvent: {}
+[9.342118] (-) TimerEvent: {}
+[9.449784] (-) TimerEvent: {}
+[9.554000] (-) TimerEvent: {}
+[9.655742] (-) TimerEvent: {}
+[9.756763] (-) TimerEvent: {}
+[9.859755] (-) TimerEvent: {}
+[9.961461] (-) TimerEvent: {}
+[10.064121] (-) TimerEvent: {}
+[10.166596] (-) TimerEvent: {}
+[10.268852] (-) TimerEvent: {}
+[10.371049] (-) TimerEvent: {}
+[10.474280] (-) TimerEvent: {}
+[10.576436] (-) TimerEvent: {}
+[10.683377] (-) TimerEvent: {}
+[10.785148] (-) TimerEvent: {}
+[10.888453] (-) TimerEvent: {}
+[10.992057] (-) TimerEvent: {}
+[11.093759] (-) TimerEvent: {}
+[11.195213] (-) TimerEvent: {}
+[11.296792] (-) TimerEvent: {}
+[11.400639] (-) TimerEvent: {}
+[11.507705] (-) TimerEvent: {}
+[11.609358] (-) TimerEvent: {}
+[11.711658] (-) TimerEvent: {}
+[11.814824] (-) TimerEvent: {}
+[11.916708] (-) TimerEvent: {}
+[12.018923] (-) TimerEvent: {}
+[12.125148] (-) TimerEvent: {}
+[12.227014] (-) TimerEvent: {}
+[12.335162] (-) TimerEvent: {}
+[12.438001] (-) TimerEvent: {}
+[12.486787] (demo_cpp_service) StderrLine: {'line': b'\x1b[01m\x1b[K/home/yzh/chapt4/src/demo_cpp_service/src/Partol_Client.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid PartolClient::timer_callback()\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[12.487380] (demo_cpp_service) StderrLine: {'line': b'\x1b[01m\x1b[K/home/yzh/chapt4/src/demo_cpp_service/src/Partol_Client.cpp:35:41:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KPartol\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope; did you mean \xe2\x80\x98\x1b[01m\x1b[KPatrol\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[12.487795] (demo_cpp_service) StderrLine: {'line': b'   35 |         auto request = std::make_shared<\x1b[01;31m\x1b[KPartol\x1b[m\x1b[K::Request>();\n'}
+[12.488033] (demo_cpp_service) StderrLine: {'line': b'      |                                         \x1b[01;31m\x1b[K^~~~~~\x1b[m\x1b[K\n'}
+[12.489319] (demo_cpp_service) StderrLine: {'line': b'      |                                         \x1b[32m\x1b[KPatrol\x1b[m\x1b[K\n'}
+[12.489608] (demo_cpp_service) StderrLine: {'line': b'\x1b[01m\x1b[K/home/yzh/chapt4/src/demo_cpp_service/src/Partol_Client.cpp:35:29:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kparse error in template argument list\n'}
+[12.489828] (demo_cpp_service) StderrLine: {'line': b'   35 |         auto request = std::\x1b[01;31m\x1b[Kmake_shared<Partol::Request>\x1b[m\x1b[K();\n'}
+[12.490025] (demo_cpp_service) StderrLine: {'line': b'      |                             \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[12.490217] (demo_cpp_service) StderrLine: {'line': b'\x1b[01m\x1b[K/home/yzh/chapt4/src/demo_cpp_service/src/Partol_Client.cpp:35:57:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kno matching function for call to \xe2\x80\x98\x1b[01m\x1b[Kmake_shared<<expression error> >()\x1b[m\x1b[K\xe2\x80\x99\n'}
+[12.490415] (demo_cpp_service) StderrLine: {'line': b'   35 |         auto request = \x1b[01;31m\x1b[Kstd::make_shared<Partol::Request>()\x1b[m\x1b[K;\n'}
+[12.490642] (demo_cpp_service) StderrLine: {'line': b'      |                        \x1b[01;31m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~\x1b[m\x1b[K\n'}
+[12.491382] (demo_cpp_service) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/11/memory:77\x1b[m\x1b[K,\n'}
+[12.491634] (demo_cpp_service) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:153\x1b[m\x1b[K,\n'}
+[12.491840] (demo_cpp_service) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/yzh/chapt4/src/demo_cpp_service/src/Partol_Client.cpp:1\x1b[m\x1b[K:\n'}
+[12.492062] (demo_cpp_service) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/shared_ptr.h:875:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _Tp, class ... _Args> std::shared_ptr<_Tp> std::make_shared(_Args&& ...)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[12.492259] (demo_cpp_service) StderrLine: {'line': b'  875 |     \x1b[01;36m\x1b[Kmake_shared\x1b[m\x1b[K(_Args&&... __args)\n'}
+[12.492613] (demo_cpp_service) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[12.493027] (demo_cpp_service) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/shared_ptr.h:875:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[12.493235] (demo_cpp_service) StderrLine: {'line': b'\x1b[01m\x1b[K/home/yzh/chapt4/src/demo_cpp_service/src/Partol_Client.cpp:35:57:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Ktemplate argument 1 is invalid\n'}
+[12.493431] (demo_cpp_service) StderrLine: {'line': b'   35 |         auto request = \x1b[01;31m\x1b[Kstd::make_shared<Partol::Request>()\x1b[m\x1b[K;\n'}
+[12.494198] (demo_cpp_service) StderrLine: {'line': b'      |                        \x1b[01;31m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~\x1b[m\x1b[K\n'}
+[12.495084] (demo_cpp_service) StderrLine: {'line': b'\x1b[01m\x1b[K/home/yzh/chapt4/src/demo_cpp_service/src/Partol_Client.cpp:40:51:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected \xe2\x80\x98\x1b[01m\x1b[K,\x1b[m\x1b[K\xe2\x80\x99 or \xe2\x80\x98\x1b[01m\x1b[K...\x1b[m\x1b[K\xe2\x80\x99 before \xe2\x80\x98\x1b[01m\x1b[Kresult_future\x1b[m\x1b[K\xe2\x80\x99\n'}
+[12.495378] (demo_cpp_service) StderrLine: {'line': b'   40 |             (rclcpp::Client<Partol>::SharedFuture \x1b[01;31m\x1b[Kresult_future\x1b[m\x1b[K) -> void {\n'}
+[12.495626] (demo_cpp_service) StderrLine: {'line': b'      |                                                   \x1b[01;31m\x1b[K^~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[12.522548] (demo_cpp_service) StderrLine: {'line': b'\x1b[01m\x1b[K/home/yzh/chapt4/src/demo_cpp_service/src/Partol_Client.cpp:\x1b[m\x1b[K In lambda function:\n'}
+[12.523855] (demo_cpp_service) StderrLine: {'line': b'\x1b[01m\x1b[K/home/yzh/chapt4/src/demo_cpp_service/src/Partol_Client.cpp:41:34:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kresult_future\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[12.524108] (demo_cpp_service) StderrLine: {'line': b'   41 |                 auto response =  \x1b[01;31m\x1b[Kresult_future\x1b[m\x1b[K.get();\n'}
+[12.524312] (demo_cpp_service) StderrLine: {'line': b'      |                                  \x1b[01;31m\x1b[K^~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[12.524505] (demo_cpp_service) StderrLine: {'line': b'\x1b[01m\x1b[K/home/yzh/chapt4/src/demo_cpp_service/src/Partol_Client.cpp:42:40:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KPartol\x1b[m\x1b[K\xe2\x80\x99 is not a class, namespace, or enumeration\n'}
+[12.524969] (demo_cpp_service) StderrLine: {'line': b'   42 |                 if(response->result == \x1b[01;31m\x1b[KPartol\x1b[m\x1b[K::Response::SUCCESS){\n'}
+[12.525219] (demo_cpp_service) StderrLine: {'line': b'      |                                        \x1b[01;31m\x1b[K^~~~~~\x1b[m\x1b[K\n'}
+[12.525417] (demo_cpp_service) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40\x1b[m\x1b[K,\n'}
+[12.525651] (demo_cpp_service) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24\x1b[m\x1b[K,\n'}
+[12.525852] (demo_cpp_service) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20\x1b[m\x1b[K,\n'}
+[12.526039] (demo_cpp_service) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25\x1b[m\x1b[K,\n'}
+[12.526226] (demo_cpp_service) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18\x1b[m\x1b[K,\n'}
+[12.526426] (demo_cpp_service) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20\x1b[m\x1b[K,\n'}
+[12.526667] (demo_cpp_service) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37\x1b[m\x1b[K,\n'}
+[12.526959] (demo_cpp_service) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25\x1b[m\x1b[K,\n'}
+[12.527194] (demo_cpp_service) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21\x1b[m\x1b[K,\n'}
+[12.527389] (demo_cpp_service) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155\x1b[m\x1b[K,\n'}
+[12.527620] (demo_cpp_service) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/yzh/chapt4/src/demo_cpp_service/src/Partol_Client.cpp:1\x1b[m\x1b[K:\n'}
+[12.527826] (demo_cpp_service) StderrLine: {'line': b'\x1b[01m\x1b[K/home/yzh/chapt4/src/demo_cpp_service/src/Partol_Client.cpp:43:39:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kclass PartolClient\x1b[m\x1b[K\xe2\x80\x99 has no member named \xe2\x80\x98\x1b[01m\x1b[Kgetlogger\x1b[m\x1b[K\xe2\x80\x99; did you mean \xe2\x80\x98\x1b[01m\x1b[Kget_logger\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[12.528024] (demo_cpp_service) StderrLine: {'line': b'   43 |                     RCLCPP_INFO(this->\x1b[01;31m\x1b[Kgetlogger\x1b[m\x1b[K(),"\xe8\xaf\xb7\xe6\xb1\x82\xe5\xb7\xa1\xe9\x80\xbb\xe7\x9b\xae\xe6\xa0\x87\xe7\x82\xb9\xe6\x88\x90\xe5\x8a\x9f");\n'}
+[12.528215] (demo_cpp_service) StderrLine: {'line': b'      |                                       \x1b[01;31m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[12.528402] (demo_cpp_service) StderrLine: {'line': b'\x1b[01m\x1b[K/home/yzh/chapt4/src/demo_cpp_service/src/Partol_Client.cpp:43:39:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kclass PartolClient\x1b[m\x1b[K\xe2\x80\x99 has no member named \xe2\x80\x98\x1b[01m\x1b[Kgetlogger\x1b[m\x1b[K\xe2\x80\x99; did you mean \xe2\x80\x98\x1b[01m\x1b[Kget_logger\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[12.528629] (demo_cpp_service) StderrLine: {'line': b'\x1b[01m\x1b[K/home/yzh/chapt4/src/demo_cpp_service/src/Partol_Client.cpp:43:21:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Ktemplate argument 1 is invalid\n'}
+[12.528895] (demo_cpp_service) StderrLine: {'line': b'   43 |                     \x1b[01;31m\x1b[KRCLCPP_INFO\x1b[m\x1b[K(this->getlogger(),"\xe8\xaf\xb7\xe6\xb1\x82\xe5\xb7\xa1\xe9\x80\xbb\xe7\x9b\xae\xe6\xa0\x87\xe7\x82\xb9\xe6\x88\x90\xe5\x8a\x9f");\n'}
+[12.529140] (demo_cpp_service) StderrLine: {'line': b'      |                     \x1b[01;31m\x1b[K^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[12.529338] (demo_cpp_service) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24\x1b[m\x1b[K,\n'}
+[12.529561] (demo_cpp_service) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40\x1b[m\x1b[K,\n'}
+[12.529776] (demo_cpp_service) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24\x1b[m\x1b[K,\n'}
+[12.529968] (demo_cpp_service) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20\x1b[m\x1b[K,\n'}
+[12.530157] (demo_cpp_service) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25\x1b[m\x1b[K,\n'}
+[12.530345] (demo_cpp_service) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18\x1b[m\x1b[K,\n'}
+[12.530557] (demo_cpp_service) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20\x1b[m\x1b[K,\n'}
+[12.530763] (demo_cpp_service) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37\x1b[m\x1b[K,\n'}
+[12.532133] (demo_cpp_service) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25\x1b[m\x1b[K,\n'}
+[12.533033] (demo_cpp_service) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21\x1b[m\x1b[K,\n'}
+[12.533435] (demo_cpp_service) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155\x1b[m\x1b[K,\n'}
+[12.533712] (demo_cpp_service) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/yzh/chapt4/src/demo_cpp_service/src/Partol_Client.cpp:1\x1b[m\x1b[K:\n'}
+[12.533919] (demo_cpp_service) StderrLine: {'line': b'\x1b[01m\x1b[K/home/yzh/chapt4/src/demo_cpp_service/src/Partol_Client.cpp:43:39:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kclass PartolClient\x1b[m\x1b[K\xe2\x80\x99 has no member named \xe2\x80\x98\x1b[01m\x1b[Kgetlogger\x1b[m\x1b[K\xe2\x80\x99; did you mean \xe2\x80\x98\x1b[01m\x1b[Kget_logger\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[12.534197] (demo_cpp_service) StderrLine: {'line': b'   43 |                     RCLCPP_INFO(this->\x1b[01;31m\x1b[Kgetlogger\x1b[m\x1b[K(),"\xe8\xaf\xb7\xe6\xb1\x82\xe5\xb7\xa1\xe9\x80\xbb\xe7\x9b\xae\xe6\xa0\x87\xe7\x82\xb9\xe6\x88\x90\xe5\x8a\x9f");\n'}
+[12.534393] (demo_cpp_service) StderrLine: {'line': b'      |                                       \x1b[01;31m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[12.534701] (demo_cpp_service) StderrLine: {'line': b'\x1b[01m\x1b[K/home/yzh/chapt4/src/demo_cpp_service/src/Partol_Client.cpp:43:39:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kclass PartolClient\x1b[m\x1b[K\xe2\x80\x99 has no member named \xe2\x80\x98\x1b[01m\x1b[Kgetlogger\x1b[m\x1b[K\xe2\x80\x99; did you mean \xe2\x80\x98\x1b[01m\x1b[Kget_logger\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[12.535058] (demo_cpp_service) StderrLine: {'line': b'   43 |                     RCLCPP_INFO(this->\x1b[01;31m\x1b[Kgetlogger\x1b[m\x1b[K(),"\xe8\xaf\xb7\xe6\xb1\x82\xe5\xb7\xa1\xe9\x80\xbb\xe7\x9b\xae\xe6\xa0\x87\xe7\x82\xb9\xe6\x88\x90\xe5\x8a\x9f");\n'}
+[12.535261] (demo_cpp_service) StderrLine: {'line': b'      |                                       \x1b[01;31m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[12.535453] (demo_cpp_service) StderrLine: {'line': b'\x1b[01m\x1b[K/home/yzh/chapt4/src/demo_cpp_service/src/Partol_Client.cpp:44:43:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KPartol\x1b[m\x1b[K\xe2\x80\x99 is not a class, namespace, or enumeration\n'}
+[12.535697] (demo_cpp_service) StderrLine: {'line': b'   44 |                 }else(response->result == \x1b[01;31m\x1b[KPartol\x1b[m\x1b[K::Response::FAIL){\n'}
+[12.535892] (demo_cpp_service) StderrLine: {'line': b'      |                                           \x1b[01;31m\x1b[K^~~~~~\x1b[m\x1b[K\n'}
+[12.536081] (demo_cpp_service) StderrLine: {'line': b'\x1b[01m\x1b[K/home/yzh/chapt4/src/demo_cpp_service/src/Partol_Client.cpp:40:38:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[KSharedFuture\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter\x07-Wunused-parameter\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[12.536292] (demo_cpp_service) StderrLine: {'line': b'   40 |             (\x1b[01;35m\x1b[Krclcpp::Client<Partol>::SharedFuture\x1b[m\x1b[K result_future) -> void {\n'}
+[12.536481] (demo_cpp_service) StderrLine: {'line': b'      |              \x1b[01;35m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[12.539167] (-) TimerEvent: {}
+[12.641264] (-) TimerEvent: {}
+[12.743697] (-) TimerEvent: {}
+[12.844641] (-) TimerEvent: {}
+[12.947876] (-) TimerEvent: {}
+[13.048766] (-) TimerEvent: {}
+[13.152482] (-) TimerEvent: {}
+[13.255426] (-) TimerEvent: {}
+[13.357284] (-) TimerEvent: {}
+[13.459798] (-) TimerEvent: {}
+[13.560749] (-) TimerEvent: {}
+[13.662258] (-) TimerEvent: {}
+[13.767271] (-) TimerEvent: {}
+[13.869212] (-) TimerEvent: {}
+[13.970797] (-) TimerEvent: {}
+[14.071923] (-) TimerEvent: {}
+[14.172880] (-) TimerEvent: {}
+[14.275653] (-) TimerEvent: {}
+[14.376716] (-) TimerEvent: {}
+[14.478333] (-) TimerEvent: {}
+[14.581715] (-) TimerEvent: {}
+[14.683103] (-) TimerEvent: {}
+[14.785472] (-) TimerEvent: {}
+[14.888830] (-) TimerEvent: {}
+[14.992367] (-) TimerEvent: {}
+[15.095195] (-) TimerEvent: {}
+[15.196718] (-) TimerEvent: {}
+[15.301052] (-) TimerEvent: {}
+[15.404890] (-) TimerEvent: {}
+[15.441028] (demo_cpp_service) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/partol_client.dir/build.make:76\xef\xbc\x9aCMakeFiles/partol_client.dir/src/Partol_Client.cpp.o] \xe9\x94\x99\xe8\xaf\xaf 1\n'}
+[15.442257] (demo_cpp_service) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:165\xef\xbc\x9aCMakeFiles/partol_client.dir/all] \xe9\x94\x99\xe8\xaf\xaf 2\n'}
+[15.443283] (demo_cpp_service) StderrLine: {'line': b'gmake: *** [Makefile:146\xef\xbc\x9aall] \xe9\x94\x99\xe8\xaf\xaf 2\n'}
+[15.462350] (demo_cpp_service) CommandEnded: {'returncode': 2}
+[15.508169] (-) TimerEvent: {}
+[15.512658] (demo_cpp_service) JobEnded: {'identifier': 'demo_cpp_service', 'rc': 2}
+[15.525302] (-) EventReactorShutdown: {}

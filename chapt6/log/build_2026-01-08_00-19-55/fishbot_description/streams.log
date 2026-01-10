@@ -1,0 +1,50 @@
+[0.122s] Invoking command in '/home/yzh/桌面/project-ros/ros-study/chapt6/build/fishbot_description': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/yzh/桌面/project-ros/ros-study/chapt6/src/fishbot_description -DCMAKE_INSTALL_PREFIX=/home/yzh/桌面/project-ros/ros-study/chapt6/install/fishbot_description
+[1.066s] -- The C compiler identification is GNU 11.4.0
+[1.576s] -- The CXX compiler identification is GNU 11.4.0
+[1.633s] -- Detecting C compiler ABI info
+[2.054s] -- Detecting C compiler ABI info - done
+[2.082s] -- Check for working C compiler: /usr/bin/cc - skipped
+[2.084s] -- Detecting C compile features
+[2.088s] -- Detecting C compile features - done
+[2.103s] -- Detecting CXX compiler ABI info
+[2.542s] -- Detecting CXX compiler ABI info - done
+[2.572s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[2.573s] -- Detecting CXX compile features
+[2.576s] -- Detecting CXX compile features - done
+[2.639s] -- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+[3.355s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[3.848s] -- Found ament_lint_auto: 0.12.14 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[4.239s] -- Added test 'flake8' to check Python code syntax and style conventions
+[4.243s] -- Added test 'lint_cmake' to check CMake code style
+[4.246s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[4.255s] -- Added test 'xmllint' to check XML markup files
+[4.261s] -- Configuring done
+[4.274s] -- Generating done
+[4.282s] -- Build files have been written to: /home/yzh/桌面/project-ros/ros-study/chapt6/build/fishbot_description
+[4.307s] Invoked command in '/home/yzh/桌面/project-ros/ros-study/chapt6/build/fishbot_description' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/yzh/桌面/project-ros/ros-study/chapt6/src/fishbot_description -DCMAKE_INSTALL_PREFIX=/home/yzh/桌面/project-ros/ros-study/chapt6/install/fishbot_description
+[4.310s] Invoking command in '/home/yzh/桌面/project-ros/ros-study/chapt6/build/fishbot_description': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/yzh/桌面/project-ros/ros-study/chapt6/build/fishbot_description -- -j16 -l16
+[4.516s] Invoked command in '/home/yzh/桌面/project-ros/ros-study/chapt6/build/fishbot_description' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/yzh/桌面/project-ros/ros-study/chapt6/build/fishbot_description -- -j16 -l16
+[4.574s] Invoking command in '/home/yzh/桌面/project-ros/ros-study/chapt6/build/fishbot_description': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/yzh/桌面/project-ros/ros-study/chapt6/build/fishbot_description
+[4.612s] -- Install configuration: ""
+[4.612s] -- Installing: /home/yzh/桌面/project-ros/ros-study/chapt6/install/fishbot_description/share/fishbot_description/launch
+[4.613s] -- Installing: /home/yzh/桌面/project-ros/ros-study/chapt6/install/fishbot_description/share/fishbot_description/launch/disptay_robot.taunch.py
+[4.614s] -- Installing: /home/yzh/桌面/project-ros/ros-study/chapt6/install/fishbot_description/share/fishbot_description/urdf
+[4.615s] -- Installing: /home/yzh/桌面/project-ros/ros-study/chapt6/install/fishbot_description/share/fishbot_description/urdf/first_robot.gv
+[4.616s] -- Installing: /home/yzh/桌面/project-ros/ros-study/chapt6/install/fishbot_description/share/fishbot_description/urdf/first_robot.pdf
+[4.617s] -- Installing: /home/yzh/桌面/project-ros/ros-study/chapt6/install/fishbot_description/share/fishbot_description/urdf/first_robot.urdf
+[4.619s] -- Installing: /home/yzh/桌面/project-ros/ros-study/chapt6/install/fishbot_description/share/ament_index/resource_index/package_run_dependencies/fishbot_description
+[4.619s] -- Installing: /home/yzh/桌面/project-ros/ros-study/chapt6/install/fishbot_description/share/ament_index/resource_index/parent_prefix_path/fishbot_description
+[4.620s] -- Installing: /home/yzh/桌面/project-ros/ros-study/chapt6/install/fishbot_description/share/fishbot_description/environment/ament_prefix_path.sh
+[4.621s] -- Installing: /home/yzh/桌面/project-ros/ros-study/chapt6/install/fishbot_description/share/fishbot_description/environment/ament_prefix_path.dsv
+[4.621s] -- Installing: /home/yzh/桌面/project-ros/ros-study/chapt6/install/fishbot_description/share/fishbot_description/environment/path.sh
+[4.622s] -- Installing: /home/yzh/桌面/project-ros/ros-study/chapt6/install/fishbot_description/share/fishbot_description/environment/path.dsv
+[4.622s] -- Installing: /home/yzh/桌面/project-ros/ros-study/chapt6/install/fishbot_description/share/fishbot_description/local_setup.bash
+[4.623s] -- Installing: /home/yzh/桌面/project-ros/ros-study/chapt6/install/fishbot_description/share/fishbot_description/local_setup.sh
+[4.623s] -- Installing: /home/yzh/桌面/project-ros/ros-study/chapt6/install/fishbot_description/share/fishbot_description/local_setup.zsh
+[4.624s] -- Installing: /home/yzh/桌面/project-ros/ros-study/chapt6/install/fishbot_description/share/fishbot_description/local_setup.dsv
+[4.624s] -- Installing: /home/yzh/桌面/project-ros/ros-study/chapt6/install/fishbot_description/share/fishbot_description/package.dsv
+[4.625s] -- Installing: /home/yzh/桌面/project-ros/ros-study/chapt6/install/fishbot_description/share/ament_index/resource_index/packages/fishbot_description
+[4.626s] -- Installing: /home/yzh/桌面/project-ros/ros-study/chapt6/install/fishbot_description/share/fishbot_description/cmake/fishbot_descriptionConfig.cmake
+[4.627s] -- Installing: /home/yzh/桌面/project-ros/ros-study/chapt6/install/fishbot_description/share/fishbot_description/cmake/fishbot_descriptionConfig-version.cmake
+[4.627s] -- Installing: /home/yzh/桌面/project-ros/ros-study/chapt6/install/fishbot_description/share/fishbot_description/package.xml
+[4.635s] Invoked command in '/home/yzh/桌面/project-ros/ros-study/chapt6/build/fishbot_description' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/yzh/桌面/project-ros/ros-study/chapt6/build/fishbot_description

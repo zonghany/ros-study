@@ -1,0 +1,6 @@
+[31mCMake Error at cmake_install.cmake:46 (file):
+  file INSTALL cannot find
+  "/home/yzh/桌面/project-ros/ros-study/chapt6/src/fishbot_description/config":
+  No such file or directory.
+
+[0m

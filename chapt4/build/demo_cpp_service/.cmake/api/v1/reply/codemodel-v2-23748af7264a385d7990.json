@@ -1,0 +1,88 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-69dc5924c446d4b3e57f.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "demo_cpp_service",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "demo_cpp_service_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-demo_cpp_service_uninstall-c84b1ed8f2c361b79a9e.json",
+					"name" : "demo_cpp_service_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "patrol_client::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-patrol_client-adc11dd7f33d3e437b37.json",
+					"name" : "patrol_client",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "turtle_control::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-turtle_control-66e6f97f27d42cfd7c88.json",
+					"name" : "turtle_control",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-da3c111d034bd8abf4dc.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/yzh/chapt4/build/demo_cpp_service",
+		"source" : "/home/yzh/chapt4/src/demo_cpp_service"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

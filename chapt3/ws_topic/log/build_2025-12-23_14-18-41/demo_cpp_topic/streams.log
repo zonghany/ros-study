@@ -1,0 +1,29 @@
+[0.052s] Invoking command in '/home/yzh/桌面/project-ros/ros-study/chapt3/ws_topic/build/demo_cpp_topic': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/yzh/桌面/project-ros/ros-study/chapt3/ws_topic/build/demo_cpp_topic -- -j16 -l16
+[0.294s] [35m[1mConsolidate compiler generated dependencies of target learn_timer[0m
+[0.371s] [ 50%] Built target turtle_circle
+[0.387s] [ 75%] [32mBuilding CXX object CMakeFiles/learn_timer.dir/src/learn_timercallback.cpp.o[0m
+[15.707s] [100%] [32m[1mLinking CXX executable learn_timer[0m
+[16.293s] [100%] Built target learn_timer
+[16.358s] Invoked command in '/home/yzh/桌面/project-ros/ros-study/chapt3/ws_topic/build/demo_cpp_topic' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/yzh/桌面/project-ros/ros-study/chapt3/ws_topic/build/demo_cpp_topic -- -j16 -l16
+[16.408s] Invoking command in '/home/yzh/桌面/project-ros/ros-study/chapt3/ws_topic/build/demo_cpp_topic': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/yzh/桌面/project-ros/ros-study/chapt3/ws_topic/build/demo_cpp_topic
+[16.447s] -- Install configuration: ""
+[16.448s] -- Installing: /home/yzh/桌面/project-ros/ros-study/chapt3/ws_topic/install/demo_cpp_topic/lib/demo_cpp_topic/turtle_circle
+[16.453s] -- Set runtime path of "/home/yzh/桌面/project-ros/ros-study/chapt3/ws_topic/install/demo_cpp_topic/lib/demo_cpp_topic/turtle_circle" to ""
+[16.453s] -- Installing: /home/yzh/桌面/project-ros/ros-study/chapt3/ws_topic/install/demo_cpp_topic/lib/demo_cpp_topic/learn_timer
+[16.455s] -- Set runtime path of "/home/yzh/桌面/project-ros/ros-study/chapt3/ws_topic/install/demo_cpp_topic/lib/demo_cpp_topic/learn_timer" to ""
+[16.457s] -- Up-to-date: /home/yzh/桌面/project-ros/ros-study/chapt3/ws_topic/install/demo_cpp_topic/share/ament_index/resource_index/package_run_dependencies/demo_cpp_topic
+[16.457s] -- Installing: /home/yzh/桌面/project-ros/ros-study/chapt3/ws_topic/install/demo_cpp_topic/share/ament_index/resource_index/parent_prefix_path/demo_cpp_topic
+[16.458s] -- Up-to-date: /home/yzh/桌面/project-ros/ros-study/chapt3/ws_topic/install/demo_cpp_topic/share/demo_cpp_topic/environment/ament_prefix_path.sh
+[16.458s] -- Installing: /home/yzh/桌面/project-ros/ros-study/chapt3/ws_topic/install/demo_cpp_topic/share/demo_cpp_topic/environment/ament_prefix_path.dsv
+[16.459s] -- Up-to-date: /home/yzh/桌面/project-ros/ros-study/chapt3/ws_topic/install/demo_cpp_topic/share/demo_cpp_topic/environment/path.sh
+[16.459s] -- Installing: /home/yzh/桌面/project-ros/ros-study/chapt3/ws_topic/install/demo_cpp_topic/share/demo_cpp_topic/environment/path.dsv
+[16.460s] -- Up-to-date: /home/yzh/桌面/project-ros/ros-study/chapt3/ws_topic/install/demo_cpp_topic/share/demo_cpp_topic/local_setup.bash
+[16.460s] -- Up-to-date: /home/yzh/桌面/project-ros/ros-study/chapt3/ws_topic/install/demo_cpp_topic/share/demo_cpp_topic/local_setup.sh
+[16.461s] -- Up-to-date: /home/yzh/桌面/project-ros/ros-study/chapt3/ws_topic/install/demo_cpp_topic/share/demo_cpp_topic/local_setup.zsh
+[16.461s] -- Installing: /home/yzh/桌面/project-ros/ros-study/chapt3/ws_topic/install/demo_cpp_topic/share/demo_cpp_topic/local_setup.dsv
+[16.462s] -- Installing: /home/yzh/桌面/project-ros/ros-study/chapt3/ws_topic/install/demo_cpp_topic/share/demo_cpp_topic/package.dsv
+[16.462s] -- Up-to-date: /home/yzh/桌面/project-ros/ros-study/chapt3/ws_topic/install/demo_cpp_topic/share/ament_index/resource_index/packages/demo_cpp_topic
+[16.463s] -- Up-to-date: /home/yzh/桌面/project-ros/ros-study/chapt3/ws_topic/install/demo_cpp_topic/share/demo_cpp_topic/cmake/demo_cpp_topicConfig.cmake
+[16.463s] -- Up-to-date: /home/yzh/桌面/project-ros/ros-study/chapt3/ws_topic/install/demo_cpp_topic/share/demo_cpp_topic/cmake/demo_cpp_topicConfig-version.cmake
+[16.463s] -- Up-to-date: /home/yzh/桌面/project-ros/ros-study/chapt3/ws_topic/install/demo_cpp_topic/share/demo_cpp_topic/package.xml
+[16.470s] Invoked command in '/home/yzh/桌面/project-ros/ros-study/chapt3/ws_topic/build/demo_cpp_topic' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/yzh/桌面/project-ros/ros-study/chapt3/ws_topic/build/demo_cpp_topic

@@ -1,0 +1,6 @@
+/usr/bin/ld: CMakeFiles/tf_listener.dir/src/tf_listener.cpp.o: in function `tf2::impl::toQuaternion(geometry_msgs::msg::Quaternion_<std::allocator<void> > const&)':
+tf_listener.cpp:(.text._ZN3tf24impl12toQuaternionERKN13geometry_msgs3msg11Quaternion_ISaIvEEE[_ZN3tf24impl12toQuaternionERKN13geometry_msgs3msg11Quaternion_ISaIvEEE]+0x2f): undefined reference to `tf2::fromMsg(geometry_msgs::msg::Quaternion_<std::allocator<void> > const&, tf2::Quaternion&)'
+collect2: error: ld returned 1 exit status
+gmake[2]: *** [CMakeFiles/tf_listener.dir/build.make:198：tf_listener] 错误 1
+gmake[1]: *** [CMakeFiles/Makefile2:193：CMakeFiles/tf_listener.dir/all] 错误 2
+gmake: *** [Makefile:146：all] 错误 2

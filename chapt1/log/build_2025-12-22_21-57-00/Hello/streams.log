@@ -1,0 +1,5 @@
+[0.087s] Invoking command in '/home/yzh/桌面/project-ros/ros-study/chapt1/build/Hello': /usr/bin/cmake /home/yzh/桌面/project-ros/ros-study/chapt1 -DCMAKE_INSTALL_PREFIX=/home/yzh/桌面/project-ros/ros-study/chapt1/install/Hello
+[0.280s] -- Configuring done
+[0.334s] -- Generating done
+[0.339s] -- Build files have been written to: /home/yzh/桌面/project-ros/ros-study/chapt1
+[0.355s] Invoked command in '/home/yzh/桌面/project-ros/ros-study/chapt1/build/Hello' returned '0': /usr/bin/cmake /home/yzh/桌面/project-ros/ros-study/chapt1 -DCMAKE_INSTALL_PREFIX=/home/yzh/桌面/project-ros/ros-study/chapt1/install/Hello

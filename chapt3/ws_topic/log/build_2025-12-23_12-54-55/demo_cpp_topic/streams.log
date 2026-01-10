@@ -1,0 +1,18 @@
+[0.061s] Invoking command in '/home/yzh/桌面/project-ros/ros-study/chapt3/ws_topic/build/demo_cpp_topic': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/yzh/桌面/project-ros/ros-study/chapt3/ws_topic/build/demo_cpp_topic -- -j16 -l16
+[0.295s] [35m[1mConsolidate compiler generated dependencies of target turtle_circle[0m
+[0.388s] [ 50%] [32mBuilding CXX object CMakeFiles/turtle_circle.dir/src/turtle_circle.cpp.o[0m
+[11.279s] [01m[K/home/yzh/桌面/project-ros/ros-study/chapt3/ws_topic/src/demo_cpp_topic/src/turtle_circle.cpp:24:14:[m[K [01;31m[Kerror: [m[Kvariable or field ‘[01m[Ktimer_callback[m[K’ declared void
+[11.280s]    24 |         void [01;31m[Ktimer_callback[m[K
+[11.280s]       |              [01;31m[K^~~~~~~~~~~~~~[m[K
+[11.281s] [01m[K/home/yzh/桌面/project-ros/ros-study/chapt3/ws_topic/src/demo_cpp_topic/src/turtle_circle.cpp:32:2:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ after class definition
+[11.281s]    32 | }
+[11.281s]       |  [01;31m[K^[m[K
+[11.282s]       |  [32m[K;[m[K
+[11.291s] [01m[K/home/yzh/桌面/project-ros/ros-study/chapt3/ws_topic/src/demo_cpp_topic/src/turtle_circle.cpp:[m[K In constructor ‘[01m[KTurtleCircleNode::TurtleCircleNode(const string&)[m[K’:
+[11.291s] [01m[K/home/yzh/桌面/project-ros/ros-study/chapt3/ws_topic/src/demo_cpp_topic/src/turtle_circle.cpp:21:82:[m[K [01;31m[Kerror: [m[K‘[01m[Ktimer_callback[m[K’ is not a member of ‘[01m[KTurtleCircleNode[m[K’
+[11.291s]    21 |             timer_ = this->create_wall_timer(1000ms,std::bind(&TurtleCircleNode::[01;31m[Ktimer_callback[m[K,this))
+[11.292s]       |                                                                                  [01;31m[K^~~~~~~~~~~~~~[m[K
+[16.224s] gmake[2]: *** [CMakeFiles/turtle_circle.dir/build.make:76：CMakeFiles/turtle_circle.dir/src/turtle_circle.cpp.o] 错误 1
+[16.225s] gmake[1]: *** [CMakeFiles/Makefile2:137：CMakeFiles/turtle_circle.dir/all] 错误 2
+[16.227s] gmake: *** [Makefile:146：all] 错误 2
+[16.243s] Invoked command in '/home/yzh/桌面/project-ros/ros-study/chapt3/ws_topic/build/demo_cpp_topic' returned '2': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/yzh/桌面/project-ros/ros-study/chapt3/ws_topic/build/demo_cpp_topic -- -j16 -l16

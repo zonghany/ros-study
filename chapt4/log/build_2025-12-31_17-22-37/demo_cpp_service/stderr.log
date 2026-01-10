@@ -1,0 +1,5 @@
+[01m[Kcc1plus:[m[K [01;31m[Kfatal error: [m[K/home/yzh/chapt4/src/demo_cpp_service/src/Partol_Client.cpp: 没有那个文件或目录
+compilation terminated.
+gmake[2]: *** [CMakeFiles/partol_client.dir/build.make:76：CMakeFiles/partol_client.dir/src/Partol_Client.cpp.o] 错误 1
+gmake[1]: *** [CMakeFiles/Makefile2:165：CMakeFiles/partol_client.dir/all] 错误 2
+gmake: *** [Makefile:146：all] 错误 2

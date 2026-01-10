@@ -1,0 +1,60 @@
+[0.098s] Invoking command in '/home/yzh/桌面/project-ros/ros-study/chapt3/ws_topic/build/demo_cpp_topic': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/yzh/桌面/project-ros/ros-study/chapt3/ws_topic/build/demo_cpp_topic -- -j16 -l16
+[0.745s] -- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+[1.599s] -- Found rclcpp: 16.0.16 (/opt/ros/humble/share/rclcpp/cmake)
+[1.927s] -- Found rosidl_generator_c: 3.1.7 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[1.961s] -- Found rosidl_adapter: 3.1.7 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[2.037s] -- Found rosidl_generator_cpp: 3.1.7 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[2.137s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[2.233s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.533s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[2.555s] -- Found rmw_fastrtps_cpp: 6.2.9 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[3.139s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[3.550s] -- Found geometry_msgs: 4.9.0 (/opt/ros/humble/share/geometry_msgs/cmake)
+[3.653s] -- Found turtlesim: 1.4.3 (/opt/ros/humble/share/turtlesim/cmake)
+[3.959s] -- Found ament_lint_auto: 0.12.14 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[4.416s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[4.417s] -- Configured cppcheck include dirs: 
+[4.417s] -- Configured cppcheck exclude dirs and/or files: 
+[4.424s] -- Added test 'lint_cmake' to check CMake code style
+[4.430s] -- Added test 'uncrustify' to check C / C++ code style
+[4.430s] -- Configured uncrustify additional arguments: 
+[4.436s] -- Added test 'xmllint' to check XML markup files
+[4.450s] -- Configuring done
+[4.618s] -- Generating done
+[4.656s] -- Build files have been written to: /home/yzh/桌面/project-ros/ros-study/chapt3/ws_topic/build/demo_cpp_topic
+[4.802s] [35m[1mConsolidate compiler generated dependencies of target learn_timer[0m
+[4.803s] [35m[1mConsolidate compiler generated dependencies of target turtle_circle[0m
+[4.803s] [35m[1mConsolidate compiler generated dependencies of target turtle_description[0m
+[4.877s] [ 12%] [32mBuilding CXX object CMakeFiles/turtle_control.dir/src/turtle_control.cpp.o[0m
+[5.092s] [ 37%] Built target turtle_circle
+[5.094s] [ 62%] Built target learn_timer
+[5.102s] [ 75%] [32mBuilding CXX object CMakeFiles/turtle_description.dir/src/turtle_description.cpp.o[0m
+[58.282s] [ 87%] [32m[1mLinking CXX executable turtle_description[0m
+[58.983s] [100%] [32m[1mLinking CXX executable turtle_control[0m
+[61.033s] [100%] Built target turtle_description
+[61.052s] [100%] Built target turtle_control
+[61.105s] Invoked command in '/home/yzh/桌面/project-ros/ros-study/chapt3/ws_topic/build/demo_cpp_topic' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/yzh/桌面/project-ros/ros-study/chapt3/ws_topic/build/demo_cpp_topic -- -j16 -l16
+[61.153s] Invoking command in '/home/yzh/桌面/project-ros/ros-study/chapt3/ws_topic/build/demo_cpp_topic': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/yzh/桌面/project-ros/ros-study/chapt3/ws_topic/build/demo_cpp_topic
+[61.188s] -- Install configuration: ""
+[61.208s] -- Up-to-date: /home/yzh/桌面/project-ros/ros-study/chapt3/ws_topic/install/demo_cpp_topic/lib/demo_cpp_topic/turtle_circle
+[61.219s] -- Up-to-date: /home/yzh/桌面/project-ros/ros-study/chapt3/ws_topic/install/demo_cpp_topic/lib/demo_cpp_topic/learn_timer
+[61.226s] -- Installing: /home/yzh/桌面/project-ros/ros-study/chapt3/ws_topic/install/demo_cpp_topic/lib/demo_cpp_topic/turtle_description
+[61.242s] -- Set runtime path of "/home/yzh/桌面/project-ros/ros-study/chapt3/ws_topic/install/demo_cpp_topic/lib/demo_cpp_topic/turtle_description" to ""
+[61.243s] -- Installing: /home/yzh/桌面/project-ros/ros-study/chapt3/ws_topic/install/demo_cpp_topic/lib/demo_cpp_topic/turtle_control
+[61.255s] -- Set runtime path of "/home/yzh/桌面/project-ros/ros-study/chapt3/ws_topic/install/demo_cpp_topic/lib/demo_cpp_topic/turtle_control" to ""
+[61.256s] -- Up-to-date: /home/yzh/桌面/project-ros/ros-study/chapt3/ws_topic/install/demo_cpp_topic/share/ament_index/resource_index/package_run_dependencies/demo_cpp_topic
+[61.256s] -- Installing: /home/yzh/桌面/project-ros/ros-study/chapt3/ws_topic/install/demo_cpp_topic/share/ament_index/resource_index/parent_prefix_path/demo_cpp_topic
+[61.257s] -- Up-to-date: /home/yzh/桌面/project-ros/ros-study/chapt3/ws_topic/install/demo_cpp_topic/share/demo_cpp_topic/environment/ament_prefix_path.sh
+[61.257s] -- Installing: /home/yzh/桌面/project-ros/ros-study/chapt3/ws_topic/install/demo_cpp_topic/share/demo_cpp_topic/environment/ament_prefix_path.dsv
+[61.258s] -- Up-to-date: /home/yzh/桌面/project-ros/ros-study/chapt3/ws_topic/install/demo_cpp_topic/share/demo_cpp_topic/environment/path.sh
+[61.259s] -- Installing: /home/yzh/桌面/project-ros/ros-study/chapt3/ws_topic/install/demo_cpp_topic/share/demo_cpp_topic/environment/path.dsv
+[61.259s] -- Up-to-date: /home/yzh/桌面/project-ros/ros-study/chapt3/ws_topic/install/demo_cpp_topic/share/demo_cpp_topic/local_setup.bash
+[61.259s] -- Up-to-date: /home/yzh/桌面/project-ros/ros-study/chapt3/ws_topic/install/demo_cpp_topic/share/demo_cpp_topic/local_setup.sh
+[61.261s] -- Up-to-date: /home/yzh/桌面/project-ros/ros-study/chapt3/ws_topic/install/demo_cpp_topic/share/demo_cpp_topic/local_setup.zsh
+[61.261s] -- Installing: /home/yzh/桌面/project-ros/ros-study/chapt3/ws_topic/install/demo_cpp_topic/share/demo_cpp_topic/local_setup.dsv
+[61.262s] -- Installing: /home/yzh/桌面/project-ros/ros-study/chapt3/ws_topic/install/demo_cpp_topic/share/demo_cpp_topic/package.dsv
+[61.262s] -- Up-to-date: /home/yzh/桌面/project-ros/ros-study/chapt3/ws_topic/install/demo_cpp_topic/share/ament_index/resource_index/packages/demo_cpp_topic
+[61.263s] -- Up-to-date: /home/yzh/桌面/project-ros/ros-study/chapt3/ws_topic/install/demo_cpp_topic/share/demo_cpp_topic/cmake/demo_cpp_topicConfig.cmake
+[61.263s] -- Up-to-date: /home/yzh/桌面/project-ros/ros-study/chapt3/ws_topic/install/demo_cpp_topic/share/demo_cpp_topic/cmake/demo_cpp_topicConfig-version.cmake
+[61.263s] -- Up-to-date: /home/yzh/桌面/project-ros/ros-study/chapt3/ws_topic/install/demo_cpp_topic/share/demo_cpp_topic/package.xml
+[61.274s] Invoked command in '/home/yzh/桌面/project-ros/ros-study/chapt3/ws_topic/build/demo_cpp_topic' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/yzh/桌面/project-ros/ros-study/chapt3/ws_topic/build/demo_cpp_topic

@@ -1,0 +1,30 @@
+[0.061s] Invoking command in '/home/yzh/桌面/project-ros/ros-study/chapt5/chapt5_ws/build/demo_cpp_tf': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/yzh/桌面/project-ros/ros-study/chapt5/chapt5_ws/build/demo_cpp_tf -- -j16 -l16
+[0.203s] [35m[1mConsolidate compiler generated dependencies of target tf_listener[0m
+[0.254s] [ 33%] Built target static_tf_broadcaster
+[0.258s] [ 50%] [32mBuilding CXX object CMakeFiles/dynamic_tf_broadcaster.dir/src/dynamic_tf_broadcaster.cpp.o[0m
+[0.269s] [ 83%] Built target tf_listener
+[12.414s] [100%] [32m[1mLinking CXX executable dynamic_tf_broadcaster[0m
+[12.915s] [100%] Built target dynamic_tf_broadcaster
+[12.942s] Invoked command in '/home/yzh/桌面/project-ros/ros-study/chapt5/chapt5_ws/build/demo_cpp_tf' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/yzh/桌面/project-ros/ros-study/chapt5/chapt5_ws/build/demo_cpp_tf -- -j16 -l16
+[12.969s] Invoking command in '/home/yzh/桌面/project-ros/ros-study/chapt5/chapt5_ws/build/demo_cpp_tf': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/yzh/桌面/project-ros/ros-study/chapt5/chapt5_ws/build/demo_cpp_tf
+[12.987s] -- Install configuration: ""
+[12.989s] -- Up-to-date: /home/yzh/桌面/project-ros/ros-study/chapt5/chapt5_ws/install/demo_cpp_tf/lib/demo_cpp_tf/static_tf_broadcaster
+[12.990s] -- Installing: /home/yzh/桌面/project-ros/ros-study/chapt5/chapt5_ws/install/demo_cpp_tf/lib/demo_cpp_tf/dynamic_tf_broadcaster
+[12.998s] -- Set runtime path of "/home/yzh/桌面/project-ros/ros-study/chapt5/chapt5_ws/install/demo_cpp_tf/lib/demo_cpp_tf/dynamic_tf_broadcaster" to ""
+[13.000s] -- Up-to-date: /home/yzh/桌面/project-ros/ros-study/chapt5/chapt5_ws/install/demo_cpp_tf/lib/demo_cpp_tf/tf_listener
+[13.000s] -- Up-to-date: /home/yzh/桌面/project-ros/ros-study/chapt5/chapt5_ws/install/demo_cpp_tf/share/ament_index/resource_index/package_run_dependencies/demo_cpp_tf
+[13.001s] -- Up-to-date: /home/yzh/桌面/project-ros/ros-study/chapt5/chapt5_ws/install/demo_cpp_tf/share/ament_index/resource_index/parent_prefix_path/demo_cpp_tf
+[13.001s] -- Up-to-date: /home/yzh/桌面/project-ros/ros-study/chapt5/chapt5_ws/install/demo_cpp_tf/share/demo_cpp_tf/environment/ament_prefix_path.sh
+[13.002s] -- Up-to-date: /home/yzh/桌面/project-ros/ros-study/chapt5/chapt5_ws/install/demo_cpp_tf/share/demo_cpp_tf/environment/ament_prefix_path.dsv
+[13.002s] -- Up-to-date: /home/yzh/桌面/project-ros/ros-study/chapt5/chapt5_ws/install/demo_cpp_tf/share/demo_cpp_tf/environment/path.sh
+[13.002s] -- Up-to-date: /home/yzh/桌面/project-ros/ros-study/chapt5/chapt5_ws/install/demo_cpp_tf/share/demo_cpp_tf/environment/path.dsv
+[13.003s] -- Up-to-date: /home/yzh/桌面/project-ros/ros-study/chapt5/chapt5_ws/install/demo_cpp_tf/share/demo_cpp_tf/local_setup.bash
+[13.004s] -- Up-to-date: /home/yzh/桌面/project-ros/ros-study/chapt5/chapt5_ws/install/demo_cpp_tf/share/demo_cpp_tf/local_setup.sh
+[13.004s] -- Up-to-date: /home/yzh/桌面/project-ros/ros-study/chapt5/chapt5_ws/install/demo_cpp_tf/share/demo_cpp_tf/local_setup.zsh
+[13.004s] -- Up-to-date: /home/yzh/桌面/project-ros/ros-study/chapt5/chapt5_ws/install/demo_cpp_tf/share/demo_cpp_tf/local_setup.dsv
+[13.004s] -- Installing: /home/yzh/桌面/project-ros/ros-study/chapt5/chapt5_ws/install/demo_cpp_tf/share/demo_cpp_tf/package.dsv
+[13.004s] -- Up-to-date: /home/yzh/桌面/project-ros/ros-study/chapt5/chapt5_ws/install/demo_cpp_tf/share/ament_index/resource_index/packages/demo_cpp_tf
+[13.004s] -- Up-to-date: /home/yzh/桌面/project-ros/ros-study/chapt5/chapt5_ws/install/demo_cpp_tf/share/demo_cpp_tf/cmake/demo_cpp_tfConfig.cmake
+[13.004s] -- Up-to-date: /home/yzh/桌面/project-ros/ros-study/chapt5/chapt5_ws/install/demo_cpp_tf/share/demo_cpp_tf/cmake/demo_cpp_tfConfig-version.cmake
+[13.004s] -- Up-to-date: /home/yzh/桌面/project-ros/ros-study/chapt5/chapt5_ws/install/demo_cpp_tf/share/demo_cpp_tf/package.xml
+[13.008s] Invoked command in '/home/yzh/桌面/project-ros/ros-study/chapt5/chapt5_ws/build/demo_cpp_tf' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/yzh/桌面/project-ros/ros-study/chapt5/chapt5_ws/build/demo_cpp_tf

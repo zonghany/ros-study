@@ -1,0 +1,31 @@
+[35m[1mConsolidate compiler generated dependencies of target partol_client[0m
+[ 50%] Built target turtle_control
+[ 75%] [32mBuilding CXX object CMakeFiles/partol_client.dir/src/Partol_Client.cpp.o[0m
+[01m[K/home/yzh/chapt4/src/demo_cpp_service/src/Partol_Client.cpp:[m[K In member function ‘[01m[Kvoid PartolClient::timer_callback()[m[K’:
+[01m[K/home/yzh/chapt4/src/demo_cpp_service/src/Partol_Client.cpp:36:17:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass std::shared_ptr<chapt4_interfaces::srv::Patrol_Request_<std::allocator<void> > >[m[K’ has no member named ‘[01m[Ktarget_x[m[K’
+   36 |         request.[01;31m[Ktarget_x[m[K = rand()%12;
+      |                 [01;31m[K^~~~~~~~[m[K
+[01m[K/home/yzh/chapt4/src/demo_cpp_service/src/Partol_Client.cpp:37:17:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass std::shared_ptr<chapt4_interfaces::srv::Patrol_Request_<std::allocator<void> > >[m[K’ has no member named ‘[01m[Ktarget_y[m[K’
+   37 |         request.[01;31m[Ktarget_y[m[K = rand()%12;
+      |                 [01;31m[K^~~~~~~~[m[K
+In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+                 from [01m[K/home/yzh/chapt4/src/demo_cpp_service/src/Partol_Client.cpp:1[m[K:
+[01m[K/home/yzh/chapt4/src/demo_cpp_service/src/Partol_Client.cpp:38:90:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass std::shared_ptr<chapt4_interfaces::srv::Patrol_Request_<std::allocator<void> > >[m[K’ has no member named ‘[01m[Ktarget_x[m[K’
+   38 |         RCLCPP_INFO(this->get_logger(),"随机的目标点target_x = %d,target_y = %d",request.[01;31m[Ktarget_x[m[K,request.target_y);
+      |                                                                                          [01;31m[K^~~~~~~~[m[K
+[01m[K/home/yzh/chapt4/src/demo_cpp_service/src/Partol_Client.cpp:38:107:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass std::shared_ptr<chapt4_interfaces::srv::Patrol_Request_<std::allocator<void> > >[m[K’ has no member named ‘[01m[Ktarget_y[m[K’
+   38 |         RCLCPP_INFO(this->get_logger(),"随机的目标点target_x = %d,target_y = %d",request.target_x,request.[01;31m[Ktarget_y[m[K);
+      |                                                                                                           [01;31m[K^~~~~~~~[m[K
+gmake[2]: *** [CMakeFiles/partol_client.dir/build.make:76：CMakeFiles/partol_client.dir/src/Partol_Client.cpp.o] 错误 1
+gmake[1]: *** [CMakeFiles/Makefile2:165：CMakeFiles/partol_client.dir/all] 错误 2
+gmake: *** [Makefile:146：all] 错误 2

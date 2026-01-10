@@ -1,0 +1,32 @@
+-- Found rclcpp: 16.0.16 (/opt/ros/humble/share/rclcpp/cmake)
+-- Found rosidl_generator_c: 3.1.7 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+-- Found rosidl_adapter: 3.1.7 (/opt/ros/humble/share/rosidl_adapter/cmake)
+-- Found rosidl_generator_cpp: 3.1.7 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+-- Found rmw_fastrtps_cpp: 6.2.9 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+-- Using RMW implementation 'rmw_fastrtps_cpp' as default
+-- Found tf2: 0.25.17 (/opt/ros/humble/share/tf2/cmake)
+-- Found tf2_ros: 0.25.17 (/opt/ros/humble/share/tf2_ros/cmake)
+-- Found tf2_geometry_msgs: 0.25.17 (/opt/ros/humble/share/tf2_geometry_msgs/cmake)
+-- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)
+-- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/yzh/桌面/project-ros/ros-study/chapt5/chapt5_ws/build/demo_cpp_tf
+[35m[1mConsolidate compiler generated dependencies of target static_tf_broadcaster[0m
+[ 16%] [32mBuilding CXX object CMakeFiles/tf_listener.dir/src/tf_listener.cpp.o[0m
+[ 33%] [32mBuilding CXX object CMakeFiles/dynamic_tf_broadcaster.dir/src/dynamic_tf_broadcaster.cpp.o[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/static_tf_broadcaster.dir/src/static_tf_broadcaster.cpp.o[0m
+[ 66%] [32m[1mLinking CXX executable static_tf_broadcaster[0m
+[ 66%] Built target static_tf_broadcaster
+[ 83%] [32m[1mLinking CXX executable dynamic_tf_broadcaster[0m
+[ 83%] Built target dynamic_tf_broadcaster
+[100%] [32m[1mLinking CXX executable tf_listener[0m
+/usr/bin/ld: CMakeFiles/tf_listener.dir/src/tf_listener.cpp.o: in function `tf2::impl::toQuaternion(geometry_msgs::msg::Quaternion_<std::allocator<void> > const&)':
+tf_listener.cpp:(.text._ZN3tf24impl12toQuaternionERKN13geometry_msgs3msg11Quaternion_ISaIvEEE[_ZN3tf24impl12toQuaternionERKN13geometry_msgs3msg11Quaternion_ISaIvEEE]+0x2f): undefined reference to `tf2::fromMsg(geometry_msgs::msg::Quaternion_<std::allocator<void> > const&, tf2::Quaternion&)'
+collect2: error: ld returned 1 exit status
+gmake[2]: *** [CMakeFiles/tf_listener.dir/build.make:198：tf_listener] 错误 1
+gmake[1]: *** [CMakeFiles/Makefile2:193：CMakeFiles/tf_listener.dir/all] 错误 2
+gmake: *** [Makefile:146：all] 错误 2

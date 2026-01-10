@@ -1,0 +1,31 @@
+[35m[1mConsolidate compiler generated dependencies of target learn_functional[0m
+[ 33%] Built target learn_shared
+[ 33%] Built target learn_cpp
+[ 50%] Built target learn_lambda
+[ 58%] [32mBuilding CXX object CMakeFiles/learn_functional.dir/src/learn_functional.cpp.o[0m
+[ 75%] Built target person_node
+[ 91%] Built target helloworld
+[100%] [32m[1mLinking CXX executable learn_functional[0m
+[100%] Built target learn_functional
+-- Install configuration: ""
+-- Up-to-date: /home/yzh/桌面/project-ros/ros-study/chapt2/ws_ros/install/pkg01_helloworld_cpp/lib/pkg01_helloworld_cpp/helloworld
+-- Up-to-date: /home/yzh/桌面/project-ros/ros-study/chapt2/ws_ros/install/pkg01_helloworld_cpp/lib/pkg01_helloworld_cpp/person_node
+-- Up-to-date: /home/yzh/桌面/project-ros/ros-study/chapt2/ws_ros/install/pkg01_helloworld_cpp/lib/pkg01_helloworld_cpp/learn_cpp
+-- Up-to-date: /home/yzh/桌面/project-ros/ros-study/chapt2/ws_ros/install/pkg01_helloworld_cpp/lib/pkg01_helloworld_cpp/learn_shared
+-- Up-to-date: /home/yzh/桌面/project-ros/ros-study/chapt2/ws_ros/install/pkg01_helloworld_cpp/lib/pkg01_helloworld_cpp/learn_lambda
+-- Installing: /home/yzh/桌面/project-ros/ros-study/chapt2/ws_ros/install/pkg01_helloworld_cpp/lib/pkg01_helloworld_cpp/learn_functional
+-- Up-to-date: /home/yzh/桌面/project-ros/ros-study/chapt2/ws_ros/install/pkg01_helloworld_cpp/share/ament_index/resource_index/package_run_dependencies/pkg01_helloworld_cpp
+-- Up-to-date: /home/yzh/桌面/project-ros/ros-study/chapt2/ws_ros/install/pkg01_helloworld_cpp/share/ament_index/resource_index/parent_prefix_path/pkg01_helloworld_cpp
+-- Up-to-date: /home/yzh/桌面/project-ros/ros-study/chapt2/ws_ros/install/pkg01_helloworld_cpp/share/pkg01_helloworld_cpp/environment/ament_prefix_path.sh
+-- Up-to-date: /home/yzh/桌面/project-ros/ros-study/chapt2/ws_ros/install/pkg01_helloworld_cpp/share/pkg01_helloworld_cpp/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/yzh/桌面/project-ros/ros-study/chapt2/ws_ros/install/pkg01_helloworld_cpp/share/pkg01_helloworld_cpp/environment/path.sh
+-- Up-to-date: /home/yzh/桌面/project-ros/ros-study/chapt2/ws_ros/install/pkg01_helloworld_cpp/share/pkg01_helloworld_cpp/environment/path.dsv
+-- Up-to-date: /home/yzh/桌面/project-ros/ros-study/chapt2/ws_ros/install/pkg01_helloworld_cpp/share/pkg01_helloworld_cpp/local_setup.bash
+-- Up-to-date: /home/yzh/桌面/project-ros/ros-study/chapt2/ws_ros/install/pkg01_helloworld_cpp/share/pkg01_helloworld_cpp/local_setup.sh
+-- Up-to-date: /home/yzh/桌面/project-ros/ros-study/chapt2/ws_ros/install/pkg01_helloworld_cpp/share/pkg01_helloworld_cpp/local_setup.zsh
+-- Up-to-date: /home/yzh/桌面/project-ros/ros-study/chapt2/ws_ros/install/pkg01_helloworld_cpp/share/pkg01_helloworld_cpp/local_setup.dsv
+-- Installing: /home/yzh/桌面/project-ros/ros-study/chapt2/ws_ros/install/pkg01_helloworld_cpp/share/pkg01_helloworld_cpp/package.dsv
+-- Up-to-date: /home/yzh/桌面/project-ros/ros-study/chapt2/ws_ros/install/pkg01_helloworld_cpp/share/ament_index/resource_index/packages/pkg01_helloworld_cpp
+-- Up-to-date: /home/yzh/桌面/project-ros/ros-study/chapt2/ws_ros/install/pkg01_helloworld_cpp/share/pkg01_helloworld_cpp/cmake/pkg01_helloworld_cppConfig.cmake
+-- Up-to-date: /home/yzh/桌面/project-ros/ros-study/chapt2/ws_ros/install/pkg01_helloworld_cpp/share/pkg01_helloworld_cpp/cmake/pkg01_helloworld_cppConfig-version.cmake
+-- Up-to-date: /home/yzh/桌面/project-ros/ros-study/chapt2/ws_ros/install/pkg01_helloworld_cpp/share/pkg01_helloworld_cpp/package.xml

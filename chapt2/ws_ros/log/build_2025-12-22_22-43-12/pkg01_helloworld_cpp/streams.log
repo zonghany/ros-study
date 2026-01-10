@@ -1,0 +1,39 @@
+[0.061s] Invoking command in '/home/yzh/桌面/project-ros/ros-study/chapt2/ws_ros/build/pkg01_helloworld_cpp': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/yzh/桌面/project-ros/ros-study/chapt2/ws_ros/build/pkg01_helloworld_cpp -- -j16 -l16
+[0.297s] [35m[1mConsolidate compiler generated dependencies of target learn_thread[0m
+[0.367s] [ 12%] Built target learn_shared
+[0.368s] [ 25%] Built target learn_cpp
+[0.377s] [ 37%] Built target learn_lambda
+[0.381s] [ 50%] Built target helloworld
+[0.383s] [ 68%] Built target learn_thread1
+[0.384s] [ 75%] Built target person_node
+[0.384s] [ 87%] Built target learn_functional
+[0.396s] [ 93%] [32mBuilding CXX object CMakeFiles/learn_thread.dir/src/learn_thread.cpp.o[0m
+[23.133s] [100%] [32m[1mLinking CXX executable learn_thread[0m
+[23.921s] [100%] Built target learn_thread
+[23.984s] Invoked command in '/home/yzh/桌面/project-ros/ros-study/chapt2/ws_ros/build/pkg01_helloworld_cpp' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/yzh/桌面/project-ros/ros-study/chapt2/ws_ros/build/pkg01_helloworld_cpp -- -j16 -l16
+[24.039s] Invoking command in '/home/yzh/桌面/project-ros/ros-study/chapt2/ws_ros/build/pkg01_helloworld_cpp': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/yzh/桌面/project-ros/ros-study/chapt2/ws_ros/build/pkg01_helloworld_cpp
+[24.079s] -- Install configuration: ""
+[24.079s] -- Up-to-date: /home/yzh/桌面/project-ros/ros-study/chapt2/ws_ros/install/pkg01_helloworld_cpp/lib/pkg01_helloworld_cpp/helloworld
+[24.080s] -- Up-to-date: /home/yzh/桌面/project-ros/ros-study/chapt2/ws_ros/install/pkg01_helloworld_cpp/lib/pkg01_helloworld_cpp/person_node
+[24.081s] -- Up-to-date: /home/yzh/桌面/project-ros/ros-study/chapt2/ws_ros/install/pkg01_helloworld_cpp/lib/pkg01_helloworld_cpp/learn_cpp
+[24.081s] -- Up-to-date: /home/yzh/桌面/project-ros/ros-study/chapt2/ws_ros/install/pkg01_helloworld_cpp/lib/pkg01_helloworld_cpp/learn_shared
+[24.083s] -- Up-to-date: /home/yzh/桌面/project-ros/ros-study/chapt2/ws_ros/install/pkg01_helloworld_cpp/lib/pkg01_helloworld_cpp/learn_lambda
+[24.083s] -- Up-to-date: /home/yzh/桌面/project-ros/ros-study/chapt2/ws_ros/install/pkg01_helloworld_cpp/lib/pkg01_helloworld_cpp/learn_functional
+[24.084s] -- Up-to-date: /home/yzh/桌面/project-ros/ros-study/chapt2/ws_ros/install/pkg01_helloworld_cpp/lib/pkg01_helloworld_cpp/learn_thread1
+[24.084s] -- Installing: /home/yzh/桌面/project-ros/ros-study/chapt2/ws_ros/install/pkg01_helloworld_cpp/lib/pkg01_helloworld_cpp/learn_thread
+[24.092s] -- Up-to-date: /home/yzh/桌面/project-ros/ros-study/chapt2/ws_ros/install/pkg01_helloworld_cpp/share/ament_index/resource_index/package_run_dependencies/pkg01_helloworld_cpp
+[24.092s] -- Installing: /home/yzh/桌面/project-ros/ros-study/chapt2/ws_ros/install/pkg01_helloworld_cpp/share/ament_index/resource_index/parent_prefix_path/pkg01_helloworld_cpp
+[24.094s] -- Up-to-date: /home/yzh/桌面/project-ros/ros-study/chapt2/ws_ros/install/pkg01_helloworld_cpp/share/pkg01_helloworld_cpp/environment/ament_prefix_path.sh
+[24.094s] -- Installing: /home/yzh/桌面/project-ros/ros-study/chapt2/ws_ros/install/pkg01_helloworld_cpp/share/pkg01_helloworld_cpp/environment/ament_prefix_path.dsv
+[24.095s] -- Up-to-date: /home/yzh/桌面/project-ros/ros-study/chapt2/ws_ros/install/pkg01_helloworld_cpp/share/pkg01_helloworld_cpp/environment/path.sh
+[24.096s] -- Installing: /home/yzh/桌面/project-ros/ros-study/chapt2/ws_ros/install/pkg01_helloworld_cpp/share/pkg01_helloworld_cpp/environment/path.dsv
+[24.096s] -- Up-to-date: /home/yzh/桌面/project-ros/ros-study/chapt2/ws_ros/install/pkg01_helloworld_cpp/share/pkg01_helloworld_cpp/local_setup.bash
+[24.096s] -- Up-to-date: /home/yzh/桌面/project-ros/ros-study/chapt2/ws_ros/install/pkg01_helloworld_cpp/share/pkg01_helloworld_cpp/local_setup.sh
+[24.097s] -- Up-to-date: /home/yzh/桌面/project-ros/ros-study/chapt2/ws_ros/install/pkg01_helloworld_cpp/share/pkg01_helloworld_cpp/local_setup.zsh
+[24.098s] -- Installing: /home/yzh/桌面/project-ros/ros-study/chapt2/ws_ros/install/pkg01_helloworld_cpp/share/pkg01_helloworld_cpp/local_setup.dsv
+[24.098s] -- Installing: /home/yzh/桌面/project-ros/ros-study/chapt2/ws_ros/install/pkg01_helloworld_cpp/share/pkg01_helloworld_cpp/package.dsv
+[24.099s] -- Up-to-date: /home/yzh/桌面/project-ros/ros-study/chapt2/ws_ros/install/pkg01_helloworld_cpp/share/ament_index/resource_index/packages/pkg01_helloworld_cpp
+[24.099s] -- Up-to-date: /home/yzh/桌面/project-ros/ros-study/chapt2/ws_ros/install/pkg01_helloworld_cpp/share/pkg01_helloworld_cpp/cmake/pkg01_helloworld_cppConfig.cmake
+[24.099s] -- Up-to-date: /home/yzh/桌面/project-ros/ros-study/chapt2/ws_ros/install/pkg01_helloworld_cpp/share/pkg01_helloworld_cpp/cmake/pkg01_helloworld_cppConfig-version.cmake
+[24.099s] -- Up-to-date: /home/yzh/桌面/project-ros/ros-study/chapt2/ws_ros/install/pkg01_helloworld_cpp/share/pkg01_helloworld_cpp/package.xml
+[24.107s] Invoked command in '/home/yzh/桌面/project-ros/ros-study/chapt2/ws_ros/build/pkg01_helloworld_cpp' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/yzh/桌面/project-ros/ros-study/chapt2/ws_ros/build/pkg01_helloworld_cpp

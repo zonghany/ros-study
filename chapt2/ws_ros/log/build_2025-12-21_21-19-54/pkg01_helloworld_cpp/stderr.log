@@ -1,0 +1,15 @@
+[01m[K/home/yzh/桌面/project-ros/ros-study/chapt2/ws_ros/src/pkg01_helloworld_cpp/src/learn_functional.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[K/home/yzh/桌面/project-ros/ros-study/chapt2/ws_ros/src/pkg01_helloworld_cpp/src/learn_functional.cpp:21:14:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kargc[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+   21 | int main([01;35m[Kint argc[m[K,char **argv){
+      |          [01;35m[K~~~~^~~~[m[K
+[01m[K/home/yzh/桌面/project-ros/ros-study/chapt2/ws_ros/src/pkg01_helloworld_cpp/src/learn_functional.cpp:21:26:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kargv[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+   21 | int main(int argc,[01;35m[Kchar **argv[m[K){
+      |                   [01;35m[K~~~~~~~^~~~[m[K
+/usr/bin/ld: CMakeFiles/learn_functional.dir/src/learn_functional.cpp.o: in function `main':
+learn_functional.cpp:(.text+0xcb): undefined reference to `FileSave::FileSave()'
+/usr/bin/ld: learn_functional.cpp:(.text+0x14c): undefined reference to `FileSave::~FileSave()'
+/usr/bin/ld: learn_functional.cpp:(.text+0x193): undefined reference to `FileSave::~FileSave()'
+collect2: error: ld returned 1 exit status
+gmake[2]: *** [CMakeFiles/learn_functional.dir/build.make:97：learn_functional] 错误 1
+gmake[1]: *** [CMakeFiles/Makefile2:277：CMakeFiles/learn_functional.dir/all] 错误 2
+gmake: *** [Makefile:146：all] 错误 2

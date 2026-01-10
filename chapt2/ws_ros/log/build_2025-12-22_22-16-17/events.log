@@ -1,0 +1,373 @@
+[0.000000] (-) TimerEvent: {}
+[0.002753] (pkg01_helloworld_cpp) JobQueued: {'identifier': 'pkg01_helloworld_cpp', 'dependencies': OrderedDict()}
+[0.003061] (pkg01_helloworld_cpp) JobStarted: {'identifier': 'pkg01_helloworld_cpp'}
+[0.046173] (pkg01_helloworld_cpp) JobProgress: {'identifier': 'pkg01_helloworld_cpp', 'progress': 'cmake'}
+[0.071218] (pkg01_helloworld_cpp) JobProgress: {'identifier': 'pkg01_helloworld_cpp', 'progress': 'build'}
+[0.071679] (pkg01_helloworld_cpp) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/yzh/桌面/project-ros/ros-study/chapt2/ws_ros/build/pkg01_helloworld_cpp', '--', '-j16', '-l16'], 'cwd': '/home/yzh/桌面/project-ros/ros-study/chapt2/ws_ros/build/pkg01_helloworld_cpp', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'zh_CN:en_AU:en_CA:en_GB:en_US:en'), ('USER', 'yzh'), ('SSH_CLIENT', '192.168.44.1 61976 22'), ('LC_TIME', 'zh_CN.UTF-8'), ('XDG_SESSION_TYPE', 'tty'), ('GIT_ASKPASS', '/home/yzh/.vscode-server/cli/servers/Stable-bf9252a2fb45be6893dd8870c0bf37e2e1766d61/server/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('BROWSER', '/home/yzh/.vscode-server/cli/servers/Stable-bf9252a2fb45be6893dd8870c0bf37e2e1766d61/server/bin/helpers/browser.sh'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/yzh'), ('OLDPWD', '/home/yzh/桌面/project-ros/ros-study/chapt2'), ('TERM_PROGRAM_VERSION', '1.106.3'), ('VSCODE_IPC_HOOK_CLI', '/run/user/1000/vscode-ipc-46d4cd45-de46-4ef8-9b96-2aa1fc95a949.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/home/yzh/.vscode-server/cli/servers/Stable-bf9252a2fb45be6893dd8870c0bf37e2e1766d61/server/extensions/git/dist/askpass-main.js'), ('LC_MONETARY', 'zh_CN.UTF-8'), ('VSCODE_GIT_ASKPASS_NODE', '/home/yzh/.vscode-server/cli/servers/Stable-bf9252a2fb45be6893dd8870c0bf37e2e1766d61/server/node'), ('SSL_CERT_FILE', '/usr/lib/ssl/certs/ca-certificates.crt'), ('VSCODE_PYTHON_AUTOACTIVATE_GUARD', '1'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'yzh'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '4'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/yzh/.vscode-server/cli/servers/Stable-bf9252a2fb45be6893dd8870c0bf37e2e1766d61/server/bin/remote-cli:/home/yzh/.local/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('PAPERSIZE', 'a4'), ('LC_ADDRESS', 'zh_CN.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('SSL_CERT_DIR', '/usr/lib/ssl/certs'), ('LANG', 'zh_CN.UTF-8'), ('LC_TELEPHONE', 'zh_CN.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-f929d80034.sock'), ('TERM_PROGRAM', 'vscode'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'zh_CN.UTF-8'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'zh_CN.UTF-8'), ('LC_IDENTIFICATION', 'zh_CN.UTF-8'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/home/yzh/桌面/project-ros/ros-study/chapt2/ws_ros/build/pkg01_helloworld_cpp'), ('SSH_CONNECTION', '192.168.44.1 61976 192.168.44.128 22'), ('XDG_DATA_DIRS', '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'zh_CN.UTF-8'), ('LC_PAPER', 'zh_CN.UTF-8'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.098015] (-) TimerEvent: {}
+[0.199339] (-) TimerEvent: {}
+[0.300694] (-) TimerEvent: {}
+[0.401966] (-) TimerEvent: {}
+[0.503223] (-) TimerEvent: {}
+[0.605446] (-) TimerEvent: {}
+[0.707706] (-) TimerEvent: {}
+[0.810628] (-) TimerEvent: {}
+[0.842702] (pkg01_helloworld_cpp) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.911506] (-) TimerEvent: {}
+[1.013083] (-) TimerEvent: {}
+[1.114646] (-) TimerEvent: {}
+[1.216365] (-) TimerEvent: {}
+[1.317664] (-) TimerEvent: {}
+[1.418903] (-) TimerEvent: {}
+[1.520207] (-) TimerEvent: {}
+[1.621543] (-) TimerEvent: {}
+[1.723048] (-) TimerEvent: {}
+[1.824462] (-) TimerEvent: {}
+[1.926527] (-) TimerEvent: {}
+[2.027976] (-) TimerEvent: {}
+[2.129144] (-) TimerEvent: {}
+[2.231402] (-) TimerEvent: {}
+[2.332497] (-) TimerEvent: {}
+[2.391199] (pkg01_helloworld_cpp) StdoutLine: {'line': b'-- Found rclcpp: 16.0.16 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[2.434890] (-) TimerEvent: {}
+[2.536729] (-) TimerEvent: {}
+[2.637975] (-) TimerEvent: {}
+[2.739502] (-) TimerEvent: {}
+[2.840786] (-) TimerEvent: {}
+[2.901407] (pkg01_helloworld_cpp) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.7 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[2.941190] (-) TimerEvent: {}
+[2.945904] (pkg01_helloworld_cpp) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.7 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[3.041678] (-) TimerEvent: {}
+[3.046129] (pkg01_helloworld_cpp) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.7 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[3.142470] (-) TimerEvent: {}
+[3.188951] (pkg01_helloworld_cpp) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[3.243501] (-) TimerEvent: {}
+[3.345074] (-) TimerEvent: {}
+[3.377639] (pkg01_helloworld_cpp) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[3.445427] (-) TimerEvent: {}
+[3.547484] (-) TimerEvent: {}
+[3.648472] (-) TimerEvent: {}
+[3.750456] (-) TimerEvent: {}
+[3.852505] (-) TimerEvent: {}
+[3.951770] (pkg01_helloworld_cpp) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[3.953616] (-) TimerEvent: {}
+[3.995361] (pkg01_helloworld_cpp) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.9 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[4.055476] (-) TimerEvent: {}
+[4.158513] (-) TimerEvent: {}
+[4.260424] (-) TimerEvent: {}
+[4.362955] (-) TimerEvent: {}
+[4.464866] (-) TimerEvent: {}
+[4.565928] (-) TimerEvent: {}
+[4.666977] (-) TimerEvent: {}
+[4.768204] (-) TimerEvent: {}
+[4.832479] (pkg01_helloworld_cpp) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[4.868530] (-) TimerEvent: {}
+[4.970085] (-) TimerEvent: {}
+[5.071170] (-) TimerEvent: {}
+[5.174635] (-) TimerEvent: {}
+[5.275645] (-) TimerEvent: {}
+[5.377212] (-) TimerEvent: {}
+[5.478864] (-) TimerEvent: {}
+[5.572786] (pkg01_helloworld_cpp) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.14 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[5.582653] (-) TimerEvent: {}
+[5.684982] (-) TimerEvent: {}
+[5.786079] (-) TimerEvent: {}
+[5.887200] (-) TimerEvent: {}
+[5.988445] (-) TimerEvent: {}
+[6.090435] (-) TimerEvent: {}
+[6.172811] (pkg01_helloworld_cpp) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[6.174167] (pkg01_helloworld_cpp) StdoutLine: {'line': b'-- Configured cppcheck include dirs: /home/yzh/\xe6\xa1\x8c\xe9\x9d\xa2/project-ros/ros-study/chapt2/ws_ros/src/pkg01_helloworld_cpp/include;$<BUILD_INTERFACE:/home/yzh/\xe6\xa1\x8c\xe9\x9d\xa2/project-ros/ros-study/chapt2/ws_ros/src/pkg01_helloworld_cpp/include>\n'}
+[6.174649] (pkg01_helloworld_cpp) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[6.184837] (pkg01_helloworld_cpp) StdoutLine: {'line': b"-- Added test 'flake8' to check Python code syntax and style conventions\n"}
+[6.191668] (-) TimerEvent: {}
+[6.200562] (pkg01_helloworld_cpp) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[6.211789] (pkg01_helloworld_cpp) StdoutLine: {'line': b"-- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257\n"}
+[6.252421] (pkg01_helloworld_cpp) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[6.253146] (pkg01_helloworld_cpp) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[6.262745] (pkg01_helloworld_cpp) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[6.292709] (-) TimerEvent: {}
+[6.296782] (pkg01_helloworld_cpp) StdoutLine: {'line': b'-- Configuring done\n'}
+[6.393475] (-) TimerEvent: {}
+[6.494450] (-) TimerEvent: {}
+[6.524712] (pkg01_helloworld_cpp) StdoutLine: {'line': b'-- Generating done\n'}
+[6.554891] (pkg01_helloworld_cpp) StdoutLine: {'line': b'-- Build files have been written to: /home/yzh/\xe6\xa1\x8c\xe9\x9d\xa2/project-ros/ros-study/chapt2/ws_ros/build/pkg01_helloworld_cpp\n'}
+[6.596344] (-) TimerEvent: {}
+[6.697900] (pkg01_helloworld_cpp) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target learn_cpp\x1b[0m\n'}
+[6.698707] (-) TimerEvent: {}
+[6.699314] (pkg01_helloworld_cpp) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target learn_shared\x1b[0m\n'}
+[6.699705] (pkg01_helloworld_cpp) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target learn_lambda\x1b[0m\n'}
+[6.703496] (pkg01_helloworld_cpp) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target person_node\x1b[0m\n'}
+[6.703912] (pkg01_helloworld_cpp) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target helloworld\x1b[0m\n'}
+[6.704158] (pkg01_helloworld_cpp) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target learn_functional\x1b[0m\n'}
+[6.767507] (pkg01_helloworld_cpp) StdoutLine: {'line': b'[  7%] \x1b[32mBuilding CXX object CMakeFiles/learn_thread1.dir/src/learn_thread1.cpp.o\x1b[0m\n'}
+[6.799738] (-) TimerEvent: {}
+[6.821228] (pkg01_helloworld_cpp) StdoutLine: {'line': b'[ 14%] \x1b[32mBuilding CXX object CMakeFiles/learn_functional.dir/src/learn_functional.cpp.o\x1b[0m\n'}
+[6.821907] (pkg01_helloworld_cpp) StdoutLine: {'line': b'[ 21%] \x1b[32mBuilding CXX object CMakeFiles/learn_cpp.dir/src/learn_cpp.cpp.o\x1b[0m\n'}
+[6.823563] (pkg01_helloworld_cpp) StdoutLine: {'line': b'[ 28%] \x1b[32mBuilding CXX object CMakeFiles/learn_shared.dir/src/learn_shared.cpp.o\x1b[0m\n'}
+[6.832570] (pkg01_helloworld_cpp) StdoutLine: {'line': b'[ 35%] \x1b[32mBuilding CXX object CMakeFiles/learn_lambda.dir/src/learn_lambda.cpp.o\x1b[0m\n'}
+[6.900080] (-) TimerEvent: {}
+[6.955211] (pkg01_helloworld_cpp) StdoutLine: {'line': b'[ 42%] \x1b[32mBuilding CXX object CMakeFiles/person_node.dir/src/person_node.cpp.o\x1b[0m\n'}
+[6.957726] (pkg01_helloworld_cpp) StdoutLine: {'line': b'[ 57%] Built target helloworld\n'}
+[7.000380] (-) TimerEvent: {}
+[7.101701] (-) TimerEvent: {}
+[7.203628] (-) TimerEvent: {}
+[7.305604] (-) TimerEvent: {}
+[7.406582] (-) TimerEvent: {}
+[7.508503] (-) TimerEvent: {}
+[7.609457] (-) TimerEvent: {}
+[7.710464] (-) TimerEvent: {}
+[7.811748] (-) TimerEvent: {}
+[7.913069] (-) TimerEvent: {}
+[8.014077] (-) TimerEvent: {}
+[8.115484] (-) TimerEvent: {}
+[8.216649] (-) TimerEvent: {}
+[8.317776] (-) TimerEvent: {}
+[8.419202] (-) TimerEvent: {}
+[8.520527] (-) TimerEvent: {}
+[8.622213] (-) TimerEvent: {}
+[8.723400] (-) TimerEvent: {}
+[8.824654] (-) TimerEvent: {}
+[8.926102] (-) TimerEvent: {}
+[9.027153] (-) TimerEvent: {}
+[9.128815] (-) TimerEvent: {}
+[9.230517] (-) TimerEvent: {}
+[9.332037] (-) TimerEvent: {}
+[9.433104] (-) TimerEvent: {}
+[9.462865] (pkg01_helloworld_cpp) StderrLine: {'line': b'\x1b[01m\x1b[K/home/yzh/\xe6\xa1\x8c\xe9\x9d\xa2/project-ros/ros-study/chapt2/ws_ros/src/pkg01_helloworld_cpp/src/learn_cpp.cpp:\x1b[m\x1b[K In function \xe2\x80\x98\x1b[01m\x1b[Kint main(int, char**)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[9.463706] (pkg01_helloworld_cpp) StderrLine: {'line': b'\x1b[01m\x1b[K/home/yzh/\xe6\xa1\x8c\xe9\x9d\xa2/project-ros/ros-study/chapt2/ws_ros/src/pkg01_helloworld_cpp/src/learn_cpp.cpp:3:14:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Kargc\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter\x07-Wunused-parameter\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[9.463992] (pkg01_helloworld_cpp) StderrLine: {'line': b'    3 | int main(\x1b[01;35m\x1b[Kint argc\x1b[m\x1b[K,char **argv){\n'}
+[9.465179] (pkg01_helloworld_cpp) StderrLine: {'line': b'      |          \x1b[01;35m\x1b[K~~~~^~~~\x1b[m\x1b[K\n'}
+[9.465561] (pkg01_helloworld_cpp) StderrLine: {'line': b'\x1b[01m\x1b[K/home/yzh/\xe6\xa1\x8c\xe9\x9d\xa2/project-ros/ros-study/chapt2/ws_ros/src/pkg01_helloworld_cpp/src/learn_cpp.cpp:3:26:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Kargv\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter\x07-Wunused-parameter\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[9.465966] (pkg01_helloworld_cpp) StderrLine: {'line': b'    3 | int main(int argc,\x1b[01;35m\x1b[Kchar **argv\x1b[m\x1b[K){\n'}
+[9.466492] (pkg01_helloworld_cpp) StderrLine: {'line': b'      |                   \x1b[01;35m\x1b[K~~~~~~~^~~~\x1b[m\x1b[K\n'}
+[9.533524] (-) TimerEvent: {}
+[9.634831] (-) TimerEvent: {}
+[9.736521] (-) TimerEvent: {}
+[9.837701] (-) TimerEvent: {}
+[9.939048] (-) TimerEvent: {}
+[10.030402] (pkg01_helloworld_cpp) StderrLine: {'line': b'\x1b[01m\x1b[K/home/yzh/\xe6\xa1\x8c\xe9\x9d\xa2/project-ros/ros-study/chapt2/ws_ros/src/pkg01_helloworld_cpp/src/learn_shared.cpp:\x1b[m\x1b[K In function \xe2\x80\x98\x1b[01m\x1b[Kint main(int, char**)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[10.031026] (pkg01_helloworld_cpp) StderrLine: {'line': b'\x1b[01m\x1b[K/home/yzh/\xe6\xa1\x8c\xe9\x9d\xa2/project-ros/ros-study/chapt2/ws_ros/src/pkg01_helloworld_cpp/src/learn_shared.cpp:3:14:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Kargc\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter\x07-Wunused-parameter\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[10.031608] (pkg01_helloworld_cpp) StderrLine: {'line': b'    3 | int main(\x1b[01;35m\x1b[Kint argc\x1b[m\x1b[K, char **argv)\n'}
+[10.031877] (pkg01_helloworld_cpp) StderrLine: {'line': b'      |          \x1b[01;35m\x1b[K~~~~^~~~\x1b[m\x1b[K\n'}
+[10.032202] (pkg01_helloworld_cpp) StderrLine: {'line': b'\x1b[01m\x1b[K/home/yzh/\xe6\xa1\x8c\xe9\x9d\xa2/project-ros/ros-study/chapt2/ws_ros/src/pkg01_helloworld_cpp/src/learn_shared.cpp:3:27:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Kargv\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter\x07-Wunused-parameter\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[10.032677] (pkg01_helloworld_cpp) StderrLine: {'line': b'    3 | int main(int argc, \x1b[01;35m\x1b[Kchar **argv\x1b[m\x1b[K)\n'}
+[10.032906] (pkg01_helloworld_cpp) StderrLine: {'line': b'      |                    \x1b[01;35m\x1b[K~~~~~~~^~~~\x1b[m\x1b[K\n'}
+[10.039407] (-) TimerEvent: {}
+[10.075562] (pkg01_helloworld_cpp) StdoutLine: {'line': b'[ 64%] \x1b[32m\x1b[1mLinking CXX executable learn_cpp\x1b[0m\n'}
+[10.139738] (-) TimerEvent: {}
+[10.240833] (-) TimerEvent: {}
+[10.342013] (-) TimerEvent: {}
+[10.443207] (-) TimerEvent: {}
+[10.544518] (-) TimerEvent: {}
+[10.596949] (pkg01_helloworld_cpp) StderrLine: {'line': b'\x1b[01m\x1b[K/home/yzh/\xe6\xa1\x8c\xe9\x9d\xa2/project-ros/ros-study/chapt2/ws_ros/src/pkg01_helloworld_cpp/src/learn_functional.cpp:\x1b[m\x1b[K In function \xe2\x80\x98\x1b[01m\x1b[Kint main(int, char**)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[10.597590] (pkg01_helloworld_cpp) StderrLine: {'line': b'\x1b[01m\x1b[K/home/yzh/\xe6\xa1\x8c\xe9\x9d\xa2/project-ros/ros-study/chapt2/ws_ros/src/pkg01_helloworld_cpp/src/learn_functional.cpp:21:14:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Kargc\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter\x07-Wunused-parameter\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[10.597903] (pkg01_helloworld_cpp) StderrLine: {'line': b'   21 | int main(\x1b[01;35m\x1b[Kint argc\x1b[m\x1b[K,char **argv){\n'}
+[10.598145] (pkg01_helloworld_cpp) StderrLine: {'line': b'      |          \x1b[01;35m\x1b[K~~~~^~~~\x1b[m\x1b[K\n'}
+[10.599522] (pkg01_helloworld_cpp) StderrLine: {'line': b'\x1b[01m\x1b[K/home/yzh/\xe6\xa1\x8c\xe9\x9d\xa2/project-ros/ros-study/chapt2/ws_ros/src/pkg01_helloworld_cpp/src/learn_functional.cpp:21:26:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Kargv\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter\x07-Wunused-parameter\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[10.599852] (pkg01_helloworld_cpp) StderrLine: {'line': b'   21 | int main(int argc,\x1b[01;35m\x1b[Kchar **argv\x1b[m\x1b[K){\n'}
+[10.600088] (pkg01_helloworld_cpp) StderrLine: {'line': b'      |                   \x1b[01;35m\x1b[K~~~~~~~^~~~\x1b[m\x1b[K\n'}
+[10.645161] (-) TimerEvent: {}
+[10.649473] (pkg01_helloworld_cpp) StderrLine: {'line': b'\x1b[01m\x1b[K/home/yzh/\xe6\xa1\x8c\xe9\x9d\xa2/project-ros/ros-study/chapt2/ws_ros/src/pkg01_helloworld_cpp/src/learn_lambda.cpp:\x1b[m\x1b[K In lambda function:\n'}
+[10.650041] (pkg01_helloworld_cpp) StderrLine: {'line': b'\x1b[01m\x1b[K/home/yzh/\xe6\xa1\x8c\xe9\x9d\xa2/project-ros/ros-study/chapt2/ws_ros/src/pkg01_helloworld_cpp/src/learn_lambda.cpp:9:30:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kthe address of \xe2\x80\x98\x1b[01m\x1b[Kstatic constexpr int main(int, char**)::<lambda(int, int)>::_FUN(int, int)\x1b[m\x1b[K\xe2\x80\x99 will never be NULL [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Waddress\x07-Waddress\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[10.650357] (pkg01_helloworld_cpp) StderrLine: {'line': b'    9 |         std::cout<<"x+y = "<<\x1b[01;35m\x1b[Ka\x1b[m\x1b[K<<std::endl;\n'}
+[10.650592] (pkg01_helloworld_cpp) StderrLine: {'line': b'      |                              \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[10.654381] (pkg01_helloworld_cpp) StderrLine: {'line': b'\x1b[01m\x1b[K/home/yzh/\xe6\xa1\x8c\xe9\x9d\xa2/project-ros/ros-study/chapt2/ws_ros/src/pkg01_helloworld_cpp/src/learn_lambda.cpp:\x1b[m\x1b[K In function \xe2\x80\x98\x1b[01m\x1b[Kint main(int, char**)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[10.656218] (pkg01_helloworld_cpp) StderrLine: {'line': b'\x1b[01m\x1b[K/home/yzh/\xe6\xa1\x8c\xe9\x9d\xa2/project-ros/ros-study/chapt2/ws_ros/src/pkg01_helloworld_cpp/src/learn_lambda.cpp:4:14:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Kargc\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter\x07-Wunused-parameter\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[10.656968] (pkg01_helloworld_cpp) StderrLine: {'line': b'    4 | int main(\x1b[01;35m\x1b[Kint argc\x1b[m\x1b[K,char **argv){\n'}
+[10.657237] (pkg01_helloworld_cpp) StderrLine: {'line': b'      |          \x1b[01;35m\x1b[K~~~~^~~~\x1b[m\x1b[K\n'}
+[10.657629] (pkg01_helloworld_cpp) StderrLine: {'line': b'\x1b[01m\x1b[K/home/yzh/\xe6\xa1\x8c\xe9\x9d\xa2/project-ros/ros-study/chapt2/ws_ros/src/pkg01_helloworld_cpp/src/learn_lambda.cpp:4:26:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Kargv\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter\x07-Wunused-parameter\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[10.658028] (pkg01_helloworld_cpp) StderrLine: {'line': b'    4 | int main(int argc,\x1b[01;35m\x1b[Kchar **argv\x1b[m\x1b[K){\n'}
+[10.658326] (pkg01_helloworld_cpp) StderrLine: {'line': b'      |                   \x1b[01;35m\x1b[K~~~~~~~^~~~\x1b[m\x1b[K\n'}
+[10.746844] (-) TimerEvent: {}
+[10.847079] (pkg01_helloworld_cpp) StdoutLine: {'line': b'[ 71%] \x1b[32m\x1b[1mLinking CXX executable learn_thread1\x1b[0m\n'}
+[10.847940] (-) TimerEvent: {}
+[10.868182] (pkg01_helloworld_cpp) StdoutLine: {'line': b'[ 78%] \x1b[32m\x1b[1mLinking CXX executable learn_shared\x1b[0m\n'}
+[10.948406] (-) TimerEvent: {}
+[10.958057] (pkg01_helloworld_cpp) StdoutLine: {'line': b'[ 78%] Built target learn_cpp\n'}
+[11.027751] (pkg01_helloworld_cpp) StdoutLine: {'line': b'[ 85%] \x1b[32m\x1b[1mLinking CXX executable learn_lambda\x1b[0m\n'}
+[11.048837] (-) TimerEvent: {}
+[11.150041] (-) TimerEvent: {}
+[11.220540] (pkg01_helloworld_cpp) StdoutLine: {'line': b'[ 85%] Built target learn_thread1\n'}
+[11.234479] (pkg01_helloworld_cpp) StdoutLine: {'line': b'[ 85%] Built target learn_shared\n'}
+[11.250434] (-) TimerEvent: {}
+[11.253692] (pkg01_helloworld_cpp) StdoutLine: {'line': b'[ 92%] \x1b[32m\x1b[1mLinking CXX executable learn_functional\x1b[0m\n'}
+[11.350758] (-) TimerEvent: {}
+[11.387225] (pkg01_helloworld_cpp) StdoutLine: {'line': b'[ 92%] Built target learn_lambda\n'}
+[11.451680] (-) TimerEvent: {}
+[11.553399] (-) TimerEvent: {}
+[11.609988] (pkg01_helloworld_cpp) StdoutLine: {'line': b'[ 92%] Built target learn_functional\n'}
+[11.655753] (-) TimerEvent: {}
+[11.757027] (-) TimerEvent: {}
+[11.858736] (-) TimerEvent: {}
+[11.960509] (-) TimerEvent: {}
+[12.061729] (-) TimerEvent: {}
+[12.163476] (-) TimerEvent: {}
+[12.265422] (-) TimerEvent: {}
+[12.366449] (-) TimerEvent: {}
+[12.467982] (-) TimerEvent: {}
+[12.569628] (-) TimerEvent: {}
+[12.671192] (-) TimerEvent: {}
+[12.772711] (-) TimerEvent: {}
+[12.874578] (-) TimerEvent: {}
+[12.975902] (-) TimerEvent: {}
+[13.077495] (-) TimerEvent: {}
+[13.179498] (-) TimerEvent: {}
+[13.280594] (-) TimerEvent: {}
+[13.382146] (-) TimerEvent: {}
+[13.484575] (-) TimerEvent: {}
+[13.587640] (-) TimerEvent: {}
+[13.690080] (-) TimerEvent: {}
+[13.791468] (-) TimerEvent: {}
+[13.892667] (-) TimerEvent: {}
+[13.994099] (-) TimerEvent: {}
+[14.095464] (-) TimerEvent: {}
+[14.196535] (-) TimerEvent: {}
+[14.298819] (-) TimerEvent: {}
+[14.400041] (-) TimerEvent: {}
+[14.502549] (-) TimerEvent: {}
+[14.603920] (-) TimerEvent: {}
+[14.705059] (-) TimerEvent: {}
+[14.807905] (-) TimerEvent: {}
+[14.910472] (-) TimerEvent: {}
+[15.011750] (-) TimerEvent: {}
+[15.113013] (-) TimerEvent: {}
+[15.214591] (-) TimerEvent: {}
+[15.316149] (-) TimerEvent: {}
+[15.417213] (-) TimerEvent: {}
+[15.519022] (-) TimerEvent: {}
+[15.620339] (-) TimerEvent: {}
+[15.722240] (-) TimerEvent: {}
+[15.823525] (-) TimerEvent: {}
+[15.924804] (-) TimerEvent: {}
+[16.026519] (-) TimerEvent: {}
+[16.128079] (-) TimerEvent: {}
+[16.230489] (-) TimerEvent: {}
+[16.333044] (-) TimerEvent: {}
+[16.434449] (-) TimerEvent: {}
+[16.535955] (-) TimerEvent: {}
+[16.637629] (-) TimerEvent: {}
+[16.739368] (-) TimerEvent: {}
+[16.840469] (-) TimerEvent: {}
+[16.941958] (-) TimerEvent: {}
+[17.044163] (-) TimerEvent: {}
+[17.146569] (-) TimerEvent: {}
+[17.248564] (-) TimerEvent: {}
+[17.350150] (-) TimerEvent: {}
+[17.452111] (-) TimerEvent: {}
+[17.553442] (-) TimerEvent: {}
+[17.656139] (-) TimerEvent: {}
+[17.757484] (-) TimerEvent: {}
+[17.858836] (-) TimerEvent: {}
+[17.960072] (-) TimerEvent: {}
+[18.061819] (-) TimerEvent: {}
+[18.163519] (-) TimerEvent: {}
+[18.264431] (-) TimerEvent: {}
+[18.366024] (-) TimerEvent: {}
+[18.467191] (-) TimerEvent: {}
+[18.568430] (-) TimerEvent: {}
+[18.669621] (-) TimerEvent: {}
+[18.771196] (-) TimerEvent: {}
+[18.872740] (-) TimerEvent: {}
+[18.973826] (-) TimerEvent: {}
+[19.075184] (-) TimerEvent: {}
+[19.176563] (-) TimerEvent: {}
+[19.278557] (-) TimerEvent: {}
+[19.380804] (-) TimerEvent: {}
+[19.482566] (-) TimerEvent: {}
+[19.583556] (-) TimerEvent: {}
+[19.684592] (-) TimerEvent: {}
+[19.785715] (-) TimerEvent: {}
+[19.887044] (-) TimerEvent: {}
+[19.989076] (-) TimerEvent: {}
+[20.090805] (-) TimerEvent: {}
+[20.192465] (-) TimerEvent: {}
+[20.293548] (-) TimerEvent: {}
+[20.394670] (-) TimerEvent: {}
+[20.496132] (-) TimerEvent: {}
+[20.599141] (-) TimerEvent: {}
+[20.701508] (-) TimerEvent: {}
+[20.802908] (-) TimerEvent: {}
+[20.904913] (-) TimerEvent: {}
+[21.006626] (-) TimerEvent: {}
+[21.108079] (-) TimerEvent: {}
+[21.210649] (-) TimerEvent: {}
+[21.312937] (-) TimerEvent: {}
+[21.414644] (-) TimerEvent: {}
+[21.515883] (-) TimerEvent: {}
+[21.617346] (-) TimerEvent: {}
+[21.718490] (-) TimerEvent: {}
+[21.819988] (-) TimerEvent: {}
+[21.921791] (-) TimerEvent: {}
+[22.023338] (-) TimerEvent: {}
+[22.126006] (-) TimerEvent: {}
+[22.227240] (-) TimerEvent: {}
+[22.328402] (-) TimerEvent: {}
+[22.429588] (-) TimerEvent: {}
+[22.531032] (-) TimerEvent: {}
+[22.633161] (-) TimerEvent: {}
+[22.735534] (-) TimerEvent: {}
+[22.836738] (-) TimerEvent: {}
+[22.938557] (-) TimerEvent: {}
+[23.040532] (-) TimerEvent: {}
+[23.141681] (-) TimerEvent: {}
+[23.244728] (-) TimerEvent: {}
+[23.346890] (-) TimerEvent: {}
+[23.448987] (-) TimerEvent: {}
+[23.552334] (-) TimerEvent: {}
+[23.655929] (-) TimerEvent: {}
+[23.759191] (-) TimerEvent: {}
+[23.863619] (-) TimerEvent: {}
+[23.964777] (-) TimerEvent: {}
+[24.066068] (-) TimerEvent: {}
+[24.170061] (-) TimerEvent: {}
+[24.272801] (-) TimerEvent: {}
+[24.374349] (-) TimerEvent: {}
+[24.423940] (pkg01_helloworld_cpp) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable person_node\x1b[0m\n'}
+[24.476478] (-) TimerEvent: {}
+[24.577553] (-) TimerEvent: {}
+[24.678778] (-) TimerEvent: {}
+[24.780160] (-) TimerEvent: {}
+[24.882009] (-) TimerEvent: {}
+[24.984032] (-) TimerEvent: {}
+[25.086175] (-) TimerEvent: {}
+[25.187806] (-) TimerEvent: {}
+[25.289495] (-) TimerEvent: {}
+[25.391036] (-) TimerEvent: {}
+[25.492711] (-) TimerEvent: {}
+[25.594545] (-) TimerEvent: {}
+[25.696419] (-) TimerEvent: {}
+[25.702277] (pkg01_helloworld_cpp) StdoutLine: {'line': b'[100%] Built target person_node\n'}
+[25.757550] (pkg01_helloworld_cpp) CommandEnded: {'returncode': 0}
+[25.763603] (pkg01_helloworld_cpp) JobProgress: {'identifier': 'pkg01_helloworld_cpp', 'progress': 'install'}
+[25.797463] (-) TimerEvent: {}
+[25.812840] (pkg01_helloworld_cpp) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/yzh/桌面/project-ros/ros-study/chapt2/ws_ros/build/pkg01_helloworld_cpp'], 'cwd': '/home/yzh/桌面/project-ros/ros-study/chapt2/ws_ros/build/pkg01_helloworld_cpp', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'zh_CN:en_AU:en_CA:en_GB:en_US:en'), ('USER', 'yzh'), ('SSH_CLIENT', '192.168.44.1 61976 22'), ('LC_TIME', 'zh_CN.UTF-8'), ('XDG_SESSION_TYPE', 'tty'), ('GIT_ASKPASS', '/home/yzh/.vscode-server/cli/servers/Stable-bf9252a2fb45be6893dd8870c0bf37e2e1766d61/server/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('BROWSER', '/home/yzh/.vscode-server/cli/servers/Stable-bf9252a2fb45be6893dd8870c0bf37e2e1766d61/server/bin/helpers/browser.sh'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/yzh'), ('OLDPWD', '/home/yzh/桌面/project-ros/ros-study/chapt2'), ('TERM_PROGRAM_VERSION', '1.106.3'), ('VSCODE_IPC_HOOK_CLI', '/run/user/1000/vscode-ipc-46d4cd45-de46-4ef8-9b96-2aa1fc95a949.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/home/yzh/.vscode-server/cli/servers/Stable-bf9252a2fb45be6893dd8870c0bf37e2e1766d61/server/extensions/git/dist/askpass-main.js'), ('LC_MONETARY', 'zh_CN.UTF-8'), ('VSCODE_GIT_ASKPASS_NODE', '/home/yzh/.vscode-server/cli/servers/Stable-bf9252a2fb45be6893dd8870c0bf37e2e1766d61/server/node'), ('SSL_CERT_FILE', '/usr/lib/ssl/certs/ca-certificates.crt'), ('VSCODE_PYTHON_AUTOACTIVATE_GUARD', '1'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'yzh'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '4'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/yzh/.vscode-server/cli/servers/Stable-bf9252a2fb45be6893dd8870c0bf37e2e1766d61/server/bin/remote-cli:/home/yzh/.local/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('PAPERSIZE', 'a4'), ('LC_ADDRESS', 'zh_CN.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('SSL_CERT_DIR', '/usr/lib/ssl/certs'), ('LANG', 'zh_CN.UTF-8'), ('LC_TELEPHONE', 'zh_CN.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-f929d80034.sock'), ('TERM_PROGRAM', 'vscode'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'zh_CN.UTF-8'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'zh_CN.UTF-8'), ('LC_IDENTIFICATION', 'zh_CN.UTF-8'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/home/yzh/桌面/project-ros/ros-study/chapt2/ws_ros/build/pkg01_helloworld_cpp'), ('SSH_CONNECTION', '192.168.44.1 61976 192.168.44.128 22'), ('XDG_DATA_DIRS', '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'zh_CN.UTF-8'), ('LC_PAPER', 'zh_CN.UTF-8'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[25.850711] (pkg01_helloworld_cpp) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[25.870253] (pkg01_helloworld_cpp) StdoutLine: {'line': b'-- Up-to-date: /home/yzh/\xe6\xa1\x8c\xe9\x9d\xa2/project-ros/ros-study/chapt2/ws_ros/install/pkg01_helloworld_cpp/lib/pkg01_helloworld_cpp/helloworld\n'}
+[25.886003] (pkg01_helloworld_cpp) StdoutLine: {'line': b'-- Installing: /home/yzh/\xe6\xa1\x8c\xe9\x9d\xa2/project-ros/ros-study/chapt2/ws_ros/install/pkg01_helloworld_cpp/lib/pkg01_helloworld_cpp/person_node\n'}
+[25.886790] (pkg01_helloworld_cpp) StdoutLine: {'line': b'-- Set runtime path of "/home/yzh/\xe6\xa1\x8c\xe9\x9d\xa2/project-ros/ros-study/chapt2/ws_ros/install/pkg01_helloworld_cpp/lib/pkg01_helloworld_cpp/person_node" to ""\n'}
+[25.895005] (pkg01_helloworld_cpp) StdoutLine: {'line': b'-- Installing: /home/yzh/\xe6\xa1\x8c\xe9\x9d\xa2/project-ros/ros-study/chapt2/ws_ros/install/pkg01_helloworld_cpp/lib/pkg01_helloworld_cpp/learn_cpp\n'}
+[25.898122] (-) TimerEvent: {}
+[25.908238] (pkg01_helloworld_cpp) StdoutLine: {'line': b'-- Installing: /home/yzh/\xe6\xa1\x8c\xe9\x9d\xa2/project-ros/ros-study/chapt2/ws_ros/install/pkg01_helloworld_cpp/lib/pkg01_helloworld_cpp/learn_shared\n'}
+[25.916409] (pkg01_helloworld_cpp) StdoutLine: {'line': b'-- Installing: /home/yzh/\xe6\xa1\x8c\xe9\x9d\xa2/project-ros/ros-study/chapt2/ws_ros/install/pkg01_helloworld_cpp/lib/pkg01_helloworld_cpp/learn_lambda\n'}
+[25.925999] (pkg01_helloworld_cpp) StdoutLine: {'line': b'-- Installing: /home/yzh/\xe6\xa1\x8c\xe9\x9d\xa2/project-ros/ros-study/chapt2/ws_ros/install/pkg01_helloworld_cpp/lib/pkg01_helloworld_cpp/learn_functional\n'}
+[25.927092] (pkg01_helloworld_cpp) StdoutLine: {'line': b'-- Installing: /home/yzh/\xe6\xa1\x8c\xe9\x9d\xa2/project-ros/ros-study/chapt2/ws_ros/install/pkg01_helloworld_cpp/lib/pkg01_helloworld_cpp/learn_thread1\n'}
+[25.927558] (pkg01_helloworld_cpp) StdoutLine: {'line': b'-- Up-to-date: /home/yzh/\xe6\xa1\x8c\xe9\x9d\xa2/project-ros/ros-study/chapt2/ws_ros/install/pkg01_helloworld_cpp/share/ament_index/resource_index/package_run_dependencies/pkg01_helloworld_cpp\n'}
+[25.927802] (pkg01_helloworld_cpp) StdoutLine: {'line': b'-- Installing: /home/yzh/\xe6\xa1\x8c\xe9\x9d\xa2/project-ros/ros-study/chapt2/ws_ros/install/pkg01_helloworld_cpp/share/ament_index/resource_index/parent_prefix_path/pkg01_helloworld_cpp\n'}
+[25.928754] (pkg01_helloworld_cpp) StdoutLine: {'line': b'-- Up-to-date: /home/yzh/\xe6\xa1\x8c\xe9\x9d\xa2/project-ros/ros-study/chapt2/ws_ros/install/pkg01_helloworld_cpp/share/pkg01_helloworld_cpp/environment/ament_prefix_path.sh\n'}
+[25.929059] (pkg01_helloworld_cpp) StdoutLine: {'line': b'-- Installing: /home/yzh/\xe6\xa1\x8c\xe9\x9d\xa2/project-ros/ros-study/chapt2/ws_ros/install/pkg01_helloworld_cpp/share/pkg01_helloworld_cpp/environment/ament_prefix_path.dsv\n'}
+[25.929749] (pkg01_helloworld_cpp) StdoutLine: {'line': b'-- Up-to-date: /home/yzh/\xe6\xa1\x8c\xe9\x9d\xa2/project-ros/ros-study/chapt2/ws_ros/install/pkg01_helloworld_cpp/share/pkg01_helloworld_cpp/environment/path.sh\n'}
+[25.930036] (pkg01_helloworld_cpp) StdoutLine: {'line': b'-- Installing: /home/yzh/\xe6\xa1\x8c\xe9\x9d\xa2/project-ros/ros-study/chapt2/ws_ros/install/pkg01_helloworld_cpp/share/pkg01_helloworld_cpp/environment/path.dsv\n'}
+[25.930369] (pkg01_helloworld_cpp) StdoutLine: {'line': b'-- Up-to-date: /home/yzh/\xe6\xa1\x8c\xe9\x9d\xa2/project-ros/ros-study/chapt2/ws_ros/install/pkg01_helloworld_cpp/share/pkg01_helloworld_cpp/local_setup.bash\n'}
+[25.930650] (pkg01_helloworld_cpp) StdoutLine: {'line': b'-- Up-to-date: /home/yzh/\xe6\xa1\x8c\xe9\x9d\xa2/project-ros/ros-study/chapt2/ws_ros/install/pkg01_helloworld_cpp/share/pkg01_helloworld_cpp/local_setup.sh\n'}
+[25.930863] (pkg01_helloworld_cpp) StdoutLine: {'line': b'-- Up-to-date: /home/yzh/\xe6\xa1\x8c\xe9\x9d\xa2/project-ros/ros-study/chapt2/ws_ros/install/pkg01_helloworld_cpp/share/pkg01_helloworld_cpp/local_setup.zsh\n'}
+[25.931087] (pkg01_helloworld_cpp) StdoutLine: {'line': b'-- Installing: /home/yzh/\xe6\xa1\x8c\xe9\x9d\xa2/project-ros/ros-study/chapt2/ws_ros/install/pkg01_helloworld_cpp/share/pkg01_helloworld_cpp/local_setup.dsv\n'}
+[25.932078] (pkg01_helloworld_cpp) StdoutLine: {'line': b'-- Installing: /home/yzh/\xe6\xa1\x8c\xe9\x9d\xa2/project-ros/ros-study/chapt2/ws_ros/install/pkg01_helloworld_cpp/share/pkg01_helloworld_cpp/package.dsv\n'}
+[25.932532] (pkg01_helloworld_cpp) StdoutLine: {'line': b'-- Up-to-date: /home/yzh/\xe6\xa1\x8c\xe9\x9d\xa2/project-ros/ros-study/chapt2/ws_ros/install/pkg01_helloworld_cpp/share/ament_index/resource_index/packages/pkg01_helloworld_cpp\n'}
+[25.932790] (pkg01_helloworld_cpp) StdoutLine: {'line': b'-- Up-to-date: /home/yzh/\xe6\xa1\x8c\xe9\x9d\xa2/project-ros/ros-study/chapt2/ws_ros/install/pkg01_helloworld_cpp/share/pkg01_helloworld_cpp/cmake/pkg01_helloworld_cppConfig.cmake\n'}
+[25.932993] (pkg01_helloworld_cpp) StdoutLine: {'line': b'-- Up-to-date: /home/yzh/\xe6\xa1\x8c\xe9\x9d\xa2/project-ros/ros-study/chapt2/ws_ros/install/pkg01_helloworld_cpp/share/pkg01_helloworld_cpp/cmake/pkg01_helloworld_cppConfig-version.cmake\n'}
+[25.933194] (pkg01_helloworld_cpp) StdoutLine: {'line': b'-- Up-to-date: /home/yzh/\xe6\xa1\x8c\xe9\x9d\xa2/project-ros/ros-study/chapt2/ws_ros/install/pkg01_helloworld_cpp/share/pkg01_helloworld_cpp/package.xml\n'}
+[25.940224] (pkg01_helloworld_cpp) CommandEnded: {'returncode': 0}
+[25.999595] (-) TimerEvent: {}
+[26.101396] (-) TimerEvent: {}
+[26.157437] (pkg01_helloworld_cpp) JobEnded: {'identifier': 'pkg01_helloworld_cpp', 'rc': 0}
+[26.159954] (-) EventReactorShutdown: {}

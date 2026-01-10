@@ -1,0 +1,155 @@
+[0.000000] (-) TimerEvent: {}
+[0.003699] (demo_cpp_topic) JobQueued: {'identifier': 'demo_cpp_topic', 'dependencies': OrderedDict()}
+[0.003833] (demo_cpp_topic) JobStarted: {'identifier': 'demo_cpp_topic'}
+[0.099019] (-) TimerEvent: {}
+[0.127727] (demo_cpp_topic) JobProgress: {'identifier': 'demo_cpp_topic', 'progress': 'cmake'}
+[0.131359] (demo_cpp_topic) Command: {'cmd': ['/usr/bin/cmake', '/home/yzh/桌面/project-ros/ros-study/chapt3/ws_topic/src/demo_cpp_topic', '-DCMAKE_INSTALL_PREFIX=/home/yzh/桌面/project-ros/ros-study/chapt3/ws_topic/install/demo_cpp_topic'], 'cwd': '/home/yzh/桌面/project-ros/ros-study/chapt3/ws_topic/build/demo_cpp_topic', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'zh_CN:en_AU:en_CA:en_GB:en_US:en'), ('USER', 'yzh'), ('SSH_CLIENT', '192.168.44.1 49707 22'), ('LC_TIME', 'zh_CN.UTF-8'), ('XDG_SESSION_TYPE', 'tty'), ('GIT_ASKPASS', '/home/yzh/.vscode-server/cli/servers/Stable-994fd12f8d3a5aa16f17d42c041e5809167e845a/server/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('BROWSER', '/home/yzh/.vscode-server/cli/servers/Stable-994fd12f8d3a5aa16f17d42c041e5809167e845a/server/bin/helpers/browser.sh'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/yzh'), ('OLDPWD', '/home/yzh/桌面/project-ros/ros-study/chapt3/ws_topic/src'), ('TERM_PROGRAM_VERSION', '1.107.1'), ('VSCODE_IPC_HOOK_CLI', '/run/user/1000/vscode-ipc-4a7ff670-512b-44c0-a31c-4a941ceaa19e.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/home/yzh/.vscode-server/cli/servers/Stable-994fd12f8d3a5aa16f17d42c041e5809167e845a/server/extensions/git/dist/askpass-main.js'), ('LC_MONETARY', 'zh_CN.UTF-8'), ('VSCODE_GIT_ASKPASS_NODE', '/home/yzh/.vscode-server/cli/servers/Stable-994fd12f8d3a5aa16f17d42c041e5809167e845a/server/node'), ('SSL_CERT_FILE', '/usr/lib/ssl/certs/ca-certificates.crt'), ('VSCODE_PYTHON_AUTOACTIVATE_GUARD', '1'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'yzh'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '3'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/yzh/.vscode-server/data/User/globalStorage/github.copilot-chat/debugCommand:/home/yzh/.vscode-server/data/User/globalStorage/github.copilot-chat/copilotCli:/home/yzh/.vscode-server/cli/servers/Stable-994fd12f8d3a5aa16f17d42c041e5809167e845a/server/bin/remote-cli:/home/yzh/.local/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('PAPERSIZE', 'a4'), ('LC_ADDRESS', 'zh_CN.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('SSL_CERT_DIR', '/usr/lib/ssl/certs'), ('LANG', 'zh_CN.UTF-8'), ('LC_TELEPHONE', 'zh_CN.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-f929d80034.sock'), ('TERM_PROGRAM', 'vscode'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'zh_CN.UTF-8'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'zh_CN.UTF-8'), ('LC_IDENTIFICATION', 'zh_CN.UTF-8'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/home/yzh/桌面/project-ros/ros-study/chapt3/ws_topic/build/demo_cpp_topic'), ('SSH_CONNECTION', '192.168.44.1 49707 192.168.44.128 22'), ('XDG_DATA_DIRS', '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'zh_CN.UTF-8'), ('LC_PAPER', 'zh_CN.UTF-8'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.199458] (-) TimerEvent: {}
+[0.300857] (-) TimerEvent: {}
+[0.402041] (-) TimerEvent: {}
+[0.503363] (-) TimerEvent: {}
+[0.604807] (-) TimerEvent: {}
+[0.705775] (-) TimerEvent: {}
+[0.807114] (-) TimerEvent: {}
+[0.908726] (-) TimerEvent: {}
+[1.009891] (-) TimerEvent: {}
+[1.111386] (-) TimerEvent: {}
+[1.212422] (-) TimerEvent: {}
+[1.314079] (-) TimerEvent: {}
+[1.416250] (-) TimerEvent: {}
+[1.517390] (-) TimerEvent: {}
+[1.619952] (-) TimerEvent: {}
+[1.720985] (-) TimerEvent: {}
+[1.821944] (-) TimerEvent: {}
+[1.923851] (-) TimerEvent: {}
+[1.951188] (demo_cpp_topic) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[2.024293] (-) TimerEvent: {}
+[2.125211] (-) TimerEvent: {}
+[2.227397] (-) TimerEvent: {}
+[2.328846] (-) TimerEvent: {}
+[2.429901] (-) TimerEvent: {}
+[2.533433] (-) TimerEvent: {}
+[2.636422] (-) TimerEvent: {}
+[2.738226] (-) TimerEvent: {}
+[2.839791] (-) TimerEvent: {}
+[2.941451] (-) TimerEvent: {}
+[2.976732] (demo_cpp_topic) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[3.041793] (-) TimerEvent: {}
+[3.072151] (demo_cpp_topic) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[3.142006] (-) TimerEvent: {}
+[3.242990] (-) TimerEvent: {}
+[3.345468] (-) TimerEvent: {}
+[3.448213] (-) TimerEvent: {}
+[3.549328] (-) TimerEvent: {}
+[3.650848] (-) TimerEvent: {}
+[3.752403] (-) TimerEvent: {}
+[3.796703] (demo_cpp_topic) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[3.824215] (demo_cpp_topic) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[3.835111] (demo_cpp_topic) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[3.840871] (demo_cpp_topic) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[3.852832] (-) TimerEvent: {}
+[3.857673] (demo_cpp_topic) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[3.953827] (-) TimerEvent: {}
+[4.054744] (-) TimerEvent: {}
+[4.155764] (-) TimerEvent: {}
+[4.256970] (-) TimerEvent: {}
+[4.358953] (-) TimerEvent: {}
+[4.459993] (-) TimerEvent: {}
+[4.473817] (demo_cpp_topic) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[4.506845] (demo_cpp_topic) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[4.510131] (demo_cpp_topic) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[4.511730] (demo_cpp_topic) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[4.560754] (-) TimerEvent: {}
+[4.594097] (demo_cpp_topic) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[4.662660] (-) TimerEvent: {}
+[4.764076] (-) TimerEvent: {}
+[4.865096] (-) TimerEvent: {}
+[4.966335] (-) TimerEvent: {}
+[5.067413] (-) TimerEvent: {}
+[5.168788] (-) TimerEvent: {}
+[5.269701] (-) TimerEvent: {}
+[5.370447] (-) TimerEvent: {}
+[5.472875] (-) TimerEvent: {}
+[5.482701] (demo_cpp_topic) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[5.573243] (-) TimerEvent: {}
+[5.674077] (-) TimerEvent: {}
+[5.776192] (-) TimerEvent: {}
+[5.877788] (-) TimerEvent: {}
+[5.979163] (-) TimerEvent: {}
+[6.079881] (-) TimerEvent: {}
+[6.155317] (demo_cpp_topic) StdoutLine: {'line': b'-- Found rclcpp: 16.0.16 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[6.180380] (-) TimerEvent: {}
+[6.281816] (-) TimerEvent: {}
+[6.382898] (-) TimerEvent: {}
+[6.484470] (-) TimerEvent: {}
+[6.490364] (demo_cpp_topic) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.7 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[6.527231] (demo_cpp_topic) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.7 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[6.585081] (-) TimerEvent: {}
+[6.608698] (demo_cpp_topic) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.7 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[6.685506] (-) TimerEvent: {}
+[6.722711] (demo_cpp_topic) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[6.786099] (-) TimerEvent: {}
+[6.856444] (demo_cpp_topic) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[6.886933] (-) TimerEvent: {}
+[6.989228] (-) TimerEvent: {}
+[7.090453] (-) TimerEvent: {}
+[7.193311] (-) TimerEvent: {}
+[7.220313] (demo_cpp_topic) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[7.239911] (demo_cpp_topic) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.9 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[7.293743] (-) TimerEvent: {}
+[7.395898] (-) TimerEvent: {}
+[7.496836] (-) TimerEvent: {}
+[7.597734] (-) TimerEvent: {}
+[7.699140] (-) TimerEvent: {}
+[7.800289] (-) TimerEvent: {}
+[7.847698] (demo_cpp_topic) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  \n'}
+[7.900730] (-) TimerEvent: {}
+[7.970133] (demo_cpp_topic) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/humble/include  \n'}
+[8.001642] (-) TimerEvent: {}
+[8.102731] (-) TimerEvent: {}
+[8.138456] (demo_cpp_topic) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[8.201726] (demo_cpp_topic) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[8.202950] (-) TimerEvent: {}
+[8.303841] (-) TimerEvent: {}
+[8.405322] (-) TimerEvent: {}
+[8.506933] (-) TimerEvent: {}
+[8.607960] (-) TimerEvent: {}
+[8.709478] (-) TimerEvent: {}
+[8.810717] (-) TimerEvent: {}
+[8.868250] (demo_cpp_topic) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[8.871049] (demo_cpp_topic) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[8.911440] (-) TimerEvent: {}
+[9.012515] (-) TimerEvent: {}
+[9.113827] (-) TimerEvent: {}
+[9.214977] (-) TimerEvent: {}
+[9.316088] (-) TimerEvent: {}
+[9.377422] (demo_cpp_topic) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success\n'}
+[9.380957] (demo_cpp_topic) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[9.416912] (-) TimerEvent: {}
+[9.518434] (-) TimerEvent: {}
+[9.620379] (-) TimerEvent: {}
+[9.722848] (-) TimerEvent: {}
+[9.824344] (-) TimerEvent: {}
+[9.863671] (demo_cpp_topic) StderrLine: {'line': b'\x1b[31mCMake Error at CMakeLists.txt:11 (find_package):\n'}
+[9.864151] (demo_cpp_topic) StderrLine: {'line': b'  By not providing "Findgeometry_msgs_turtlesim.cmake" in CMAKE_MODULE_PATH\n'}
+[9.864387] (demo_cpp_topic) StderrLine: {'line': b'  this project has asked CMake to find a package configuration file provided\n'}
+[9.864646] (demo_cpp_topic) StderrLine: {'line': b'  by "geometry_msgs_turtlesim", but CMake did not find one.\n'}
+[9.864872] (demo_cpp_topic) StderrLine: {'line': b'\n'}
+[9.865335] (demo_cpp_topic) StderrLine: {'line': b'  Could not find a package configuration file provided by\n'}
+[9.865653] (demo_cpp_topic) StderrLine: {'line': b'  "geometry_msgs_turtlesim" with any of the following names:\n'}
+[9.865901] (demo_cpp_topic) StderrLine: {'line': b'\n'}
+[9.866097] (demo_cpp_topic) StderrLine: {'line': b'    geometry_msgs_turtlesimConfig.cmake\n'}
+[9.866288] (demo_cpp_topic) StderrLine: {'line': b'    geometry_msgs_turtlesim-config.cmake\n'}
+[9.866480] (demo_cpp_topic) StderrLine: {'line': b'\n'}
+[9.867154] (demo_cpp_topic) StderrLine: {'line': b'  Add the installation prefix of "geometry_msgs_turtlesim" to\n'}
+[9.867464] (demo_cpp_topic) StderrLine: {'line': b'  CMAKE_PREFIX_PATH or set "geometry_msgs_turtlesim_DIR" to a directory\n'}
+[9.867829] (demo_cpp_topic) StderrLine: {'line': b'  containing one of the above files.  If "geometry_msgs_turtlesim" provides a\n'}
+[9.868039] (demo_cpp_topic) StderrLine: {'line': b'  separate development package or SDK, be sure it has been installed.\n'}
+[9.868230] (demo_cpp_topic) StderrLine: {'line': b'\n'}
+[9.868417] (demo_cpp_topic) StderrLine: {'line': b'\x1b[0m\n'}
+[9.869091] (demo_cpp_topic) StdoutLine: {'line': b'-- Configuring incomplete, errors occurred!\n'}
+[9.869425] (demo_cpp_topic) StdoutLine: {'line': b'See also "/home/yzh/\xe6\xa1\x8c\xe9\x9d\xa2/project-ros/ros-study/chapt3/ws_topic/build/demo_cpp_topic/CMakeFiles/CMakeOutput.log".\n'}
+[9.901662] (demo_cpp_topic) CommandEnded: {'returncode': 1}
+[9.924742] (-) TimerEvent: {}
+[9.989801] (demo_cpp_topic) JobEnded: {'identifier': 'demo_cpp_topic', 'rc': 1}
+[10.002437] (-) EventReactorShutdown: {}

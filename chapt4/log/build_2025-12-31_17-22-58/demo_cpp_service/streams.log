@@ -1,0 +1,35 @@
+[0.079s] Invoking command in '/home/yzh/chapt4/build/demo_cpp_service': CMAKE_PREFIX_PATH=/home/yzh/chapt4/install/chapt4_interfaces:/home/yzh/chapt4/install/demo_cpp_service:/opt/ros/humble /usr/bin/cmake --build /home/yzh/chapt4/build/demo_cpp_service -- -j16 -l16
+[0.196s] -- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.760s] -- Found chapt4_interfaces: 0.0.0 (/home/yzh/chapt4/install/chapt4_interfaces/share/chapt4_interfaces/cmake)
+[0.869s] -- Found rosidl_generator_c: 3.1.7 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.877s] -- Found rosidl_adapter: 3.1.7 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.918s] -- Found rosidl_generator_cpp: 3.1.7 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.972s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.046s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.355s] -- Found rclcpp: 16.0.16 (/opt/ros/humble/share/rclcpp/cmake)
+[1.432s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[1.436s] -- Found rmw_fastrtps_cpp: 6.2.9 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[1.943s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[2.131s] -- Found turtlesim: 1.4.3 (/opt/ros/humble/share/turtlesim/cmake)
+[2.307s] -- Found ament_lint_auto: 0.12.14 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[2.656s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[2.657s] -- Configured cppcheck include dirs: 
+[2.657s] -- Configured cppcheck exclude dirs and/or files: 
+[2.659s] -- Added test 'lint_cmake' to check CMake code style
+[2.661s] -- Added test 'uncrustify' to check C / C++ code style
+[2.662s] -- Configured uncrustify additional arguments: 
+[2.663s] -- Added test 'xmllint' to check XML markup files
+[2.665s] -- Configuring done
+[2.719s] -- Generating done
+[2.744s] -- Build files have been written to: /home/yzh/chapt4/build/demo_cpp_service
+[2.902s] [35m[1mConsolidate compiler generated dependencies of target turtle_control[0m
+[2.958s] [ 25%] [32mBuilding CXX object CMakeFiles/partol_client.dir/src/Patrol_Client.cpp.o[0m
+[2.990s] [ 75%] Built target turtle_control
+[15.286s] [01m[K/home/yzh/chapt4/src/demo_cpp_service/src/Patrol_Client.cpp:[m[K In lambda function:
+[15.287s] [01m[K/home/yzh/chapt4/src/demo_cpp_service/src/Patrol_Client.cpp:44:66:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ before ‘[01m[K{[m[K’ token
+[15.287s]    44 |                 }else(response->result == Patrol::Response::FAIL)[01;31m[K{[m[K
+[15.287s]       |                                                                  [01;31m[K^[m[K
+[18.493s] gmake[2]: *** [CMakeFiles/partol_client.dir/build.make:76：CMakeFiles/partol_client.dir/src/Patrol_Client.cpp.o] 错误 1
+[18.494s] gmake[1]: *** [CMakeFiles/Makefile2:165：CMakeFiles/partol_client.dir/all] 错误 2
+[18.496s] gmake: *** [Makefile:146：all] 错误 2
+[18.506s] Invoked command in '/home/yzh/chapt4/build/demo_cpp_service' returned '2': CMAKE_PREFIX_PATH=/home/yzh/chapt4/install/chapt4_interfaces:/home/yzh/chapt4/install/demo_cpp_service:/opt/ros/humble /usr/bin/cmake --build /home/yzh/chapt4/build/demo_cpp_service -- -j16 -l16

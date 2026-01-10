@@ -1,0 +1,32 @@
+[0.060s] Invoking command in '/home/yzh/chapt4/build/demo_cpp_service': CMAKE_PREFIX_PATH=/home/yzh/chapt4/install/chapt4_interfaces:/home/yzh/chapt4/install/demo_cpp_service:/opt/ros/humble /usr/bin/cmake --build /home/yzh/chapt4/build/demo_cpp_service -- -j16 -l16
+[0.217s] [35m[1mConsolidate compiler generated dependencies of target partol_client[0m
+[0.274s] [ 50%] Built target turtle_control
+[0.283s] [ 75%] [32mBuilding CXX object CMakeFiles/partol_client.dir/src/Partol_Client.cpp.o[0m
+[13.384s] [01m[K/home/yzh/chapt4/src/demo_cpp_service/src/Partol_Client.cpp:[m[K In member function ‘[01m[Kvoid PartolClient::timer_callback()[m[K’:
+[13.384s] [01m[K/home/yzh/chapt4/src/demo_cpp_service/src/Partol_Client.cpp:28:25:[m[K [01;35m[Kwarning: [m[Kthe address of ‘[01m[Kbool rclcpp::ok(rclcpp::Context::SharedPtr)[m[K’ will never be NULL [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Waddress-Waddress]8;;[m[K]
+[13.384s]    28 |             if(![01;35m[Krclcpp::ok[m[K){
+[13.385s]       |                 [01;35m[K~~~~~~~~^~[m[K
+[16.544s] [100%] [32m[1mLinking CXX executable partol_client[0m
+[16.949s] [100%] Built target partol_client
+[16.981s] Invoked command in '/home/yzh/chapt4/build/demo_cpp_service' returned '0': CMAKE_PREFIX_PATH=/home/yzh/chapt4/install/chapt4_interfaces:/home/yzh/chapt4/install/demo_cpp_service:/opt/ros/humble /usr/bin/cmake --build /home/yzh/chapt4/build/demo_cpp_service -- -j16 -l16
+[17.015s] Invoking command in '/home/yzh/chapt4/build/demo_cpp_service': CMAKE_PREFIX_PATH=/home/yzh/chapt4/install/chapt4_interfaces:/home/yzh/chapt4/install/demo_cpp_service:/opt/ros/humble /usr/bin/cmake --install /home/yzh/chapt4/build/demo_cpp_service
+[17.037s] -- Install configuration: ""
+[17.038s] -- Up-to-date: /home/yzh/chapt4/install/demo_cpp_service/lib/demo_cpp_service/turtle_control
+[17.039s] -- Installing: /home/yzh/chapt4/install/demo_cpp_service/lib/demo_cpp_service/partol_client
+[17.041s] -- Set runtime path of "/home/yzh/chapt4/install/demo_cpp_service/lib/demo_cpp_service/partol_client" to ""
+[17.041s] -- Up-to-date: /home/yzh/chapt4/install/demo_cpp_service/share/ament_index/resource_index/package_run_dependencies/demo_cpp_service
+[17.042s] -- Up-to-date: /home/yzh/chapt4/install/demo_cpp_service/share/ament_index/resource_index/parent_prefix_path/demo_cpp_service
+[17.044s] -- Up-to-date: /home/yzh/chapt4/install/demo_cpp_service/share/demo_cpp_service/environment/ament_prefix_path.sh
+[17.045s] -- Up-to-date: /home/yzh/chapt4/install/demo_cpp_service/share/demo_cpp_service/environment/ament_prefix_path.dsv
+[17.045s] -- Up-to-date: /home/yzh/chapt4/install/demo_cpp_service/share/demo_cpp_service/environment/path.sh
+[17.045s] -- Up-to-date: /home/yzh/chapt4/install/demo_cpp_service/share/demo_cpp_service/environment/path.dsv
+[17.046s] -- Up-to-date: /home/yzh/chapt4/install/demo_cpp_service/share/demo_cpp_service/local_setup.bash
+[17.046s] -- Up-to-date: /home/yzh/chapt4/install/demo_cpp_service/share/demo_cpp_service/local_setup.sh
+[17.047s] -- Up-to-date: /home/yzh/chapt4/install/demo_cpp_service/share/demo_cpp_service/local_setup.zsh
+[17.047s] -- Up-to-date: /home/yzh/chapt4/install/demo_cpp_service/share/demo_cpp_service/local_setup.dsv
+[17.047s] -- Installing: /home/yzh/chapt4/install/demo_cpp_service/share/demo_cpp_service/package.dsv
+[17.048s] -- Up-to-date: /home/yzh/chapt4/install/demo_cpp_service/share/ament_index/resource_index/packages/demo_cpp_service
+[17.049s] -- Up-to-date: /home/yzh/chapt4/install/demo_cpp_service/share/demo_cpp_service/cmake/demo_cpp_serviceConfig.cmake
+[17.049s] -- Up-to-date: /home/yzh/chapt4/install/demo_cpp_service/share/demo_cpp_service/cmake/demo_cpp_serviceConfig-version.cmake
+[17.051s] -- Up-to-date: /home/yzh/chapt4/install/demo_cpp_service/share/demo_cpp_service/package.xml
+[17.056s] Invoked command in '/home/yzh/chapt4/build/demo_cpp_service' returned '0': CMAKE_PREFIX_PATH=/home/yzh/chapt4/install/chapt4_interfaces:/home/yzh/chapt4/install/demo_cpp_service:/opt/ros/humble /usr/bin/cmake --install /home/yzh/chapt4/build/demo_cpp_service

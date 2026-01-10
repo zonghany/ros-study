@@ -1,0 +1,11 @@
+file(REMOVE_RECURSE
+  "CMakeFiles/learn_cpp.dir/src/learn_cpp.cpp.o"
+  "CMakeFiles/learn_cpp.dir/src/learn_cpp.cpp.o.d"
+  "learn_cpp"
+  "learn_cpp.pdb"
+)
+
+# Per-language clean rules from dependency scanning.
+foreach(lang CXX)
+  include(CMakeFiles/learn_cpp.dir/cmake_clean_${lang}.cmake OPTIONAL)
+endforeach()

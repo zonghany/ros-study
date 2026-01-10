@@ -1,0 +1,28 @@
+[0.090s] Invoking command in '/home/yzh/chapt4/build/demo_cpp_service': CMAKE_PREFIX_PATH=/home/yzh/chapt4/install/chapt4_interfaces:/home/yzh/chapt4/install/demo_cpp_service:/opt/ros/humble /usr/bin/cmake --build /home/yzh/chapt4/build/demo_cpp_service -- -j16 -l16
+[0.217s] [35m[1mConsolidate compiler generated dependencies of target turtle_control[0m
+[0.281s] [ 50%] Built target patrol_client
+[0.293s] [ 75%] [32mBuilding CXX object CMakeFiles/turtle_control.dir/src/TurtleController.cpp.o[0m
+[42.209s] [100%] [32m[1mLinking CXX executable turtle_control[0m
+[43.933s] [100%] Built target turtle_control
+[43.962s] Invoked command in '/home/yzh/chapt4/build/demo_cpp_service' returned '0': CMAKE_PREFIX_PATH=/home/yzh/chapt4/install/chapt4_interfaces:/home/yzh/chapt4/install/demo_cpp_service:/opt/ros/humble /usr/bin/cmake --build /home/yzh/chapt4/build/demo_cpp_service -- -j16 -l16
+[43.996s] Invoking command in '/home/yzh/chapt4/build/demo_cpp_service': CMAKE_PREFIX_PATH=/home/yzh/chapt4/install/chapt4_interfaces:/home/yzh/chapt4/install/demo_cpp_service:/opt/ros/humble /usr/bin/cmake --install /home/yzh/chapt4/build/demo_cpp_service
+[44.026s] -- Install configuration: ""
+[44.026s] -- Installing: /home/yzh/chapt4/install/demo_cpp_service/lib/demo_cpp_service/turtle_control
+[44.047s] -- Set runtime path of "/home/yzh/chapt4/install/demo_cpp_service/lib/demo_cpp_service/turtle_control" to ""
+[44.048s] -- Up-to-date: /home/yzh/chapt4/install/demo_cpp_service/lib/demo_cpp_service/patrol_client
+[44.050s] -- Up-to-date: /home/yzh/chapt4/install/demo_cpp_service/share/ament_index/resource_index/package_run_dependencies/demo_cpp_service
+[44.050s] -- Up-to-date: /home/yzh/chapt4/install/demo_cpp_service/share/ament_index/resource_index/parent_prefix_path/demo_cpp_service
+[44.052s] -- Up-to-date: /home/yzh/chapt4/install/demo_cpp_service/share/demo_cpp_service/environment/ament_prefix_path.sh
+[44.053s] -- Up-to-date: /home/yzh/chapt4/install/demo_cpp_service/share/demo_cpp_service/environment/ament_prefix_path.dsv
+[44.054s] -- Up-to-date: /home/yzh/chapt4/install/demo_cpp_service/share/demo_cpp_service/environment/path.sh
+[44.054s] -- Up-to-date: /home/yzh/chapt4/install/demo_cpp_service/share/demo_cpp_service/environment/path.dsv
+[44.054s] -- Up-to-date: /home/yzh/chapt4/install/demo_cpp_service/share/demo_cpp_service/local_setup.bash
+[44.055s] -- Up-to-date: /home/yzh/chapt4/install/demo_cpp_service/share/demo_cpp_service/local_setup.sh
+[44.055s] -- Up-to-date: /home/yzh/chapt4/install/demo_cpp_service/share/demo_cpp_service/local_setup.zsh
+[44.055s] -- Up-to-date: /home/yzh/chapt4/install/demo_cpp_service/share/demo_cpp_service/local_setup.dsv
+[44.055s] -- Installing: /home/yzh/chapt4/install/demo_cpp_service/share/demo_cpp_service/package.dsv
+[44.056s] -- Up-to-date: /home/yzh/chapt4/install/demo_cpp_service/share/ament_index/resource_index/packages/demo_cpp_service
+[44.056s] -- Up-to-date: /home/yzh/chapt4/install/demo_cpp_service/share/demo_cpp_service/cmake/demo_cpp_serviceConfig.cmake
+[44.056s] -- Up-to-date: /home/yzh/chapt4/install/demo_cpp_service/share/demo_cpp_service/cmake/demo_cpp_serviceConfig-version.cmake
+[44.056s] -- Up-to-date: /home/yzh/chapt4/install/demo_cpp_service/share/demo_cpp_service/package.xml
+[44.059s] Invoked command in '/home/yzh/chapt4/build/demo_cpp_service' returned '0': CMAKE_PREFIX_PATH=/home/yzh/chapt4/install/chapt4_interfaces:/home/yzh/chapt4/install/demo_cpp_service:/opt/ros/humble /usr/bin/cmake --install /home/yzh/chapt4/build/demo_cpp_service

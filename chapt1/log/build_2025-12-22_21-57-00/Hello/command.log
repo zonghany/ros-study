@@ -1,0 +1,2 @@
+Invoking command in '/home/yzh/桌面/project-ros/ros-study/chapt1/build/Hello': /usr/bin/cmake /home/yzh/桌面/project-ros/ros-study/chapt1 -DCMAKE_INSTALL_PREFIX=/home/yzh/桌面/project-ros/ros-study/chapt1/install/Hello
+Invoked command in '/home/yzh/桌面/project-ros/ros-study/chapt1/build/Hello' returned '0': /usr/bin/cmake /home/yzh/桌面/project-ros/ros-study/chapt1 -DCMAKE_INSTALL_PREFIX=/home/yzh/桌面/project-ros/ros-study/chapt1/install/Hello

@@ -1,0 +1,25 @@
+[35m[1mConsolidate compiler generated dependencies of target partol_client[0m
+[ 50%] Built target turtle_control
+[ 75%] [32mBuilding CXX object CMakeFiles/partol_client.dir/src/Partol_Client.cpp.o[0m
+[01m[K/home/yzh/chapt4/src/demo_cpp_service/src/Partol_Client.cpp:[m[K In constructor ‘[01m[KPartolClient::PartolClient()[m[K’:
+[01m[K/home/yzh/chapt4/src/demo_cpp_service/src/Partol_Client.cpp:17:46:[m[K [01;31m[Kerror: [m[K‘[01m[KPartol[m[K’ was not declared in this scope; did you mean ‘[01m[KPatrol[m[K’?
+   17 |         partol_client_ = this->create_client<[01;31m[KPartol[m[K>("patrol");
+      |                                              [01;31m[K^~~~~~[m[K
+      |                                              [32m[KPatrol[m[K
+[01m[K/home/yzh/chapt4/src/demo_cpp_service/src/Partol_Client.cpp:17:53:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[KPartolClient::create_client<<expression error> >(const char [7])[m[K’
+   17 |         partol_client_ = [01;31m[Kthis->create_client<Partol>("patrol")[m[K;
+      |                          [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~[m[K
+In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/single_threaded_executor.hpp:28[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:22[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+                 from [01m[K/home/yzh/chapt4/src/demo_cpp_service/src/Partol_Client.cpp:1[m[K:
+[01m[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:252:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class ServiceT> typename rclcpp::Client<ServiceT>::SharedPtr rclcpp::Node::create_client(const string&, const rmw_qos_profile_t&, rclcpp::CallbackGroup::SharedPtr)[m[K’
+  252 |   [01;36m[Kcreate_client[m[K(
+      |   [01;36m[K^~~~~~~~~~~~~[m[K
+[01m[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:252:3:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/yzh/chapt4/src/demo_cpp_service/src/Partol_Client.cpp:17:53:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+   17 |         partol_client_ = [01;31m[Kthis->create_client<Partol>("patrol")[m[K;
+      |                          [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~[m[K
+gmake[2]: *** [CMakeFiles/partol_client.dir/build.make:76：CMakeFiles/partol_client.dir/src/Partol_Client.cpp.o] 错误 1
+gmake[1]: *** [CMakeFiles/Makefile2:165：CMakeFiles/partol_client.dir/all] 错误 2
+gmake: *** [Makefile:146：all] 错误 2

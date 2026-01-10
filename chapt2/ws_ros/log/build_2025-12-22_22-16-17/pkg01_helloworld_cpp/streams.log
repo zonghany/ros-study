@@ -1,0 +1,108 @@
+[0.082s] Invoking command in '/home/yzh/桌面/project-ros/ros-study/chapt2/ws_ros/build/pkg01_helloworld_cpp': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/yzh/桌面/project-ros/ros-study/chapt2/ws_ros/build/pkg01_helloworld_cpp -- -j16 -l16
+[0.840s] -- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+[2.389s] -- Found rclcpp: 16.0.16 (/opt/ros/humble/share/rclcpp/cmake)
+[2.899s] -- Found rosidl_generator_c: 3.1.7 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[2.943s] -- Found rosidl_adapter: 3.1.7 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[3.043s] -- Found rosidl_generator_cpp: 3.1.7 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[3.186s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[3.375s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[3.949s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[3.993s] -- Found rmw_fastrtps_cpp: 6.2.9 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[4.830s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[5.570s] -- Found ament_lint_auto: 0.12.14 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[6.170s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[6.171s] -- Configured cppcheck include dirs: /home/yzh/桌面/project-ros/ros-study/chapt2/ws_ros/src/pkg01_helloworld_cpp/include;$<BUILD_INTERFACE:/home/yzh/桌面/project-ros/ros-study/chapt2/ws_ros/src/pkg01_helloworld_cpp/include>
+[6.172s] -- Configured cppcheck exclude dirs and/or files: 
+[6.182s] -- Added test 'flake8' to check Python code syntax and style conventions
+[6.198s] -- Added test 'lint_cmake' to check CMake code style
+[6.209s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[6.250s] -- Added test 'uncrustify' to check C / C++ code style
+[6.251s] -- Configured uncrustify additional arguments: 
+[6.260s] -- Added test 'xmllint' to check XML markup files
+[6.294s] -- Configuring done
+[6.522s] -- Generating done
+[6.552s] -- Build files have been written to: /home/yzh/桌面/project-ros/ros-study/chapt2/ws_ros/build/pkg01_helloworld_cpp
+[6.695s] [35m[1mConsolidate compiler generated dependencies of target learn_cpp[0m
+[6.696s] [35m[1mConsolidate compiler generated dependencies of target learn_shared[0m
+[6.697s] [35m[1mConsolidate compiler generated dependencies of target learn_lambda[0m
+[6.701s] [35m[1mConsolidate compiler generated dependencies of target person_node[0m
+[6.701s] [35m[1mConsolidate compiler generated dependencies of target helloworld[0m
+[6.701s] [35m[1mConsolidate compiler generated dependencies of target learn_functional[0m
+[6.766s] [  7%] [32mBuilding CXX object CMakeFiles/learn_thread1.dir/src/learn_thread1.cpp.o[0m
+[6.819s] [ 14%] [32mBuilding CXX object CMakeFiles/learn_functional.dir/src/learn_functional.cpp.o[0m
+[6.819s] [ 21%] [32mBuilding CXX object CMakeFiles/learn_cpp.dir/src/learn_cpp.cpp.o[0m
+[6.821s] [ 28%] [32mBuilding CXX object CMakeFiles/learn_shared.dir/src/learn_shared.cpp.o[0m
+[6.830s] [ 35%] [32mBuilding CXX object CMakeFiles/learn_lambda.dir/src/learn_lambda.cpp.o[0m
+[6.952s] [ 42%] [32mBuilding CXX object CMakeFiles/person_node.dir/src/person_node.cpp.o[0m
+[6.955s] [ 57%] Built target helloworld
+[9.460s] [01m[K/home/yzh/桌面/project-ros/ros-study/chapt2/ws_ros/src/pkg01_helloworld_cpp/src/learn_cpp.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[9.461s] [01m[K/home/yzh/桌面/project-ros/ros-study/chapt2/ws_ros/src/pkg01_helloworld_cpp/src/learn_cpp.cpp:3:14:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kargc[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[9.462s]     3 | int main([01;35m[Kint argc[m[K,char **argv){
+[9.462s]       |          [01;35m[K~~~~^~~~[m[K
+[9.463s] [01m[K/home/yzh/桌面/project-ros/ros-study/chapt2/ws_ros/src/pkg01_helloworld_cpp/src/learn_cpp.cpp:3:26:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kargv[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[9.463s]     3 | int main(int argc,[01;35m[Kchar **argv[m[K){
+[9.464s]       |                   [01;35m[K~~~~~~~^~~~[m[K
+[10.028s] [01m[K/home/yzh/桌面/project-ros/ros-study/chapt2/ws_ros/src/pkg01_helloworld_cpp/src/learn_shared.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[10.028s] [01m[K/home/yzh/桌面/project-ros/ros-study/chapt2/ws_ros/src/pkg01_helloworld_cpp/src/learn_shared.cpp:3:14:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kargc[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[10.029s]     3 | int main([01;35m[Kint argc[m[K, char **argv)
+[10.029s]       |          [01;35m[K~~~~^~~~[m[K
+[10.029s] [01m[K/home/yzh/桌面/project-ros/ros-study/chapt2/ws_ros/src/pkg01_helloworld_cpp/src/learn_shared.cpp:3:27:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kargv[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[10.030s]     3 | int main(int argc, [01;35m[Kchar **argv[m[K)
+[10.030s]       |                    [01;35m[K~~~~~~~^~~~[m[K
+[10.073s] [ 64%] [32m[1mLinking CXX executable learn_cpp[0m
+[10.594s] [01m[K/home/yzh/桌面/project-ros/ros-study/chapt2/ws_ros/src/pkg01_helloworld_cpp/src/learn_functional.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[10.595s] [01m[K/home/yzh/桌面/project-ros/ros-study/chapt2/ws_ros/src/pkg01_helloworld_cpp/src/learn_functional.cpp:21:14:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kargc[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[10.595s]    21 | int main([01;35m[Kint argc[m[K,char **argv){
+[10.596s]       |          [01;35m[K~~~~^~~~[m[K
+[10.597s] [01m[K/home/yzh/桌面/project-ros/ros-study/chapt2/ws_ros/src/pkg01_helloworld_cpp/src/learn_functional.cpp:21:26:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kargv[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[10.597s]    21 | int main(int argc,[01;35m[Kchar **argv[m[K){
+[10.597s]       |                   [01;35m[K~~~~~~~^~~~[m[K
+[10.647s] [01m[K/home/yzh/桌面/project-ros/ros-study/chapt2/ws_ros/src/pkg01_helloworld_cpp/src/learn_lambda.cpp:[m[K In lambda function:
+[10.647s] [01m[K/home/yzh/桌面/project-ros/ros-study/chapt2/ws_ros/src/pkg01_helloworld_cpp/src/learn_lambda.cpp:9:30:[m[K [01;35m[Kwarning: [m[Kthe address of ‘[01m[Kstatic constexpr int main(int, char**)::<lambda(int, int)>::_FUN(int, int)[m[K’ will never be NULL [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Waddress-Waddress]8;;[m[K]
+[10.647s]     9 |         std::cout<<"x+y = "<<[01;35m[Ka[m[K<<std::endl;
+[10.648s]       |                              [01;35m[K^[m[K
+[10.652s] [01m[K/home/yzh/桌面/project-ros/ros-study/chapt2/ws_ros/src/pkg01_helloworld_cpp/src/learn_lambda.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[10.654s] [01m[K/home/yzh/桌面/project-ros/ros-study/chapt2/ws_ros/src/pkg01_helloworld_cpp/src/learn_lambda.cpp:4:14:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kargc[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[10.654s]     4 | int main([01;35m[Kint argc[m[K,char **argv){
+[10.654s]       |          [01;35m[K~~~~^~~~[m[K
+[10.655s] [01m[K/home/yzh/桌面/project-ros/ros-study/chapt2/ws_ros/src/pkg01_helloworld_cpp/src/learn_lambda.cpp:4:26:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kargv[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[10.655s]     4 | int main(int argc,[01;35m[Kchar **argv[m[K){
+[10.655s]       |                   [01;35m[K~~~~~~~^~~~[m[K
+[10.845s] [ 71%] [32m[1mLinking CXX executable learn_thread1[0m
+[10.866s] [ 78%] [32m[1mLinking CXX executable learn_shared[0m
+[10.956s] [ 78%] Built target learn_cpp
+[11.025s] [ 85%] [32m[1mLinking CXX executable learn_lambda[0m
+[11.218s] [ 85%] Built target learn_thread1
+[11.232s] [ 85%] Built target learn_shared
+[11.251s] [ 92%] [32m[1mLinking CXX executable learn_functional[0m
+[11.385s] [ 92%] Built target learn_lambda
+[11.607s] [ 92%] Built target learn_functional
+[24.421s] [100%] [32m[1mLinking CXX executable person_node[0m
+[25.700s] [100%] Built target person_node
+[25.755s] Invoked command in '/home/yzh/桌面/project-ros/ros-study/chapt2/ws_ros/build/pkg01_helloworld_cpp' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/yzh/桌面/project-ros/ros-study/chapt2/ws_ros/build/pkg01_helloworld_cpp -- -j16 -l16
+[25.811s] Invoking command in '/home/yzh/桌面/project-ros/ros-study/chapt2/ws_ros/build/pkg01_helloworld_cpp': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/yzh/桌面/project-ros/ros-study/chapt2/ws_ros/build/pkg01_helloworld_cpp
+[25.848s] -- Install configuration: ""
+[25.868s] -- Up-to-date: /home/yzh/桌面/project-ros/ros-study/chapt2/ws_ros/install/pkg01_helloworld_cpp/lib/pkg01_helloworld_cpp/helloworld
+[25.884s] -- Installing: /home/yzh/桌面/project-ros/ros-study/chapt2/ws_ros/install/pkg01_helloworld_cpp/lib/pkg01_helloworld_cpp/person_node
+[25.884s] -- Set runtime path of "/home/yzh/桌面/project-ros/ros-study/chapt2/ws_ros/install/pkg01_helloworld_cpp/lib/pkg01_helloworld_cpp/person_node" to ""
+[25.892s] -- Installing: /home/yzh/桌面/project-ros/ros-study/chapt2/ws_ros/install/pkg01_helloworld_cpp/lib/pkg01_helloworld_cpp/learn_cpp
+[25.906s] -- Installing: /home/yzh/桌面/project-ros/ros-study/chapt2/ws_ros/install/pkg01_helloworld_cpp/lib/pkg01_helloworld_cpp/learn_shared
+[25.914s] -- Installing: /home/yzh/桌面/project-ros/ros-study/chapt2/ws_ros/install/pkg01_helloworld_cpp/lib/pkg01_helloworld_cpp/learn_lambda
+[25.923s] -- Installing: /home/yzh/桌面/project-ros/ros-study/chapt2/ws_ros/install/pkg01_helloworld_cpp/lib/pkg01_helloworld_cpp/learn_functional
+[25.924s] -- Installing: /home/yzh/桌面/project-ros/ros-study/chapt2/ws_ros/install/pkg01_helloworld_cpp/lib/pkg01_helloworld_cpp/learn_thread1
+[25.925s] -- Up-to-date: /home/yzh/桌面/project-ros/ros-study/chapt2/ws_ros/install/pkg01_helloworld_cpp/share/ament_index/resource_index/package_run_dependencies/pkg01_helloworld_cpp
+[25.925s] -- Installing: /home/yzh/桌面/project-ros/ros-study/chapt2/ws_ros/install/pkg01_helloworld_cpp/share/ament_index/resource_index/parent_prefix_path/pkg01_helloworld_cpp
+[25.926s] -- Up-to-date: /home/yzh/桌面/project-ros/ros-study/chapt2/ws_ros/install/pkg01_helloworld_cpp/share/pkg01_helloworld_cpp/environment/ament_prefix_path.sh
+[25.927s] -- Installing: /home/yzh/桌面/project-ros/ros-study/chapt2/ws_ros/install/pkg01_helloworld_cpp/share/pkg01_helloworld_cpp/environment/ament_prefix_path.dsv
+[25.927s] -- Up-to-date: /home/yzh/桌面/project-ros/ros-study/chapt2/ws_ros/install/pkg01_helloworld_cpp/share/pkg01_helloworld_cpp/environment/path.sh
+[25.927s] -- Installing: /home/yzh/桌面/project-ros/ros-study/chapt2/ws_ros/install/pkg01_helloworld_cpp/share/pkg01_helloworld_cpp/environment/path.dsv
+[25.927s] -- Up-to-date: /home/yzh/桌面/project-ros/ros-study/chapt2/ws_ros/install/pkg01_helloworld_cpp/share/pkg01_helloworld_cpp/local_setup.bash
+[25.928s] -- Up-to-date: /home/yzh/桌面/project-ros/ros-study/chapt2/ws_ros/install/pkg01_helloworld_cpp/share/pkg01_helloworld_cpp/local_setup.sh
+[25.928s] -- Up-to-date: /home/yzh/桌面/project-ros/ros-study/chapt2/ws_ros/install/pkg01_helloworld_cpp/share/pkg01_helloworld_cpp/local_setup.zsh
+[25.928s] -- Installing: /home/yzh/桌面/project-ros/ros-study/chapt2/ws_ros/install/pkg01_helloworld_cpp/share/pkg01_helloworld_cpp/local_setup.dsv
+[25.929s] -- Installing: /home/yzh/桌面/project-ros/ros-study/chapt2/ws_ros/install/pkg01_helloworld_cpp/share/pkg01_helloworld_cpp/package.dsv
+[25.930s] -- Up-to-date: /home/yzh/桌面/project-ros/ros-study/chapt2/ws_ros/install/pkg01_helloworld_cpp/share/ament_index/resource_index/packages/pkg01_helloworld_cpp
+[25.930s] -- Up-to-date: /home/yzh/桌面/project-ros/ros-study/chapt2/ws_ros/install/pkg01_helloworld_cpp/share/pkg01_helloworld_cpp/cmake/pkg01_helloworld_cppConfig.cmake
+[25.930s] -- Up-to-date: /home/yzh/桌面/project-ros/ros-study/chapt2/ws_ros/install/pkg01_helloworld_cpp/share/pkg01_helloworld_cpp/cmake/pkg01_helloworld_cppConfig-version.cmake
+[25.930s] -- Up-to-date: /home/yzh/桌面/project-ros/ros-study/chapt2/ws_ros/install/pkg01_helloworld_cpp/share/pkg01_helloworld_cpp/package.xml
+[25.938s] Invoked command in '/home/yzh/桌面/project-ros/ros-study/chapt2/ws_ros/build/pkg01_helloworld_cpp' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/yzh/桌面/project-ros/ros-study/chapt2/ws_ros/build/pkg01_helloworld_cpp

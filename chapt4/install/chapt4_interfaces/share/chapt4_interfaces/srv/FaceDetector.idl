@@ -1,0 +1,44 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from chapt4_interfaces/srv/FaceDetector.srv
+// generated code does not contain a copyright notice
+
+#include "sensor_msgs/msg/Image.idl"
+
+module chapt4_interfaces {
+  module srv {
+    @verbatim (language="comment", text=
+      "请求（Request）：输入人脸图像（依赖sensor_msgs/Image，已在CMake中声明依赖）")
+    struct FaceDetector_Request {
+      @verbatim (language="comment", text=
+        "人脸图像")
+      sensor_msgs::msg::Image image;
+    };
+    @verbatim (language="comment", text=
+      "响应（Response）：返回检测结果")
+    struct FaceDetector_Response {
+      @verbatim (language="comment", text=
+        "修正：确保是int16（16位整数，若需32位可改为int32）")
+      int16 number;
+
+      @verbatim (language="comment", text=
+        "检测耗时")
+      float use_time;
+
+      @verbatim (language="comment", text=
+        "修正：数组格式（int32[] 无空格）- 人脸顶部坐标数组")
+      sequence<int32> top;
+
+      @verbatim (language="comment", text=
+        "人脸右侧坐标数组")
+      sequence<int32> right;
+
+      @verbatim (language="comment", text=
+        "人脸底部坐标数组")
+      sequence<int32> bottom;
+
+      @verbatim (language="comment", text=
+        "人脸左侧坐标数组")
+      sequence<int32> left;
+    };
+  };
+};

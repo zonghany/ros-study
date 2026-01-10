@@ -1,0 +1,83 @@
+[0.066s] Invoking command in '/home/yzh/chapt4/build/demo_cpp_service': CMAKE_PREFIX_PATH=/home/yzh/chapt4/install/chapt4_interfaces:/home/yzh/chapt4/install/demo_cpp_service:/opt/ros/humble /usr/bin/cmake --build /home/yzh/chapt4/build/demo_cpp_service -- -j16 -l16
+[0.191s] -- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.749s] -- Found chapt4_interfaces: 0.0.0 (/home/yzh/chapt4/install/chapt4_interfaces/share/chapt4_interfaces/cmake)
+[0.879s] -- Found rosidl_generator_c: 3.1.7 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.890s] -- Found rosidl_adapter: 3.1.7 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.907s] -- Found rosidl_generator_cpp: 3.1.7 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.924s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.951s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.195s] -- Found rclcpp: 16.0.16 (/opt/ros/humble/share/rclcpp/cmake)
+[1.286s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[1.288s] -- Found rmw_fastrtps_cpp: 6.2.9 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[1.598s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.717s] -- Found turtlesim: 1.4.3 (/opt/ros/humble/share/turtlesim/cmake)
+[1.864s] -- Found ament_lint_auto: 0.12.14 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[2.127s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[2.128s] -- Configured cppcheck include dirs: 
+[2.128s] -- Configured cppcheck exclude dirs and/or files: 
+[2.130s] -- Added test 'lint_cmake' to check CMake code style
+[2.133s] -- Added test 'uncrustify' to check C / C++ code style
+[2.133s] -- Configured uncrustify additional arguments: 
+[2.134s] -- Added test 'xmllint' to check XML markup files
+[2.137s] -- Configuring done
+[2.192s] -- Generating done
+[2.215s] -- Build files have been written to: /home/yzh/chapt4/build/demo_cpp_service
+[2.366s] [35m[1mConsolidate compiler generated dependencies of target turtle_control[0m
+[2.421s] [ 25%] [32mBuilding CXX object CMakeFiles/partol_client.dir/src/Partol_Client.cpp.o[0m
+[2.444s] [ 75%] Built target turtle_control
+[14.343s] [01m[K/home/yzh/chapt4/src/demo_cpp_service/src/Partol_Client.cpp:5:46:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ before ‘[01m[Kusing[m[K’
+[14.343s]     5 | using Patrol = chapt4_interfaces::srv::Patrol
+[14.344s]       |                                              [01;31m[K^[m[K
+[14.344s]       |                                              [32m[K;[m[K
+[14.344s]     6 | [32m[Kusing[m[K namespace std::chrono_literals;
+[14.344s]       | [32m[K~~~~~[m[K                                         
+[14.345s] [01m[K/home/yzh/chapt4/src/demo_cpp_service/src/Partol_Client.cpp:12:20:[m[K [01;31m[Kerror: [m[K‘[01m[KPatrol[m[K’ was not declared in this scope; did you mean ‘[01m[Kchapt4_interfaces::srv::Patrol[m[K’?
+[14.345s]    12 |     rclcpp::Client<[01;31m[KPatrol[m[K>::SharedPtr partol_client_;
+[14.345s]       |                    [01;31m[K^~~~~~[m[K
+[14.346s]       |                    [32m[Kchapt4_interfaces::srv::Patrol[m[K
+[14.346s] In file included from [01m[K/home/yzh/chapt4/install/chapt4_interfaces/include/chapt4_interfaces/chapt4_interfaces/srv/patrol.hpp:7[m[K,
+[14.346s]                  from [01m[K/home/yzh/chapt4/src/demo_cpp_service/src/Partol_Client.cpp:2[m[K:
+[14.346s] [01m[K/home/yzh/chapt4/install/chapt4_interfaces/include/chapt4_interfaces/chapt4_interfaces/srv/detail/patrol__struct.hpp:279:8:[m[K [01;36m[Knote: [m[K‘[01m[Kchapt4_interfaces::srv::Patrol[m[K’ declared here
+[14.347s]   279 | struct [01;36m[KPatrol[m[K
+[14.347s]       |        [01;36m[K^~~~~~[m[K
+[14.347s] [01m[K/home/yzh/chapt4/src/demo_cpp_service/src/Partol_Client.cpp:12:26:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[14.348s]    12 |     rclcpp::Client<Patrol[01;31m[K>[m[K::SharedPtr partol_client_;
+[14.348s]       |                          [01;31m[K^[m[K
+[14.358s] [01m[K/home/yzh/chapt4/src/demo_cpp_service/src/Partol_Client.cpp:12:29:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ at end of member declaration
+[14.358s]    12 |     rclcpp::Client<Patrol>::[01;31m[KSharedPtr[m[K partol_client_;
+[14.359s]       |                             [01;31m[K^~~~~~~~~[m[K
+[14.359s]       |                                      [32m[K;[m[K
+[14.363s] [01m[K/home/yzh/chapt4/src/demo_cpp_service/src/Partol_Client.cpp:12:39:[m[K [01;31m[Kerror: [m[K‘[01m[Kpartol_client_[m[K’ does not name a type; did you mean ‘[01m[KPartolClient[m[K’?
+[14.364s]    12 |     rclcpp::Client<Patrol>::SharedPtr [01;31m[Kpartol_client_[m[K;
+[14.364s]       |                                       [01;31m[K^~~~~~~~~~~~~~[m[K
+[14.364s]       |                                       [32m[KPartolClient[m[K
+[14.388s] [01m[K/home/yzh/chapt4/src/demo_cpp_service/src/Partol_Client.cpp:[m[K In constructor ‘[01m[KPartolClient::PartolClient()[m[K’:
+[14.388s] [01m[K/home/yzh/chapt4/src/demo_cpp_service/src/Partol_Client.cpp:17:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kpartol_client_[m[K’ was not declared in this scope; did you mean ‘[01m[KPartolClient[m[K’?
+[14.389s]    17 |         [01;31m[Kpartol_client_[m[K = this->create_client<Partol>("patrol");
+[14.389s]       |         [01;31m[K^~~~~~~~~~~~~~[m[K
+[14.389s]       |         [32m[KPartolClient[m[K
+[14.402s] [01m[K/home/yzh/chapt4/src/demo_cpp_service/src/Partol_Client.cpp:17:46:[m[K [01;31m[Kerror: [m[K‘[01m[KPartol[m[K’ was not declared in this scope; did you mean ‘[01m[Kstrtol[m[K’?
+[14.403s]    17 |         partol_client_ = this->create_client<[01;31m[KPartol[m[K>("patrol");
+[14.403s]       |                                              [01;31m[K^~~~~~[m[K
+[14.403s]       |                                              [32m[Kstrtol[m[K
+[14.404s] [01m[K/home/yzh/chapt4/src/demo_cpp_service/src/Partol_Client.cpp:17:53:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[KPartolClient::create_client<<expression error> >(const char [7])[m[K’
+[14.405s]    17 |         partol_client_ = [01;31m[Kthis->create_client<Partol>("patrol")[m[K;
+[14.405s]       |                          [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~[m[K
+[14.406s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/single_threaded_executor.hpp:28[m[K,
+[14.406s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:22[m[K,
+[14.406s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[14.407s]                  from [01m[K/home/yzh/chapt4/src/demo_cpp_service/src/Partol_Client.cpp:1[m[K:
+[14.407s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:252:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class ServiceT> typename rclcpp::Client<ServiceT>::SharedPtr rclcpp::Node::create_client(const string&, const rmw_qos_profile_t&, rclcpp::CallbackGroup::SharedPtr)[m[K’
+[14.407s]   252 |   [01;36m[Kcreate_client[m[K(
+[14.408s]       |   [01;36m[K^~~~~~~~~~~~~[m[K
+[14.409s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:252:3:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[14.409s] [01m[K/home/yzh/chapt4/src/demo_cpp_service/src/Partol_Client.cpp:17:53:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[14.409s]    17 |         partol_client_ = [01;31m[Kthis->create_client<Partol>("patrol")[m[K;
+[14.410s]       |                          [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~[m[K
+[14.410s] [01m[K/home/yzh/chapt4/src/demo_cpp_service/src/Partol_Client.cpp:19:42:[m[K [01;31m[Kerror: [m[Kunable to find numeric literal operator ‘[01m[Koperator""s[m[K’
+[14.410s]    19 |         timer_ = this->create_wall_timer([01;31m[K10s[m[K,std::bind(&PartolClient::timer_callback,this));
+[14.410s]       |                                          [01;31m[K^~~[m[K
+[16.529s] gmake[2]: *** [CMakeFiles/partol_client.dir/build.make:76：CMakeFiles/partol_client.dir/src/Partol_Client.cpp.o] 错误 1
+[16.530s] gmake[1]: *** [CMakeFiles/Makefile2:165：CMakeFiles/partol_client.dir/all] 错误 2
+[16.530s] gmake: *** [Makefile:146：all] 错误 2
+[16.553s] Invoked command in '/home/yzh/chapt4/build/demo_cpp_service' returned '2': CMAKE_PREFIX_PATH=/home/yzh/chapt4/install/chapt4_interfaces:/home/yzh/chapt4/install/demo_cpp_service:/opt/ros/humble /usr/bin/cmake --build /home/yzh/chapt4/build/demo_cpp_service -- -j16 -l16

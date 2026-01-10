@@ -1,0 +1,27 @@
+[0.088s] Invoking command in '/home/yzh/chapt4/build/demo_cpp_service': CMAKE_PREFIX_PATH=/home/yzh/chapt4/install/chapt4_interfaces:/home/yzh/chapt4/install/demo_cpp_service:/opt/ros/humble /usr/bin/cmake --build /home/yzh/chapt4/build/demo_cpp_service -- -j16 -l16
+[0.277s] [35m[1mConsolidate compiler generated dependencies of target partol_client[0m
+[0.324s] [ 50%] Built target turtle_control
+[0.328s] [ 75%] [32mBuilding CXX object CMakeFiles/partol_client.dir/src/Partol_Client.cpp.o[0m
+[10.475s] [01m[K/home/yzh/chapt4/src/demo_cpp_service/src/Partol_Client.cpp:[m[K In constructor ‘[01m[KPartolClient::PartolClient()[m[K’:
+[10.476s] [01m[K/home/yzh/chapt4/src/demo_cpp_service/src/Partol_Client.cpp:17:46:[m[K [01;31m[Kerror: [m[K‘[01m[KPartol[m[K’ was not declared in this scope; did you mean ‘[01m[KPatrol[m[K’?
+[10.476s]    17 |         partol_client_ = this->create_client<[01;31m[KPartol[m[K>("patrol");
+[10.476s]       |                                              [01;31m[K^~~~~~[m[K
+[10.476s]       |                                              [32m[KPatrol[m[K
+[10.477s] [01m[K/home/yzh/chapt4/src/demo_cpp_service/src/Partol_Client.cpp:17:53:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[KPartolClient::create_client<<expression error> >(const char [7])[m[K’
+[10.481s]    17 |         partol_client_ = [01;31m[Kthis->create_client<Partol>("patrol")[m[K;
+[10.482s]       |                          [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~[m[K
+[10.486s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/single_threaded_executor.hpp:28[m[K,
+[10.486s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:22[m[K,
+[10.486s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[10.486s]                  from [01m[K/home/yzh/chapt4/src/demo_cpp_service/src/Partol_Client.cpp:1[m[K:
+[10.486s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:252:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class ServiceT> typename rclcpp::Client<ServiceT>::SharedPtr rclcpp::Node::create_client(const string&, const rmw_qos_profile_t&, rclcpp::CallbackGroup::SharedPtr)[m[K’
+[10.487s]   252 |   [01;36m[Kcreate_client[m[K(
+[10.487s]       |   [01;36m[K^~~~~~~~~~~~~[m[K
+[10.487s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:252:3:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[10.487s] [01m[K/home/yzh/chapt4/src/demo_cpp_service/src/Partol_Client.cpp:17:53:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[10.487s]    17 |         partol_client_ = [01;31m[Kthis->create_client<Partol>("patrol")[m[K;
+[10.488s]       |                          [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~[m[K
+[12.581s] gmake[2]: *** [CMakeFiles/partol_client.dir/build.make:76：CMakeFiles/partol_client.dir/src/Partol_Client.cpp.o] 错误 1
+[12.583s] gmake[1]: *** [CMakeFiles/Makefile2:165：CMakeFiles/partol_client.dir/all] 错误 2
+[12.584s] gmake: *** [Makefile:146：all] 错误 2
+[12.592s] Invoked command in '/home/yzh/chapt4/build/demo_cpp_service' returned '2': CMAKE_PREFIX_PATH=/home/yzh/chapt4/install/chapt4_interfaces:/home/yzh/chapt4/install/demo_cpp_service:/opt/ros/humble /usr/bin/cmake --build /home/yzh/chapt4/build/demo_cpp_service -- -j16 -l16

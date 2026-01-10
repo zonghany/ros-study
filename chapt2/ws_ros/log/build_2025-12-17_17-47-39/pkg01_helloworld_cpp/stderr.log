@@ -1,0 +1,4 @@
+[01m[K/home/yzh/桌面/project-ros/ros-study/chapt2/ws_ros/src/pkg01_helloworld_cpp/src/person_node.cpp:[m[K In constructor ‘[01m[KPersonNode::PersonNode(const string&, const string&, int)[m[K’:
+[01m[K/home/yzh/桌面/project-ros/ros-study/chapt2/ws_ros/src/pkg01_helloworld_cpp/src/person_node.cpp:10:80:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[K_age[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+   10 |     PersonNode(const std::string &node_name,const std::string &_name,[01;35m[Kconst int _age[m[K):Node(node_name)
+      |                                                                      [01;35m[K~~~~~~~~~~^~~~[m[K

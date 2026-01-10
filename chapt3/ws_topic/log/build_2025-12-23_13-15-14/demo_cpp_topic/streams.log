@@ -1,0 +1,26 @@
+[0.054s] Invoking command in '/home/yzh/桌面/project-ros/ros-study/chapt3/ws_topic/build/demo_cpp_topic': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/yzh/桌面/project-ros/ros-study/chapt3/ws_topic/build/demo_cpp_topic -- -j16 -l16
+[0.263s] [35m[1mConsolidate compiler generated dependencies of target turtle_circle[0m
+[0.350s] [ 50%] [32mBuilding CXX object CMakeFiles/turtle_circle.dir/src/turtle_circle.cpp.o[0m
+[21.453s] [100%] [32m[1mLinking CXX executable turtle_circle[0m
+[22.815s] [100%] Built target turtle_circle
+[22.873s] Invoked command in '/home/yzh/桌面/project-ros/ros-study/chapt3/ws_topic/build/demo_cpp_topic' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/yzh/桌面/project-ros/ros-study/chapt3/ws_topic/build/demo_cpp_topic -- -j16 -l16
+[22.920s] Invoking command in '/home/yzh/桌面/project-ros/ros-study/chapt3/ws_topic/build/demo_cpp_topic': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/yzh/桌面/project-ros/ros-study/chapt3/ws_topic/build/demo_cpp_topic
+[22.956s] -- Install configuration: ""
+[22.957s] -- Installing: /home/yzh/桌面/project-ros/ros-study/chapt3/ws_topic/install/demo_cpp_topic/lib/demo_cpp_topic/turtle_circle
+[22.962s] -- Set runtime path of "/home/yzh/桌面/project-ros/ros-study/chapt3/ws_topic/install/demo_cpp_topic/lib/demo_cpp_topic/turtle_circle" to ""
+[22.964s] -- Installing: /home/yzh/桌面/project-ros/ros-study/chapt3/ws_topic/install/demo_cpp_topic/share/ament_index/resource_index/package_run_dependencies/demo_cpp_topic
+[22.964s] -- Installing: /home/yzh/桌面/project-ros/ros-study/chapt3/ws_topic/install/demo_cpp_topic/share/ament_index/resource_index/parent_prefix_path/demo_cpp_topic
+[22.965s] -- Installing: /home/yzh/桌面/project-ros/ros-study/chapt3/ws_topic/install/demo_cpp_topic/share/demo_cpp_topic/environment/ament_prefix_path.sh
+[22.966s] -- Installing: /home/yzh/桌面/project-ros/ros-study/chapt3/ws_topic/install/demo_cpp_topic/share/demo_cpp_topic/environment/ament_prefix_path.dsv
+[22.966s] -- Installing: /home/yzh/桌面/project-ros/ros-study/chapt3/ws_topic/install/demo_cpp_topic/share/demo_cpp_topic/environment/path.sh
+[22.967s] -- Installing: /home/yzh/桌面/project-ros/ros-study/chapt3/ws_topic/install/demo_cpp_topic/share/demo_cpp_topic/environment/path.dsv
+[22.968s] -- Installing: /home/yzh/桌面/project-ros/ros-study/chapt3/ws_topic/install/demo_cpp_topic/share/demo_cpp_topic/local_setup.bash
+[22.968s] -- Installing: /home/yzh/桌面/project-ros/ros-study/chapt3/ws_topic/install/demo_cpp_topic/share/demo_cpp_topic/local_setup.sh
+[22.969s] -- Installing: /home/yzh/桌面/project-ros/ros-study/chapt3/ws_topic/install/demo_cpp_topic/share/demo_cpp_topic/local_setup.zsh
+[22.970s] -- Installing: /home/yzh/桌面/project-ros/ros-study/chapt3/ws_topic/install/demo_cpp_topic/share/demo_cpp_topic/local_setup.dsv
+[22.970s] -- Installing: /home/yzh/桌面/project-ros/ros-study/chapt3/ws_topic/install/demo_cpp_topic/share/demo_cpp_topic/package.dsv
+[22.970s] -- Installing: /home/yzh/桌面/project-ros/ros-study/chapt3/ws_topic/install/demo_cpp_topic/share/ament_index/resource_index/packages/demo_cpp_topic
+[22.972s] -- Installing: /home/yzh/桌面/project-ros/ros-study/chapt3/ws_topic/install/demo_cpp_topic/share/demo_cpp_topic/cmake/demo_cpp_topicConfig.cmake
+[22.972s] -- Installing: /home/yzh/桌面/project-ros/ros-study/chapt3/ws_topic/install/demo_cpp_topic/share/demo_cpp_topic/cmake/demo_cpp_topicConfig-version.cmake
+[22.973s] -- Installing: /home/yzh/桌面/project-ros/ros-study/chapt3/ws_topic/install/demo_cpp_topic/share/demo_cpp_topic/package.xml
+[22.978s] Invoked command in '/home/yzh/桌面/project-ros/ros-study/chapt3/ws_topic/build/demo_cpp_topic' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/yzh/桌面/project-ros/ros-study/chapt3/ws_topic/build/demo_cpp_topic

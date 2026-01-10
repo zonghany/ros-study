@@ -1,0 +1,74 @@
+[0.075s] Invoking command in '/home/yzh/桌面/project-ros/ros-study/chapt5/chapt5_ws/build/demo_cpp_tf': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/yzh/桌面/project-ros/ros-study/chapt5/chapt5_ws/src/demo_cpp_tf -DCMAKE_INSTALL_PREFIX=/home/yzh/桌面/project-ros/ros-study/chapt5/chapt5_ws/install/demo_cpp_tf
+[1.354s] -- The C compiler identification is GNU 11.4.0
+[2.474s] -- The CXX compiler identification is GNU 11.4.0
+[2.573s] -- Detecting C compiler ABI info
+[2.971s] -- Detecting C compiler ABI info - done
+[3.002s] -- Check for working C compiler: /usr/bin/cc - skipped
+[3.007s] -- Detecting C compile features
+[3.014s] -- Detecting C compile features - done
+[3.030s] -- Detecting CXX compiler ABI info
+[3.493s] -- Detecting CXX compiler ABI info - done
+[3.525s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[3.527s] -- Detecting CXX compile features
+[3.529s] -- Detecting CXX compile features - done
+[3.584s] -- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+[4.363s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[4.882s] -- Found rclcpp: 16.0.16 (/opt/ros/humble/share/rclcpp/cmake)
+[5.228s] -- Found rosidl_generator_c: 3.1.7 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[5.259s] -- Found rosidl_adapter: 3.1.7 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[5.312s] -- Found rosidl_generator_cpp: 3.1.7 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[5.382s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[5.461s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[5.742s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[5.763s] -- Found rmw_fastrtps_cpp: 6.2.9 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[6.323s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[6.466s] -- Found FastRTPS: /opt/ros/humble/include  
+[6.594s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[6.660s] -- Looking for pthread.h
+[7.052s] -- Looking for pthread.h - found
+[7.055s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[7.447s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[7.452s] -- Found Threads: TRUE  
+[7.795s] -- Found tf2: 0.25.17 (/opt/ros/humble/share/tf2/cmake)
+[7.947s] -- Found tf2_ros: 0.25.17 (/opt/ros/humble/share/tf2_ros/cmake)
+[8.453s] -- Found tf2_geometry_msgs: 0.25.17 (/opt/ros/humble/share/tf2_geometry_msgs/cmake)
+[8.527s] -- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)
+[8.538s] -- Found Eigen3: TRUE (found version "3.4.0") 
+[8.538s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[8.553s] -- Found ament_lint_auto: 0.12.14 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[8.944s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[8.944s] -- Configured cppcheck include dirs: 
+[8.944s] -- Configured cppcheck exclude dirs and/or files: 
+[8.950s] -- Added test 'lint_cmake' to check CMake code style
+[8.955s] -- Added test 'uncrustify' to check C / C++ code style
+[8.956s] -- Configured uncrustify additional arguments: 
+[8.958s] -- Added test 'xmllint' to check XML markup files
+[8.967s] -- Configuring done
+[9.021s] -- Generating done
+[9.045s] -- Build files have been written to: /home/yzh/桌面/project-ros/ros-study/chapt5/chapt5_ws/build/demo_cpp_tf
+[9.083s] Invoked command in '/home/yzh/桌面/project-ros/ros-study/chapt5/chapt5_ws/build/demo_cpp_tf' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/yzh/桌面/project-ros/ros-study/chapt5/chapt5_ws/src/demo_cpp_tf -DCMAKE_INSTALL_PREFIX=/home/yzh/桌面/project-ros/ros-study/chapt5/chapt5_ws/install/demo_cpp_tf
+[9.095s] Invoking command in '/home/yzh/桌面/project-ros/ros-study/chapt5/chapt5_ws/build/demo_cpp_tf': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/yzh/桌面/project-ros/ros-study/chapt5/chapt5_ws/build/demo_cpp_tf -- -j16 -l16
+[9.356s] [ 50%] [32mBuilding CXX object CMakeFiles/static_tf_broadcaster.dir/src/static_tf_broadcaster.cpp.o[0m
+[34.723s] [100%] [32m[1mLinking CXX executable static_tf_broadcaster[0m
+[35.867s] [100%] Built target static_tf_broadcaster
+[35.935s] Invoked command in '/home/yzh/桌面/project-ros/ros-study/chapt5/chapt5_ws/build/demo_cpp_tf' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/yzh/桌面/project-ros/ros-study/chapt5/chapt5_ws/build/demo_cpp_tf -- -j16 -l16
+[35.989s] Invoking command in '/home/yzh/桌面/project-ros/ros-study/chapt5/chapt5_ws/build/demo_cpp_tf': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/yzh/桌面/project-ros/ros-study/chapt5/chapt5_ws/build/demo_cpp_tf
+[36.024s] -- Install configuration: ""
+[36.025s] -- Installing: /home/yzh/桌面/project-ros/ros-study/chapt5/chapt5_ws/install/demo_cpp_tf/lib/demo_cpp_tf/static_tf_broadcaster
+[36.031s] -- Set runtime path of "/home/yzh/桌面/project-ros/ros-study/chapt5/chapt5_ws/install/demo_cpp_tf/lib/demo_cpp_tf/static_tf_broadcaster" to ""
+[36.033s] -- Installing: /home/yzh/桌面/project-ros/ros-study/chapt5/chapt5_ws/install/demo_cpp_tf/share/ament_index/resource_index/package_run_dependencies/demo_cpp_tf
+[36.033s] -- Installing: /home/yzh/桌面/project-ros/ros-study/chapt5/chapt5_ws/install/demo_cpp_tf/share/ament_index/resource_index/parent_prefix_path/demo_cpp_tf
+[36.034s] -- Installing: /home/yzh/桌面/project-ros/ros-study/chapt5/chapt5_ws/install/demo_cpp_tf/share/demo_cpp_tf/environment/ament_prefix_path.sh
+[36.035s] -- Installing: /home/yzh/桌面/project-ros/ros-study/chapt5/chapt5_ws/install/demo_cpp_tf/share/demo_cpp_tf/environment/ament_prefix_path.dsv
+[36.036s] -- Installing: /home/yzh/桌面/project-ros/ros-study/chapt5/chapt5_ws/install/demo_cpp_tf/share/demo_cpp_tf/environment/path.sh
+[36.036s] -- Installing: /home/yzh/桌面/project-ros/ros-study/chapt5/chapt5_ws/install/demo_cpp_tf/share/demo_cpp_tf/environment/path.dsv
+[36.055s] -- Installing: /home/yzh/桌面/project-ros/ros-study/chapt5/chapt5_ws/install/demo_cpp_tf/share/demo_cpp_tf/local_setup.bash
+[36.057s] -- Installing: /home/yzh/桌面/project-ros/ros-study/chapt5/chapt5_ws/install/demo_cpp_tf/share/demo_cpp_tf/local_setup.sh
+[36.057s] -- Installing: /home/yzh/桌面/project-ros/ros-study/chapt5/chapt5_ws/install/demo_cpp_tf/share/demo_cpp_tf/local_setup.zsh
+[36.058s] -- Installing: /home/yzh/桌面/project-ros/ros-study/chapt5/chapt5_ws/install/demo_cpp_tf/share/demo_cpp_tf/local_setup.dsv
+[36.060s] -- Installing: /home/yzh/桌面/project-ros/ros-study/chapt5/chapt5_ws/install/demo_cpp_tf/share/demo_cpp_tf/package.dsv
+[36.063s] -- Installing: /home/yzh/桌面/project-ros/ros-study/chapt5/chapt5_ws/install/demo_cpp_tf/share/ament_index/resource_index/packages/demo_cpp_tf
+[36.063s] -- Installing: /home/yzh/桌面/project-ros/ros-study/chapt5/chapt5_ws/install/demo_cpp_tf/share/demo_cpp_tf/cmake/demo_cpp_tfConfig.cmake
+[36.064s] -- Installing: /home/yzh/桌面/project-ros/ros-study/chapt5/chapt5_ws/install/demo_cpp_tf/share/demo_cpp_tf/cmake/demo_cpp_tfConfig-version.cmake
+[36.064s] -- Installing: /home/yzh/桌面/project-ros/ros-study/chapt5/chapt5_ws/install/demo_cpp_tf/share/demo_cpp_tf/package.xml
+[36.066s] Invoked command in '/home/yzh/桌面/project-ros/ros-study/chapt5/chapt5_ws/build/demo_cpp_tf' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/yzh/桌面/project-ros/ros-study/chapt5/chapt5_ws/build/demo_cpp_tf

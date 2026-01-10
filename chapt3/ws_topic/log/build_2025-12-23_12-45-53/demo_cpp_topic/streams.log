@@ -1,0 +1,51 @@
+[0.129s] Invoking command in '/home/yzh/桌面/project-ros/ros-study/chapt3/ws_topic/build/demo_cpp_topic': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/yzh/桌面/project-ros/ros-study/chapt3/ws_topic/src/demo_cpp_topic -DCMAKE_INSTALL_PREFIX=/home/yzh/桌面/project-ros/ros-study/chapt3/ws_topic/install/demo_cpp_topic
+[1.948s] -- The C compiler identification is GNU 11.4.0
+[2.973s] -- The CXX compiler identification is GNU 11.4.0
+[3.069s] -- Detecting C compiler ABI info
+[3.793s] -- Detecting C compiler ABI info - done
+[3.821s] -- Check for working C compiler: /usr/bin/cc - skipped
+[3.832s] -- Detecting C compile features
+[3.837s] -- Detecting C compile features - done
+[3.854s] -- Detecting CXX compiler ABI info
+[4.470s] -- Detecting CXX compiler ABI info - done
+[4.503s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[4.508s] -- Detecting CXX compile features
+[4.508s] -- Detecting CXX compile features - done
+[4.591s] -- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+[5.479s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[6.152s] -- Found rclcpp: 16.0.16 (/opt/ros/humble/share/rclcpp/cmake)
+[6.487s] -- Found rosidl_generator_c: 3.1.7 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[6.524s] -- Found rosidl_adapter: 3.1.7 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[6.605s] -- Found rosidl_generator_cpp: 3.1.7 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[6.719s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[6.853s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[7.217s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[7.236s] -- Found rmw_fastrtps_cpp: 6.2.9 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[7.844s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[7.967s] -- Found FastRTPS: /opt/ros/humble/include  
+[8.135s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[8.198s] -- Looking for pthread.h
+[8.865s] -- Looking for pthread.h - found
+[8.867s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[9.374s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[9.377s] -- Found Threads: TRUE  
+[9.860s] [31mCMake Error at CMakeLists.txt:11 (find_package):
+[9.860s]   By not providing "Findgeometry_msgs_turtlesim.cmake" in CMAKE_MODULE_PATH
+[9.861s]   this project has asked CMake to find a package configuration file provided
+[9.861s]   by "geometry_msgs_turtlesim", but CMake did not find one.
+[9.861s] 
+[9.862s]   Could not find a package configuration file provided by
+[9.862s]   "geometry_msgs_turtlesim" with any of the following names:
+[9.862s] 
+[9.862s]     geometry_msgs_turtlesimConfig.cmake
+[9.863s]     geometry_msgs_turtlesim-config.cmake
+[9.863s] 
+[9.864s]   Add the installation prefix of "geometry_msgs_turtlesim" to
+[9.864s]   CMAKE_PREFIX_PATH or set "geometry_msgs_turtlesim_DIR" to a directory
+[9.864s]   containing one of the above files.  If "geometry_msgs_turtlesim" provides a
+[9.864s]   separate development package or SDK, be sure it has been installed.
+[9.865s] 
+[9.865s] [0m
+[9.865s] -- Configuring incomplete, errors occurred!
+[9.866s] See also "/home/yzh/桌面/project-ros/ros-study/chapt3/ws_topic/build/demo_cpp_topic/CMakeFiles/CMakeOutput.log".
+[9.898s] Invoked command in '/home/yzh/桌面/project-ros/ros-study/chapt3/ws_topic/build/demo_cpp_topic' returned '1': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/yzh/桌面/project-ros/ros-study/chapt3/ws_topic/src/demo_cpp_topic -DCMAKE_INSTALL_PREFIX=/home/yzh/桌面/project-ros/ros-study/chapt3/ws_topic/install/demo_cpp_topic

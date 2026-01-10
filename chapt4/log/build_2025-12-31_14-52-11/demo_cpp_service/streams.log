@@ -1,0 +1,70 @@
+[0.050s] Invoking command in '/home/yzh/chapt4/build/demo_cpp_service': CMAKE_PREFIX_PATH=/home/yzh/chapt4/install/chapt4_interfaces:/home/yzh/chapt4/install/demo_cpp_service:/opt/ros/humble /usr/bin/cmake /home/yzh/chapt4/src/demo_cpp_service -DCMAKE_INSTALL_PREFIX=/home/yzh/chapt4/install/demo_cpp_service
+[0.249s] -- The C compiler identification is GNU 11.4.0
+[0.455s] -- The CXX compiler identification is GNU 11.4.0
+[0.488s] -- Detecting C compiler ABI info
+[0.821s] -- Detecting C compiler ABI info - done
+[0.845s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.846s] -- Detecting C compile features
+[0.849s] -- Detecting C compile features - done
+[0.857s] -- Detecting CXX compiler ABI info
+[1.183s] -- Detecting CXX compiler ABI info - done
+[1.225s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.225s] -- Detecting CXX compile features
+[1.227s] -- Detecting CXX compile features - done
+[1.232s] -- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+[1.807s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[2.102s] -- Found chapt4_interfaces: 0.0.0 (/home/yzh/chapt4/install/chapt4_interfaces/share/chapt4_interfaces/cmake)
+[2.239s] -- Found rosidl_generator_c: 3.1.7 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[2.255s] -- Found rosidl_adapter: 3.1.7 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[2.293s] -- Found rosidl_generator_cpp: 3.1.7 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[2.339s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[2.394s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.744s] -- Found rclcpp: 16.0.16 (/opt/ros/humble/share/rclcpp/cmake)
+[3.191s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[3.214s] -- Found rmw_fastrtps_cpp: 6.2.9 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[3.785s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[3.911s] -- Found FastRTPS: /opt/ros/humble/include  
+[4.071s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[4.167s] -- Looking for pthread.h
+[4.534s] -- Looking for pthread.h - found
+[4.535s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[4.893s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[4.896s] -- Found Threads: TRUE  
+[5.311s] -- Found turtlesim: 1.4.3 (/opt/ros/humble/share/turtlesim/cmake)
+[5.677s] -- Found ament_lint_auto: 0.12.14 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[5.966s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[5.966s] -- Configured cppcheck include dirs: 
+[5.966s] -- Configured cppcheck exclude dirs and/or files: 
+[5.969s] -- Added test 'lint_cmake' to check CMake code style
+[5.974s] -- Added test 'uncrustify' to check C / C++ code style
+[5.974s] -- Configured uncrustify additional arguments: 
+[5.977s] -- Added test 'xmllint' to check XML markup files
+[5.982s] -- Configuring done
+[6.022s] -- Generating done
+[6.034s] -- Build files have been written to: /home/yzh/chapt4/build/demo_cpp_service
+[6.070s] Invoked command in '/home/yzh/chapt4/build/demo_cpp_service' returned '0': CMAKE_PREFIX_PATH=/home/yzh/chapt4/install/chapt4_interfaces:/home/yzh/chapt4/install/demo_cpp_service:/opt/ros/humble /usr/bin/cmake /home/yzh/chapt4/src/demo_cpp_service -DCMAKE_INSTALL_PREFIX=/home/yzh/chapt4/install/demo_cpp_service
+[6.072s] Invoking command in '/home/yzh/chapt4/build/demo_cpp_service': CMAKE_PREFIX_PATH=/home/yzh/chapt4/install/chapt4_interfaces:/home/yzh/chapt4/install/demo_cpp_service:/opt/ros/humble /usr/bin/cmake --build /home/yzh/chapt4/build/demo_cpp_service -- -j16 -l16
+[6.323s] [ 50%] [32mBuilding CXX object CMakeFiles/turtle_control.dir/src/TurtleController.cpp.o[0m
+[45.991s] [100%] [32m[1mLinking CXX executable turtle_control[0m
+[47.569s] [100%] Built target turtle_control
+[47.609s] Invoked command in '/home/yzh/chapt4/build/demo_cpp_service' returned '0': CMAKE_PREFIX_PATH=/home/yzh/chapt4/install/chapt4_interfaces:/home/yzh/chapt4/install/demo_cpp_service:/opt/ros/humble /usr/bin/cmake --build /home/yzh/chapt4/build/demo_cpp_service -- -j16 -l16
+[47.624s] Invoking command in '/home/yzh/chapt4/build/demo_cpp_service': CMAKE_PREFIX_PATH=/home/yzh/chapt4/install/chapt4_interfaces:/home/yzh/chapt4/install/demo_cpp_service:/opt/ros/humble /usr/bin/cmake --install /home/yzh/chapt4/build/demo_cpp_service
+[47.646s] -- Install configuration: ""
+[47.646s] -- Installing: /home/yzh/chapt4/install/demo_cpp_service/lib/demo_cpp_service/turtle_control
+[47.662s] -- Set runtime path of "/home/yzh/chapt4/install/demo_cpp_service/lib/demo_cpp_service/turtle_control" to ""
+[47.663s] -- Installing: /home/yzh/chapt4/install/demo_cpp_service/share/ament_index/resource_index/package_run_dependencies/demo_cpp_service
+[47.663s] -- Installing: /home/yzh/chapt4/install/demo_cpp_service/share/ament_index/resource_index/parent_prefix_path/demo_cpp_service
+[47.664s] -- Installing: /home/yzh/chapt4/install/demo_cpp_service/share/demo_cpp_service/environment/ament_prefix_path.sh
+[47.665s] -- Installing: /home/yzh/chapt4/install/demo_cpp_service/share/demo_cpp_service/environment/ament_prefix_path.dsv
+[47.665s] -- Installing: /home/yzh/chapt4/install/demo_cpp_service/share/demo_cpp_service/environment/path.sh
+[47.666s] -- Installing: /home/yzh/chapt4/install/demo_cpp_service/share/demo_cpp_service/environment/path.dsv
+[47.666s] -- Installing: /home/yzh/chapt4/install/demo_cpp_service/share/demo_cpp_service/local_setup.bash
+[47.667s] -- Installing: /home/yzh/chapt4/install/demo_cpp_service/share/demo_cpp_service/local_setup.sh
+[47.667s] -- Installing: /home/yzh/chapt4/install/demo_cpp_service/share/demo_cpp_service/local_setup.zsh
+[47.667s] -- Installing: /home/yzh/chapt4/install/demo_cpp_service/share/demo_cpp_service/local_setup.dsv
+[47.667s] -- Installing: /home/yzh/chapt4/install/demo_cpp_service/share/demo_cpp_service/package.dsv
+[47.667s] -- Installing: /home/yzh/chapt4/install/demo_cpp_service/share/ament_index/resource_index/packages/demo_cpp_service
+[47.667s] -- Installing: /home/yzh/chapt4/install/demo_cpp_service/share/demo_cpp_service/cmake/demo_cpp_serviceConfig.cmake
+[47.668s] -- Installing: /home/yzh/chapt4/install/demo_cpp_service/share/demo_cpp_service/cmake/demo_cpp_serviceConfig-version.cmake
+[47.669s] -- Installing: /home/yzh/chapt4/install/demo_cpp_service/share/demo_cpp_service/package.xml
+[47.675s] Invoked command in '/home/yzh/chapt4/build/demo_cpp_service' returned '0': CMAKE_PREFIX_PATH=/home/yzh/chapt4/install/chapt4_interfaces:/home/yzh/chapt4/install/demo_cpp_service:/opt/ros/humble /usr/bin/cmake --install /home/yzh/chapt4/build/demo_cpp_service

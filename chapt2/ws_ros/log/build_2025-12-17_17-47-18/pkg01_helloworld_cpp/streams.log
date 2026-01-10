@@ -1,0 +1,54 @@
+[0.010s] Invoking command in '/home/yzh/桌面/project-ros/ros-study/chapt2/ws_ros/build/pkg01_helloworld_cpp': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/yzh/桌面/project-ros/ros-study/chapt2/ws_ros/build/pkg01_helloworld_cpp -- -j16 -l16
+[0.030s] -- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.113s] -- Found rclcpp: 16.0.16 (/opt/ros/humble/share/rclcpp/cmake)
+[0.144s] -- Found rosidl_generator_c: 3.1.7 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.146s] -- Found rosidl_adapter: 3.1.7 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.149s] -- Found rosidl_generator_cpp: 3.1.7 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.155s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.162s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.181s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.181s] -- Found rmw_fastrtps_cpp: 6.2.9 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.251s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.279s] -- Found ament_lint_auto: 0.12.14 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[0.325s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[0.325s] -- Configured cppcheck include dirs: $<BUILD_INTERFACE:/home/yzh/桌面/project-ros/ros-study/chapt2/ws_ros/src/pkg01_helloworld_cpp/include>
+[0.325s] -- Configured cppcheck exclude dirs and/or files: 
+[0.326s] -- Added test 'lint_cmake' to check CMake code style
+[0.329s] -- Added test 'uncrustify' to check C / C++ code style
+[0.329s] -- Configured uncrustify additional arguments: 
+[0.329s] -- Added test 'xmllint' to check XML markup files
+[0.330s] -- Configuring done
+[0.346s] -- Generating done
+[0.352s] -- Build files have been written to: /home/yzh/桌面/project-ros/ros-study/chapt2/ws_ros/build/pkg01_helloworld_cpp
+[0.373s] [35m[1mConsolidate compiler generated dependencies of target helloworld[0m
+[0.381s] [ 25%] [32mBuilding CXX object CMakeFiles/person_node.dir/src/person_node.cpp.o[0m
+[0.387s] [ 50%] [32mBuilding CXX object CMakeFiles/helloworld.dir/src/helloworld.cpp.o[0m
+[1.879s] [01m[K/home/yzh/桌面/project-ros/ros-study/chapt2/ws_ros/src/pkg01_helloworld_cpp/src/person_node.cpp:[m[K In constructor ‘[01m[KPersonNode::PersonNode(const string&, const string&, int)[m[K’:
+[1.879s] [01m[K/home/yzh/桌面/project-ros/ros-study/chapt2/ws_ros/src/pkg01_helloworld_cpp/src/person_node.cpp:10:80:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[K_age[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[1.879s]    10 |     PersonNode(const std::string &node_name,const std::string &_name,[01;35m[Kconst int _age[m[K):Node(node_name)
+[1.879s]       |                                                                      [01;35m[K~~~~~~~~~~^~~~[m[K
+[1.883s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+[1.884s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[1.884s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[1.884s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[1.884s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[1.884s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[1.884s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[1.884s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[1.884s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[1.884s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[1.884s]                  from [01m[K/home/yzh/桌面/project-ros/ros-study/chapt2/ws_ros/src/pkg01_helloworld_cpp/src/person_node.cpp:1[m[K:
+[1.884s] [01m[K/home/yzh/桌面/project-ros/ros-study/chapt2/ws_ros/src/pkg01_helloworld_cpp/src/person_node.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[1.884s] [01m[K/home/yzh/桌面/project-ros/ros-study/chapt2/ws_ros/src/pkg01_helloworld_cpp/src/person_node.cpp:25:17:[m[K [01;31m[Kerror: [m[K‘[01m[Knode[m[K’ was not declared in this scope
+[1.884s]    25 |     RCLCPP_INFO([01;31m[Knode[m[K->get_logger(),"c++");
+[1.884s]       |                 [01;31m[K^~~~[m[K
+[1.884s] [01m[K/home/yzh/桌面/project-ros/ros-study/chapt2/ws_ros/src/pkg01_helloworld_cpp/src/person_node.cpp:25:5:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[1.884s]    25 |     [01;31m[KRCLCPP_INFO[m[K(node->get_logger(),"c++");
+[1.884s]       |     [01;31m[K^~~~~~~~~~~[m[K
+[2.178s] gmake[2]: *** [CMakeFiles/person_node.dir/build.make:76：CMakeFiles/person_node.dir/src/person_node.cpp.o] 错误 1
+[2.178s] gmake[1]: *** [CMakeFiles/Makefile2:165：CMakeFiles/person_node.dir/all] 错误 2
+[2.178s] gmake[1]: *** 正在等待未完成的任务....
+[2.277s] [ 75%] [32m[1mLinking CXX executable helloworld[0m
+[2.360s] [ 75%] Built target helloworld
+[2.361s] gmake: *** [Makefile:146：all] 错误 2
+[2.363s] Invoked command in '/home/yzh/桌面/project-ros/ros-study/chapt2/ws_ros/build/pkg01_helloworld_cpp' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/yzh/桌面/project-ros/ros-study/chapt2/ws_ros/build/pkg01_helloworld_cpp -- -j16 -l16

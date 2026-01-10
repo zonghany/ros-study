@@ -1,0 +1,166 @@
+[0.000000] (-) TimerEvent: {}
+[0.000932] (demo_cpp_tf) JobQueued: {'identifier': 'demo_cpp_tf', 'dependencies': OrderedDict()}
+[0.001923] (demo_cpp_tf) JobStarted: {'identifier': 'demo_cpp_tf'}
+[0.045443] (demo_cpp_tf) JobProgress: {'identifier': 'demo_cpp_tf', 'progress': 'cmake'}
+[0.058126] (demo_cpp_tf) JobProgress: {'identifier': 'demo_cpp_tf', 'progress': 'build'}
+[0.058319] (demo_cpp_tf) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/yzh/桌面/project-ros/ros-study/chapt5/chapt5_ws/build/demo_cpp_tf', '--', '-j16', '-l16'], 'cwd': '/home/yzh/桌面/project-ros/ros-study/chapt5/chapt5_ws/build/demo_cpp_tf', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'zh_CN:en_AU:en_CA:en_GB:en_US:en'), ('USER', 'yzh'), ('SSH_CLIENT', '192.168.44.1 58776 22'), ('LC_TIME', 'zh_CN.UTF-8'), ('XDG_SESSION_TYPE', 'tty'), ('GIT_ASKPASS', '/home/yzh/.vscode-server/cli/servers/Stable-994fd12f8d3a5aa16f17d42c041e5809167e845a/server/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('BROWSER', '/home/yzh/.vscode-server/cli/servers/Stable-994fd12f8d3a5aa16f17d42c041e5809167e845a/server/bin/helpers/browser.sh'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/yzh'), ('TERM_PROGRAM_VERSION', '1.107.1'), ('VSCODE_IPC_HOOK_CLI', '/run/user/1000/vscode-ipc-d1e160d6-aa43-4f5e-9924-c0111ee58140.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/home/yzh/.vscode-server/cli/servers/Stable-994fd12f8d3a5aa16f17d42c041e5809167e845a/server/extensions/git/dist/askpass-main.js'), ('LC_MONETARY', 'zh_CN.UTF-8'), ('VSCODE_GIT_ASKPASS_NODE', '/home/yzh/.vscode-server/cli/servers/Stable-994fd12f8d3a5aa16f17d42c041e5809167e845a/server/node'), ('SSL_CERT_FILE', '/usr/lib/ssl/certs/ca-certificates.crt'), ('VSCODE_PYTHON_AUTOACTIVATE_GUARD', '1'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('COLCON_PREFIX_PATH', '/home/yzh/project-ros/chapt5/chapt5_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'yzh'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '3'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/yzh/.vscode-server/data/User/globalStorage/github.copilot-chat/debugCommand:/home/yzh/.vscode-server/data/User/globalStorage/github.copilot-chat/copilotCli:/home/yzh/.vscode-server/cli/servers/Stable-994fd12f8d3a5aa16f17d42c041e5809167e845a/server/bin/remote-cli:/home/yzh/.local/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('PAPERSIZE', 'a4'), ('LC_ADDRESS', 'zh_CN.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('SSL_CERT_DIR', '/usr/lib/ssl/certs'), ('LANG', 'zh_CN.UTF-8'), ('LC_TELEPHONE', 'zh_CN.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-07a6086045.sock'), ('TERM_PROGRAM', 'vscode'), ('AMENT_PREFIX_PATH', '/home/yzh/project-ros/chapt5/chapt5_ws/install/demo_cpp_tf:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'zh_CN.UTF-8'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'zh_CN.UTF-8'), ('LC_IDENTIFICATION', 'zh_CN.UTF-8'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/home/yzh/桌面/project-ros/ros-study/chapt5/chapt5_ws/build/demo_cpp_tf'), ('SSH_CONNECTION', '192.168.44.1 58776 192.168.44.128 22'), ('XDG_DATA_DIRS', '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'zh_CN.UTF-8'), ('LC_PAPER', 'zh_CN.UTF-8'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/yzh/project-ros/chapt5/chapt5_ws/install/demo_cpp_tf:/opt/ros/humble')]), 'shell': False}
+[0.099772] (-) TimerEvent: {}
+[0.200229] (-) TimerEvent: {}
+[0.205243] (demo_cpp_tf) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target tf_listener\x1b[0m\n'}
+[0.255868] (demo_cpp_tf) StdoutLine: {'line': b'[ 33%] Built target static_tf_broadcaster\n'}
+[0.259243] (demo_cpp_tf) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/dynamic_tf_broadcaster.dir/src/dynamic_tf_broadcaster.cpp.o\x1b[0m\n'}
+[0.270742] (demo_cpp_tf) StdoutLine: {'line': b'[ 83%] Built target tf_listener\n'}
+[0.317344] (-) TimerEvent: {}
+[0.417821] (-) TimerEvent: {}
+[0.518411] (-) TimerEvent: {}
+[0.619246] (-) TimerEvent: {}
+[0.720008] (-) TimerEvent: {}
+[0.820713] (-) TimerEvent: {}
+[0.921483] (-) TimerEvent: {}
+[1.022332] (-) TimerEvent: {}
+[1.123060] (-) TimerEvent: {}
+[1.223741] (-) TimerEvent: {}
+[1.324489] (-) TimerEvent: {}
+[1.425267] (-) TimerEvent: {}
+[1.525996] (-) TimerEvent: {}
+[1.626699] (-) TimerEvent: {}
+[1.727426] (-) TimerEvent: {}
+[1.829105] (-) TimerEvent: {}
+[1.929719] (-) TimerEvent: {}
+[2.030515] (-) TimerEvent: {}
+[2.131469] (-) TimerEvent: {}
+[2.232269] (-) TimerEvent: {}
+[2.333191] (-) TimerEvent: {}
+[2.433962] (-) TimerEvent: {}
+[2.534773] (-) TimerEvent: {}
+[2.635482] (-) TimerEvent: {}
+[2.736245] (-) TimerEvent: {}
+[2.837131] (-) TimerEvent: {}
+[2.937808] (-) TimerEvent: {}
+[3.106679] (-) TimerEvent: {}
+[3.209038] (-) TimerEvent: {}
+[3.310913] (-) TimerEvent: {}
+[3.412070] (-) TimerEvent: {}
+[3.513035] (-) TimerEvent: {}
+[3.625502] (-) TimerEvent: {}
+[3.726183] (-) TimerEvent: {}
+[3.827878] (-) TimerEvent: {}
+[3.928813] (-) TimerEvent: {}
+[4.029560] (-) TimerEvent: {}
+[4.130270] (-) TimerEvent: {}
+[4.230959] (-) TimerEvent: {}
+[4.331510] (-) TimerEvent: {}
+[4.432246] (-) TimerEvent: {}
+[4.533204] (-) TimerEvent: {}
+[4.633969] (-) TimerEvent: {}
+[4.734740] (-) TimerEvent: {}
+[4.835504] (-) TimerEvent: {}
+[4.936427] (-) TimerEvent: {}
+[5.037252] (-) TimerEvent: {}
+[5.138092] (-) TimerEvent: {}
+[5.238806] (-) TimerEvent: {}
+[5.339701] (-) TimerEvent: {}
+[5.440720] (-) TimerEvent: {}
+[5.541522] (-) TimerEvent: {}
+[5.642357] (-) TimerEvent: {}
+[5.743144] (-) TimerEvent: {}
+[5.843770] (-) TimerEvent: {}
+[5.944719] (-) TimerEvent: {}
+[6.045484] (-) TimerEvent: {}
+[6.146334] (-) TimerEvent: {}
+[6.247075] (-) TimerEvent: {}
+[6.347826] (-) TimerEvent: {}
+[6.448884] (-) TimerEvent: {}
+[6.549753] (-) TimerEvent: {}
+[6.650510] (-) TimerEvent: {}
+[6.751293] (-) TimerEvent: {}
+[6.851969] (-) TimerEvent: {}
+[6.952774] (-) TimerEvent: {}
+[7.053785] (-) TimerEvent: {}
+[7.154418] (-) TimerEvent: {}
+[7.255244] (-) TimerEvent: {}
+[7.356250] (-) TimerEvent: {}
+[7.457931] (-) TimerEvent: {}
+[7.558741] (-) TimerEvent: {}
+[7.659424] (-) TimerEvent: {}
+[7.761166] (-) TimerEvent: {}
+[7.865742] (-) TimerEvent: {}
+[7.966498] (-) TimerEvent: {}
+[8.067267] (-) TimerEvent: {}
+[8.168121] (-) TimerEvent: {}
+[8.269268] (-) TimerEvent: {}
+[8.370044] (-) TimerEvent: {}
+[8.470776] (-) TimerEvent: {}
+[8.571751] (-) TimerEvent: {}
+[8.672856] (-) TimerEvent: {}
+[8.777190] (-) TimerEvent: {}
+[8.878139] (-) TimerEvent: {}
+[8.979024] (-) TimerEvent: {}
+[9.079869] (-) TimerEvent: {}
+[9.181103] (-) TimerEvent: {}
+[9.282885] (-) TimerEvent: {}
+[9.383549] (-) TimerEvent: {}
+[9.484404] (-) TimerEvent: {}
+[9.585890] (-) TimerEvent: {}
+[9.687063] (-) TimerEvent: {}
+[9.787805] (-) TimerEvent: {}
+[9.888419] (-) TimerEvent: {}
+[9.989067] (-) TimerEvent: {}
+[10.089867] (-) TimerEvent: {}
+[10.190504] (-) TimerEvent: {}
+[10.291348] (-) TimerEvent: {}
+[10.392018] (-) TimerEvent: {}
+[10.492768] (-) TimerEvent: {}
+[10.593448] (-) TimerEvent: {}
+[10.694299] (-) TimerEvent: {}
+[10.795006] (-) TimerEvent: {}
+[10.895735] (-) TimerEvent: {}
+[10.996532] (-) TimerEvent: {}
+[11.097252] (-) TimerEvent: {}
+[11.197988] (-) TimerEvent: {}
+[11.298960] (-) TimerEvent: {}
+[11.399493] (-) TimerEvent: {}
+[11.500052] (-) TimerEvent: {}
+[11.600751] (-) TimerEvent: {}
+[11.701399] (-) TimerEvent: {}
+[11.802333] (-) TimerEvent: {}
+[11.903335] (-) TimerEvent: {}
+[12.012944] (-) TimerEvent: {}
+[12.113734] (-) TimerEvent: {}
+[12.214410] (-) TimerEvent: {}
+[12.316409] (-) TimerEvent: {}
+[12.415794] (demo_cpp_tf) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable dynamic_tf_broadcaster\x1b[0m\n'}
+[12.416662] (-) TimerEvent: {}
+[12.517190] (-) TimerEvent: {}
+[12.619811] (-) TimerEvent: {}
+[12.745566] (-) TimerEvent: {}
+[12.846187] (-) TimerEvent: {}
+[12.916355] (demo_cpp_tf) StdoutLine: {'line': b'[100%] Built target dynamic_tf_broadcaster\n'}
+[12.943448] (demo_cpp_tf) CommandEnded: {'returncode': 0}
+[12.944484] (demo_cpp_tf) JobProgress: {'identifier': 'demo_cpp_tf', 'progress': 'install'}
+[12.946296] (-) TimerEvent: {}
+[12.969882] (demo_cpp_tf) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/yzh/桌面/project-ros/ros-study/chapt5/chapt5_ws/build/demo_cpp_tf'], 'cwd': '/home/yzh/桌面/project-ros/ros-study/chapt5/chapt5_ws/build/demo_cpp_tf', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'zh_CN:en_AU:en_CA:en_GB:en_US:en'), ('USER', 'yzh'), ('SSH_CLIENT', '192.168.44.1 58776 22'), ('LC_TIME', 'zh_CN.UTF-8'), ('XDG_SESSION_TYPE', 'tty'), ('GIT_ASKPASS', '/home/yzh/.vscode-server/cli/servers/Stable-994fd12f8d3a5aa16f17d42c041e5809167e845a/server/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('BROWSER', '/home/yzh/.vscode-server/cli/servers/Stable-994fd12f8d3a5aa16f17d42c041e5809167e845a/server/bin/helpers/browser.sh'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/yzh'), ('TERM_PROGRAM_VERSION', '1.107.1'), ('VSCODE_IPC_HOOK_CLI', '/run/user/1000/vscode-ipc-d1e160d6-aa43-4f5e-9924-c0111ee58140.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/home/yzh/.vscode-server/cli/servers/Stable-994fd12f8d3a5aa16f17d42c041e5809167e845a/server/extensions/git/dist/askpass-main.js'), ('LC_MONETARY', 'zh_CN.UTF-8'), ('VSCODE_GIT_ASKPASS_NODE', '/home/yzh/.vscode-server/cli/servers/Stable-994fd12f8d3a5aa16f17d42c041e5809167e845a/server/node'), ('SSL_CERT_FILE', '/usr/lib/ssl/certs/ca-certificates.crt'), ('VSCODE_PYTHON_AUTOACTIVATE_GUARD', '1'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('COLCON_PREFIX_PATH', '/home/yzh/project-ros/chapt5/chapt5_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'yzh'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '3'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/yzh/.vscode-server/data/User/globalStorage/github.copilot-chat/debugCommand:/home/yzh/.vscode-server/data/User/globalStorage/github.copilot-chat/copilotCli:/home/yzh/.vscode-server/cli/servers/Stable-994fd12f8d3a5aa16f17d42c041e5809167e845a/server/bin/remote-cli:/home/yzh/.local/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('PAPERSIZE', 'a4'), ('LC_ADDRESS', 'zh_CN.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('SSL_CERT_DIR', '/usr/lib/ssl/certs'), ('LANG', 'zh_CN.UTF-8'), ('LC_TELEPHONE', 'zh_CN.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-07a6086045.sock'), ('TERM_PROGRAM', 'vscode'), ('AMENT_PREFIX_PATH', '/home/yzh/project-ros/chapt5/chapt5_ws/install/demo_cpp_tf:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'zh_CN.UTF-8'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'zh_CN.UTF-8'), ('LC_IDENTIFICATION', 'zh_CN.UTF-8'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/home/yzh/桌面/project-ros/ros-study/chapt5/chapt5_ws/build/demo_cpp_tf'), ('SSH_CONNECTION', '192.168.44.1 58776 192.168.44.128 22'), ('XDG_DATA_DIRS', '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'zh_CN.UTF-8'), ('LC_PAPER', 'zh_CN.UTF-8'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/yzh/project-ros/chapt5/chapt5_ws/install/demo_cpp_tf:/opt/ros/humble')]), 'shell': False}
+[12.988773] (demo_cpp_tf) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[12.990734] (demo_cpp_tf) StdoutLine: {'line': b'-- Up-to-date: /home/yzh/\xe6\xa1\x8c\xe9\x9d\xa2/project-ros/ros-study/chapt5/chapt5_ws/install/demo_cpp_tf/lib/demo_cpp_tf/static_tf_broadcaster\n'}
+[12.991931] (demo_cpp_tf) StdoutLine: {'line': b'-- Installing: /home/yzh/\xe6\xa1\x8c\xe9\x9d\xa2/project-ros/ros-study/chapt5/chapt5_ws/install/demo_cpp_tf/lib/demo_cpp_tf/dynamic_tf_broadcaster\n'}
+[13.000237] (demo_cpp_tf) StdoutLine: {'line': b'-- Set runtime path of "/home/yzh/\xe6\xa1\x8c\xe9\x9d\xa2/project-ros/ros-study/chapt5/chapt5_ws/install/demo_cpp_tf/lib/demo_cpp_tf/dynamic_tf_broadcaster" to ""\n'}
+[13.002185] (demo_cpp_tf) StdoutLine: {'line': b'-- Up-to-date: /home/yzh/\xe6\xa1\x8c\xe9\x9d\xa2/project-ros/ros-study/chapt5/chapt5_ws/install/demo_cpp_tf/lib/demo_cpp_tf/tf_listener\n'}
+[13.002373] (demo_cpp_tf) StdoutLine: {'line': b'-- Up-to-date: /home/yzh/\xe6\xa1\x8c\xe9\x9d\xa2/project-ros/ros-study/chapt5/chapt5_ws/install/demo_cpp_tf/share/ament_index/resource_index/package_run_dependencies/demo_cpp_tf\n'}
+[13.002727] (demo_cpp_tf) StdoutLine: {'line': b'-- Up-to-date: /home/yzh/\xe6\xa1\x8c\xe9\x9d\xa2/project-ros/ros-study/chapt5/chapt5_ws/install/demo_cpp_tf/share/ament_index/resource_index/parent_prefix_path/demo_cpp_tf\n'}
+[13.002895] (demo_cpp_tf) StdoutLine: {'line': b'-- Up-to-date: /home/yzh/\xe6\xa1\x8c\xe9\x9d\xa2/project-ros/ros-study/chapt5/chapt5_ws/install/demo_cpp_tf/share/demo_cpp_tf/environment/ament_prefix_path.sh\n'}
+[13.003278] (demo_cpp_tf) StdoutLine: {'line': b'-- Up-to-date: /home/yzh/\xe6\xa1\x8c\xe9\x9d\xa2/project-ros/ros-study/chapt5/chapt5_ws/install/demo_cpp_tf/share/demo_cpp_tf/environment/ament_prefix_path.dsv\n'}
+[13.003749] (demo_cpp_tf) StdoutLine: {'line': b'-- Up-to-date: /home/yzh/\xe6\xa1\x8c\xe9\x9d\xa2/project-ros/ros-study/chapt5/chapt5_ws/install/demo_cpp_tf/share/demo_cpp_tf/environment/path.sh\n'}
+[13.004046] (demo_cpp_tf) StdoutLine: {'line': b'-- Up-to-date: /home/yzh/\xe6\xa1\x8c\xe9\x9d\xa2/project-ros/ros-study/chapt5/chapt5_ws/install/demo_cpp_tf/share/demo_cpp_tf/environment/path.dsv\n'}
+[13.004352] (demo_cpp_tf) StdoutLine: {'line': b'-- Up-to-date: /home/yzh/\xe6\xa1\x8c\xe9\x9d\xa2/project-ros/ros-study/chapt5/chapt5_ws/install/demo_cpp_tf/share/demo_cpp_tf/local_setup.bash\n'}
+[13.004585] (demo_cpp_tf) StdoutLine: {'line': b'-- Up-to-date: /home/yzh/\xe6\xa1\x8c\xe9\x9d\xa2/project-ros/ros-study/chapt5/chapt5_ws/install/demo_cpp_tf/share/demo_cpp_tf/local_setup.sh\n'}
+[13.005710] (demo_cpp_tf) StdoutLine: {'line': b'-- Up-to-date: /home/yzh/\xe6\xa1\x8c\xe9\x9d\xa2/project-ros/ros-study/chapt5/chapt5_ws/install/demo_cpp_tf/share/demo_cpp_tf/local_setup.zsh\n'}
+[13.005773] (demo_cpp_tf) StdoutLine: {'line': b'-- Up-to-date: /home/yzh/\xe6\xa1\x8c\xe9\x9d\xa2/project-ros/ros-study/chapt5/chapt5_ws/install/demo_cpp_tf/share/demo_cpp_tf/local_setup.dsv\n'}
+[13.005831] (demo_cpp_tf) StdoutLine: {'line': b'-- Installing: /home/yzh/\xe6\xa1\x8c\xe9\x9d\xa2/project-ros/ros-study/chapt5/chapt5_ws/install/demo_cpp_tf/share/demo_cpp_tf/package.dsv\n'}
+[13.005888] (demo_cpp_tf) StdoutLine: {'line': b'-- Up-to-date: /home/yzh/\xe6\xa1\x8c\xe9\x9d\xa2/project-ros/ros-study/chapt5/chapt5_ws/install/demo_cpp_tf/share/ament_index/resource_index/packages/demo_cpp_tf\n'}
+[13.005946] (demo_cpp_tf) StdoutLine: {'line': b'-- Up-to-date: /home/yzh/\xe6\xa1\x8c\xe9\x9d\xa2/project-ros/ros-study/chapt5/chapt5_ws/install/demo_cpp_tf/share/demo_cpp_tf/cmake/demo_cpp_tfConfig.cmake\n'}
+[13.006001] (demo_cpp_tf) StdoutLine: {'line': b'-- Up-to-date: /home/yzh/\xe6\xa1\x8c\xe9\x9d\xa2/project-ros/ros-study/chapt5/chapt5_ws/install/demo_cpp_tf/share/demo_cpp_tf/cmake/demo_cpp_tfConfig-version.cmake\n'}
+[13.006057] (demo_cpp_tf) StdoutLine: {'line': b'-- Up-to-date: /home/yzh/\xe6\xa1\x8c\xe9\x9d\xa2/project-ros/ros-study/chapt5/chapt5_ws/install/demo_cpp_tf/share/demo_cpp_tf/package.xml\n'}
+[13.009436] (demo_cpp_tf) CommandEnded: {'returncode': 0}
+[13.047524] (-) TimerEvent: {}
+[13.054381] (demo_cpp_tf) JobEnded: {'identifier': 'demo_cpp_tf', 'rc': 0}
+[13.058411] (-) EventReactorShutdown: {}

@@ -1,0 +1,32 @@
+[0.060s] Invoking command in '/home/yzh/桌面/project-ros/ros-study/chapt3/ws_topic/build/demo_cpp_topic': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/yzh/桌面/project-ros/ros-study/chapt3/ws_topic/build/demo_cpp_topic -- -j16 -l16
+[0.322s] [35m[1mConsolidate compiler generated dependencies of target turtle_description[0m
+[0.387s] [ 33%] Built target turtle_circle
+[0.389s] [ 66%] Built target learn_timer
+[0.410s] [ 83%] [32mBuilding CXX object CMakeFiles/turtle_description.dir/src/turtle_description.cpp.o[0m
+[12.267s] [01m[K/home/yzh/桌面/project-ros/ros-study/chapt3/ws_topic/src/demo_cpp_topic/src/turtle_description.cpp:[m[K In member function ‘[01m[Kvoid TurtleCircleNode::on_pose_received(turtlesim::msg::Pose_<std::allocator<void> >::SharedPtr)[m[K’:
+[12.268s] [01m[K/home/yzh/桌面/project-ros/ros-study/chapt3/ws_topic/src/demo_cpp_topic/src/turtle_description.cpp:30:39:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing element_type = struct turtlesim::msg::Pose_<std::allocator<void> >[m[K’ {aka ‘[01m[Kstruct turtlesim::msg::Pose_<std::allocator<void> >[m[K’} has no member named ‘[01m[Ky_[m[K’; did you mean ‘[01m[Ky[m[K’?
+[12.268s]    30 |             if(x_!=pose->x||y_!=pose->[01;31m[Ky_[m[K){
+[12.268s]       |                                       [01;31m[K^~[m[K
+[12.269s]       |                                       [32m[Ky[m[K
+[12.289s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+[12.289s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+[12.289s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[12.289s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[12.290s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[12.290s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[12.291s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[12.291s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[12.291s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[12.291s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[12.292s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[12.292s]                  from [01m[K/home/yzh/桌面/project-ros/ros-study/chapt3/ws_topic/src/demo_cpp_topic/src/turtle_description.cpp:2[m[K:
+[12.292s] [01m[K/home/yzh/桌面/project-ros/ros-study/chapt3/ws_topic/src/demo_cpp_topic/src/turtle_description.cpp:32:20:[m[K [01;31m[Kerror: [m[K‘[01m[Kcurrent_x[m[K’ was not declared in this scope
+[12.292s]    32 |                    [01;31m[Kcurrent_x[m[K, current_y);
+[12.293s]       |                    [01;31m[K^~~~~~~~~[m[K
+[12.308s] [01m[K/home/yzh/桌面/project-ros/ros-study/chapt3/ws_topic/src/demo_cpp_topic/src/turtle_description.cpp:32:31:[m[K [01;31m[Kerror: [m[K‘[01m[Kcurrent_y[m[K’ was not declared in this scope
+[12.309s]    32 |                    current_x, [01;31m[Kcurrent_y[m[K);
+[12.309s]       |                               [01;31m[K^~~~~~~~~[m[K
+[23.305s] gmake[2]: *** [CMakeFiles/turtle_description.dir/build.make:76：CMakeFiles/turtle_description.dir/src/turtle_description.cpp.o] 错误 1
+[23.306s] gmake[1]: *** [CMakeFiles/Makefile2:193：CMakeFiles/turtle_description.dir/all] 错误 2
+[23.307s] gmake: *** [Makefile:146：all] 错误 2
+[23.316s] Invoked command in '/home/yzh/桌面/project-ros/ros-study/chapt3/ws_topic/build/demo_cpp_topic' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/yzh/桌面/project-ros/ros-study/chapt3/ws_topic/build/demo_cpp_topic -- -j16 -l16

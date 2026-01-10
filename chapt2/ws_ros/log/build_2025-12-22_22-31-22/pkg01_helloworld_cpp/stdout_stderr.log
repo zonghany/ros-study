@@ -1,0 +1,75 @@
+-- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+-- Found rclcpp: 16.0.16 (/opt/ros/humble/share/rclcpp/cmake)
+-- Found rosidl_generator_c: 3.1.7 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+-- Found rosidl_adapter: 3.1.7 (/opt/ros/humble/share/rosidl_adapter/cmake)
+-- Found rosidl_generator_cpp: 3.1.7 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+-- Found rmw_fastrtps_cpp: 6.2.9 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+-- Using RMW implementation 'rmw_fastrtps_cpp' as default
+-- Found ament_lint_auto: 0.12.14 (/opt/ros/humble/share/ament_lint_auto/cmake)
+-- Added test 'cppcheck' to perform static code analysis on C / C++ code
+-- Configured cppcheck include dirs: /home/yzh/桌面/project-ros/ros-study/chapt2/ws_ros/src/pkg01_helloworld_cpp/include;$<BUILD_INTERFACE:/home/yzh/桌面/project-ros/ros-study/chapt2/ws_ros/src/pkg01_helloworld_cpp/include>
+-- Configured cppcheck exclude dirs and/or files: 
+-- Added test 'flake8' to check Python code syntax and style conventions
+-- Added test 'lint_cmake' to check CMake code style
+-- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+-- Added test 'uncrustify' to check C / C++ code style
+-- Configured uncrustify additional arguments: 
+-- Added test 'xmllint' to check XML markup files
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/yzh/桌面/project-ros/ros-study/chapt2/ws_ros/build/pkg01_helloworld_cpp
+[35m[1mConsolidate compiler generated dependencies of target learn_cpp[0m
+[35m[1mConsolidate compiler generated dependencies of target learn_shared[0m
+[35m[1mConsolidate compiler generated dependencies of target helloworld[0m
+[35m[1mConsolidate compiler generated dependencies of target learn_lambda[0m
+[35m[1mConsolidate compiler generated dependencies of target person_node[0m
+[35m[1mConsolidate compiler generated dependencies of target learn_functional[0m
+[35m[1mConsolidate compiler generated dependencies of target learn_thread1[0m
+[  6%] [32mBuilding CXX object CMakeFiles/learn_thread.dir/src/learn_thread.cpp.o[0m
+[ 25%] Built target learn_cpp
+[ 37%] Built target learn_shared
+[ 43%] Built target learn_lambda
+[ 56%] Built target learn_thread1
+[ 68%] Built target learn_functional
+[ 81%] Built target helloworld
+[ 93%] Built target person_node
+[01m[K/home/yzh/桌面/project-ros/ros-study/chapt2/ws_ros/src/pkg01_helloworld_cpp/src/learn_thread.cpp:[m[K In member function ‘[01m[Kvoid Download::download(const string&, const string&, const std::function<void(const std::__cxx11::basic_string<char>&)>&)[m[K’:
+[01m[K/home/yzh/桌面/project-ros/ros-study/chapt2/ws_ros/src/pkg01_helloworld_cpp/src/learn_thread.cpp:18:9:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K,[m[K’ or ‘[01m[K;[m[K’ before ‘[01m[Kif[m[K’
+   18 |         [01;31m[Kif[m[K(response && response->status==200){
+      |         [01;31m[K^~[m[K
+[01m[K/home/yzh/桌面/project-ros/ros-study/chapt2/ws_ros/src/pkg01_helloworld_cpp/src/learn_thread.cpp:13:22:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kcallback_word_count[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+   12 |     void download(const std::string &host,const std::string &path,[01;35m[Kconst std::function<void(const[m[K
+      |                                                                   [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+   13 | [01;35m[K    std::string &)> &callback_word_count[m[K)
+      |     [01;35m[K~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/yzh/桌面/project-ros/ros-study/chapt2/ws_ros/src/pkg01_helloworld_cpp/src/learn_thread.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[K/home/yzh/桌面/project-ros/ros-study/chapt2/ws_ros/src/pkg01_helloworld_cpp/src/learn_thread.cpp:34:14:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kargc[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+   34 | int main([01;35m[Kint argc[m[K,char **argv){
+      |          [01;35m[K~~~~^~~~[m[K
+[01m[K/home/yzh/桌面/project-ros/ros-study/chapt2/ws_ros/src/pkg01_helloworld_cpp/src/learn_thread.cpp:34:26:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kargv[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+   34 | int main(int argc,[01;35m[Kchar **argv[m[K){
+      |                   [01;35m[K~~~~~~~^~~~[m[K
+In file included from [01m[K/usr/include/c++/11/thread:43[m[K,
+                 from [01m[K/home/yzh/桌面/project-ros/ros-study/chapt2/ws_ros/src/pkg01_helloworld_cpp/src/learn_thread.cpp:2[m[K:
+/usr/include/c++/11/bits/std_thread.h: In instantiation of ‘[01m[Kstd::thread::thread(_Callable&&, _Args&& ...) [with _Callable = std::_Bind<void (Download::*(Download*, std::_Placeholder<1>, std::_Placeholder<2>, std::_Placeholder<3>))(const std::__cxx11::basic_string<char>&, const std::__cxx11::basic_string<char>&, const std::function<void(const std::__cxx11::basic_string<char>&)>&)>&; _Args = {const std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >&, const std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >&, const std::function<void(const std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >&, const std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >&)>&}; <template-parameter-1-3> = void][m[K’:
+[01m[K/home/yzh/桌面/project-ros/ros-study/chapt2/ws_ros/src/pkg01_helloworld_cpp/src/learn_thread.cpp:27:70:[m[K   required from here
+[01m[K/usr/include/c++/11/bits/std_thread.h:130:72:[m[K [01;31m[Kerror: [m[Kstatic assertion failed: std::thread arguments must be invocable after conversion to rvalues
+  130 |                                       typename decay<_Args>::type...>::[01;31m[Kvalue[m[K,
+      |                                                                        [01;31m[K^~~~~[m[K
+[01m[K/usr/include/c++/11/bits/std_thread.h:130:72:[m[K [01;36m[Knote: [m[K‘[01m[Kstd::integral_constant<bool, false>::value[m[K’ evaluates to false
+/usr/include/c++/11/bits/std_thread.h: In instantiation of ‘[01m[Kstruct std::thread::_Invoker<std::tuple<std::_Bind<void (Download::*(Download*, std::_Placeholder<1>, std::_Placeholder<2>, std::_Placeholder<3>))(const std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >&, const std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >&, const std::function<void(const std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >&)>&)>, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::function<void(const std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >&, const std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >&)> > >[m[K’:
+[01m[K/usr/include/c++/11/bits/std_thread.h:203:13:[m[K   required from ‘[01m[Kstruct std::thread::_State_impl<std::thread::_Invoker<std::tuple<std::_Bind<void (Download::*(Download*, std::_Placeholder<1>, std::_Placeholder<2>, std::_Placeholder<3>))(const std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >&, const std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >&, const std::function<void(const std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >&)>&)>, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::function<void(const std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >&, const std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >&)> > > >[m[K’
+[01m[K/usr/include/c++/11/bits/std_thread.h:143:29:[m[K   required from ‘[01m[Kstd::thread::thread(_Callable&&, _Args&& ...) [with _Callable = std::_Bind<void (Download::*(Download*, std::_Placeholder<1>, std::_Placeholder<2>, std::_Placeholder<3>))(const std::__cxx11::basic_string<char>&, const std::__cxx11::basic_string<char>&, const std::function<void(const std::__cxx11::basic_string<char>&)>&)>&; _Args = {const std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >&, const std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >&, const std::function<void(const std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >&, const std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >&)>&}; <template-parameter-1-3> = void][m[K’
+[01m[K/home/yzh/桌面/project-ros/ros-study/chapt2/ws_ros/src/pkg01_helloworld_cpp/src/learn_thread.cpp:27:70:[m[K   required from here
+[01m[K/usr/include/c++/11/bits/std_thread.h:258:11:[m[K [01;31m[Kerror: [m[Kno type named ‘[01m[Ktype[m[K’ in ‘[01m[Kstruct std::thread::_Invoker<std::tuple<std::_Bind<void (Download::*(Download*, std::_Placeholder<1>, std::_Placeholder<2>, std::_Placeholder<3>))(const std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >&, const std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >&, const std::function<void(const std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >&)>&)>, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::function<void(const std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >&, const std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >&)> > >::__result<std::tuple<std::_Bind<void (Download::*(Download*, std::_Placeholder<1>, std::_Placeholder<2>, std::_Placeholder<3>))(const std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >&, const std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >&, const std::function<void(const std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >&)>&)>, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::function<void(const std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >&, const std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >&)> > >[m[K’
+  258 |           [01;31m[K_M_invoke[m[K(_Index_tuple<_Ind...>)
+      |           [01;31m[K^~~~~~~~~[m[K
+[01m[K/usr/include/c++/11/bits/std_thread.h:262:9:[m[K [01;31m[Kerror: [m[Kno type named ‘[01m[Ktype[m[K’ in ‘[01m[Kstruct std::thread::_Invoker<std::tuple<std::_Bind<void (Download::*(Download*, std::_Placeholder<1>, std::_Placeholder<2>, std::_Placeholder<3>))(const std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >&, const std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >&, const std::function<void(const std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >&)>&)>, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::function<void(const std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >&, const std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >&)> > >::__result<std::tuple<std::_Bind<void (Download::*(Download*, std::_Placeholder<1>, std::_Placeholder<2>, std::_Placeholder<3>))(const std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >&, const std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >&, const std::function<void(const std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >&)>&)>, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::function<void(const std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >&, const std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >&)> > >[m[K’
+  262 |         [01;31m[Koperator[m[K()()
+      |         [01;31m[K^~~~~~~~[m[K
+gmake[2]: *** [CMakeFiles/learn_thread.dir/build.make:76：CMakeFiles/learn_thread.dir/src/learn_thread.cpp.o] 错误 1
+gmake[1]: *** [CMakeFiles/Makefile2:333：CMakeFiles/learn_thread.dir/all] 错误 2
+gmake: *** [Makefile:146：all] 错误 2

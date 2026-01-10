@@ -1,0 +1,60 @@
+[01m[K/home/yzh/桌面/project-ros/ros-study/chapt3/ws_topic/src/demo_cpp_topic/src/turtle_circle.cpp:3:2:[m[K [01;31m[Kerror: [m[Kinvalid preprocessing directive #incldue; did you mean #include?
+    3 | #[01;31m[Kincldue[m[K "geometry_msgs/msg/twist.hpp"  //引入话题控制小海龟
+      |  [01;31m[K^~~~~~~[m[K
+      |  [32m[Kinclude[m[K
+[01m[K/home/yzh/桌面/project-ros/ros-study/chapt3/ws_topic/src/demo_cpp_topic/src/turtle_circle.cpp:14:27:[m[K [01;31m[Kerror: [m[K‘[01m[Kgeometry_msgs[m[K’ was not declared in this scope
+   14 |         rclcpp::Publisher<[01;31m[Kgeometry_msgs[m[K::msg::Twist>::SharedPtr Publisher_; //创建定时器，创建发布者的智能指针
+      |                           [01;31m[K^~~~~~~~~~~~~[m[K
+[01m[K/home/yzh/桌面/project-ros/ros-study/chapt3/ws_topic/src/demo_cpp_topic/src/turtle_circle.cpp:14:52:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+   14 |         rclcpp::Publisher<geometry_msgs::msg::Twist[01;31m[K>[m[K::SharedPtr Publisher_; //创建定时器，创建发布者的智能指针
+      |                                                    [01;31m[K^[m[K
+[01m[K/home/yzh/桌面/project-ros/ros-study/chapt3/ws_topic/src/demo_cpp_topic/src/turtle_circle.cpp:14:55:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ at end of member declaration
+   14 |         rclcpp::Publisher<geometry_msgs::msg::Twist>::[01;31m[KSharedPtr[m[K Publisher_; //创建定时器，创建发布者的智能指针
+      |                                                       [01;31m[K^~~~~~~~~[m[K
+      |                                                                [32m[K;[m[K
+[01m[K/home/yzh/桌面/project-ros/ros-study/chapt3/ws_topic/src/demo_cpp_topic/src/turtle_circle.cpp:14:65:[m[K [01;31m[Kerror: [m[K‘[01m[KPublisher_[m[K’ does not name a type; did you mean ‘[01m[Krmw_publisher_t[m[K’?
+   14 |         rclcpp::Publisher<geometry_msgs::msg::Twist>::SharedPtr [01;31m[KPublisher_[m[K; //创建定时器，创建发布者的智能指针
+      |                                                                 [01;31m[K^~~~~~~~~~[m[K
+      |                                                                 [32m[Krmw_publisher_t[m[K
+[01m[K/home/yzh/桌面/project-ros/ros-study/chapt3/ws_topic/src/demo_cpp_topic/src/turtle_circle.cpp:24:14:[m[K [01;31m[Kerror: [m[Kvariable or field ‘[01m[Ktimer_callback[m[K’ declared void
+   24 |         void [01;31m[Ktimer_callback[m[K
+      |              [01;31m[K^~~~~~~~~~~~~~[m[K
+[01m[K/home/yzh/桌面/project-ros/ros-study/chapt3/ws_topic/src/demo_cpp_topic/src/turtle_circle.cpp:31:9:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ at end of member declaration
+   31 |         [01;31m[K}[m[K
+      |         [01;31m[K^[m[K
+      |          [32m[K;[m[K
+[01m[K/home/yzh/桌面/project-ros/ros-study/chapt3/ws_topic/src/demo_cpp_topic/src/turtle_circle.cpp:32:2:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ after class definition
+   32 | }
+      |  [01;31m[K^[m[K
+      |  [32m[K;[m[K
+[01m[K/home/yzh/桌面/project-ros/ros-study/chapt3/ws_topic/src/demo_cpp_topic/src/turtle_circle.cpp:[m[K In constructor ‘[01m[KTurtleCircleNode::TurtleCircleNode(const string&)[m[K’:
+[01m[K/home/yzh/桌面/project-ros/ros-study/chapt3/ws_topic/src/demo_cpp_topic/src/turtle_circle.cpp:19:13:[m[K [01;31m[Kerror: [m[K‘[01m[KPublisher_[m[K’ was not declared in this scope; did you mean ‘[01m[Krmw_publisher_t[m[K’?
+   19 |             [01;31m[KPublisher_[m[K = this->create_publisher<geometry_msgs::msg::Twist>("/turtle1/cmd_vel",10);
+      |             [01;31m[K^~~~~~~~~~[m[K
+      |             [32m[Krmw_publisher_t[m[K
+[01m[K/home/yzh/桌面/project-ros/ros-study/chapt3/ws_topic/src/demo_cpp_topic/src/turtle_circle.cpp:19:49:[m[K [01;31m[Kerror: [m[K‘[01m[Kgeometry_msgs[m[K’ was not declared in this scope
+   19 |             Publisher_ = this->create_publisher<[01;31m[Kgeometry_msgs[m[K::msg::Twist>("/turtle1/cmd_vel",10);
+      |                                                 [01;31m[K^~~~~~~~~~~~~[m[K
+[01m[K/home/yzh/桌面/project-ros/ros-study/chapt3/ws_topic/src/demo_cpp_topic/src/turtle_circle.cpp:19:32:[m[K [01;31m[Kerror: [m[Kparse error in template argument list
+   19 |             Publisher_ = this->[01;31m[Kcreate_publisher<geometry_msgs::msg::Twist>[m[K("/turtle1/cmd_vel",10);
+      |                                [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/yzh/桌面/project-ros/ros-study/chapt3/ws_topic/src/demo_cpp_topic/src/turtle_circle.cpp:19:75:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[KTurtleCircleNode::create_publisher<<expression error> >(const char [17], int)[m[K’
+   19 |             Publisher_ = [01;31m[Kthis->create_publisher<geometry_msgs::msg::Twist>("/turtle1/cmd_vel",10)[m[K;
+      |                          [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/single_threaded_executor.hpp:28[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:22[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+                 from [01m[K/home/yzh/桌面/project-ros/ros-study/chapt3/ws_topic/src/demo_cpp_topic/src/turtle_circle.cpp:2[m[K:
+[01m[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:195:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class MessageT, class AllocatorT, class PublisherT> std::shared_ptr<PublisherT> rclcpp::Node::create_publisher(const string&, const rclcpp::QoS&, const rclcpp::PublisherOptionsWithAllocator<AllocatorT>&)[m[K’
+  195 |   [01;36m[Kcreate_publisher[m[K(
+      |   [01;36m[K^~~~~~~~~~~~~~~~[m[K
+[01m[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:195:3:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/yzh/桌面/project-ros/ros-study/chapt3/ws_topic/src/demo_cpp_topic/src/turtle_circle.cpp:19:75:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+   19 |             Publisher_ = [01;31m[Kthis->create_publisher<geometry_msgs::msg::Twist>("/turtle1/cmd_vel",10)[m[K;
+      |                          [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/yzh/桌面/project-ros/ros-study/chapt3/ws_topic/src/demo_cpp_topic/src/turtle_circle.cpp:21:82:[m[K [01;31m[Kerror: [m[K‘[01m[Ktimer_callback[m[K’ is not a member of ‘[01m[KTurtleCircleNode[m[K’
+   21 |             timer_ = this->create_wall_timer(1000ms,std::bind(&TurtleCircleNode::[01;31m[Ktimer_callback[m[K,this))
+      |                                                                                  [01;31m[K^~~~~~~~~~~~~~[m[K
+gmake[2]: *** [CMakeFiles/turtle_circle.dir/build.make:76：CMakeFiles/turtle_circle.dir/src/turtle_circle.cpp.o] 错误 1
+gmake[1]: *** [CMakeFiles/Makefile2:137：CMakeFiles/turtle_circle.dir/all] 错误 2
+gmake: *** [Makefile:146：all] 错误 2

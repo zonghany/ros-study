@@ -1,0 +1,200 @@
+[0.000000] (-) TimerEvent: {}
+[0.003419] (demo_cpp_topic) JobQueued: {'identifier': 'demo_cpp_topic', 'dependencies': OrderedDict()}
+[0.005091] (demo_cpp_topic) JobStarted: {'identifier': 'demo_cpp_topic'}
+[0.041085] (demo_cpp_topic) JobProgress: {'identifier': 'demo_cpp_topic', 'progress': 'cmake'}
+[0.043621] (demo_cpp_topic) JobProgress: {'identifier': 'demo_cpp_topic', 'progress': 'build'}
+[0.047226] (demo_cpp_topic) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/yzh/桌面/project-ros/ros-study/chapt3/ws_topic/build/demo_cpp_topic', '--', '-j16', '-l16'], 'cwd': '/home/yzh/桌面/project-ros/ros-study/chapt3/ws_topic/build/demo_cpp_topic', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'zh_CN:en_AU:en_CA:en_GB:en_US:en'), ('USER', 'yzh'), ('SSH_CLIENT', '192.168.44.1 49707 22'), ('LC_TIME', 'zh_CN.UTF-8'), ('XDG_SESSION_TYPE', 'tty'), ('GIT_ASKPASS', '/home/yzh/.vscode-server/cli/servers/Stable-994fd12f8d3a5aa16f17d42c041e5809167e845a/server/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('BROWSER', '/home/yzh/.vscode-server/cli/servers/Stable-994fd12f8d3a5aa16f17d42c041e5809167e845a/server/bin/helpers/browser.sh'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/yzh'), ('OLDPWD', '/home/yzh/桌面/project-ros/ros-study/chapt3/ws_topic/src'), ('TERM_PROGRAM_VERSION', '1.107.1'), ('VSCODE_IPC_HOOK_CLI', '/run/user/1000/vscode-ipc-4a7ff670-512b-44c0-a31c-4a941ceaa19e.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/home/yzh/.vscode-server/cli/servers/Stable-994fd12f8d3a5aa16f17d42c041e5809167e845a/server/extensions/git/dist/askpass-main.js'), ('LC_MONETARY', 'zh_CN.UTF-8'), ('VSCODE_GIT_ASKPASS_NODE', '/home/yzh/.vscode-server/cli/servers/Stable-994fd12f8d3a5aa16f17d42c041e5809167e845a/server/node'), ('SSL_CERT_FILE', '/usr/lib/ssl/certs/ca-certificates.crt'), ('VSCODE_PYTHON_AUTOACTIVATE_GUARD', '1'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('COLCON_PREFIX_PATH', '/home/yzh/桌面/project-ros/ros-study/chapt3/ws_topic/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'yzh'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '3'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/yzh/.vscode-server/data/User/globalStorage/github.copilot-chat/debugCommand:/home/yzh/.vscode-server/data/User/globalStorage/github.copilot-chat/copilotCli:/home/yzh/.vscode-server/cli/servers/Stable-994fd12f8d3a5aa16f17d42c041e5809167e845a/server/bin/remote-cli:/home/yzh/.local/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('PAPERSIZE', 'a4'), ('LC_ADDRESS', 'zh_CN.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('SSL_CERT_DIR', '/usr/lib/ssl/certs'), ('LANG', 'zh_CN.UTF-8'), ('LC_TELEPHONE', 'zh_CN.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-f929d80034.sock'), ('TERM_PROGRAM', 'vscode'), ('AMENT_PREFIX_PATH', '/home/yzh/桌面/project-ros/ros-study/chapt3/ws_topic/install/demo_cpp_topic:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'zh_CN.UTF-8'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'zh_CN.UTF-8'), ('LC_IDENTIFICATION', 'zh_CN.UTF-8'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/home/yzh/桌面/project-ros/ros-study/chapt3/ws_topic/build/demo_cpp_topic'), ('SSH_CONNECTION', '192.168.44.1 49707 192.168.44.128 22'), ('XDG_DATA_DIRS', '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'zh_CN.UTF-8'), ('LC_PAPER', 'zh_CN.UTF-8'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/yzh/桌面/project-ros/ros-study/chapt3/ws_topic/install/demo_cpp_topic:/opt/ros/humble')]), 'shell': False}
+[0.099206] (-) TimerEvent: {}
+[0.201800] (-) TimerEvent: {}
+[0.301218] (demo_cpp_topic) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target learn_timer\x1b[0m\n'}
+[0.302043] (-) TimerEvent: {}
+[0.378094] (demo_cpp_topic) StdoutLine: {'line': b'[ 50%] Built target turtle_circle\n'}
+[0.394723] (demo_cpp_topic) StdoutLine: {'line': b'[ 75%] \x1b[32mBuilding CXX object CMakeFiles/learn_timer.dir/src/learn_timercallback.cpp.o\x1b[0m\n'}
+[0.402617] (-) TimerEvent: {}
+[0.505059] (-) TimerEvent: {}
+[0.607546] (-) TimerEvent: {}
+[0.710073] (-) TimerEvent: {}
+[0.812076] (-) TimerEvent: {}
+[0.913328] (-) TimerEvent: {}
+[1.014879] (-) TimerEvent: {}
+[1.115991] (-) TimerEvent: {}
+[1.217350] (-) TimerEvent: {}
+[1.319003] (-) TimerEvent: {}
+[1.420077] (-) TimerEvent: {}
+[1.521823] (-) TimerEvent: {}
+[1.624178] (-) TimerEvent: {}
+[1.726306] (-) TimerEvent: {}
+[1.828115] (-) TimerEvent: {}
+[1.930209] (-) TimerEvent: {}
+[2.031561] (-) TimerEvent: {}
+[2.132989] (-) TimerEvent: {}
+[2.234323] (-) TimerEvent: {}
+[2.337996] (-) TimerEvent: {}
+[2.439360] (-) TimerEvent: {}
+[2.542140] (-) TimerEvent: {}
+[2.643820] (-) TimerEvent: {}
+[2.745059] (-) TimerEvent: {}
+[2.846390] (-) TimerEvent: {}
+[2.947650] (-) TimerEvent: {}
+[3.049260] (-) TimerEvent: {}
+[3.150710] (-) TimerEvent: {}
+[3.251956] (-) TimerEvent: {}
+[3.354067] (-) TimerEvent: {}
+[3.456038] (-) TimerEvent: {}
+[3.557677] (-) TimerEvent: {}
+[3.660225] (-) TimerEvent: {}
+[3.762131] (-) TimerEvent: {}
+[3.863664] (-) TimerEvent: {}
+[3.965032] (-) TimerEvent: {}
+[4.067360] (-) TimerEvent: {}
+[4.168586] (-) TimerEvent: {}
+[4.269615] (-) TimerEvent: {}
+[4.371143] (-) TimerEvent: {}
+[4.472619] (-) TimerEvent: {}
+[4.574120] (-) TimerEvent: {}
+[4.675534] (-) TimerEvent: {}
+[4.776945] (-) TimerEvent: {}
+[4.879355] (-) TimerEvent: {}
+[4.980643] (-) TimerEvent: {}
+[5.082000] (-) TimerEvent: {}
+[5.183677] (-) TimerEvent: {}
+[5.285743] (-) TimerEvent: {}
+[5.387097] (-) TimerEvent: {}
+[5.489281] (-) TimerEvent: {}
+[5.590625] (-) TimerEvent: {}
+[5.691681] (-) TimerEvent: {}
+[5.793035] (-) TimerEvent: {}
+[5.894112] (-) TimerEvent: {}
+[5.996307] (-) TimerEvent: {}
+[6.097825] (-) TimerEvent: {}
+[6.199328] (-) TimerEvent: {}
+[6.301208] (-) TimerEvent: {}
+[6.402317] (-) TimerEvent: {}
+[6.503947] (-) TimerEvent: {}
+[6.605019] (-) TimerEvent: {}
+[6.707080] (-) TimerEvent: {}
+[6.808370] (-) TimerEvent: {}
+[6.909693] (-) TimerEvent: {}
+[7.010862] (-) TimerEvent: {}
+[7.111909] (-) TimerEvent: {}
+[7.213684] (-) TimerEvent: {}
+[7.315001] (-) TimerEvent: {}
+[7.416131] (-) TimerEvent: {}
+[7.517638] (-) TimerEvent: {}
+[7.618674] (-) TimerEvent: {}
+[7.719946] (-) TimerEvent: {}
+[7.822945] (-) TimerEvent: {}
+[7.924645] (-) TimerEvent: {}
+[8.027240] (-) TimerEvent: {}
+[8.128749] (-) TimerEvent: {}
+[8.229882] (-) TimerEvent: {}
+[8.331296] (-) TimerEvent: {}
+[8.432732] (-) TimerEvent: {}
+[8.533865] (-) TimerEvent: {}
+[8.635899] (-) TimerEvent: {}
+[8.738791] (-) TimerEvent: {}
+[8.839871] (-) TimerEvent: {}
+[8.940920] (-) TimerEvent: {}
+[9.042129] (-) TimerEvent: {}
+[9.143282] (-) TimerEvent: {}
+[9.245038] (-) TimerEvent: {}
+[9.347197] (-) TimerEvent: {}
+[9.448390] (-) TimerEvent: {}
+[9.550918] (-) TimerEvent: {}
+[9.652696] (-) TimerEvent: {}
+[9.753813] (-) TimerEvent: {}
+[9.855128] (-) TimerEvent: {}
+[9.956872] (-) TimerEvent: {}
+[10.058076] (-) TimerEvent: {}
+[10.160242] (-) TimerEvent: {}
+[10.261387] (-) TimerEvent: {}
+[10.362632] (-) TimerEvent: {}
+[10.464266] (-) TimerEvent: {}
+[10.565794] (-) TimerEvent: {}
+[10.667357] (-) TimerEvent: {}
+[10.768973] (-) TimerEvent: {}
+[10.870597] (-) TimerEvent: {}
+[10.971635] (-) TimerEvent: {}
+[11.073037] (-) TimerEvent: {}
+[11.174728] (-) TimerEvent: {}
+[11.275981] (-) TimerEvent: {}
+[11.377430] (-) TimerEvent: {}
+[11.479323] (-) TimerEvent: {}
+[11.581780] (-) TimerEvent: {}
+[11.683599] (-) TimerEvent: {}
+[11.784941] (-) TimerEvent: {}
+[11.886111] (-) TimerEvent: {}
+[11.987985] (-) TimerEvent: {}
+[12.089854] (-) TimerEvent: {}
+[12.191837] (-) TimerEvent: {}
+[12.294058] (-) TimerEvent: {}
+[12.395970] (-) TimerEvent: {}
+[12.497327] (-) TimerEvent: {}
+[12.598566] (-) TimerEvent: {}
+[12.699956] (-) TimerEvent: {}
+[12.801655] (-) TimerEvent: {}
+[12.902959] (-) TimerEvent: {}
+[13.004741] (-) TimerEvent: {}
+[13.105832] (-) TimerEvent: {}
+[13.207979] (-) TimerEvent: {}
+[13.309536] (-) TimerEvent: {}
+[13.410592] (-) TimerEvent: {}
+[13.511750] (-) TimerEvent: {}
+[13.613725] (-) TimerEvent: {}
+[13.715277] (-) TimerEvent: {}
+[13.817653] (-) TimerEvent: {}
+[13.919559] (-) TimerEvent: {}
+[14.020911] (-) TimerEvent: {}
+[14.123684] (-) TimerEvent: {}
+[14.225102] (-) TimerEvent: {}
+[14.326524] (-) TimerEvent: {}
+[14.429156] (-) TimerEvent: {}
+[14.531975] (-) TimerEvent: {}
+[14.633879] (-) TimerEvent: {}
+[14.735226] (-) TimerEvent: {}
+[14.836778] (-) TimerEvent: {}
+[14.937984] (-) TimerEvent: {}
+[15.039851] (-) TimerEvent: {}
+[15.141351] (-) TimerEvent: {}
+[15.242958] (-) TimerEvent: {}
+[15.345305] (-) TimerEvent: {}
+[15.446332] (-) TimerEvent: {}
+[15.549706] (-) TimerEvent: {}
+[15.653557] (-) TimerEvent: {}
+[15.714181] (demo_cpp_topic) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable learn_timer\x1b[0m\n'}
+[15.754247] (-) TimerEvent: {}
+[15.855572] (-) TimerEvent: {}
+[15.956907] (-) TimerEvent: {}
+[16.058667] (-) TimerEvent: {}
+[16.160777] (-) TimerEvent: {}
+[16.262837] (-) TimerEvent: {}
+[16.300380] (demo_cpp_topic) StdoutLine: {'line': b'[100%] Built target learn_timer\n'}
+[16.361122] (demo_cpp_topic) CommandEnded: {'returncode': 0}
+[16.366917] (-) TimerEvent: {}
+[16.367392] (demo_cpp_topic) JobProgress: {'identifier': 'demo_cpp_topic', 'progress': 'install'}
+[16.414993] (demo_cpp_topic) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/yzh/桌面/project-ros/ros-study/chapt3/ws_topic/build/demo_cpp_topic'], 'cwd': '/home/yzh/桌面/project-ros/ros-study/chapt3/ws_topic/build/demo_cpp_topic', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'zh_CN:en_AU:en_CA:en_GB:en_US:en'), ('USER', 'yzh'), ('SSH_CLIENT', '192.168.44.1 49707 22'), ('LC_TIME', 'zh_CN.UTF-8'), ('XDG_SESSION_TYPE', 'tty'), ('GIT_ASKPASS', '/home/yzh/.vscode-server/cli/servers/Stable-994fd12f8d3a5aa16f17d42c041e5809167e845a/server/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('BROWSER', '/home/yzh/.vscode-server/cli/servers/Stable-994fd12f8d3a5aa16f17d42c041e5809167e845a/server/bin/helpers/browser.sh'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/yzh'), ('OLDPWD', '/home/yzh/桌面/project-ros/ros-study/chapt3/ws_topic/src'), ('TERM_PROGRAM_VERSION', '1.107.1'), ('VSCODE_IPC_HOOK_CLI', '/run/user/1000/vscode-ipc-4a7ff670-512b-44c0-a31c-4a941ceaa19e.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/home/yzh/.vscode-server/cli/servers/Stable-994fd12f8d3a5aa16f17d42c041e5809167e845a/server/extensions/git/dist/askpass-main.js'), ('LC_MONETARY', 'zh_CN.UTF-8'), ('VSCODE_GIT_ASKPASS_NODE', '/home/yzh/.vscode-server/cli/servers/Stable-994fd12f8d3a5aa16f17d42c041e5809167e845a/server/node'), ('SSL_CERT_FILE', '/usr/lib/ssl/certs/ca-certificates.crt'), ('VSCODE_PYTHON_AUTOACTIVATE_GUARD', '1'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('COLCON_PREFIX_PATH', '/home/yzh/桌面/project-ros/ros-study/chapt3/ws_topic/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'yzh'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '3'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/yzh/.vscode-server/data/User/globalStorage/github.copilot-chat/debugCommand:/home/yzh/.vscode-server/data/User/globalStorage/github.copilot-chat/copilotCli:/home/yzh/.vscode-server/cli/servers/Stable-994fd12f8d3a5aa16f17d42c041e5809167e845a/server/bin/remote-cli:/home/yzh/.local/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('PAPERSIZE', 'a4'), ('LC_ADDRESS', 'zh_CN.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('SSL_CERT_DIR', '/usr/lib/ssl/certs'), ('LANG', 'zh_CN.UTF-8'), ('LC_TELEPHONE', 'zh_CN.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-f929d80034.sock'), ('TERM_PROGRAM', 'vscode'), ('AMENT_PREFIX_PATH', '/home/yzh/桌面/project-ros/ros-study/chapt3/ws_topic/install/demo_cpp_topic:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'zh_CN.UTF-8'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'zh_CN.UTF-8'), ('LC_IDENTIFICATION', 'zh_CN.UTF-8'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/home/yzh/桌面/project-ros/ros-study/chapt3/ws_topic/build/demo_cpp_topic'), ('SSH_CONNECTION', '192.168.44.1 49707 192.168.44.128 22'), ('XDG_DATA_DIRS', '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'zh_CN.UTF-8'), ('LC_PAPER', 'zh_CN.UTF-8'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/yzh/桌面/project-ros/ros-study/chapt3/ws_topic/install/demo_cpp_topic:/opt/ros/humble')]), 'shell': False}
+[16.454156] (demo_cpp_topic) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[16.455515] (demo_cpp_topic) StdoutLine: {'line': b'-- Installing: /home/yzh/\xe6\xa1\x8c\xe9\x9d\xa2/project-ros/ros-study/chapt3/ws_topic/install/demo_cpp_topic/lib/demo_cpp_topic/turtle_circle\n'}
+[16.460205] (demo_cpp_topic) StdoutLine: {'line': b'-- Set runtime path of "/home/yzh/\xe6\xa1\x8c\xe9\x9d\xa2/project-ros/ros-study/chapt3/ws_topic/install/demo_cpp_topic/lib/demo_cpp_topic/turtle_circle" to ""\n'}
+[16.460783] (demo_cpp_topic) StdoutLine: {'line': b'-- Installing: /home/yzh/\xe6\xa1\x8c\xe9\x9d\xa2/project-ros/ros-study/chapt3/ws_topic/install/demo_cpp_topic/lib/demo_cpp_topic/learn_timer\n'}
+[16.462249] (demo_cpp_topic) StdoutLine: {'line': b'-- Set runtime path of "/home/yzh/\xe6\xa1\x8c\xe9\x9d\xa2/project-ros/ros-study/chapt3/ws_topic/install/demo_cpp_topic/lib/demo_cpp_topic/learn_timer" to ""\n'}
+[16.463878] (demo_cpp_topic) StdoutLine: {'line': b'-- Up-to-date: /home/yzh/\xe6\xa1\x8c\xe9\x9d\xa2/project-ros/ros-study/chapt3/ws_topic/install/demo_cpp_topic/share/ament_index/resource_index/package_run_dependencies/demo_cpp_topic\n'}
+[16.464379] (demo_cpp_topic) StdoutLine: {'line': b'-- Installing: /home/yzh/\xe6\xa1\x8c\xe9\x9d\xa2/project-ros/ros-study/chapt3/ws_topic/install/demo_cpp_topic/share/ament_index/resource_index/parent_prefix_path/demo_cpp_topic\n'}
+[16.465215] (demo_cpp_topic) StdoutLine: {'line': b'-- Up-to-date: /home/yzh/\xe6\xa1\x8c\xe9\x9d\xa2/project-ros/ros-study/chapt3/ws_topic/install/demo_cpp_topic/share/demo_cpp_topic/environment/ament_prefix_path.sh\n'}
+[16.465554] (demo_cpp_topic) StdoutLine: {'line': b'-- Installing: /home/yzh/\xe6\xa1\x8c\xe9\x9d\xa2/project-ros/ros-study/chapt3/ws_topic/install/demo_cpp_topic/share/demo_cpp_topic/environment/ament_prefix_path.dsv\n'}
+[16.466175] (demo_cpp_topic) StdoutLine: {'line': b'-- Up-to-date: /home/yzh/\xe6\xa1\x8c\xe9\x9d\xa2/project-ros/ros-study/chapt3/ws_topic/install/demo_cpp_topic/share/demo_cpp_topic/environment/path.sh\n'}
+[16.466745] (demo_cpp_topic) StdoutLine: {'line': b'-- Installing: /home/yzh/\xe6\xa1\x8c\xe9\x9d\xa2/project-ros/ros-study/chapt3/ws_topic/install/demo_cpp_topic/share/demo_cpp_topic/environment/path.dsv\n'}
+[16.467116] (-) TimerEvent: {}
+[16.467528] (demo_cpp_topic) StdoutLine: {'line': b'-- Up-to-date: /home/yzh/\xe6\xa1\x8c\xe9\x9d\xa2/project-ros/ros-study/chapt3/ws_topic/install/demo_cpp_topic/share/demo_cpp_topic/local_setup.bash\n'}
+[16.467896] (demo_cpp_topic) StdoutLine: {'line': b'-- Up-to-date: /home/yzh/\xe6\xa1\x8c\xe9\x9d\xa2/project-ros/ros-study/chapt3/ws_topic/install/demo_cpp_topic/share/demo_cpp_topic/local_setup.sh\n'}
+[16.468237] (demo_cpp_topic) StdoutLine: {'line': b'-- Up-to-date: /home/yzh/\xe6\xa1\x8c\xe9\x9d\xa2/project-ros/ros-study/chapt3/ws_topic/install/demo_cpp_topic/share/demo_cpp_topic/local_setup.zsh\n'}
+[16.468633] (demo_cpp_topic) StdoutLine: {'line': b'-- Installing: /home/yzh/\xe6\xa1\x8c\xe9\x9d\xa2/project-ros/ros-study/chapt3/ws_topic/install/demo_cpp_topic/share/demo_cpp_topic/local_setup.dsv\n'}
+[16.469389] (demo_cpp_topic) StdoutLine: {'line': b'-- Installing: /home/yzh/\xe6\xa1\x8c\xe9\x9d\xa2/project-ros/ros-study/chapt3/ws_topic/install/demo_cpp_topic/share/demo_cpp_topic/package.dsv\n'}
+[16.469786] (demo_cpp_topic) StdoutLine: {'line': b'-- Up-to-date: /home/yzh/\xe6\xa1\x8c\xe9\x9d\xa2/project-ros/ros-study/chapt3/ws_topic/install/demo_cpp_topic/share/ament_index/resource_index/packages/demo_cpp_topic\n'}
+[16.470166] (demo_cpp_topic) StdoutLine: {'line': b'-- Up-to-date: /home/yzh/\xe6\xa1\x8c\xe9\x9d\xa2/project-ros/ros-study/chapt3/ws_topic/install/demo_cpp_topic/share/demo_cpp_topic/cmake/demo_cpp_topicConfig.cmake\n'}
+[16.470411] (demo_cpp_topic) StdoutLine: {'line': b'-- Up-to-date: /home/yzh/\xe6\xa1\x8c\xe9\x9d\xa2/project-ros/ros-study/chapt3/ws_topic/install/demo_cpp_topic/share/demo_cpp_topic/cmake/demo_cpp_topicConfig-version.cmake\n'}
+[16.470694] (demo_cpp_topic) StdoutLine: {'line': b'-- Up-to-date: /home/yzh/\xe6\xa1\x8c\xe9\x9d\xa2/project-ros/ros-study/chapt3/ws_topic/install/demo_cpp_topic/share/demo_cpp_topic/package.xml\n'}
+[16.476326] (demo_cpp_topic) CommandEnded: {'returncode': 0}
+[16.562759] (demo_cpp_topic) JobEnded: {'identifier': 'demo_cpp_topic', 'rc': 0}
+[16.567612] (-) TimerEvent: {}
+[16.568118] (-) EventReactorShutdown: {}

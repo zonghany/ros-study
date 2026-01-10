@@ -1,0 +1,10 @@
+[35m[1mConsolidate compiler generated dependencies of target partol_client[0m
+[ 50%] Built target turtle_control
+[ 75%] [32mBuilding CXX object CMakeFiles/partol_client.dir/src/Patrol_Client.cpp.o[0m
+[01m[K/home/yzh/chapt4/src/demo_cpp_service/src/Patrol_Client.cpp:[m[K In lambda function:
+[01m[K/home/yzh/chapt4/src/demo_cpp_service/src/Patrol_Client.cpp:44:66:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ before ‘[01m[K{[m[K’ token
+   44 |                 }else(response->result == Patrol::Response::FAIL)[01;31m[K{[m[K
+      |                                                                  [01;31m[K^[m[K
+gmake[2]: *** [CMakeFiles/partol_client.dir/build.make:76：CMakeFiles/partol_client.dir/src/Patrol_Client.cpp.o] 错误 1
+gmake[1]: *** [CMakeFiles/Makefile2:165：CMakeFiles/partol_client.dir/all] 错误 2
+gmake: *** [Makefile:146：all] 错误 2

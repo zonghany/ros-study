@@ -1,0 +1,38 @@
+[0.047s] Invoking command in '/home/yzh/桌面/project-ros/ros-study/chapt3/ws_topic/build/demo_cpp_topic': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/yzh/桌面/project-ros/ros-study/chapt3/ws_topic/build/demo_cpp_topic -- -j16 -l16
+[0.224s] -- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+[1.048s] -- Found rclcpp: 16.0.16 (/opt/ros/humble/share/rclcpp/cmake)
+[1.187s] -- Found rosidl_generator_c: 3.1.7 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[1.201s] -- Found rosidl_adapter: 3.1.7 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[1.227s] -- Found rosidl_generator_cpp: 3.1.7 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[1.269s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.326s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.454s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[1.460s] -- Found rmw_fastrtps_cpp: 6.2.9 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[1.934s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[2.128s] -- Found geometry_msgs: 4.9.0 (/opt/ros/humble/share/geometry_msgs/cmake)
+[2.181s] -- Found turtlesim: 1.4.3 (/opt/ros/humble/share/turtlesim/cmake)
+[2.350s] -- Found ament_lint_auto: 0.12.14 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[2.822s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[2.822s] -- Configured cppcheck include dirs: 
+[2.823s] -- Configured cppcheck exclude dirs and/or files: 
+[2.824s] -- Added test 'lint_cmake' to check CMake code style
+[2.828s] -- Added test 'uncrustify' to check C / C++ code style
+[2.829s] -- Configured uncrustify additional arguments: 
+[2.829s] -- Added test 'xmllint' to check XML markup files
+[2.832s] -- Configuring done
+[2.881s] -- Generating done
+[2.898s] -- Build files have been written to: /home/yzh/桌面/project-ros/ros-study/chapt3/ws_topic/build/demo_cpp_topic
+[3.055s] [35m[1mConsolidate compiler generated dependencies of target turtle_circle[0m
+[3.120s] [ 25%] [32mBuilding CXX object CMakeFiles/learn_timer.dir/src/learn_timercallback.cpp.o[0m
+[3.158s] [ 50%] [32mBuilding CXX object CMakeFiles/turtle_circle.dir/src/turtle_circle.cpp.o[0m
+[3.167s] [01m[K/home/yzh/桌面/project-ros/ros-study/chapt3/ws_topic/src/demo_cpp_topic/src/learn_timercallback.cpp:1:10:[m[K [01;31m[Kfatal error: [m[Krclcpp/rclcpp.hpp: 没有那个文件或目录
+[3.167s]     1 | #include [01;31m[K"rclcpp/rclcpp.hpp"[m[K
+[3.167s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~[m[K
+[3.167s] compilation terminated.
+[3.171s] gmake[2]: *** [CMakeFiles/learn_timer.dir/build.make:76：CMakeFiles/learn_timer.dir/src/learn_timercallback.cpp.o] 错误 1
+[3.171s] gmake[1]: *** [CMakeFiles/Makefile2:165：CMakeFiles/learn_timer.dir/all] 错误 2
+[3.172s] gmake[1]: *** 正在等待未完成的任务....
+[31.926s] [ 75%] [32m[1mLinking CXX executable turtle_circle[0m
+[32.725s] [ 75%] Built target turtle_circle
+[32.729s] gmake: *** [Makefile:146：all] 错误 2
+[32.740s] Invoked command in '/home/yzh/桌面/project-ros/ros-study/chapt3/ws_topic/build/demo_cpp_topic' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/yzh/桌面/project-ros/ros-study/chapt3/ws_topic/build/demo_cpp_topic -- -j16 -l16

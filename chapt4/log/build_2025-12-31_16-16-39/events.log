@@ -1,0 +1,178 @@
+[0.000000] (-) TimerEvent: {}
+[0.000324] (-) JobUnselected: {'identifier': 'chapt4_interfaces'}
+[0.000390] (demo_cpp_service) JobQueued: {'identifier': 'demo_cpp_service', 'dependencies': OrderedDict([('chapt4_interfaces', '/home/yzh/chapt4/install/chapt4_interfaces')])}
+[0.000487] (demo_cpp_service) JobStarted: {'identifier': 'demo_cpp_service'}
+[0.040720] (demo_cpp_service) JobProgress: {'identifier': 'demo_cpp_service', 'progress': 'cmake'}
+[0.043086] (demo_cpp_service) JobProgress: {'identifier': 'demo_cpp_service', 'progress': 'build'}
+[0.052092] (demo_cpp_service) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/yzh/chapt4/build/demo_cpp_service', '--', '-j16', '-l16'], 'cwd': '/home/yzh/chapt4/build/demo_cpp_service', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'zh_CN:en_AU:en_CA:en_GB:en_US:en'), ('USER', 'yzh'), ('SSH_CLIENT', '192.168.44.1 62941 22'), ('LC_TIME', 'zh_CN.UTF-8'), ('XDG_SESSION_TYPE', 'tty'), ('GIT_ASKPASS', '/home/yzh/.vscode-server/cli/servers/Stable-994fd12f8d3a5aa16f17d42c041e5809167e845a/server/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/yzh/chapt4/install/chapt4_interfaces/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('BROWSER', '/home/yzh/.vscode-server/cli/servers/Stable-994fd12f8d3a5aa16f17d42c041e5809167e845a/server/bin/helpers/browser.sh'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/yzh'), ('OLDPWD', '/home/yzh/chapt4'), ('TERM_PROGRAM_VERSION', '1.107.1'), ('VSCODE_IPC_HOOK_CLI', '/run/user/1000/vscode-ipc-6393460b-30a4-49ad-ab38-3538b3873e07.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/home/yzh/.vscode-server/cli/servers/Stable-994fd12f8d3a5aa16f17d42c041e5809167e845a/server/extensions/git/dist/askpass-main.js'), ('LC_MONETARY', 'zh_CN.UTF-8'), ('VSCODE_GIT_ASKPASS_NODE', '/home/yzh/.vscode-server/cli/servers/Stable-994fd12f8d3a5aa16f17d42c041e5809167e845a/server/node'), ('SSL_CERT_FILE', '/usr/lib/ssl/certs/ca-certificates.crt'), ('VSCODE_PYTHON_AUTOACTIVATE_GUARD', '1'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('COLCON_PREFIX_PATH', '/home/yzh/chapt4/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'yzh'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '3'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/yzh/.vscode-server/data/User/globalStorage/github.copilot-chat/debugCommand:/home/yzh/.vscode-server/data/User/globalStorage/github.copilot-chat/copilotCli:/home/yzh/.vscode-server/cli/servers/Stable-994fd12f8d3a5aa16f17d42c041e5809167e845a/server/bin/remote-cli:/home/yzh/.local/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('PAPERSIZE', 'a4'), ('LC_ADDRESS', 'zh_CN.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('SSL_CERT_DIR', '/usr/lib/ssl/certs'), ('LANG', 'zh_CN.UTF-8'), ('LC_TELEPHONE', 'zh_CN.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-f620a5ccc8.sock'), ('TERM_PROGRAM', 'vscode'), ('AMENT_PREFIX_PATH', '/home/yzh/chapt4/install/demo_cpp_service:/home/yzh/chapt4/install/chapt4_interfaces:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'zh_CN.UTF-8'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'zh_CN.UTF-8'), ('LC_IDENTIFICATION', 'zh_CN.UTF-8'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/home/yzh/chapt4/build/demo_cpp_service'), ('SSH_CONNECTION', '192.168.44.1 62941 192.168.44.128 22'), ('XDG_DATA_DIRS', '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/yzh/chapt4/install/chapt4_interfaces/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'zh_CN.UTF-8'), ('LC_PAPER', 'zh_CN.UTF-8'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/yzh/chapt4/install/chapt4_interfaces:/home/yzh/chapt4/install/demo_cpp_service:/opt/ros/humble')]), 'shell': False}
+[0.095162] (-) TimerEvent: {}
+[0.195862] (-) TimerEvent: {}
+[0.242780] (demo_cpp_service) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target partol_client\x1b[0m\n'}
+[0.296191] (-) TimerEvent: {}
+[0.297740] (demo_cpp_service) StdoutLine: {'line': b'[ 50%] Built target turtle_control\n'}
+[0.320075] (demo_cpp_service) StdoutLine: {'line': b'[ 75%] \x1b[32mBuilding CXX object CMakeFiles/partol_client.dir/src/Partol_Client.cpp.o\x1b[0m\n'}
+[0.396336] (-) TimerEvent: {}
+[0.497254] (-) TimerEvent: {}
+[0.600225] (-) TimerEvent: {}
+[0.701854] (-) TimerEvent: {}
+[0.802791] (-) TimerEvent: {}
+[0.903569] (-) TimerEvent: {}
+[1.006089] (-) TimerEvent: {}
+[1.107490] (-) TimerEvent: {}
+[1.208655] (-) TimerEvent: {}
+[1.309562] (-) TimerEvent: {}
+[1.410834] (-) TimerEvent: {}
+[1.512226] (-) TimerEvent: {}
+[1.613071] (-) TimerEvent: {}
+[1.714504] (-) TimerEvent: {}
+[1.816235] (-) TimerEvent: {}
+[1.918827] (-) TimerEvent: {}
+[2.020020] (-) TimerEvent: {}
+[2.124862] (-) TimerEvent: {}
+[2.228121] (-) TimerEvent: {}
+[2.331818] (-) TimerEvent: {}
+[2.433082] (-) TimerEvent: {}
+[2.534214] (-) TimerEvent: {}
+[2.636137] (-) TimerEvent: {}
+[2.738189] (-) TimerEvent: {}
+[2.842251] (-) TimerEvent: {}
+[2.944158] (-) TimerEvent: {}
+[3.046593] (-) TimerEvent: {}
+[3.149786] (-) TimerEvent: {}
+[3.253239] (-) TimerEvent: {}
+[3.354356] (-) TimerEvent: {}
+[3.457750] (-) TimerEvent: {}
+[3.560813] (-) TimerEvent: {}
+[3.662220] (-) TimerEvent: {}
+[3.763135] (-) TimerEvent: {}
+[3.872623] (-) TimerEvent: {}
+[3.974143] (-) TimerEvent: {}
+[4.075016] (-) TimerEvent: {}
+[4.177352] (-) TimerEvent: {}
+[4.278728] (-) TimerEvent: {}
+[4.379710] (-) TimerEvent: {}
+[4.482747] (-) TimerEvent: {}
+[4.583755] (-) TimerEvent: {}
+[4.685508] (-) TimerEvent: {}
+[4.787284] (-) TimerEvent: {}
+[4.890087] (-) TimerEvent: {}
+[4.995490] (-) TimerEvent: {}
+[5.102878] (-) TimerEvent: {}
+[5.207316] (-) TimerEvent: {}
+[5.309616] (-) TimerEvent: {}
+[5.411196] (-) TimerEvent: {}
+[5.512048] (-) TimerEvent: {}
+[5.615379] (-) TimerEvent: {}
+[5.716773] (-) TimerEvent: {}
+[5.820219] (-) TimerEvent: {}
+[5.921215] (-) TimerEvent: {}
+[6.022177] (-) TimerEvent: {}
+[6.126140] (-) TimerEvent: {}
+[6.229115] (-) TimerEvent: {}
+[6.330217] (-) TimerEvent: {}
+[6.431164] (-) TimerEvent: {}
+[6.533153] (-) TimerEvent: {}
+[6.634256] (-) TimerEvent: {}
+[6.735848] (-) TimerEvent: {}
+[6.840889] (-) TimerEvent: {}
+[6.942729] (-) TimerEvent: {}
+[7.045518] (-) TimerEvent: {}
+[7.147704] (-) TimerEvent: {}
+[7.252464] (-) TimerEvent: {}
+[7.356270] (-) TimerEvent: {}
+[7.459185] (-) TimerEvent: {}
+[7.560146] (-) TimerEvent: {}
+[7.664107] (-) TimerEvent: {}
+[7.767431] (-) TimerEvent: {}
+[7.868723] (-) TimerEvent: {}
+[7.971499] (-) TimerEvent: {}
+[8.076753] (-) TimerEvent: {}
+[8.179212] (-) TimerEvent: {}
+[8.281207] (-) TimerEvent: {}
+[8.382244] (-) TimerEvent: {}
+[8.485775] (-) TimerEvent: {}
+[8.586826] (-) TimerEvent: {}
+[8.693664] (-) TimerEvent: {}
+[8.794789] (-) TimerEvent: {}
+[8.897346] (-) TimerEvent: {}
+[8.998532] (-) TimerEvent: {}
+[9.102575] (-) TimerEvent: {}
+[9.203712] (-) TimerEvent: {}
+[9.307271] (-) TimerEvent: {}
+[9.409868] (-) TimerEvent: {}
+[9.512099] (-) TimerEvent: {}
+[9.618492] (-) TimerEvent: {}
+[9.723504] (-) TimerEvent: {}
+[9.827704] (-) TimerEvent: {}
+[9.929131] (-) TimerEvent: {}
+[10.031864] (-) TimerEvent: {}
+[10.136720] (-) TimerEvent: {}
+[10.240057] (-) TimerEvent: {}
+[10.342303] (-) TimerEvent: {}
+[10.443470] (-) TimerEvent: {}
+[10.545181] (-) TimerEvent: {}
+[10.645892] (-) TimerEvent: {}
+[10.749210] (-) TimerEvent: {}
+[10.853302] (-) TimerEvent: {}
+[10.954388] (-) TimerEvent: {}
+[11.056615] (-) TimerEvent: {}
+[11.162574] (-) TimerEvent: {}
+[11.269423] (-) TimerEvent: {}
+[11.370667] (-) TimerEvent: {}
+[11.471760] (-) TimerEvent: {}
+[11.555886] (demo_cpp_service) StderrLine: {'line': b'\x1b[01m\x1b[K/home/yzh/chapt4/src/demo_cpp_service/src/Partol_Client.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid PartolClient::timer_callback()\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[11.556674] (demo_cpp_service) StderrLine: {'line': b'\x1b[01m\x1b[K/home/yzh/chapt4/src/demo_cpp_service/src/Partol_Client.cpp:36:17:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kclass std::shared_ptr<chapt4_interfaces::srv::Patrol_Request_<std::allocator<void> > >\x1b[m\x1b[K\xe2\x80\x99 has no member named \xe2\x80\x98\x1b[01m\x1b[Ktarget_x\x1b[m\x1b[K\xe2\x80\x99\n'}
+[11.557122] (demo_cpp_service) StderrLine: {'line': b'   36 |         request.\x1b[01;31m\x1b[Ktarget_x\x1b[m\x1b[K = rand()%12;\n'}
+[11.557379] (demo_cpp_service) StderrLine: {'line': b'      |                 \x1b[01;31m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[11.557458] (demo_cpp_service) StderrLine: {'line': b'\x1b[01m\x1b[K/home/yzh/chapt4/src/demo_cpp_service/src/Partol_Client.cpp:37:17:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kclass std::shared_ptr<chapt4_interfaces::srv::Patrol_Request_<std::allocator<void> > >\x1b[m\x1b[K\xe2\x80\x99 has no member named \xe2\x80\x98\x1b[01m\x1b[Ktarget_y\x1b[m\x1b[K\xe2\x80\x99\n'}
+[11.557537] (demo_cpp_service) StderrLine: {'line': b'   37 |         request.\x1b[01;31m\x1b[Ktarget_y\x1b[m\x1b[K = rand()%12;\n'}
+[11.557658] (demo_cpp_service) StderrLine: {'line': b'      |                 \x1b[01;31m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[11.558464] (demo_cpp_service) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24\x1b[m\x1b[K,\n'}
+[11.559034] (demo_cpp_service) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40\x1b[m\x1b[K,\n'}
+[11.559312] (demo_cpp_service) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24\x1b[m\x1b[K,\n'}
+[11.559527] (demo_cpp_service) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20\x1b[m\x1b[K,\n'}
+[11.559729] (demo_cpp_service) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25\x1b[m\x1b[K,\n'}
+[11.560086] (demo_cpp_service) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18\x1b[m\x1b[K,\n'}
+[11.560313] (demo_cpp_service) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20\x1b[m\x1b[K,\n'}
+[11.560515] (demo_cpp_service) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37\x1b[m\x1b[K,\n'}
+[11.560712] (demo_cpp_service) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25\x1b[m\x1b[K,\n'}
+[11.560974] (demo_cpp_service) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21\x1b[m\x1b[K,\n'}
+[11.561194] (demo_cpp_service) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155\x1b[m\x1b[K,\n'}
+[11.561392] (demo_cpp_service) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/yzh/chapt4/src/demo_cpp_service/src/Partol_Client.cpp:1\x1b[m\x1b[K:\n'}
+[11.561589] (demo_cpp_service) StderrLine: {'line': b'\x1b[01m\x1b[K/home/yzh/chapt4/src/demo_cpp_service/src/Partol_Client.cpp:38:90:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kclass std::shared_ptr<chapt4_interfaces::srv::Patrol_Request_<std::allocator<void> > >\x1b[m\x1b[K\xe2\x80\x99 has no member named \xe2\x80\x98\x1b[01m\x1b[Ktarget_x\x1b[m\x1b[K\xe2\x80\x99\n'}
+[11.561969] (demo_cpp_service) StderrLine: {'line': b'   38 |         RCLCPP_INFO(this->get_logger(),"\xe9\x9a\x8f\xe6\x9c\xba\xe7\x9a\x84\xe7\x9b\xae\xe6\xa0\x87\xe7\x82\xb9target_x = %d,target_y = %d",request.\x1b[01;31m\x1b[Ktarget_x\x1b[m\x1b[K,request.target_y);\n'}
+[11.562255] (demo_cpp_service) StderrLine: {'line': b'      |                                                                                          \x1b[01;31m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[11.562459] (demo_cpp_service) StderrLine: {'line': b'\x1b[01m\x1b[K/home/yzh/chapt4/src/demo_cpp_service/src/Partol_Client.cpp:38:107:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kclass std::shared_ptr<chapt4_interfaces::srv::Patrol_Request_<std::allocator<void> > >\x1b[m\x1b[K\xe2\x80\x99 has no member named \xe2\x80\x98\x1b[01m\x1b[Ktarget_y\x1b[m\x1b[K\xe2\x80\x99\n'}
+[11.562664] (demo_cpp_service) StderrLine: {'line': b'   38 |         RCLCPP_INFO(this->get_logger(),"\xe9\x9a\x8f\xe6\x9c\xba\xe7\x9a\x84\xe7\x9b\xae\xe6\xa0\x87\xe7\x82\xb9target_x = %d,target_y = %d",request.target_x,request.\x1b[01;31m\x1b[Ktarget_y\x1b[m\x1b[K);\n'}
+[11.562859] (demo_cpp_service) StderrLine: {'line': b'      |                                                                                                           \x1b[01;31m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[11.572219] (-) TimerEvent: {}
+[11.673545] (-) TimerEvent: {}
+[11.774703] (-) TimerEvent: {}
+[11.877664] (-) TimerEvent: {}
+[11.981705] (-) TimerEvent: {}
+[12.083746] (-) TimerEvent: {}
+[12.186037] (-) TimerEvent: {}
+[12.289662] (-) TimerEvent: {}
+[12.390943] (-) TimerEvent: {}
+[12.496486] (-) TimerEvent: {}
+[12.599383] (-) TimerEvent: {}
+[12.701775] (-) TimerEvent: {}
+[12.804124] (-) TimerEvent: {}
+[12.906387] (-) TimerEvent: {}
+[13.010510] (-) TimerEvent: {}
+[13.114388] (-) TimerEvent: {}
+[13.216443] (-) TimerEvent: {}
+[13.317810] (-) TimerEvent: {}
+[13.419796] (-) TimerEvent: {}
+[13.521604] (-) TimerEvent: {}
+[13.623322] (-) TimerEvent: {}
+[13.727348] (-) TimerEvent: {}
+[13.830200] (-) TimerEvent: {}
+[13.938668] (-) TimerEvent: {}
+[14.039840] (-) TimerEvent: {}
+[14.046512] (demo_cpp_service) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/partol_client.dir/build.make:76\xef\xbc\x9aCMakeFiles/partol_client.dir/src/Partol_Client.cpp.o] \xe9\x94\x99\xe8\xaf\xaf 1\n'}
+[14.048377] (demo_cpp_service) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:165\xef\xbc\x9aCMakeFiles/partol_client.dir/all] \xe9\x94\x99\xe8\xaf\xaf 2\n'}
+[14.049307] (demo_cpp_service) StderrLine: {'line': b'gmake: *** [Makefile:146\xef\xbc\x9aall] \xe9\x94\x99\xe8\xaf\xaf 2\n'}
+[14.059723] (demo_cpp_service) CommandEnded: {'returncode': 2}
+[14.119677] (demo_cpp_service) JobEnded: {'identifier': 'demo_cpp_service', 'rc': 2}
+[14.132678] (-) EventReactorShutdown: {}

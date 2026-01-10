@@ -1,0 +1,25 @@
+[2.406s] Invoking command in '/home/yzh/桌面/project-ros/ros-study/chapt2/ws_ros/src/pkg02_helloworld_py': PYTHONPATH=/home/yzh/桌面/project-ros/ros-study/chapt2/ws_ros/build/pkg02_helloworld_py/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/yzh/桌面/project-ros/ros-study/chapt2/ws_ros/install/pkg02_helloworld_py/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/pkg02_helloworld_py build --build-base /home/yzh/桌面/project-ros/ros-study/chapt2/ws_ros/build/pkg02_helloworld_py/build install --record /home/yzh/桌面/project-ros/ros-study/chapt2/ws_ros/build/pkg02_helloworld_py/install.log --single-version-externally-managed install_data
+[3.167s] running egg_info
+[3.170s] writing ../../build/pkg02_helloworld_py/pkg02_helloworld_py.egg-info/PKG-INFO
+[3.171s] writing dependency_links to ../../build/pkg02_helloworld_py/pkg02_helloworld_py.egg-info/dependency_links.txt
+[3.173s] writing entry points to ../../build/pkg02_helloworld_py/pkg02_helloworld_py.egg-info/entry_points.txt
+[3.174s] writing requirements to ../../build/pkg02_helloworld_py/pkg02_helloworld_py.egg-info/requires.txt
+[3.174s] writing top-level names to ../../build/pkg02_helloworld_py/pkg02_helloworld_py.egg-info/top_level.txt
+[3.182s] reading manifest file '../../build/pkg02_helloworld_py/pkg02_helloworld_py.egg-info/SOURCES.txt'
+[3.183s] adding license file 'LICENSE'
+[3.186s] writing manifest file '../../build/pkg02_helloworld_py/pkg02_helloworld_py.egg-info/SOURCES.txt'
+[3.187s] running build
+[3.188s] running build_py
+[3.188s] copying pkg02_helloworld_py/demo_python_pky.py -> /home/yzh/桌面/project-ros/ros-study/chapt2/ws_ros/build/pkg02_helloworld_py/build/lib/pkg02_helloworld_py
+[3.189s] running install
+[3.191s] running install_lib
+[3.194s] copying /home/yzh/桌面/project-ros/ros-study/chapt2/ws_ros/build/pkg02_helloworld_py/build/lib/pkg02_helloworld_py/demo_python_pky.py -> /home/yzh/桌面/project-ros/ros-study/chapt2/ws_ros/install/pkg02_helloworld_py/lib/python3.10/site-packages/pkg02_helloworld_py
+[3.196s] byte-compiling /home/yzh/桌面/project-ros/ros-study/chapt2/ws_ros/install/pkg02_helloworld_py/lib/python3.10/site-packages/pkg02_helloworld_py/demo_python_pky.py to demo_python_pky.cpython-310.pyc
+[3.199s] running install_data
+[3.200s] running install_egg_info
+[3.214s] removing '/home/yzh/桌面/project-ros/ros-study/chapt2/ws_ros/install/pkg02_helloworld_py/lib/python3.10/site-packages/pkg02_helloworld_py-0.0.0-py3.10.egg-info' (and everything under it)
+[3.215s] Copying ../../build/pkg02_helloworld_py/pkg02_helloworld_py.egg-info to /home/yzh/桌面/project-ros/ros-study/chapt2/ws_ros/install/pkg02_helloworld_py/lib/python3.10/site-packages/pkg02_helloworld_py-0.0.0-py3.10.egg-info
+[3.219s] running install_scripts
+[3.350s] Installing python_node script to /home/yzh/桌面/project-ros/ros-study/chapt2/ws_ros/install/pkg02_helloworld_py/lib/pkg02_helloworld_py
+[3.352s] writing list of installed files to '/home/yzh/桌面/project-ros/ros-study/chapt2/ws_ros/build/pkg02_helloworld_py/install.log'
+[3.409s] Invoked command in '/home/yzh/桌面/project-ros/ros-study/chapt2/ws_ros/src/pkg02_helloworld_py' returned '0': PYTHONPATH=/home/yzh/桌面/project-ros/ros-study/chapt2/ws_ros/build/pkg02_helloworld_py/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/yzh/桌面/project-ros/ros-study/chapt2/ws_ros/install/pkg02_helloworld_py/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/pkg02_helloworld_py build --build-base /home/yzh/桌面/project-ros/ros-study/chapt2/ws_ros/build/pkg02_helloworld_py/build install --record /home/yzh/桌面/project-ros/ros-study/chapt2/ws_ros/build/pkg02_helloworld_py/install.log --single-version-externally-managed install_data

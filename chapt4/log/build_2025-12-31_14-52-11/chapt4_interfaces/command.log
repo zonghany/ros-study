@@ -1,0 +1,6 @@
+Invoking command in '/home/yzh/chapt4/build/chapt4_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/yzh/chapt4/src/chapt4_interfaces -DCMAKE_INSTALL_PREFIX=/home/yzh/chapt4/install/chapt4_interfaces
+Invoked command in '/home/yzh/chapt4/build/chapt4_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/yzh/chapt4/src/chapt4_interfaces -DCMAKE_INSTALL_PREFIX=/home/yzh/chapt4/install/chapt4_interfaces
+Invoking command in '/home/yzh/chapt4/build/chapt4_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/yzh/chapt4/build/chapt4_interfaces -- -j16 -l16
+Invoked command in '/home/yzh/chapt4/build/chapt4_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/yzh/chapt4/build/chapt4_interfaces -- -j16 -l16
+Invoking command in '/home/yzh/chapt4/build/chapt4_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/yzh/chapt4/build/chapt4_interfaces
+Invoked command in '/home/yzh/chapt4/build/chapt4_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/yzh/chapt4/build/chapt4_interfaces

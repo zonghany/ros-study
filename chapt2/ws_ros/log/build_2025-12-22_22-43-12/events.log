@@ -1,0 +1,285 @@
+[0.000000] (-) TimerEvent: {}
+[0.002532] (pkg01_helloworld_cpp) JobQueued: {'identifier': 'pkg01_helloworld_cpp', 'dependencies': OrderedDict()}
+[0.003458] (pkg01_helloworld_cpp) JobStarted: {'identifier': 'pkg01_helloworld_cpp'}
+[0.046369] (pkg01_helloworld_cpp) JobProgress: {'identifier': 'pkg01_helloworld_cpp', 'progress': 'cmake'}
+[0.050030] (pkg01_helloworld_cpp) JobProgress: {'identifier': 'pkg01_helloworld_cpp', 'progress': 'build'}
+[0.052129] (pkg01_helloworld_cpp) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/yzh/桌面/project-ros/ros-study/chapt2/ws_ros/build/pkg01_helloworld_cpp', '--', '-j16', '-l16'], 'cwd': '/home/yzh/桌面/project-ros/ros-study/chapt2/ws_ros/build/pkg01_helloworld_cpp', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'zh_CN:en_AU:en_CA:en_GB:en_US:en'), ('USER', 'yzh'), ('SSH_CLIENT', '192.168.44.1 61976 22'), ('LC_TIME', 'zh_CN.UTF-8'), ('XDG_SESSION_TYPE', 'tty'), ('GIT_ASKPASS', '/home/yzh/.vscode-server/cli/servers/Stable-bf9252a2fb45be6893dd8870c0bf37e2e1766d61/server/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('BROWSER', '/home/yzh/.vscode-server/cli/servers/Stable-bf9252a2fb45be6893dd8870c0bf37e2e1766d61/server/bin/helpers/browser.sh'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/yzh'), ('OLDPWD', '/home/yzh/桌面/project-ros/ros-study/chapt2'), ('TERM_PROGRAM_VERSION', '1.106.3'), ('VSCODE_IPC_HOOK_CLI', '/run/user/1000/vscode-ipc-46d4cd45-de46-4ef8-9b96-2aa1fc95a949.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/home/yzh/.vscode-server/cli/servers/Stable-bf9252a2fb45be6893dd8870c0bf37e2e1766d61/server/extensions/git/dist/askpass-main.js'), ('LC_MONETARY', 'zh_CN.UTF-8'), ('VSCODE_GIT_ASKPASS_NODE', '/home/yzh/.vscode-server/cli/servers/Stable-bf9252a2fb45be6893dd8870c0bf37e2e1766d61/server/node'), ('SSL_CERT_FILE', '/usr/lib/ssl/certs/ca-certificates.crt'), ('VSCODE_PYTHON_AUTOACTIVATE_GUARD', '1'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('COLCON_PREFIX_PATH', '/home/yzh/桌面/project-ros/ros-study/chapt2/ws_ros/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'yzh'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '4'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/yzh/.vscode-server/cli/servers/Stable-bf9252a2fb45be6893dd8870c0bf37e2e1766d61/server/bin/remote-cli:/home/yzh/.local/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('PAPERSIZE', 'a4'), ('LC_ADDRESS', 'zh_CN.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('SSL_CERT_DIR', '/usr/lib/ssl/certs'), ('LANG', 'zh_CN.UTF-8'), ('LC_TELEPHONE', 'zh_CN.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-f929d80034.sock'), ('TERM_PROGRAM', 'vscode'), ('AMENT_PREFIX_PATH', '/home/yzh/桌面/project-ros/ros-study/chapt2/ws_ros/install/pkg01_helloworld_cpp:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'zh_CN.UTF-8'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'zh_CN.UTF-8'), ('LC_IDENTIFICATION', 'zh_CN.UTF-8'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/home/yzh/桌面/project-ros/ros-study/chapt2/ws_ros/build/pkg01_helloworld_cpp'), ('SSH_CONNECTION', '192.168.44.1 61976 192.168.44.128 22'), ('XDG_DATA_DIRS', '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'zh_CN.UTF-8'), ('LC_PAPER', 'zh_CN.UTF-8'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/yzh/桌面/project-ros/ros-study/chapt2/ws_ros/install/pkg01_helloworld_cpp:/opt/ros/humble')]), 'shell': False}
+[0.099655] (-) TimerEvent: {}
+[0.200677] (-) TimerEvent: {}
+[0.299628] (pkg01_helloworld_cpp) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target learn_thread\x1b[0m\n'}
+[0.301502] (-) TimerEvent: {}
+[0.370309] (pkg01_helloworld_cpp) StdoutLine: {'line': b'[ 12%] Built target learn_shared\n'}
+[0.370960] (pkg01_helloworld_cpp) StdoutLine: {'line': b'[ 25%] Built target learn_cpp\n'}
+[0.380568] (pkg01_helloworld_cpp) StdoutLine: {'line': b'[ 37%] Built target learn_lambda\n'}
+[0.384141] (pkg01_helloworld_cpp) StdoutLine: {'line': b'[ 50%] Built target helloworld\n'}
+[0.386473] (pkg01_helloworld_cpp) StdoutLine: {'line': b'[ 68%] Built target learn_thread1\n'}
+[0.386948] (pkg01_helloworld_cpp) StdoutLine: {'line': b'[ 75%] Built target person_node\n'}
+[0.387205] (pkg01_helloworld_cpp) StdoutLine: {'line': b'[ 87%] Built target learn_functional\n'}
+[0.399248] (pkg01_helloworld_cpp) StdoutLine: {'line': b'[ 93%] \x1b[32mBuilding CXX object CMakeFiles/learn_thread.dir/src/learn_thread.cpp.o\x1b[0m\n'}
+[0.401712] (-) TimerEvent: {}
+[0.503119] (-) TimerEvent: {}
+[0.605792] (-) TimerEvent: {}
+[0.707526] (-) TimerEvent: {}
+[0.809263] (-) TimerEvent: {}
+[0.910569] (-) TimerEvent: {}
+[1.011270] (-) TimerEvent: {}
+[1.112604] (-) TimerEvent: {}
+[1.213847] (-) TimerEvent: {}
+[1.315212] (-) TimerEvent: {}
+[1.416697] (-) TimerEvent: {}
+[1.518955] (-) TimerEvent: {}
+[1.620244] (-) TimerEvent: {}
+[1.721345] (-) TimerEvent: {}
+[1.822709] (-) TimerEvent: {}
+[1.923835] (-) TimerEvent: {}
+[2.024573] (-) TimerEvent: {}
+[2.125759] (-) TimerEvent: {}
+[2.226904] (-) TimerEvent: {}
+[2.328255] (-) TimerEvent: {}
+[2.431700] (-) TimerEvent: {}
+[2.532553] (-) TimerEvent: {}
+[2.633528] (-) TimerEvent: {}
+[2.734491] (-) TimerEvent: {}
+[2.835855] (-) TimerEvent: {}
+[2.937465] (-) TimerEvent: {}
+[3.038591] (-) TimerEvent: {}
+[3.141156] (-) TimerEvent: {}
+[3.242308] (-) TimerEvent: {}
+[3.344544] (-) TimerEvent: {}
+[3.446154] (-) TimerEvent: {}
+[3.547541] (-) TimerEvent: {}
+[3.648801] (-) TimerEvent: {}
+[3.751023] (-) TimerEvent: {}
+[3.852104] (-) TimerEvent: {}
+[3.954704] (-) TimerEvent: {}
+[4.055857] (-) TimerEvent: {}
+[4.156951] (-) TimerEvent: {}
+[4.258030] (-) TimerEvent: {}
+[4.359764] (-) TimerEvent: {}
+[4.460837] (-) TimerEvent: {}
+[4.562274] (-) TimerEvent: {}
+[4.664567] (-) TimerEvent: {}
+[4.766987] (-) TimerEvent: {}
+[4.867993] (-) TimerEvent: {}
+[4.970107] (-) TimerEvent: {}
+[5.072220] (-) TimerEvent: {}
+[5.175787] (-) TimerEvent: {}
+[5.277763] (-) TimerEvent: {}
+[5.378888] (-) TimerEvent: {}
+[5.480672] (-) TimerEvent: {}
+[5.581838] (-) TimerEvent: {}
+[5.683577] (-) TimerEvent: {}
+[5.784644] (-) TimerEvent: {}
+[5.886558] (-) TimerEvent: {}
+[5.987569] (-) TimerEvent: {}
+[6.088558] (-) TimerEvent: {}
+[6.191245] (-) TimerEvent: {}
+[6.293310] (-) TimerEvent: {}
+[6.394551] (-) TimerEvent: {}
+[6.496225] (-) TimerEvent: {}
+[6.597635] (-) TimerEvent: {}
+[6.698749] (-) TimerEvent: {}
+[6.801572] (-) TimerEvent: {}
+[6.902561] (-) TimerEvent: {}
+[7.005539] (-) TimerEvent: {}
+[7.106622] (-) TimerEvent: {}
+[7.208458] (-) TimerEvent: {}
+[7.310931] (-) TimerEvent: {}
+[7.412219] (-) TimerEvent: {}
+[7.513231] (-) TimerEvent: {}
+[7.614561] (-) TimerEvent: {}
+[7.716484] (-) TimerEvent: {}
+[7.818514] (-) TimerEvent: {}
+[7.920720] (-) TimerEvent: {}
+[8.022006] (-) TimerEvent: {}
+[8.123118] (-) TimerEvent: {}
+[8.224504] (-) TimerEvent: {}
+[8.325742] (-) TimerEvent: {}
+[8.427543] (-) TimerEvent: {}
+[8.529647] (-) TimerEvent: {}
+[8.630882] (-) TimerEvent: {}
+[8.732280] (-) TimerEvent: {}
+[8.833541] (-) TimerEvent: {}
+[8.934664] (-) TimerEvent: {}
+[9.035907] (-) TimerEvent: {}
+[9.137284] (-) TimerEvent: {}
+[9.238619] (-) TimerEvent: {}
+[9.339748] (-) TimerEvent: {}
+[9.441111] (-) TimerEvent: {}
+[9.544228] (-) TimerEvent: {}
+[9.646940] (-) TimerEvent: {}
+[9.748531] (-) TimerEvent: {}
+[9.849640] (-) TimerEvent: {}
+[9.951026] (-) TimerEvent: {}
+[10.052557] (-) TimerEvent: {}
+[10.153508] (-) TimerEvent: {}
+[10.254548] (-) TimerEvent: {}
+[10.357042] (-) TimerEvent: {}
+[10.459532] (-) TimerEvent: {}
+[10.560752] (-) TimerEvent: {}
+[10.662036] (-) TimerEvent: {}
+[10.763174] (-) TimerEvent: {}
+[10.864453] (-) TimerEvent: {}
+[10.965583] (-) TimerEvent: {}
+[11.066765] (-) TimerEvent: {}
+[11.168019] (-) TimerEvent: {}
+[11.269961] (-) TimerEvent: {}
+[11.371226] (-) TimerEvent: {}
+[11.472880] (-) TimerEvent: {}
+[11.574273] (-) TimerEvent: {}
+[11.675989] (-) TimerEvent: {}
+[11.777096] (-) TimerEvent: {}
+[11.878838] (-) TimerEvent: {}
+[11.981089] (-) TimerEvent: {}
+[12.083597] (-) TimerEvent: {}
+[12.185589] (-) TimerEvent: {}
+[12.286777] (-) TimerEvent: {}
+[12.388078] (-) TimerEvent: {}
+[12.489030] (-) TimerEvent: {}
+[12.590533] (-) TimerEvent: {}
+[12.691523] (-) TimerEvent: {}
+[12.792136] (-) TimerEvent: {}
+[12.893161] (-) TimerEvent: {}
+[12.994253] (-) TimerEvent: {}
+[13.096493] (-) TimerEvent: {}
+[13.198122] (-) TimerEvent: {}
+[13.299982] (-) TimerEvent: {}
+[13.401074] (-) TimerEvent: {}
+[13.502583] (-) TimerEvent: {}
+[13.603984] (-) TimerEvent: {}
+[13.705285] (-) TimerEvent: {}
+[13.807132] (-) TimerEvent: {}
+[13.909263] (-) TimerEvent: {}
+[14.012486] (-) TimerEvent: {}
+[14.114012] (-) TimerEvent: {}
+[14.215100] (-) TimerEvent: {}
+[14.317077] (-) TimerEvent: {}
+[14.418314] (-) TimerEvent: {}
+[14.519540] (-) TimerEvent: {}
+[14.620849] (-) TimerEvent: {}
+[14.723116] (-) TimerEvent: {}
+[14.824262] (-) TimerEvent: {}
+[14.925975] (-) TimerEvent: {}
+[15.027774] (-) TimerEvent: {}
+[15.129806] (-) TimerEvent: {}
+[15.231019] (-) TimerEvent: {}
+[15.332102] (-) TimerEvent: {}
+[15.433535] (-) TimerEvent: {}
+[15.534666] (-) TimerEvent: {}
+[15.636554] (-) TimerEvent: {}
+[15.738323] (-) TimerEvent: {}
+[15.839825] (-) TimerEvent: {}
+[15.942651] (-) TimerEvent: {}
+[16.043718] (-) TimerEvent: {}
+[16.145772] (-) TimerEvent: {}
+[16.248040] (-) TimerEvent: {}
+[16.350599] (-) TimerEvent: {}
+[16.452177] (-) TimerEvent: {}
+[16.553969] (-) TimerEvent: {}
+[16.656623] (-) TimerEvent: {}
+[16.757627] (-) TimerEvent: {}
+[16.858601] (-) TimerEvent: {}
+[16.959981] (-) TimerEvent: {}
+[17.061522] (-) TimerEvent: {}
+[17.162810] (-) TimerEvent: {}
+[17.265050] (-) TimerEvent: {}
+[17.366188] (-) TimerEvent: {}
+[17.468578] (-) TimerEvent: {}
+[17.570631] (-) TimerEvent: {}
+[17.671670] (-) TimerEvent: {}
+[17.772827] (-) TimerEvent: {}
+[17.873902] (-) TimerEvent: {}
+[17.975060] (-) TimerEvent: {}
+[18.076674] (-) TimerEvent: {}
+[18.177713] (-) TimerEvent: {}
+[18.278812] (-) TimerEvent: {}
+[18.379850] (-) TimerEvent: {}
+[18.481309] (-) TimerEvent: {}
+[18.582461] (-) TimerEvent: {}
+[18.683268] (-) TimerEvent: {}
+[18.784023] (-) TimerEvent: {}
+[18.885216] (-) TimerEvent: {}
+[18.986467] (-) TimerEvent: {}
+[19.088472] (-) TimerEvent: {}
+[19.189600] (-) TimerEvent: {}
+[19.290695] (-) TimerEvent: {}
+[19.392664] (-) TimerEvent: {}
+[19.493636] (-) TimerEvent: {}
+[19.594716] (-) TimerEvent: {}
+[19.695864] (-) TimerEvent: {}
+[19.797104] (-) TimerEvent: {}
+[19.898264] (-) TimerEvent: {}
+[20.000092] (-) TimerEvent: {}
+[20.102559] (-) TimerEvent: {}
+[20.204112] (-) TimerEvent: {}
+[20.305206] (-) TimerEvent: {}
+[20.406903] (-) TimerEvent: {}
+[20.508549] (-) TimerEvent: {}
+[20.609857] (-) TimerEvent: {}
+[20.711727] (-) TimerEvent: {}
+[20.813739] (-) TimerEvent: {}
+[20.914676] (-) TimerEvent: {}
+[21.015676] (-) TimerEvent: {}
+[21.117077] (-) TimerEvent: {}
+[21.219589] (-) TimerEvent: {}
+[21.321346] (-) TimerEvent: {}
+[21.422721] (-) TimerEvent: {}
+[21.524434] (-) TimerEvent: {}
+[21.625609] (-) TimerEvent: {}
+[21.726792] (-) TimerEvent: {}
+[21.827973] (-) TimerEvent: {}
+[21.929707] (-) TimerEvent: {}
+[22.031202] (-) TimerEvent: {}
+[22.132553] (-) TimerEvent: {}
+[22.233897] (-) TimerEvent: {}
+[22.335680] (-) TimerEvent: {}
+[22.437777] (-) TimerEvent: {}
+[22.540252] (-) TimerEvent: {}
+[22.641262] (-) TimerEvent: {}
+[22.742237] (-) TimerEvent: {}
+[22.844898] (-) TimerEvent: {}
+[22.947247] (-) TimerEvent: {}
+[23.049500] (-) TimerEvent: {}
+[23.135996] (pkg01_helloworld_cpp) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable learn_thread\x1b[0m\n'}
+[23.151679] (-) TimerEvent: {}
+[23.252801] (-) TimerEvent: {}
+[23.354006] (-) TimerEvent: {}
+[23.455828] (-) TimerEvent: {}
+[23.556679] (-) TimerEvent: {}
+[23.658115] (-) TimerEvent: {}
+[23.761478] (-) TimerEvent: {}
+[23.862528] (-) TimerEvent: {}
+[23.924554] (pkg01_helloworld_cpp) StdoutLine: {'line': b'[100%] Built target learn_thread\n'}
+[23.963827] (-) TimerEvent: {}
+[23.987285] (pkg01_helloworld_cpp) CommandEnded: {'returncode': 0}
+[23.988779] (pkg01_helloworld_cpp) JobProgress: {'identifier': 'pkg01_helloworld_cpp', 'progress': 'install'}
+[24.040539] (pkg01_helloworld_cpp) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/yzh/桌面/project-ros/ros-study/chapt2/ws_ros/build/pkg01_helloworld_cpp'], 'cwd': '/home/yzh/桌面/project-ros/ros-study/chapt2/ws_ros/build/pkg01_helloworld_cpp', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'zh_CN:en_AU:en_CA:en_GB:en_US:en'), ('USER', 'yzh'), ('SSH_CLIENT', '192.168.44.1 61976 22'), ('LC_TIME', 'zh_CN.UTF-8'), ('XDG_SESSION_TYPE', 'tty'), ('GIT_ASKPASS', '/home/yzh/.vscode-server/cli/servers/Stable-bf9252a2fb45be6893dd8870c0bf37e2e1766d61/server/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('BROWSER', '/home/yzh/.vscode-server/cli/servers/Stable-bf9252a2fb45be6893dd8870c0bf37e2e1766d61/server/bin/helpers/browser.sh'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/yzh'), ('OLDPWD', '/home/yzh/桌面/project-ros/ros-study/chapt2'), ('TERM_PROGRAM_VERSION', '1.106.3'), ('VSCODE_IPC_HOOK_CLI', '/run/user/1000/vscode-ipc-46d4cd45-de46-4ef8-9b96-2aa1fc95a949.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/home/yzh/.vscode-server/cli/servers/Stable-bf9252a2fb45be6893dd8870c0bf37e2e1766d61/server/extensions/git/dist/askpass-main.js'), ('LC_MONETARY', 'zh_CN.UTF-8'), ('VSCODE_GIT_ASKPASS_NODE', '/home/yzh/.vscode-server/cli/servers/Stable-bf9252a2fb45be6893dd8870c0bf37e2e1766d61/server/node'), ('SSL_CERT_FILE', '/usr/lib/ssl/certs/ca-certificates.crt'), ('VSCODE_PYTHON_AUTOACTIVATE_GUARD', '1'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('COLCON_PREFIX_PATH', '/home/yzh/桌面/project-ros/ros-study/chapt2/ws_ros/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'yzh'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '4'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/yzh/.vscode-server/cli/servers/Stable-bf9252a2fb45be6893dd8870c0bf37e2e1766d61/server/bin/remote-cli:/home/yzh/.local/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('PAPERSIZE', 'a4'), ('LC_ADDRESS', 'zh_CN.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('SSL_CERT_DIR', '/usr/lib/ssl/certs'), ('LANG', 'zh_CN.UTF-8'), ('LC_TELEPHONE', 'zh_CN.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-f929d80034.sock'), ('TERM_PROGRAM', 'vscode'), ('AMENT_PREFIX_PATH', '/home/yzh/桌面/project-ros/ros-study/chapt2/ws_ros/install/pkg01_helloworld_cpp:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'zh_CN.UTF-8'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'zh_CN.UTF-8'), ('LC_IDENTIFICATION', 'zh_CN.UTF-8'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/home/yzh/桌面/project-ros/ros-study/chapt2/ws_ros/build/pkg01_helloworld_cpp'), ('SSH_CONNECTION', '192.168.44.1 61976 192.168.44.128 22'), ('XDG_DATA_DIRS', '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'zh_CN.UTF-8'), ('LC_PAPER', 'zh_CN.UTF-8'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/yzh/桌面/project-ros/ros-study/chapt2/ws_ros/install/pkg01_helloworld_cpp:/opt/ros/humble')]), 'shell': False}
+[24.064268] (-) TimerEvent: {}
+[24.080166] (pkg01_helloworld_cpp) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[24.082414] (pkg01_helloworld_cpp) StdoutLine: {'line': b'-- Up-to-date: /home/yzh/\xe6\xa1\x8c\xe9\x9d\xa2/project-ros/ros-study/chapt2/ws_ros/install/pkg01_helloworld_cpp/lib/pkg01_helloworld_cpp/helloworld\n'}
+[24.082745] (pkg01_helloworld_cpp) StdoutLine: {'line': b'-- Up-to-date: /home/yzh/\xe6\xa1\x8c\xe9\x9d\xa2/project-ros/ros-study/chapt2/ws_ros/install/pkg01_helloworld_cpp/lib/pkg01_helloworld_cpp/person_node\n'}
+[24.083900] (pkg01_helloworld_cpp) StdoutLine: {'line': b'-- Up-to-date: /home/yzh/\xe6\xa1\x8c\xe9\x9d\xa2/project-ros/ros-study/chapt2/ws_ros/install/pkg01_helloworld_cpp/lib/pkg01_helloworld_cpp/learn_cpp\n'}
+[24.084284] (pkg01_helloworld_cpp) StdoutLine: {'line': b'-- Up-to-date: /home/yzh/\xe6\xa1\x8c\xe9\x9d\xa2/project-ros/ros-study/chapt2/ws_ros/install/pkg01_helloworld_cpp/lib/pkg01_helloworld_cpp/learn_shared\n'}
+[24.085731] (pkg01_helloworld_cpp) StdoutLine: {'line': b'-- Up-to-date: /home/yzh/\xe6\xa1\x8c\xe9\x9d\xa2/project-ros/ros-study/chapt2/ws_ros/install/pkg01_helloworld_cpp/lib/pkg01_helloworld_cpp/learn_lambda\n'}
+[24.086413] (pkg01_helloworld_cpp) StdoutLine: {'line': b'-- Up-to-date: /home/yzh/\xe6\xa1\x8c\xe9\x9d\xa2/project-ros/ros-study/chapt2/ws_ros/install/pkg01_helloworld_cpp/lib/pkg01_helloworld_cpp/learn_functional\n'}
+[24.087169] (pkg01_helloworld_cpp) StdoutLine: {'line': b'-- Up-to-date: /home/yzh/\xe6\xa1\x8c\xe9\x9d\xa2/project-ros/ros-study/chapt2/ws_ros/install/pkg01_helloworld_cpp/lib/pkg01_helloworld_cpp/learn_thread1\n'}
+[24.087716] (pkg01_helloworld_cpp) StdoutLine: {'line': b'-- Installing: /home/yzh/\xe6\xa1\x8c\xe9\x9d\xa2/project-ros/ros-study/chapt2/ws_ros/install/pkg01_helloworld_cpp/lib/pkg01_helloworld_cpp/learn_thread\n'}
+[24.095173] (pkg01_helloworld_cpp) StdoutLine: {'line': b'-- Up-to-date: /home/yzh/\xe6\xa1\x8c\xe9\x9d\xa2/project-ros/ros-study/chapt2/ws_ros/install/pkg01_helloworld_cpp/share/ament_index/resource_index/package_run_dependencies/pkg01_helloworld_cpp\n'}
+[24.095503] (pkg01_helloworld_cpp) StdoutLine: {'line': b'-- Installing: /home/yzh/\xe6\xa1\x8c\xe9\x9d\xa2/project-ros/ros-study/chapt2/ws_ros/install/pkg01_helloworld_cpp/share/ament_index/resource_index/parent_prefix_path/pkg01_helloworld_cpp\n'}
+[24.097312] (pkg01_helloworld_cpp) StdoutLine: {'line': b'-- Up-to-date: /home/yzh/\xe6\xa1\x8c\xe9\x9d\xa2/project-ros/ros-study/chapt2/ws_ros/install/pkg01_helloworld_cpp/share/pkg01_helloworld_cpp/environment/ament_prefix_path.sh\n'}
+[24.097693] (pkg01_helloworld_cpp) StdoutLine: {'line': b'-- Installing: /home/yzh/\xe6\xa1\x8c\xe9\x9d\xa2/project-ros/ros-study/chapt2/ws_ros/install/pkg01_helloworld_cpp/share/pkg01_helloworld_cpp/environment/ament_prefix_path.dsv\n'}
+[24.098153] (pkg01_helloworld_cpp) StdoutLine: {'line': b'-- Up-to-date: /home/yzh/\xe6\xa1\x8c\xe9\x9d\xa2/project-ros/ros-study/chapt2/ws_ros/install/pkg01_helloworld_cpp/share/pkg01_helloworld_cpp/environment/path.sh\n'}
+[24.099233] (pkg01_helloworld_cpp) StdoutLine: {'line': b'-- Installing: /home/yzh/\xe6\xa1\x8c\xe9\x9d\xa2/project-ros/ros-study/chapt2/ws_ros/install/pkg01_helloworld_cpp/share/pkg01_helloworld_cpp/environment/path.dsv\n'}
+[24.099623] (pkg01_helloworld_cpp) StdoutLine: {'line': b'-- Up-to-date: /home/yzh/\xe6\xa1\x8c\xe9\x9d\xa2/project-ros/ros-study/chapt2/ws_ros/install/pkg01_helloworld_cpp/share/pkg01_helloworld_cpp/local_setup.bash\n'}
+[24.099867] (pkg01_helloworld_cpp) StdoutLine: {'line': b'-- Up-to-date: /home/yzh/\xe6\xa1\x8c\xe9\x9d\xa2/project-ros/ros-study/chapt2/ws_ros/install/pkg01_helloworld_cpp/share/pkg01_helloworld_cpp/local_setup.sh\n'}
+[24.100093] (pkg01_helloworld_cpp) StdoutLine: {'line': b'-- Up-to-date: /home/yzh/\xe6\xa1\x8c\xe9\x9d\xa2/project-ros/ros-study/chapt2/ws_ros/install/pkg01_helloworld_cpp/share/pkg01_helloworld_cpp/local_setup.zsh\n'}
+[24.101147] (pkg01_helloworld_cpp) StdoutLine: {'line': b'-- Installing: /home/yzh/\xe6\xa1\x8c\xe9\x9d\xa2/project-ros/ros-study/chapt2/ws_ros/install/pkg01_helloworld_cpp/share/pkg01_helloworld_cpp/local_setup.dsv\n'}
+[24.101615] (pkg01_helloworld_cpp) StdoutLine: {'line': b'-- Installing: /home/yzh/\xe6\xa1\x8c\xe9\x9d\xa2/project-ros/ros-study/chapt2/ws_ros/install/pkg01_helloworld_cpp/share/pkg01_helloworld_cpp/package.dsv\n'}
+[24.101867] (pkg01_helloworld_cpp) StdoutLine: {'line': b'-- Up-to-date: /home/yzh/\xe6\xa1\x8c\xe9\x9d\xa2/project-ros/ros-study/chapt2/ws_ros/install/pkg01_helloworld_cpp/share/ament_index/resource_index/packages/pkg01_helloworld_cpp\n'}
+[24.102228] (pkg01_helloworld_cpp) StdoutLine: {'line': b'-- Up-to-date: /home/yzh/\xe6\xa1\x8c\xe9\x9d\xa2/project-ros/ros-study/chapt2/ws_ros/install/pkg01_helloworld_cpp/share/pkg01_helloworld_cpp/cmake/pkg01_helloworld_cppConfig.cmake\n'}
+[24.102503] (pkg01_helloworld_cpp) StdoutLine: {'line': b'-- Up-to-date: /home/yzh/\xe6\xa1\x8c\xe9\x9d\xa2/project-ros/ros-study/chapt2/ws_ros/install/pkg01_helloworld_cpp/share/pkg01_helloworld_cpp/cmake/pkg01_helloworld_cppConfig-version.cmake\n'}
+[24.102726] (pkg01_helloworld_cpp) StdoutLine: {'line': b'-- Up-to-date: /home/yzh/\xe6\xa1\x8c\xe9\x9d\xa2/project-ros/ros-study/chapt2/ws_ros/install/pkg01_helloworld_cpp/share/pkg01_helloworld_cpp/package.xml\n'}
+[24.108109] (pkg01_helloworld_cpp) CommandEnded: {'returncode': 0}
+[24.165846] (-) TimerEvent: {}
+[24.192500] (pkg01_helloworld_cpp) JobEnded: {'identifier': 'pkg01_helloworld_cpp', 'rc': 0}
+[24.195516] (-) EventReactorShutdown: {}

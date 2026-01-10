@@ -1,0 +1,4 @@
+[35m[1mConsolidate compiler generated dependencies of target turtle_description[0m
+[ 33%] Built target learn_timer
+[ 66%] Built target turtle_circle
+[ 83%] [32mBuilding CXX object CMakeFiles/turtle_description.dir/src/turtle_description.cpp.o[0m

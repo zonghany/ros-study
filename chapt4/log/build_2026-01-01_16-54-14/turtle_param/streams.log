@@ -1,0 +1,51 @@
+[0.053s] Invoking command in '/home/yzh/chapt4/build/turtle_param': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/yzh/chapt4/src/turtle_param -DCMAKE_INSTALL_PREFIX=/home/yzh/chapt4/install/turtle_param
+[0.124s] -- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.799s] -- Found rclcpp: 16.0.16 (/opt/ros/humble/share/rclcpp/cmake)
+[0.907s] -- Found rosidl_generator_c: 3.1.7 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.911s] -- Found rosidl_adapter: 3.1.7 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.919s] -- Found rosidl_generator_cpp: 3.1.7 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.933s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.967s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.101s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[1.104s] -- Found rmw_fastrtps_cpp: 6.2.9 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[1.515s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.790s] -- Found ament_lint_auto: 0.12.14 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[2.268s] -- Added test 'copyright' to check source files copyright and LICENSE
+[2.270s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[2.271s] -- Configured cppcheck include dirs: 
+[2.271s] -- Configured cppcheck exclude dirs and/or files: 
+[2.276s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[2.276s] -- Configured cpplint exclude dirs and/or files: 
+[2.278s] -- Added test 'lint_cmake' to check CMake code style
+[2.280s] -- Added test 'uncrustify' to check C / C++ code style
+[2.280s] -- Configured uncrustify additional arguments: 
+[2.281s] -- Added test 'xmllint' to check XML markup files
+[2.284s] -- Configuring done
+[2.306s] -- Generating done
+[2.329s] -- Build files have been written to: /home/yzh/chapt4/build/turtle_param
+[2.359s] Invoked command in '/home/yzh/chapt4/build/turtle_param' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/yzh/chapt4/src/turtle_param -DCMAKE_INSTALL_PREFIX=/home/yzh/chapt4/install/turtle_param
+[2.367s] Invoking command in '/home/yzh/chapt4/build/turtle_param': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/yzh/chapt4/build/turtle_param -- -j16 -l16
+[2.582s] [ 50%] [32mBuilding CXX object CMakeFiles/dynamic_param_node.dir/src/dynamic_param_node.cpp.o[0m
+[15.995s] [100%] [32m[1mLinking CXX executable dynamic_param_node[0m
+[16.467s] [100%] Built target dynamic_param_node
+[16.534s] Invoked command in '/home/yzh/chapt4/build/turtle_param' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/yzh/chapt4/build/turtle_param -- -j16 -l16
+[16.601s] Invoking command in '/home/yzh/chapt4/build/turtle_param': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/yzh/chapt4/build/turtle_param
+[16.653s] -- Install configuration: ""
+[16.653s] -- Installing: /home/yzh/chapt4/install/turtle_param/lib/turtle_param/dynamic_param_node
+[16.656s] -- Set runtime path of "/home/yzh/chapt4/install/turtle_param/lib/turtle_param/dynamic_param_node" to ""
+[16.657s] -- Installing: /home/yzh/chapt4/install/turtle_param/share/ament_index/resource_index/package_run_dependencies/turtle_param
+[16.659s] -- Installing: /home/yzh/chapt4/install/turtle_param/share/ament_index/resource_index/parent_prefix_path/turtle_param
+[16.659s] -- Installing: /home/yzh/chapt4/install/turtle_param/share/turtle_param/environment/ament_prefix_path.sh
+[16.660s] -- Installing: /home/yzh/chapt4/install/turtle_param/share/turtle_param/environment/ament_prefix_path.dsv
+[16.660s] -- Installing: /home/yzh/chapt4/install/turtle_param/share/turtle_param/environment/path.sh
+[16.660s] -- Installing: /home/yzh/chapt4/install/turtle_param/share/turtle_param/environment/path.dsv
+[16.661s] -- Installing: /home/yzh/chapt4/install/turtle_param/share/turtle_param/local_setup.bash
+[16.661s] -- Installing: /home/yzh/chapt4/install/turtle_param/share/turtle_param/local_setup.sh
+[16.661s] -- Installing: /home/yzh/chapt4/install/turtle_param/share/turtle_param/local_setup.zsh
+[16.662s] -- Installing: /home/yzh/chapt4/install/turtle_param/share/turtle_param/local_setup.dsv
+[16.663s] -- Installing: /home/yzh/chapt4/install/turtle_param/share/turtle_param/package.dsv
+[16.663s] -- Installing: /home/yzh/chapt4/install/turtle_param/share/ament_index/resource_index/packages/turtle_param
+[16.663s] -- Installing: /home/yzh/chapt4/install/turtle_param/share/turtle_param/cmake/turtle_paramConfig.cmake
+[16.664s] -- Installing: /home/yzh/chapt4/install/turtle_param/share/turtle_param/cmake/turtle_paramConfig-version.cmake
+[16.665s] -- Installing: /home/yzh/chapt4/install/turtle_param/share/turtle_param/package.xml
+[16.673s] Invoked command in '/home/yzh/chapt4/build/turtle_param' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/yzh/chapt4/build/turtle_param
