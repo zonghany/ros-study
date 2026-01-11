@@ -1,0 +1,51 @@
+[0.010s] Invoking command in '/home/yzh/桌面/project-ros/ros-study/chapt6/build/fishbot_description': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/yzh/桌面/project-ros/ros-study/chapt6/build/fishbot_description -- -j16 -l16
+[0.044s] Invoked command in '/home/yzh/桌面/project-ros/ros-study/chapt6/build/fishbot_description' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/yzh/桌面/project-ros/ros-study/chapt6/build/fishbot_description -- -j16 -l16
+[0.052s] Invoking command in '/home/yzh/桌面/project-ros/ros-study/chapt6/build/fishbot_description': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/yzh/桌面/project-ros/ros-study/chapt6/build/fishbot_description
+[0.057s] -- Install configuration: ""
+[0.057s] -- Up-to-date: /home/yzh/桌面/project-ros/ros-study/chapt6/install/fishbot_description/share/fishbot_description/launch
+[0.057s] -- Up-to-date: /home/yzh/桌面/project-ros/ros-study/chapt6/install/fishbot_description/share/fishbot_description/launch/__pycache__
+[0.058s] -- Up-to-date: /home/yzh/桌面/project-ros/ros-study/chapt6/install/fishbot_description/share/fishbot_description/launch/__pycache__/display_robot.taunch.cpython-310.pyc
+[0.058s] -- Up-to-date: /home/yzh/桌面/project-ros/ros-study/chapt6/install/fishbot_description/share/fishbot_description/launch/display_robot.launch.py
+[0.058s] -- Up-to-date: /home/yzh/桌面/project-ros/ros-study/chapt6/install/fishbot_description/share/fishbot_description/launch/gazebo_sim.launch.py
+[0.058s] -- Up-to-date: /home/yzh/桌面/project-ros/ros-study/chapt6/install/fishbot_description/share/fishbot_description/urdf
+[0.058s] -- Up-to-date: /home/yzh/桌面/project-ros/ros-study/chapt6/install/fishbot_description/share/fishbot_description/urdf/first_robot.xacro
+[0.058s] -- Up-to-date: /home/yzh/桌面/project-ros/ros-study/chapt6/install/fishbot_description/share/fishbot_description/urdf/fishbot
+[0.058s] -- Up-to-date: /home/yzh/桌面/project-ros/ros-study/chapt6/install/fishbot_description/share/fishbot_description/urdf/fishbot/base.urdf.xacro
+[0.058s] -- Up-to-date: /home/yzh/桌面/project-ros/ros-study/chapt6/install/fishbot_description/share/fishbot_description/urdf/fishbot/common_inertia.xacro
+[0.058s] -- Installing: /home/yzh/桌面/project-ros/ros-study/chapt6/install/fishbot_description/share/fishbot_description/urdf/fishbot/fishbot.ros2_control.xacro
+[0.058s] -- Up-to-date: /home/yzh/桌面/project-ros/ros-study/chapt6/install/fishbot_description/share/fishbot_description/urdf/fishbot/plugins
+[0.058s] -- Up-to-date: /home/yzh/桌面/project-ros/ros-study/chapt6/install/fishbot_description/share/fishbot_description/urdf/fishbot/plugins/gazebo_control_plugin.xacro
+[0.059s] -- Up-to-date: /home/yzh/桌面/project-ros/ros-study/chapt6/install/fishbot_description/share/fishbot_description/urdf/fishbot/plugins/gazebo_sensor_plugin.xacro
+[0.059s] -- Up-to-date: /home/yzh/桌面/project-ros/ros-study/chapt6/install/fishbot_description/share/fishbot_description/urdf/fishbot/sensor
+[0.059s] -- Up-to-date: /home/yzh/桌面/project-ros/ros-study/chapt6/install/fishbot_description/share/fishbot_description/urdf/fishbot/sensor/imu.urdf.xacro
+[0.059s] -- Up-to-date: /home/yzh/桌面/project-ros/ros-study/chapt6/install/fishbot_description/share/fishbot_description/urdf/fishbot/sensor/laser.urdf.xacro
+[0.059s] -- Up-to-date: /home/yzh/桌面/project-ros/ros-study/chapt6/install/fishbot_description/share/fishbot_description/urdf/fishbot/sensor/camera.urdf.xacro
+[0.059s] -- Up-to-date: /home/yzh/桌面/project-ros/ros-study/chapt6/install/fishbot_description/share/fishbot_description/urdf/fishbot/actuator
+[0.059s] -- Up-to-date: /home/yzh/桌面/project-ros/ros-study/chapt6/install/fishbot_description/share/fishbot_description/urdf/fishbot/actuator/caster.urdf.xacro
+[0.059s] -- Up-to-date: /home/yzh/桌面/project-ros/ros-study/chapt6/install/fishbot_description/share/fishbot_description/urdf/fishbot/actuator/wheel.urdf.xacro
+[0.059s] -- Installing: /home/yzh/桌面/project-ros/ros-study/chapt6/install/fishbot_description/share/fishbot_description/urdf/fishbot/fishbot.urdf.xacro
+[0.059s] -- Up-to-date: /home/yzh/桌面/project-ros/ros-study/chapt6/install/fishbot_description/share/fishbot_description/urdf/first_robot.gv
+[0.059s] -- Up-to-date: /home/yzh/桌面/project-ros/ros-study/chapt6/install/fishbot_description/share/fishbot_description/urdf/first_robot.pdf
+[0.059s] -- Up-to-date: /home/yzh/桌面/project-ros/ros-study/chapt6/install/fishbot_description/share/fishbot_description/urdf/first_robot.urdf
+[0.059s] -- Up-to-date: /home/yzh/桌面/project-ros/ros-study/chapt6/install/fishbot_description/share/fishbot_description/config
+[0.059s] -- Up-to-date: /home/yzh/桌面/project-ros/ros-study/chapt6/install/fishbot_description/share/fishbot_description/world
+[0.059s] -- Up-to-date: /home/yzh/桌面/project-ros/ros-study/chapt6/install/fishbot_description/share/fishbot_description/world/custom_room.world
+[0.059s] -- Up-to-date: /home/yzh/桌面/project-ros/ros-study/chapt6/install/fishbot_description/share/fishbot_description/world/wall
+[0.059s] -- Up-to-date: /home/yzh/桌面/project-ros/ros-study/chapt6/install/fishbot_description/share/fishbot_description/world/wall/model.config
+[0.060s] -- Up-to-date: /home/yzh/桌面/project-ros/ros-study/chapt6/install/fishbot_description/share/fishbot_description/world/wall/model.sdf
+[0.060s] -- Up-to-date: /home/yzh/桌面/project-ros/ros-study/chapt6/install/fishbot_description/share/ament_index/resource_index/package_run_dependencies/fishbot_description
+[0.060s] -- Up-to-date: /home/yzh/桌面/project-ros/ros-study/chapt6/install/fishbot_description/share/ament_index/resource_index/parent_prefix_path/fishbot_description
+[0.060s] -- Up-to-date: /home/yzh/桌面/project-ros/ros-study/chapt6/install/fishbot_description/share/fishbot_description/environment/ament_prefix_path.sh
+[0.060s] -- Up-to-date: /home/yzh/桌面/project-ros/ros-study/chapt6/install/fishbot_description/share/fishbot_description/environment/ament_prefix_path.dsv
+[0.060s] -- Up-to-date: /home/yzh/桌面/project-ros/ros-study/chapt6/install/fishbot_description/share/fishbot_description/environment/path.sh
+[0.060s] -- Up-to-date: /home/yzh/桌面/project-ros/ros-study/chapt6/install/fishbot_description/share/fishbot_description/environment/path.dsv
+[0.060s] -- Up-to-date: /home/yzh/桌面/project-ros/ros-study/chapt6/install/fishbot_description/share/fishbot_description/local_setup.bash
+[0.060s] -- Up-to-date: /home/yzh/桌面/project-ros/ros-study/chapt6/install/fishbot_description/share/fishbot_description/local_setup.sh
+[0.060s] -- Up-to-date: /home/yzh/桌面/project-ros/ros-study/chapt6/install/fishbot_description/share/fishbot_description/local_setup.zsh
+[0.060s] -- Up-to-date: /home/yzh/桌面/project-ros/ros-study/chapt6/install/fishbot_description/share/fishbot_description/local_setup.dsv
+[0.060s] -- Installing: /home/yzh/桌面/project-ros/ros-study/chapt6/install/fishbot_description/share/fishbot_description/package.dsv
+[0.060s] -- Up-to-date: /home/yzh/桌面/project-ros/ros-study/chapt6/install/fishbot_description/share/ament_index/resource_index/packages/fishbot_description
+[0.060s] -- Up-to-date: /home/yzh/桌面/project-ros/ros-study/chapt6/install/fishbot_description/share/fishbot_description/cmake/fishbot_descriptionConfig.cmake
+[0.060s] -- Up-to-date: /home/yzh/桌面/project-ros/ros-study/chapt6/install/fishbot_description/share/fishbot_description/cmake/fishbot_descriptionConfig-version.cmake
+[0.061s] -- Up-to-date: /home/yzh/桌面/project-ros/ros-study/chapt6/install/fishbot_description/share/fishbot_description/package.xml
+[0.062s] Invoked command in '/home/yzh/桌面/project-ros/ros-study/chapt6/build/fishbot_description' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/yzh/桌面/project-ros/ros-study/chapt6/build/fishbot_description

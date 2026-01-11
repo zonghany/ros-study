@@ -4,6 +4,7 @@
 /home/yzh/桌面/project-ros/ros-study/chapt6/install/fishbot_description/share/fishbot_description/urdf/first_robot.xacro
 /home/yzh/桌面/project-ros/ros-study/chapt6/install/fishbot_description/share/fishbot_description/urdf/fishbot/base.urdf.xacro
 /home/yzh/桌面/project-ros/ros-study/chapt6/install/fishbot_description/share/fishbot_description/urdf/fishbot/common_inertia.xacro
+/home/yzh/桌面/project-ros/ros-study/chapt6/install/fishbot_description/share/fishbot_description/urdf/fishbot/fishbot.ros2_control.xacro
 /home/yzh/桌面/project-ros/ros-study/chapt6/install/fishbot_description/share/fishbot_description/urdf/fishbot/plugins/gazebo_control_plugin.xacro
 /home/yzh/桌面/project-ros/ros-study/chapt6/install/fishbot_description/share/fishbot_description/urdf/fishbot/plugins/gazebo_sensor_plugin.xacro
 /home/yzh/桌面/project-ros/ros-study/chapt6/install/fishbot_description/share/fishbot_description/urdf/fishbot/sensor/imu.urdf.xacro
